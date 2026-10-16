@@ -1,0 +1,39 @@
+---
+import data from '../data/equipment-calculator.json';
+---
+<div class="calculator" id="equipment-calculator">
+  <div class="calculator-controls">
+    <label>Equipment<select id="calc-gear">{data.gears.map(g=><option value={g.key}>{g.name}</option>)}</select></label>
+    <label>Quality<select id="calc-quality">{['Crude','Common','Good','Fine','Masterwork'].map(q=><option selected={q==='Common'}>{q}</option>)}</select></label>
+    <label>Upgrade level<select id="calc-level">{[0,1,2,3].map(l=><option value={l}>+{l}</option>)}</select></label>
+  </div>
+  <div id="calc-result" aria-live="polite" aria-atomic="true"></div>
+  <noscript>Enable JavaScript for the calculator, or use the quality and upgrade tables on each equipment page.</noscript>
+</div>
+<script>
+  import data from '../data/equipment-calculator.json';
+  import {gearValues,upgradeCosts,scalingStats,statLabels,display} from '../lib/equipment.mjs';
+  const gearSelect=document.querySelector<HTMLSelectElement>('#calc-gear')!;
+  const quality=document.querySelector<HTMLSelectElement>('#calc-quality')!;
+  const level=document.querySelector<HTMLSelectElement>('#calc-level')!;
+  const result=document.querySelector<HTMLElement>('#calc-result')!;
+  const esc=(s:string)=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
+  const requested=new URLSearchParams(location.search).get('gear');
+  if(data.gears.some(g=>g.key===requested))gearSelect.value=requested!;
+  function render() {
+    const g=data.gears.find(g=>g.key===gearSelect.value)!;
+    level.disabled=!g.upgradable;
+    if(!g.upgradable)level.value='0';
+    quality.disabled=g.unique||g.gearKind==='Charm';
+    if(quality.disabled)quality.value=g.foundQuality||'Common';
+    const l=Number(level.value),values=gearValues(g,quality.value,l);
+    result.innerHTML=`<p class="calculator-selection"><a class="entity-link" href="/${g.page}/"><img class="reference-thumb" src="${g.image}" alt="" width="40" height="40" />${esc(g.name)} reference →</a></p>${g.gearKind==='Charm'?`<p>${esc(g.description)}</p>`:`<dl class="stat-grid">${scalingStats(g).map(k=>`<div><dt>${statLabels[k]}</dt><dd>${display(values[k])}</dd></div>`).join('')}</dl>`}`;
+    if(!g.upgradable) {result.insertAdjacentHTML('beforeend','<p>This equipment cannot be upgraded.'+(g.gearKind==='Charm'?' Its fixed bonuses are described on its reference page.':'')+'</p>');return;}
+    if(l===3){result.insertAdjacentHTML('beforeend','<p>Fully upgraded. No further upgrade materials needed.</p>');return;}
+    const costs=upgradeCosts(g,quality.value,l+1);
+    const station=data.stations.find(s=>s.key===(g.material==='IronBar'?'Forge':'Workbench'))!;
+    result.insertAdjacentHTML('beforeend',`<h3>Materials for +${l+1}</h3><p>Incremental cost from +${l}, not the total from new. Requires <a class="entity-link" href="/${station.page}/"><img class="reference-thumb" src="${station.image}" alt="" width="40" height="40" />${station.name}</a> level ${l+1}.</p><ul class="ingredient-list">${costs.map(c=>{const i=data.items.find(i=>i.key===c.key)!;return `<li><a href="/${i.page}/"><img src="${i.image}" alt="" width="48" height="48" /><span>${esc(i.name)}</span><strong>${c.count}</strong></a></li>`;}).join('')}</ul>`);
+  }
+  for(const input of [gearSelect,quality,level])input.addEventListener('change',render);
+  render();
+</script>

@@ -1,0 +1,24 @@
+---
+title: "Equipment calculator"
+description: "Compare quality and upgrade levels, and calculate the next upgrade's material cost."
+verification: verified
+sources: ["Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/Upgrades.cs"]
+---
+
+import EquipmentCalculator from '../../../components/EquipmentCalculator.astro';
+
+Choose a piece of equipment, its quality and its upgrade level. The results use the current game’s equipment formulas.
+
+<EquipmentCalculator />
+
+## What these numbers mean
+
+These are the equipment’s own values, before skills, perks, buffs, target mitigation and combat conditions. They are not a prediction of damage per hit or damage per second. Attack speed is the equipment speed multiplier; different attack animations and bow draws take different amounts of time.
+
+Damage, chopping, mining and armour multiply by **quality × (1 + 0.1 × upgrade level)**. Quality multipliers are Crude 0.85, Common 1, Good 1.12, Fine 1.21 and Masterwork 1.33.
+
+Speed uses **base speed × (1 + (quality-and-level multiplier − 1) × 0.25)**. Maximum durability uses **base durability × (0.7 + 0.3 × quality) × (1 + 0.25 × upgrade level)**, rounded to the nearest integer with ties to even, as in the game. Other values are displayed to two decimal places.
+
+Upgrade material costs depend on the material, destination upgrade level and quality. Crude costs ×0.75, Common ×1, Good ×1.25, Fine ×1.5 and Masterwork ×2; quantities round up with the game’s small floating-point tolerance. An upgrade also restores durability. Unique found gear, charms and instruments cannot be upgraded.
+
+[Equipment catalog](/equipment/gear/) · [Quality and upgrades](/equipment/) · [Station reference](/crafting/stations/)

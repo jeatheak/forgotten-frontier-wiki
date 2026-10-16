@@ -1,0 +1,1166 @@
+{
+  "gears": [
+    {
+      "id": "gear:axe_flint",
+      "kind": "gear",
+      "key": "axe_flint",
+      "name": "Flint Axe",
+      "description": "A knapped flint wedge lashed into a split haft. It bites birch and pine.",
+      "gearKind": "Axe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Flint",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 9,
+        "chop": 14,
+        "mine": 0,
+        "speed": 0.85,
+        "armor": 0,
+        "poise": 1,
+        "durability": 130
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/axe-flint",
+      "image": "/images/icons/gear-axe-flint.png"
+    },
+    {
+      "id": "gear:axe_iron",
+      "kind": "gear",
+      "key": "axe_iron",
+      "name": "Iron Axe",
+      "description": "A bearded iron axe. Heavy enough for old oak.",
+      "gearKind": "Axe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 16,
+        "chop": 26,
+        "mine": 0,
+        "speed": 0.9,
+        "armor": 0,
+        "poise": 1,
+        "durability": 320
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/axe-iron",
+      "image": "/images/icons/gear-axe-iron.png"
+    },
+    {
+      "id": "gear:pick_stone",
+      "kind": "gear",
+      "key": "pick_stone",
+      "name": "Stone Pickaxe",
+      "description": "A pointed stone bound to a haft. It breaks fieldstone, but iron seams turn it aside.",
+      "gearKind": "Pickaxe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Stone",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 8,
+        "chop": 0,
+        "mine": 12,
+        "speed": 0.8,
+        "armor": 0,
+        "poise": 1,
+        "durability": 130
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/pick-stone",
+      "image": "/images/icons/gear-pick-stone.png"
+    },
+    {
+      "id": "gear:pick_tusk",
+      "kind": "gear",
+      "key": "pick_tusk",
+      "name": "Tusk Pickaxe",
+      "description": "A Charger's tusk lashed to a haft. Hard enough to bite into iron ore.",
+      "gearKind": "Pickaxe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Tusk",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 10,
+        "chop": 0,
+        "mine": 17,
+        "speed": 0.82,
+        "armor": 0,
+        "poise": 1,
+        "durability": 240
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/pick-tusk",
+      "image": "/images/icons/gear-pick-tusk.png"
+    },
+    {
+      "id": "gear:pick_antler",
+      "kind": "gear",
+      "key": "pick_antler",
+      "name": "Antler Pickaxe",
+      "description": "A Greyhorn tine lashed across an ash haft. Lighter than tusk and quicker in the hand; it bites iron ore.",
+      "gearKind": "Pickaxe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Antler",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 11,
+        "chop": 0,
+        "mine": 19,
+        "speed": 0.86,
+        "armor": 0,
+        "poise": 1,
+        "durability": 260
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/pick-antler",
+      "image": "/images/icons/gear-pick-antler.png"
+    },
+    {
+      "id": "gear:pick_iron",
+      "kind": "gear",
+      "key": "pick_iron",
+      "name": "Iron Pickaxe",
+      "description": "A forged pick. It splits anything - even the humming echo crystals.",
+      "gearKind": "Pickaxe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 3,
+        "damage": 13,
+        "chop": 0,
+        "mine": 27,
+        "speed": 0.86,
+        "armor": 0,
+        "poise": 1,
+        "durability": 380
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/pick-iron",
+      "image": "/images/icons/gear-pick-iron.png"
+    },
+    {
+      "id": "gear:club",
+      "kind": "gear",
+      "key": "club",
+      "name": "Wooden Club",
+      "description": "A knotted length of hardwood. Crude, but it staggers.",
+      "gearKind": "Club",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Wood",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 14,
+        "chop": 0,
+        "mine": 0,
+        "speed": 0.78,
+        "armor": 0,
+        "poise": 1.5,
+        "durability": 110
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/club",
+      "image": "/images/icons/gear-club.png"
+    },
+    {
+      "id": "gear:spear_flint",
+      "kind": "gear",
+      "key": "spear_flint",
+      "name": "Flint Spear",
+      "description": "An ash shaft with a knapped flint point. Reach keeps the teeth away.",
+      "gearKind": "Spear",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Flint",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 12,
+        "chop": 0,
+        "mine": 0,
+        "speed": 0.95,
+        "armor": 0,
+        "poise": 1,
+        "durability": 150
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/spear-flint",
+      "image": "/images/icons/gear-spear-flint.png"
+    },
+    {
+      "id": "gear:spear_iron",
+      "kind": "gear",
+      "key": "spear_iron",
+      "name": "Iron Spear",
+      "description": "A leaf-bladed iron spear. Precise, long, unforgiving.",
+      "gearKind": "Spear",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 19,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 320
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/spear-iron",
+      "image": "/images/icons/gear-spear-iron.png"
+    },
+    {
+      "id": "gear:blades_iron",
+      "kind": "gear",
+      "key": "blades_iron",
+      "name": "Iron Blades",
+      "description": "A pair of short seax blades. Fast, evasive - and cruel from behind.",
+      "gearKind": "Blades",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 8.5,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1.25,
+        "armor": 0,
+        "poise": 0.8,
+        "durability": 300
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/blades-iron",
+      "image": "/images/icons/gear-blades-iron.png"
+    },
+    {
+      "id": "gear:mace_iron",
+      "kind": "gear",
+      "key": "mace_iron",
+      "name": "Iron Mace",
+      "description": "Six iron flanges round an oak haft. It does not cut; it breaks. Shields, helms and the dead all fold under it.",
+      "gearKind": "Club",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 23,
+        "chop": 0,
+        "mine": 0,
+        "speed": 0.8,
+        "armor": 0,
+        "poise": 1.9,
+        "durability": 340
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/mace-iron",
+      "image": "/images/icons/gear-mace-iron.png"
+    },
+    {
+      "id": "gear:torch",
+      "kind": "gear",
+      "key": "torch",
+      "name": "Torch",
+      "description": "A stick with resin-soaked linen bound round the head. Held, it lights the dark around you for nine minutes or so, and a blow with it sets creatures alight. Burned out, rekindle it at a workbench (repair) or make another.",
+      "gearKind": "Club",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Wood",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 6,
+        "chop": 0,
+        "mine": 0,
+        "speed": 0.92,
+        "armor": 0,
+        "poise": 0.7,
+        "durability": 140
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/torch",
+      "image": "/images/icons/gear-torch.png"
+    },
+    {
+      "id": "gear:bow_hunting",
+      "kind": "gear",
+      "key": "bow_hunting",
+      "name": "Hunting Bow",
+      "description": "A plain flatbow of split ash with a linen string. Hold to draw, release to loose; a full draw flies far and hits hard. A click looses a quick, weak shot.",
+      "gearKind": "Bow",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Wood",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 13,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 0.8,
+        "durability": 160
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/bow-hunting",
+      "image": "/images/icons/gear-bow-hunting.png"
+    },
+    {
+      "id": "gear:bow_horn",
+      "kind": "gear",
+      "key": "bow_horn",
+      "name": "Horn Bow",
+      "description": "A short recurve of oak backed with Greyhorn antler and sinew. It draws quicker and casts an arrow twice as hard.",
+      "gearKind": "Bow",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Antler",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 21,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1.12,
+        "armor": 0,
+        "poise": 1,
+        "durability": 300
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/bow-horn",
+      "image": "/images/icons/gear-bow-horn.png"
+    },
+    {
+      "id": "gear:lute",
+      "kind": "gear",
+      "key": "lute",
+      "name": "Lute",
+      "description": "A round-backed lute of oak staves with flax-gut strings. Take it in hand to play: real notes, and loops you can layer. Music by the fire rests whoever hears it.",
+      "gearKind": "Instrument",
+      "upgradable": false,
+      "slot": "MainHand",
+      "material": "OakWood",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 500
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/lute",
+      "image": "/images/icons/gear-lute.png"
+    },
+    {
+      "id": "gear:bracers",
+      "kind": "gear",
+      "key": "bracers",
+      "name": "Leather Bracers",
+      "description": "Laced leather guards for the forearms.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Arms",
+      "material": "Leather",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 3,
+        "poise": 1,
+        "durability": 120
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/bracers",
+      "image": "/images/icons/gear-bracers.png"
+    },
+    {
+      "id": "gear:hide_vest",
+      "kind": "gear",
+      "key": "hide_vest",
+      "name": "Hide Vest",
+      "description": "Layered hide and leather over the tunic.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Chest",
+      "material": "Leather",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 7,
+        "poise": 1,
+        "durability": 150
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/hide-vest",
+      "image": "/images/icons/gear-hide-vest.png"
+    },
+    {
+      "id": "gear:fur_mantle",
+      "kind": "gear",
+      "key": "fur_mantle",
+      "name": "Fur Mantle",
+      "description": "A shaggy mantle. Warm, and it turns a claw.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Shoulders",
+      "material": "Hide",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 4,
+        "poise": 1,
+        "durability": 120
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/fur-mantle",
+      "image": "/images/icons/gear-fur-mantle.png"
+    },
+    {
+      "id": "gear:cap_leather",
+      "kind": "gear",
+      "key": "cap_leather",
+      "name": "Leather Cap",
+      "description": "A stitched leather cap with a fur trim and ear flaps. Warm, and better than a bare head.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Head",
+      "material": "Leather",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 3,
+        "poise": 1,
+        "durability": 120
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/cap-leather",
+      "image": "/images/icons/gear-cap-leather.png"
+    },
+    {
+      "id": "gear:iron_helm",
+      "kind": "gear",
+      "key": "iron_helm",
+      "name": "Iron Helm",
+      "description": "A spectacle helm with a mail aventail.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Head",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 7,
+        "poise": 1,
+        "durability": 220
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/iron-helm",
+      "image": "/images/icons/gear-iron-helm.png"
+    },
+    {
+      "id": "gear:lamellar",
+      "kind": "gear",
+      "key": "lamellar",
+      "name": "Iron Lamellar",
+      "description": "Laced iron plates over a padded coat.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Chest",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 15,
+        "poise": 1,
+        "durability": 260
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/lamellar",
+      "image": "/images/icons/gear-lamellar.png"
+    },
+    {
+      "id": "gear:spaulders",
+      "kind": "gear",
+      "key": "spaulders",
+      "name": "Iron Spaulders",
+      "description": "Riveted iron shoulder plates.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Shoulders",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 7,
+        "poise": 1,
+        "durability": 220
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/spaulders",
+      "image": "/images/icons/gear-spaulders.png"
+    },
+    {
+      "id": "gear:axe_hallvard",
+      "kind": "gear",
+      "key": "axe_hallvard",
+      "name": "Hallvard's Axe",
+      "description": "The watchman's own bearded axe, its haft worn pale where his hands held it. Runes run along the cheek of the blade: KEEP THE HEARTH.",
+      "gearKind": "Axe",
+      "upgradable": false,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": true,
+      "foundQuality": "Masterwork",
+      "stats": {
+        "tier": 3,
+        "damage": 22,
+        "chop": 34,
+        "mine": 0,
+        "speed": 0.95,
+        "armor": 0,
+        "poise": 1,
+        "durability": 480
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/axe-hallvard",
+      "image": "/images/icons/gear-axe-hallvard.png"
+    },
+    {
+      "id": "gear:charm_fang",
+      "kind": "gear",
+      "key": "charm_fang",
+      "name": "Fang Charm",
+      "description": "An elite Stalker's fangs strung on braided flax. Its bite lives on in yours: +12% attack damage.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "StalkerTrophy",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-fang",
+      "image": "/images/icons/gear-charm-fang.png"
+    },
+    {
+      "id": "gear:charm_tusk",
+      "kind": "gear",
+      "key": "charm_tusk",
+      "name": "Tusk Totem",
+      "description": "A sliver of elite Charger tusk lashed to an oak peg. Your blows land with the beast's weight: +40% stagger.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "ChargerTrophy",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-tusk",
+      "image": "/images/icons/gear-charm-tusk.png"
+    },
+    {
+      "id": "gear:charm_hearth",
+      "kind": "gear",
+      "key": "charm_hearth",
+      "name": "Hearth Charm",
+      "description": "A drop of resin around a crystal chip, still warm from the fire it was set in. Breath comes back 20% faster.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "Crystal",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-hearth",
+      "image": "/images/icons/gear-charm-hearth.png"
+    },
+    {
+      "id": "gear:charm_sigil",
+      "kind": "gear",
+      "key": "charm_sigil",
+      "name": "Keeper's Sigil",
+      "description": "Hallvard's bronze sigil of the Keepers of the Vale: the Beacon over a ring of runes. The old knowledge comes easier to whoever wears it: skills grow 20% faster, breath 8%.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "Crystal",
+      "unique": true,
+      "foundQuality": "Common",
+      "stats": {
+        "tier": 3,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-sigil",
+      "image": "/images/icons/gear-charm-sigil.png"
+    },
+    {
+      "id": "gear:charm_grave",
+      "kind": "gear",
+      "key": "charm_grave",
+      "name": "Grave Charm",
+      "description": "A Hollow's finger bone and a rusted grave ring on a cord, with a chip of the cold light. Grave rot cannot take hold of you, and you hit 6% harder.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "HollowTrophy",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-grave",
+      "image": "/images/icons/gear-charm-grave.png"
+    },
+    {
+      "id": "gear:charm_stag",
+      "kind": "gear",
+      "key": "charm_stag",
+      "name": "Stag Charm",
+      "description": "A polished tine from a Greyhorn bull that stood its ground. Light on your feet: 8% faster, breath 5%.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "GreyhornTrophy",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-stag",
+      "image": "/images/icons/gear-charm-stag.png"
+    },
+    {
+      "id": "gear:charm_amber",
+      "kind": "gear",
+      "key": "charm_amber",
+      "name": "Amber Charm",
+      "description": "Three drops of Elderwood amber in a leather knot, one with a moth caught inside it. The old forest's patience: skills grow 10% faster, breath 10%.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "Amber",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-amber",
+      "image": "/images/icons/gear-charm-amber.png"
+    }
+  ],
+  "items": [
+    {
+      "key": "Wood",
+      "name": "Wood",
+      "image": "/images/icons/wood.png",
+      "page": "equipment/items/wood"
+    },
+    {
+      "key": "OakWood",
+      "name": "Oak Wood",
+      "image": "/images/icons/oakwood.png",
+      "page": "equipment/items/oak-wood"
+    },
+    {
+      "key": "Stone",
+      "name": "Stone",
+      "image": "/images/icons/stone.png",
+      "page": "equipment/items/stone"
+    },
+    {
+      "key": "Flint",
+      "name": "Flint",
+      "image": "/images/icons/flint.png",
+      "page": "equipment/items/flint"
+    },
+    {
+      "key": "Iron",
+      "name": "Iron Ore",
+      "image": "/images/icons/iron.png",
+      "page": "equipment/items/iron"
+    },
+    {
+      "key": "IronBar",
+      "name": "Iron Bar",
+      "image": "/images/icons/ironbar.png",
+      "page": "equipment/items/iron-bar"
+    },
+    {
+      "key": "Hide",
+      "name": "Raw Hide",
+      "image": "/images/icons/hide.png",
+      "page": "equipment/items/hide"
+    },
+    {
+      "key": "Leather",
+      "name": "Leather",
+      "image": "/images/icons/leather.png",
+      "page": "equipment/items/leather"
+    },
+    {
+      "key": "Tusk",
+      "name": "Charger Tusk",
+      "image": "/images/icons/tusk.png",
+      "page": "equipment/items/tusk"
+    },
+    {
+      "key": "Resin",
+      "name": "Pine Resin",
+      "image": "/images/icons/resin.png",
+      "page": "equipment/items/resin"
+    },
+    {
+      "key": "Herb",
+      "name": "Moonpetal",
+      "image": "/images/icons/herb.png",
+      "page": "equipment/items/herb"
+    },
+    {
+      "key": "Mushroom",
+      "name": "Redcap",
+      "image": "/images/icons/mushroom.png",
+      "page": "equipment/items/mushroom"
+    },
+    {
+      "key": "Flax",
+      "name": "Flax",
+      "image": "/images/icons/flax.png",
+      "page": "equipment/items/flax"
+    },
+    {
+      "key": "Crystal",
+      "name": "Echo Crystal",
+      "image": "/images/icons/crystal.png",
+      "page": "equipment/items/crystal"
+    },
+    {
+      "key": "Potion",
+      "name": "Healing Draught",
+      "image": "/images/icons/potion.png",
+      "page": "equipment/items/potion"
+    },
+    {
+      "key": "Salve",
+      "name": "Wound Salve",
+      "image": "/images/icons/salve.png",
+      "page": "equipment/items/salve"
+    },
+    {
+      "key": "Bandage",
+      "name": "Linen Bandage",
+      "image": "/images/icons/bandage.png",
+      "page": "equipment/items/bandage"
+    },
+    {
+      "key": "Heart",
+      "name": "Guardian's Heart",
+      "image": "/images/icons/heart.png",
+      "page": "equipment/items/heart"
+    },
+    {
+      "key": "EchoFocus",
+      "name": "Echo Focus",
+      "image": "/images/icons/echofocus.png",
+      "page": "equipment/items/echo-focus"
+    },
+    {
+      "key": "RawMeat",
+      "name": "Raw Meat",
+      "image": "/images/icons/rawmeat.png",
+      "page": "equipment/items/raw-meat"
+    },
+    {
+      "key": "CookedMeat",
+      "name": "Grilled Meat",
+      "image": "/images/icons/cookedmeat.png",
+      "page": "equipment/items/cooked-meat"
+    },
+    {
+      "key": "Stew",
+      "name": "Hunter's Stew",
+      "image": "/images/icons/stew.png",
+      "page": "equipment/items/stew"
+    },
+    {
+      "key": "Barley",
+      "name": "Barley",
+      "image": "/images/icons/barley.png",
+      "page": "equipment/items/barley"
+    },
+    {
+      "key": "Flatbread",
+      "name": "Barley Flatbread",
+      "image": "/images/icons/flatbread.png",
+      "page": "equipment/items/flatbread"
+    },
+    {
+      "key": "Skewer",
+      "name": "Redcap Skewer",
+      "image": "/images/icons/skewer.png",
+      "page": "equipment/items/skewer"
+    },
+    {
+      "key": "VigorTonic",
+      "name": "Vigor Tonic",
+      "image": "/images/icons/vigortonic.png",
+      "page": "equipment/items/vigor-tonic"
+    },
+    {
+      "key": "IronbarkBrew",
+      "name": "Ironbark Brew",
+      "image": "/images/icons/ironbarkbrew.png",
+      "page": "equipment/items/ironbark-brew"
+    },
+    {
+      "key": "StalkerTrophy",
+      "name": "Stalker Trophy",
+      "image": "/images/icons/stalkertrophy.png",
+      "page": "equipment/items/stalker-trophy"
+    },
+    {
+      "key": "ChargerTrophy",
+      "name": "Charger Trophy",
+      "image": "/images/icons/chargertrophy.png",
+      "page": "equipment/items/charger-trophy"
+    },
+    {
+      "key": "Bucket",
+      "name": "Bucket",
+      "image": "/images/icons/bucket.png",
+      "page": "equipment/items/bucket"
+    },
+    {
+      "key": "WaterBucket",
+      "name": "Bucket of Water",
+      "image": "/images/icons/waterbucket.png",
+      "page": "equipment/items/water-bucket"
+    },
+    {
+      "key": "Bone",
+      "name": "Bone",
+      "image": "/images/icons/bone.png",
+      "page": "equipment/items/bone"
+    },
+    {
+      "key": "GraveIron",
+      "name": "Grave Iron",
+      "image": "/images/icons/graveiron.png",
+      "page": "equipment/items/grave-iron"
+    },
+    {
+      "key": "Antler",
+      "name": "Greyhorn Antler",
+      "image": "/images/icons/antler.png",
+      "page": "equipment/items/antler"
+    },
+    {
+      "key": "Venison",
+      "name": "Raw Venison",
+      "image": "/images/icons/venison.png",
+      "page": "equipment/items/venison"
+    },
+    {
+      "key": "ArrowFlint",
+      "name": "Flint Arrows",
+      "image": "/images/icons/arrowflint.png",
+      "page": "equipment/items/arrow-flint"
+    },
+    {
+      "key": "ArrowBone",
+      "name": "Bone Arrows",
+      "image": "/images/icons/arrowbone.png",
+      "page": "equipment/items/arrow-bone"
+    },
+    {
+      "key": "ArrowIron",
+      "name": "Iron Arrows",
+      "image": "/images/icons/arrowiron.png",
+      "page": "equipment/items/arrow-iron"
+    },
+    {
+      "key": "ArrowFire",
+      "name": "Fire Arrows",
+      "image": "/images/icons/arrowfire.png",
+      "page": "equipment/items/arrow-fire"
+    },
+    {
+      "key": "GreyhornTrophy",
+      "name": "Greyhorn Trophy",
+      "image": "/images/icons/greyhorntrophy.png",
+      "page": "equipment/items/greyhorn-trophy"
+    },
+    {
+      "key": "HollowTrophy",
+      "name": "Hollow Trophy",
+      "image": "/images/icons/hollowtrophy.png",
+      "page": "equipment/items/hollow-trophy"
+    },
+    {
+      "key": "VenisonRoast",
+      "name": "Venison Roast",
+      "image": "/images/icons/venisonroast.png",
+      "page": "equipment/items/venison-roast"
+    },
+    {
+      "key": "BoneBroth",
+      "name": "Bone Broth",
+      "image": "/images/icons/bonebroth.png",
+      "page": "equipment/items/bone-broth"
+    },
+    {
+      "key": "Porridge",
+      "name": "Barley Porridge",
+      "image": "/images/icons/porridge.png",
+      "page": "equipment/items/porridge"
+    },
+    {
+      "key": "GraveWard",
+      "name": "Grave Ward",
+      "image": "/images/icons/graveward.png",
+      "page": "equipment/items/grave-ward"
+    },
+    {
+      "key": "Whetstone",
+      "name": "Whetstone",
+      "image": "/images/icons/whetstone.png",
+      "page": "equipment/items/whetstone"
+    },
+    {
+      "key": "BoneMeal",
+      "name": "Bone Meal",
+      "image": "/images/icons/bonemeal.png",
+      "page": "equipment/items/bone-meal"
+    },
+    {
+      "key": "BogBalm",
+      "name": "Bogwalker's Balm",
+      "image": "/images/icons/bogbalm.png",
+      "page": "equipment/items/bog-balm"
+    },
+    {
+      "key": "WarmingDraught",
+      "name": "Warming Draught",
+      "image": "/images/icons/warmingdraught.png",
+      "page": "equipment/items/warming-draught"
+    },
+    {
+      "key": "Silver",
+      "name": "Silver",
+      "image": "/images/icons/silver.png",
+      "page": "equipment/items/silver"
+    },
+    {
+      "key": "Cloudberry",
+      "name": "Cloudberries",
+      "image": "/images/icons/cloudberry.png",
+      "page": "equipment/items/cloudberry"
+    },
+    {
+      "key": "SpiderSilk",
+      "name": "Spider Silk",
+      "image": "/images/icons/spidersilk.png",
+      "page": "equipment/items/spider-silk"
+    },
+    {
+      "key": "FrostLichen",
+      "name": "Frost Lichen",
+      "image": "/images/icons/frostlichen.png",
+      "page": "equipment/items/frost-lichen"
+    },
+    {
+      "key": "Amber",
+      "name": "Amber",
+      "image": "/images/icons/amber.png",
+      "page": "equipment/items/amber"
+    },
+    {
+      "key": "CloudberryTart",
+      "name": "Cloudberry Tart",
+      "image": "/images/icons/cloudberrytart.png",
+      "page": "equipment/items/cloudberry-tart"
+    },
+    {
+      "key": "SilkBandage",
+      "name": "Silk Bandage",
+      "image": "/images/icons/silkbandage.png",
+      "page": "equipment/items/silk-bandage"
+    }
+  ],
+  "stations": [
+    {
+      "key": "Workbench",
+      "name": "Workbench",
+      "image": "/images/stations/workbench.png",
+      "page": "crafting/stations/workbench"
+    },
+    {
+      "key": "HerbTable",
+      "name": "Herbalist's Table",
+      "image": "/images/stations/herbalist-s-table.png",
+      "page": "crafting/stations/herbalist-s-table"
+    },
+    {
+      "key": "Forge",
+      "name": "Forge",
+      "image": "/images/stations/forge.png",
+      "page": "crafting/stations/forge"
+    },
+    {
+      "key": "Stonecutter",
+      "name": "Stonecutter",
+      "image": "/images/stations/stonecutter.png",
+      "page": "crafting/stations/stonecutter"
+    },
+    {
+      "key": "TanningRack",
+      "name": "Tanning Rack",
+      "image": "/images/stations/tanning-rack.png",
+      "page": "crafting/stations/tanning-rack"
+    },
+    {
+      "key": "Bloomery",
+      "name": "Bloomery",
+      "image": "/images/stations/bloomery.png",
+      "page": "crafting/stations/bloomery"
+    },
+    {
+      "key": "Hearth",
+      "name": "Hearth",
+      "image": "/images/stations/campfire.png",
+      "page": "crafting/stations/hearth"
+    }
+  ]
+}

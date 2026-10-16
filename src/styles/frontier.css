@@ -1,0 +1,146 @@
+:root {
+  --sl-font: 'Segoe UI', system-ui, sans-serif;
+  --sl-content-width: 72rem;
+  --sl-sidebar-width: 17rem;
+  --wiki-panel: #f4f5ee;
+  --wiki-border: #cdd6c8;
+  --wiki-muted: #596957;
+}
+:root[data-theme='dark'] {
+  --sl-color-accent-low: #243a2e;
+  --sl-color-accent: #d8bb7c;
+  --sl-color-accent-high: #f7e2b3;
+  --sl-color-bg: #141c19;
+  --sl-color-bg-nav: #19231f;
+  --sl-color-bg-sidebar: #19231f;
+  --sl-color-text: #e9e6dd;
+  --sl-color-hairline: #354038;
+  --wiki-panel: #1c2923;
+  --wiki-border: #35483c;
+  --wiki-muted: #abb8a7;
+}
+h1, h2, h3, .site-title { font-family: Georgia, 'Palatino Linotype', serif; }
+.sl-link-card { border-radius: .8rem; }
+.sl-markdown-content { line-height: 1.75; }
+.sl-markdown-content > p { max-width: 76ch; }
+.sl-markdown-content h2 { margin-top: 2.6rem; }
+.sl-markdown-content a { text-underline-offset: .2em; }
+.sl-markdown-content > p > img { width: 100%; border-radius: 1rem; border: 1px solid var(--wiki-border); }
+.sl-markdown-content > p:has(> img) + p:has(> em) { color: var(--wiki-muted); font-size: .85rem; margin-top: .55rem; }
+.sl-markdown-content .entity-intro {
+  display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 2rem; align-items: center;
+  margin: .25rem 0 1.7rem; padding: 1.5rem; border: 1px solid var(--wiki-border);
+  border-radius: 1rem; background: linear-gradient(120deg, var(--wiki-panel), transparent);
+}
+.sl-markdown-content .entity-art {
+  display: grid; place-items: center; aspect-ratio: 1; margin: 0; border-radius: .8rem;
+  background: radial-gradient(ellipse, #a88d402b, transparent 70%);
+}
+.sl-markdown-content .entity-art img { width: 192px; height: 192px; object-fit: contain; filter: brightness(1.55) drop-shadow(0 12px 15px #0003); margin: 0; }
+.sl-markdown-content .eyebrow { font-size: .75rem; text-transform: uppercase; letter-spacing: .14em; color: var(--wiki-muted); font-weight: 650; margin: 0 0 .6rem; }
+.sl-markdown-content .entity-description { font-size: 1.1rem; line-height: 1.7; margin: 0; max-width: 55ch; }
+.sl-markdown-content .stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(115px, 1fr)); gap: .7rem; margin: 1.5rem 0; }
+.sl-markdown-content .stat-grid > div { margin: 0; padding: 1rem 1.15rem; border: 1px solid var(--wiki-border); border-radius: .75rem; background: var(--wiki-panel); }
+.sl-markdown-content .stat-grid dt { color: var(--wiki-muted); font-size: .78rem; line-height: 1.4; }
+.sl-markdown-content .stat-grid dd { margin: .4rem 0 0; font-size: 1.6rem; font-weight: 650; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.sl-markdown-content .wiki-note { padding: .9rem 1.1rem; border-inline-start: 3px solid var(--sl-color-accent); background: var(--wiki-panel); color: var(--wiki-muted); font-size: .9rem; border-radius: 0 .5rem .5rem 0; }
+.sl-markdown-content .recipe-meta { display: flex; flex-wrap: wrap; gap: .5rem; margin: .7rem 0 1rem; }
+.sl-markdown-content .recipe-meta span { margin: 0; padding: .3rem .75rem; border: 1px solid var(--wiki-border); border-radius: 2rem; font-size: .78rem; font-weight: 600; color: var(--sl-color-text-accent); background: var(--wiki-panel); }
+.sl-markdown-content .ingredient-list { list-style: none; padding: 0; margin: 1.2rem 0; border: 1px solid var(--wiki-border); border-radius: .8rem; overflow: hidden; }
+.sl-markdown-content .ingredient-list li { margin: 0; }
+.sl-markdown-content .ingredient-list li + li { border-top: 1px solid var(--wiki-border); }
+.sl-markdown-content .ingredient-list a { display: grid; grid-template-columns: 56px minmax(0, 1fr) auto; gap: .9rem; align-items: center; padding: .65rem 1.15rem; text-decoration: none; color: var(--sl-color-text); background: var(--wiki-panel); }
+.sl-markdown-content .ingredient-list a:hover { background: var(--sl-color-accent-low); }
+.sl-markdown-content .ingredient-list img { width: 56px; height: 56px; object-fit: contain; margin: 0; }
+.sl-markdown-content .ingredient-list strong { margin: 0; min-width: 2.25rem; padding: .2rem .5rem; border-radius: .4rem; text-align: center; font-size: 1.25rem; font-variant-numeric: tabular-nums; color: var(--sl-color-text-accent); background: #899b7214; }
+.sl-markdown-content .ingredient-list span { margin: 0; }
+.sl-markdown-content .craft-preview { margin: 1rem 0 1.5rem; }
+.sl-markdown-content .craft-preview-heading { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; }
+.sl-markdown-content .craft-preview-heading > a { font-weight: 650; font-size: 1.15rem; }
+.sl-markdown-content .craft-preview-heading .recipe-meta { margin: 0; }
+.sl-markdown-content .entry-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 265px), 1fr)); gap: .8rem; margin: 1.5rem 0 2rem; }
+.sl-markdown-content .entry-card { display: flex; gap: .85rem; align-items: center; min-height: 102px; padding: .85rem 1rem; margin: 0; border: 1px solid var(--wiki-border); border-radius: .8rem; background: var(--wiki-panel); color: var(--sl-color-text); text-decoration: none; transition: border-color .15s, background .15s; }
+.sl-markdown-content .entry-card:hover { border-color: var(--sl-color-accent); background: var(--sl-color-accent-low); }
+.sl-markdown-content .entry-card img { width: 72px; height: 72px; object-fit: contain; flex: 0 0 72px; margin: 0; }
+.sl-markdown-content :is(.entry-card,.ingredient-list) img { filter: brightness(1.45); }
+.sl-markdown-content .entry-card > span { margin: 0; min-width: 0; }
+.sl-markdown-content .entry-card strong { display: block; font-size: .95rem; line-height: 1.35; }
+.sl-markdown-content .entry-card small { display: block; font-size: .75rem; color: var(--wiki-muted); margin-top: .35rem; }
+.sl-markdown-content .entry-card .entry-arrow { margin-inline-start: auto; color: var(--wiki-muted); }
+.sl-markdown-content .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.sl-markdown-content .table-scroll { width: 100%; max-width: 100%; overflow-x: auto; border: 1px solid var(--wiki-border); border-radius: .8rem; margin-block: 1.5rem; scrollbar-width: thin; }
+.sl-markdown-content .table-scroll:focus-visible { outline: 2px solid var(--sl-color-accent); outline-offset: 3px; }
+.sl-markdown-content table { display: table; width: 100%; min-width: 100%; margin: 0; border-spacing: 0; border-collapse: separate; border: 0; border-radius: 0; overflow: visible; font-size: .9rem; }
+.sl-markdown-content table th { color: var(--sl-color-text-accent); background: var(--wiki-panel); font-size: .8rem; letter-spacing: .025em; }
+.sl-markdown-content table :is(th, td) { padding: .85rem 1rem; border-bottom: 1px solid var(--wiki-border); text-align: start; vertical-align: top; min-width: 6.5rem; line-height: 1.55; }
+.sl-markdown-content table :is(th,td):first-child { padding-inline-start: 1rem; }
+.sl-markdown-content table :is(th,td):last-child { padding-inline-end: 1rem; }
+.sl-markdown-content table td:first-child { font-weight: 600; }
+.sl-markdown-content table :is(th,td) > :first-child { margin-top: 0; }
+.sl-markdown-content table td { font-variant-numeric: tabular-nums; }
+.sl-markdown-content table:has(th:nth-child(3)) { min-width: 36rem; }
+.sl-markdown-content table:has(th:nth-child(4)) { min-width: 42rem; }
+.sl-markdown-content table:has(th:nth-child(6)) { min-width: 54rem; }
+@media(max-width: 40rem) {
+  .sl-markdown-content .table-scroll:has(th:nth-child(3))::before { content: 'Scroll sideways to see all columns →'; display: block; position: sticky; left: 0; width: fit-content; max-width: 100%; padding: .5rem .8rem; color: var(--wiki-muted); font-size: .75rem; }
+}
+.sl-markdown-content table tr:last-child td { border-bottom: 0; }
+.sl-markdown-content table tbody tr:nth-child(even) { background: color-mix(in srgb, var(--wiki-panel) 45%, transparent); }
+.sl-markdown-content .gallery-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; margin-block: 1.5rem; }
+.sl-markdown-content .gallery-grid figure { margin: 0; }
+.sl-markdown-content .gallery-grid img { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: .8rem; border: 1px solid var(--wiki-border); }
+.sl-markdown-content .gallery-grid figcaption { margin-top: .55rem; font-size: .8rem; color: var(--wiki-muted); line-height: 1.5; }
+.sl-markdown-content .entity-link { display: inline-flex; vertical-align: middle; align-items: center; gap: .4rem; line-height: 1.35; margin: .1rem .1rem .1rem 0; text-decoration: none; }
+.sl-markdown-content .reference-thumb { display: inline-block; width: 40px; height: 40px; min-width: 40px; margin: 0; border-radius: .3rem; object-fit: contain; background: var(--wiki-panel); }
+.sl-markdown-content a[href^='/creatures/'] .reference-thumb, .sl-markdown-content a[href^='/bosses/'] .reference-thumb { object-fit: cover; width: 64px; min-width: 64px; }
+.sl-markdown-content .recipe-meta .station-badge { display: inline-flex; align-items: center; gap: .4rem; border: 1px solid var(--wiki-border); border-radius: 2rem; padding: .1rem .7rem .1rem .3rem; font-size: .8rem; text-decoration: none; background: var(--wiki-panel); }
+.sl-markdown-content .station-badge img { width: 36px; height: 36px; margin: 0; object-fit: contain; }
+.sl-markdown-content .reference-portrait { margin: 1rem 0 2rem; }
+.sl-markdown-content .reference-portrait img { width: 100%; max-height: 460px; object-fit: cover; border: 1px solid var(--wiki-border); border-radius: .8rem; }
+.sl-markdown-content .reference-portrait figcaption { color: var(--wiki-muted); font-size: .8rem; }
+.sl-markdown-content img:not(.reference-thumb) { cursor: zoom-in; }
+.sl-markdown-content :is(.entry-card,.entity-link,.ingredient-list,.feature-card) img { cursor: inherit; }
+.lightbox-open { overflow: hidden; }
+#wiki-lightbox { width: min(96vw,1500px); max-width: 96vw; height: fit-content; max-height: 96dvh; padding: 1rem; border: 1px solid #667565; border-radius: .8rem; color: #eee; background: #111a16; }
+#wiki-lightbox::backdrop { background: #000d; }
+#wiki-lightbox figure { margin: 0; text-align: center; }
+#wiki-lightbox img { display: block; max-width: 100%; max-height: calc(96dvh - 12rem); width: auto; height: auto; margin: auto; object-fit: contain; }
+#wiki-lightbox figcaption { font-size: .85rem; margin-top: .7rem; }
+.lightbox-toolbar,.lightbox-controls { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.lightbox-toolbar { margin-bottom: .75rem; }
+.lightbox-controls { margin-top: .75rem; }
+#wiki-lightbox button { background: #26382d; color: #f7e2b3; border: 1px solid #667565; border-radius: .4rem; padding: .55rem .9rem; cursor: pointer; }
+#wiki-lightbox button:focus-visible { outline: 2px solid #f7e2b3; outline-offset: 3px; }
+.calculator { padding: 1.2rem; background: var(--wiki-panel); border: 1px solid var(--wiki-border); border-radius: .8rem; }
+.calculator-controls { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 1rem; }
+.calculator label { display: grid; gap: .4rem; font-size: .85rem; margin: 0; }
+.calculator select { width: 100%; min-width: 0; padding: .6rem; color: var(--sl-color-text); background: var(--sl-color-bg); border: 1px solid var(--wiki-border); border-radius: .4rem; font: inherit; }
+@media(max-width: 40rem) { .calculator-controls { grid-template-columns: 1fr; } }
+.hero { padding-block: 2rem !important; gap: 2.5rem !important; }
+.hero h1 { font-size: clamp(2.5rem, 4.5vw, 4.4rem); line-height: 1.04; letter-spacing: -.025em; }
+.hero .hero-html { align-self: stretch; }
+.hero .hero-html img { width: 100%; height: 100%; min-height: 260px; object-fit: cover; border-radius: 1rem; border: 1px solid var(--wiki-border); }
+.sl-markdown-content .feature-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.2rem; margin-block: 1.5rem 2rem; }
+.sl-markdown-content .feature-card { display: block; margin: 0; text-decoration: none; color: var(--sl-color-text); border: 1px solid var(--wiki-border); border-radius: .9rem; overflow: hidden; background: var(--wiki-panel); }
+.sl-markdown-content .feature-card:hover { border-color: var(--sl-color-accent); }
+.sl-markdown-content .feature-card img { width: 100%; aspect-ratio: 16/10; object-fit: cover; margin: 0; }
+.sl-markdown-content .feature-card span { display: block; padding: 1rem 1.1rem 1.2rem; margin: 0; }
+.sl-markdown-content .feature-card strong { display: block; font-family: Georgia,serif; font-size: 1.25rem; margin-bottom: .35rem; }
+.sl-markdown-content .feature-card small { display: block; color: var(--wiki-muted); line-height: 1.6; font-size: .82rem; }
+@media (max-width: 50rem) {
+  .sl-markdown-content .feature-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .sl-markdown-content .entity-intro { grid-template-columns: 140px minmax(0, 1fr); gap: 1.2rem; padding: 1rem; }
+  .sl-markdown-content .entity-art img { width: 140px; height: 140px; }
+}
+@media (max-width: 34rem) {
+  .sl-markdown-content .feature-grid { grid-template-columns: 1fr; }
+  .site-title { font-size: 1.1rem; }
+  .sl-markdown-content .entity-intro { grid-template-columns: 1fr; gap: .5rem; text-align: center; padding: 1.1rem; }
+  .sl-markdown-content .entity-art { width: 160px; justify-self: center; }
+  .sl-markdown-content .entity-art img { width: 160px; height: 160px; }
+  .sl-markdown-content .entity-description { font-size: 1rem; }
+  .sl-markdown-content .stat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .sl-markdown-content .ingredient-list a { padding: .6rem .8rem; gap: .6rem; grid-template-columns: 48px minmax(0,1fr) auto; }
+  .sl-markdown-content .ingredient-list img { width: 48px; height: 48px; }
+  .sl-markdown-content .gallery-grid { grid-template-columns: 1fr; }
+}

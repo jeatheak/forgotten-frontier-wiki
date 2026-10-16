@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+*.log
+.DS_Store
+.deploy/
+# Local operations and capture sessions never belong in the public wiki.
+/deploy/
+/.local/
+/.ssh/
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.cer
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.bak
+*.backup
+*~

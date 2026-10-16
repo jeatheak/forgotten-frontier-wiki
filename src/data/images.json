@@ -1,0 +1,905 @@
+[
+  {
+    "path": "/images/coop-v0.15.png",
+    "source": "Screens/ui/v15_coop_hud.png",
+    "version": "0.15.0",
+    "alt": "Two heroes beside the homestead campfire, with a remote hero name plate and party health bar.",
+    "caption": "Co-op at the homestead in v0.15.0. The HUD predates v0.16 chat changes."
+  },
+  {
+    "path": "/images/title-v0.14.png",
+    "source": "Screens/ui/v14_title.png",
+    "version": "0.14.0",
+    "alt": "The Forgotten Frontier title screen with the painted Beacon logo and three hero slots.",
+    "caption": "Title screen in v0.14.0, before the online co-op join screen was added."
+  },
+  {
+    "path": "/images/icons/wood.png",
+    "source": "Screens/wiki/icons/Wood.png",
+    "version": "0.16.0",
+    "alt": "Wood inventory icon rendered from the game model.",
+    "caption": "Wood — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/oakwood.png",
+    "source": "Screens/wiki/icons/OakWood.png",
+    "version": "0.16.0",
+    "alt": "Oak Wood inventory icon rendered from the game model.",
+    "caption": "Oak Wood — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/stone.png",
+    "source": "Screens/wiki/icons/Stone.png",
+    "version": "0.16.0",
+    "alt": "Stone inventory icon rendered from the game model.",
+    "caption": "Stone — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/flint.png",
+    "source": "Screens/wiki/icons/Flint.png",
+    "version": "0.16.0",
+    "alt": "Flint inventory icon rendered from the game model.",
+    "caption": "Flint — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/iron.png",
+    "source": "Screens/wiki/icons/Iron.png",
+    "version": "0.16.0",
+    "alt": "Iron Ore inventory icon rendered from the game model.",
+    "caption": "Iron Ore — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/ironbar.png",
+    "source": "Screens/wiki/icons/IronBar.png",
+    "version": "0.16.0",
+    "alt": "Iron Bar inventory icon rendered from the game model.",
+    "caption": "Iron Bar — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/hide.png",
+    "source": "Screens/wiki/icons/Hide.png",
+    "version": "0.16.0",
+    "alt": "Raw Hide inventory icon rendered from the game model.",
+    "caption": "Raw Hide — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/leather.png",
+    "source": "Screens/wiki/icons/Leather.png",
+    "version": "0.16.0",
+    "alt": "Leather inventory icon rendered from the game model.",
+    "caption": "Leather — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/tusk.png",
+    "source": "Screens/wiki/icons/Tusk.png",
+    "version": "0.16.0",
+    "alt": "Charger Tusk inventory icon rendered from the game model.",
+    "caption": "Charger Tusk — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/resin.png",
+    "source": "Screens/wiki/icons/Resin.png",
+    "version": "0.16.0",
+    "alt": "Pine Resin inventory icon rendered from the game model.",
+    "caption": "Pine Resin — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/herb.png",
+    "source": "Screens/wiki/icons/Herb.png",
+    "version": "0.16.0",
+    "alt": "Moonpetal inventory icon rendered from the game model.",
+    "caption": "Moonpetal — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/mushroom.png",
+    "source": "Screens/wiki/icons/Mushroom.png",
+    "version": "0.16.0",
+    "alt": "Redcap inventory icon rendered from the game model.",
+    "caption": "Redcap — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/flax.png",
+    "source": "Screens/wiki/icons/Flax.png",
+    "version": "0.16.0",
+    "alt": "Flax inventory icon rendered from the game model.",
+    "caption": "Flax — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/crystal.png",
+    "source": "Screens/wiki/icons/Crystal.png",
+    "version": "0.16.0",
+    "alt": "Echo Crystal inventory icon rendered from the game model.",
+    "caption": "Echo Crystal — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/potion.png",
+    "source": "Screens/wiki/icons/Potion.png",
+    "version": "0.16.0",
+    "alt": "Healing Draught inventory icon rendered from the game model.",
+    "caption": "Healing Draught — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/salve.png",
+    "source": "Screens/wiki/icons/Salve.png",
+    "version": "0.16.0",
+    "alt": "Wound Salve inventory icon rendered from the game model.",
+    "caption": "Wound Salve — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/bandage.png",
+    "source": "Screens/wiki/icons/Bandage.png",
+    "version": "0.16.0",
+    "alt": "Linen Bandage inventory icon rendered from the game model.",
+    "caption": "Linen Bandage — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/heart.png",
+    "source": "Screens/wiki/icons/Heart.png",
+    "version": "0.16.0",
+    "alt": "Guardian's Heart inventory icon rendered from the game model.",
+    "caption": "Guardian's Heart — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/echofocus.png",
+    "source": "Screens/wiki/icons/EchoFocus.png",
+    "version": "0.16.0",
+    "alt": "Echo Focus inventory icon rendered from the game model.",
+    "caption": "Echo Focus — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/rawmeat.png",
+    "source": "Screens/wiki/icons/RawMeat.png",
+    "version": "0.16.0",
+    "alt": "Raw Meat inventory icon rendered from the game model.",
+    "caption": "Raw Meat — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/cookedmeat.png",
+    "source": "Screens/wiki/icons/CookedMeat.png",
+    "version": "0.16.0",
+    "alt": "Grilled Meat inventory icon rendered from the game model.",
+    "caption": "Grilled Meat — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/stew.png",
+    "source": "Screens/wiki/icons/Stew.png",
+    "version": "0.16.0",
+    "alt": "Hunter's Stew inventory icon rendered from the game model.",
+    "caption": "Hunter's Stew — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/barley.png",
+    "source": "Screens/wiki/icons/Barley.png",
+    "version": "0.16.0",
+    "alt": "Barley inventory icon rendered from the game model.",
+    "caption": "Barley — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/flatbread.png",
+    "source": "Screens/wiki/icons/Flatbread.png",
+    "version": "0.16.0",
+    "alt": "Barley Flatbread inventory icon rendered from the game model.",
+    "caption": "Barley Flatbread — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/skewer.png",
+    "source": "Screens/wiki/icons/Skewer.png",
+    "version": "0.16.0",
+    "alt": "Redcap Skewer inventory icon rendered from the game model.",
+    "caption": "Redcap Skewer — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/vigortonic.png",
+    "source": "Screens/wiki/icons/VigorTonic.png",
+    "version": "0.16.0",
+    "alt": "Vigor Tonic inventory icon rendered from the game model.",
+    "caption": "Vigor Tonic — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/ironbarkbrew.png",
+    "source": "Screens/wiki/icons/IronbarkBrew.png",
+    "version": "0.16.0",
+    "alt": "Ironbark Brew inventory icon rendered from the game model.",
+    "caption": "Ironbark Brew — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/stalkertrophy.png",
+    "source": "Screens/wiki/icons/StalkerTrophy.png",
+    "version": "0.16.0",
+    "alt": "Stalker Trophy inventory icon rendered from the game model.",
+    "caption": "Stalker Trophy — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/chargertrophy.png",
+    "source": "Screens/wiki/icons/ChargerTrophy.png",
+    "version": "0.16.0",
+    "alt": "Charger Trophy inventory icon rendered from the game model.",
+    "caption": "Charger Trophy — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/bucket.png",
+    "source": "Screens/wiki/icons/Bucket.png",
+    "version": "0.16.0",
+    "alt": "Bucket inventory icon rendered from the game model.",
+    "caption": "Bucket — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/waterbucket.png",
+    "source": "Screens/wiki/icons/WaterBucket.png",
+    "version": "0.16.0",
+    "alt": "Bucket of Water inventory icon rendered from the game model.",
+    "caption": "Bucket of Water — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/bone.png",
+    "source": "Screens/wiki/icons/Bone.png",
+    "version": "0.16.0",
+    "alt": "Bone inventory icon rendered from the game model.",
+    "caption": "Bone — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/graveiron.png",
+    "source": "Screens/wiki/icons/GraveIron.png",
+    "version": "0.16.0",
+    "alt": "Grave Iron inventory icon rendered from the game model.",
+    "caption": "Grave Iron — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/antler.png",
+    "source": "Screens/wiki/icons/Antler.png",
+    "version": "0.16.0",
+    "alt": "Greyhorn Antler inventory icon rendered from the game model.",
+    "caption": "Greyhorn Antler — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/venison.png",
+    "source": "Screens/wiki/icons/Venison.png",
+    "version": "0.16.0",
+    "alt": "Raw Venison inventory icon rendered from the game model.",
+    "caption": "Raw Venison — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/arrowflint.png",
+    "source": "Screens/wiki/icons/ArrowFlint.png",
+    "version": "0.16.0",
+    "alt": "Flint Arrows inventory icon rendered from the game model.",
+    "caption": "Flint Arrows — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/arrowbone.png",
+    "source": "Screens/wiki/icons/ArrowBone.png",
+    "version": "0.16.0",
+    "alt": "Bone Arrows inventory icon rendered from the game model.",
+    "caption": "Bone Arrows — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/arrowiron.png",
+    "source": "Screens/wiki/icons/ArrowIron.png",
+    "version": "0.16.0",
+    "alt": "Iron Arrows inventory icon rendered from the game model.",
+    "caption": "Iron Arrows — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/arrowfire.png",
+    "source": "Screens/wiki/icons/ArrowFire.png",
+    "version": "0.16.0",
+    "alt": "Fire Arrows inventory icon rendered from the game model.",
+    "caption": "Fire Arrows — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/greyhorntrophy.png",
+    "source": "Screens/wiki/icons/GreyhornTrophy.png",
+    "version": "0.16.0",
+    "alt": "Greyhorn Trophy inventory icon rendered from the game model.",
+    "caption": "Greyhorn Trophy — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/hollowtrophy.png",
+    "source": "Screens/wiki/icons/HollowTrophy.png",
+    "version": "0.16.0",
+    "alt": "Hollow Trophy inventory icon rendered from the game model.",
+    "caption": "Hollow Trophy — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/venisonroast.png",
+    "source": "Screens/wiki/icons/VenisonRoast.png",
+    "version": "0.16.0",
+    "alt": "Venison Roast inventory icon rendered from the game model.",
+    "caption": "Venison Roast — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/bonebroth.png",
+    "source": "Screens/wiki/icons/BoneBroth.png",
+    "version": "0.16.0",
+    "alt": "Bone Broth inventory icon rendered from the game model.",
+    "caption": "Bone Broth — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/porridge.png",
+    "source": "Screens/wiki/icons/Porridge.png",
+    "version": "0.16.0",
+    "alt": "Barley Porridge inventory icon rendered from the game model.",
+    "caption": "Barley Porridge — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/graveward.png",
+    "source": "Screens/wiki/icons/GraveWard.png",
+    "version": "0.16.0",
+    "alt": "Grave Ward inventory icon rendered from the game model.",
+    "caption": "Grave Ward — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/whetstone.png",
+    "source": "Screens/wiki/icons/Whetstone.png",
+    "version": "0.16.0",
+    "alt": "Whetstone inventory icon rendered from the game model.",
+    "caption": "Whetstone — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/bonemeal.png",
+    "source": "Screens/wiki/icons/BoneMeal.png",
+    "version": "0.16.0",
+    "alt": "Bone Meal inventory icon rendered from the game model.",
+    "caption": "Bone Meal — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/bogbalm.png",
+    "source": "Screens/wiki/icons/BogBalm.png",
+    "version": "0.16.0",
+    "alt": "Bogwalker's Balm inventory icon rendered from the game model.",
+    "caption": "Bogwalker's Balm — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/warmingdraught.png",
+    "source": "Screens/wiki/icons/WarmingDraught.png",
+    "version": "0.16.0",
+    "alt": "Warming Draught inventory icon rendered from the game model.",
+    "caption": "Warming Draught — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-axe-flint.png",
+    "source": "Screens/wiki/icons/gear_axe_flint.png",
+    "version": "0.16.0",
+    "alt": "Flint Axe inventory icon rendered from the game model.",
+    "caption": "Flint Axe — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-axe-iron.png",
+    "source": "Screens/wiki/icons/gear_axe_iron.png",
+    "version": "0.16.0",
+    "alt": "Iron Axe inventory icon rendered from the game model.",
+    "caption": "Iron Axe — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-pick-stone.png",
+    "source": "Screens/wiki/icons/gear_pick_stone.png",
+    "version": "0.16.0",
+    "alt": "Stone Pickaxe inventory icon rendered from the game model.",
+    "caption": "Stone Pickaxe — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-pick-tusk.png",
+    "source": "Screens/wiki/icons/gear_pick_tusk.png",
+    "version": "0.16.0",
+    "alt": "Tusk Pickaxe inventory icon rendered from the game model.",
+    "caption": "Tusk Pickaxe — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-pick-antler.png",
+    "source": "Screens/wiki/icons/gear_pick_antler.png",
+    "version": "0.16.0",
+    "alt": "Antler Pickaxe inventory icon rendered from the game model.",
+    "caption": "Antler Pickaxe — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-pick-iron.png",
+    "source": "Screens/wiki/icons/gear_pick_iron.png",
+    "version": "0.16.0",
+    "alt": "Iron Pickaxe inventory icon rendered from the game model.",
+    "caption": "Iron Pickaxe — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-club.png",
+    "source": "Screens/wiki/icons/gear_club.png",
+    "version": "0.16.0",
+    "alt": "Wooden Club inventory icon rendered from the game model.",
+    "caption": "Wooden Club — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-spear-flint.png",
+    "source": "Screens/wiki/icons/gear_spear_flint.png",
+    "version": "0.16.0",
+    "alt": "Flint Spear inventory icon rendered from the game model.",
+    "caption": "Flint Spear — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-spear-iron.png",
+    "source": "Screens/wiki/icons/gear_spear_iron.png",
+    "version": "0.16.0",
+    "alt": "Iron Spear inventory icon rendered from the game model.",
+    "caption": "Iron Spear — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-blades-iron.png",
+    "source": "Screens/wiki/icons/gear_blades_iron.png",
+    "version": "0.16.0",
+    "alt": "Iron Blades inventory icon rendered from the game model.",
+    "caption": "Iron Blades — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-mace-iron.png",
+    "source": "Screens/wiki/icons/gear_mace_iron.png",
+    "version": "0.16.0",
+    "alt": "Iron Mace inventory icon rendered from the game model.",
+    "caption": "Iron Mace — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-torch.png",
+    "source": "Screens/wiki/icons/gear_torch.png",
+    "version": "0.16.0",
+    "alt": "Torch inventory icon rendered from the game model.",
+    "caption": "Torch — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-bow-hunting.png",
+    "source": "Screens/wiki/icons/gear_bow_hunting.png",
+    "version": "0.16.0",
+    "alt": "Hunting Bow inventory icon rendered from the game model.",
+    "caption": "Hunting Bow — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-bow-horn.png",
+    "source": "Screens/wiki/icons/gear_bow_horn.png",
+    "version": "0.16.0",
+    "alt": "Horn Bow inventory icon rendered from the game model.",
+    "caption": "Horn Bow — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-lute.png",
+    "source": "Screens/wiki/icons/gear_lute.png",
+    "version": "0.16.0",
+    "alt": "Lute inventory icon rendered from the game model.",
+    "caption": "Lute — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-bracers.png",
+    "source": "Screens/wiki/icons/gear_bracers.png",
+    "version": "0.16.0",
+    "alt": "Leather Bracers inventory icon rendered from the game model.",
+    "caption": "Leather Bracers — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-hide-vest.png",
+    "source": "Screens/wiki/icons/gear_hide_vest.png",
+    "version": "0.16.0",
+    "alt": "Hide Vest inventory icon rendered from the game model.",
+    "caption": "Hide Vest — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-fur-mantle.png",
+    "source": "Screens/wiki/icons/gear_fur_mantle.png",
+    "version": "0.16.0",
+    "alt": "Fur Mantle inventory icon rendered from the game model.",
+    "caption": "Fur Mantle — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-cap-leather.png",
+    "source": "Screens/wiki/icons/gear_cap_leather.png",
+    "version": "0.16.0",
+    "alt": "Leather Cap inventory icon rendered from the game model.",
+    "caption": "Leather Cap — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-iron-helm.png",
+    "source": "Screens/wiki/icons/gear_iron_helm.png",
+    "version": "0.16.0",
+    "alt": "Iron Helm inventory icon rendered from the game model.",
+    "caption": "Iron Helm — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-lamellar.png",
+    "source": "Screens/wiki/icons/gear_lamellar.png",
+    "version": "0.16.0",
+    "alt": "Iron Lamellar inventory icon rendered from the game model.",
+    "caption": "Iron Lamellar — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-spaulders.png",
+    "source": "Screens/wiki/icons/gear_spaulders.png",
+    "version": "0.16.0",
+    "alt": "Iron Spaulders inventory icon rendered from the game model.",
+    "caption": "Iron Spaulders — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-axe-hallvard.png",
+    "source": "Screens/wiki/icons/gear_axe_hallvard.png",
+    "version": "0.16.0",
+    "alt": "Hallvard's Axe inventory icon rendered from the game model.",
+    "caption": "Hallvard's Axe — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-charm-fang.png",
+    "source": "Screens/wiki/icons/gear_charm_fang.png",
+    "version": "0.16.0",
+    "alt": "Fang Charm inventory icon rendered from the game model.",
+    "caption": "Fang Charm — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-charm-tusk.png",
+    "source": "Screens/wiki/icons/gear_charm_tusk.png",
+    "version": "0.16.0",
+    "alt": "Tusk Totem inventory icon rendered from the game model.",
+    "caption": "Tusk Totem — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-charm-hearth.png",
+    "source": "Screens/wiki/icons/gear_charm_hearth.png",
+    "version": "0.16.0",
+    "alt": "Hearth Charm inventory icon rendered from the game model.",
+    "caption": "Hearth Charm — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-charm-sigil.png",
+    "source": "Screens/wiki/icons/gear_charm_sigil.png",
+    "version": "0.16.0",
+    "alt": "Keeper's Sigil inventory icon rendered from the game model.",
+    "caption": "Keeper's Sigil — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-charm-grave.png",
+    "source": "Screens/wiki/icons/gear_charm_grave.png",
+    "version": "0.16.0",
+    "alt": "Grave Charm inventory icon rendered from the game model.",
+    "caption": "Grave Charm — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/gear-charm-stag.png",
+    "source": "Screens/wiki/icons/gear_charm_stag.png",
+    "version": "0.16.0",
+    "alt": "Stag Charm inventory icon rendered from the game model.",
+    "caption": "Stag Charm — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/relicember.png",
+    "source": "Screens/wiki/icons/RelicEmber.png",
+    "version": "0.16.0",
+    "alt": "Ember Relic inventory icon rendered from the game model.",
+    "caption": "Ember Relic — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/icons/attunement.png",
+    "source": "Screens/wiki/icons/Attunement.png",
+    "version": "0.16.0",
+    "alt": "Echo Attunement inventory icon rendered from the game model.",
+    "caption": "Echo Attunement — in-game inventory icon, v0.16.0."
+  },
+  {
+    "path": "/images/homestead-v016.webp",
+    "source": "Screens/wiki/homestead-v016.webp",
+    "version": "0.16.0",
+    "alt": "A new wanderer beside the homestead campfire.",
+    "caption": "Homestead campfire, captured in v0.16.0."
+  },
+  {
+    "path": "/images/birchwood-v016.webp",
+    "source": "Screens/wiki/birchwood-v016.webp",
+    "version": "0.16.0",
+    "alt": "A wanderer in Birchwood beneath pale trees and western hills.",
+    "caption": "Birchwood, captured in v0.16.0."
+  },
+  {
+    "path": "/images/elderwood-v016.webp",
+    "source": "Screens/wiki/elderwood-v016.webp",
+    "version": "0.16.0",
+    "alt": "A wanderer under the dense pine canopy of Elderwood.",
+    "caption": "Elderwood, captured in v0.16.0."
+  },
+  {
+    "path": "/images/mire-v016.webp",
+    "source": "Screens/wiki/mire-v016.webp",
+    "version": "0.16.0",
+    "alt": "Dark pools and reeds stretch through the misty Mire.",
+    "caption": "The Mire, captured in v0.16.0."
+  },
+  {
+    "path": "/images/highlands-v016.webp",
+    "source": "Screens/wiki/highlands-v016.webp",
+    "version": "0.16.0",
+    "alt": "Bare Highland slopes beneath a snowy mountain skyline.",
+    "caption": "Stoneteeth Highlands, captured in v0.16.0."
+  },
+  {
+    "path": "/images/ruins-v016.webp",
+    "source": "Screens/wiki/ruins-v016.webp",
+    "version": "0.16.0",
+    "alt": "Old stone pillars and ruined arches stand among the trees.",
+    "caption": "The old ruins, captured in v0.16.0."
+  },
+  {
+    "path": "/images/courtyard-v016.webp",
+    "source": "Screens/wiki/courtyard-v016.webp",
+    "version": "0.16.0",
+    "alt": "The walled Forgotten Courtyard seen from above its southern wall.",
+    "caption": "Forgotten Courtyard, captured in v0.16.0."
+  },
+  {
+    "path": "/images/stations-v016.webp",
+    "source": "Screens/wiki/stations-v016.webp",
+    "version": "0.16.0",
+    "alt": "Crafting stations arranged around the homestead fire.",
+    "caption": "In-game demonstration setup of crafting stations, v0.16.0."
+  },
+  {
+    "path": "/images/inventory-v016.webp",
+    "source": "Screens/wiki/inventory-v016.webp",
+    "version": "0.16.0",
+    "alt": "The inventory shows a hero preview, equipment slots, satchel and hotbar.",
+    "caption": "Current inventory with demonstration gear, v0.16.0."
+  },
+  {
+    "path": "/images/crafting-v016.webp",
+    "source": "Screens/wiki/crafting-v016.webp",
+    "version": "0.16.0",
+    "alt": "The crafting screen shows the Flint Axe recipe and its wood and flint costs.",
+    "caption": "Current crafting screen, v0.16.0."
+  },
+  {
+    "path": "/images/torchlight-v016.webp",
+    "source": "Screens/wiki/torchlight-v016.webp",
+    "version": "0.16.0",
+    "alt": "A wanderer carries a burning torch at the homestead at night.",
+    "caption": "Held torch lighting in the running v0.16.0 game."
+  },
+  {
+    "path": "/images/stalker-v016.webp",
+    "source": "Screens/wiki/stalker-v016.webp",
+    "version": "0.16.0",
+    "alt": "Stalker model in a staged in-game portrait.",
+    "caption": "Stalker — staged in-game portrait, v0.16.0."
+  },
+  {
+    "path": "/images/charger-v016.webp",
+    "source": "Screens/wiki/charger-v016.webp",
+    "version": "0.16.0",
+    "alt": "Charger model in a staged in-game portrait.",
+    "caption": "Charger — staged in-game portrait, v0.16.0."
+  },
+  {
+    "path": "/images/hollow-v016.webp",
+    "source": "Screens/wiki/hollow-v016.webp",
+    "version": "0.16.0",
+    "alt": "Hollow model in a staged in-game portrait.",
+    "caption": "Hollow — staged in-game portrait, v0.16.0."
+  },
+  {
+    "path": "/images/greyhorn-v016.webp",
+    "source": "Screens/wiki/greyhorn-v016.webp",
+    "version": "0.16.0",
+    "alt": "Greyhorn model in a staged in-game portrait.",
+    "caption": "Greyhorn — staged in-game portrait, v0.16.0."
+  },
+  {
+    "path": "/images/spider-v016.webp",
+    "source": "Screens/wiki/spider-v016.webp",
+    "version": "0.16.0",
+    "alt": "Mire Spider model in a staged in-game portrait.",
+    "caption": "Mire Spider — staged in-game portrait, v0.16.0."
+  },
+  {
+    "path": "/images/guardian-v016.webp",
+    "source": "Screens/wiki/guardian-v016.webp",
+    "version": "0.16.0",
+    "alt": "Ancient Guardian model in a staged in-game portrait.",
+    "caption": "Ancient Guardian — staged in-game portrait, v0.16.0."
+  },
+  {
+    "path": "/images/icons/site-emblem.png",
+    "source": "Screens/wiki/icons/site_emblem.png",
+    "version": "0.16.0",
+    "alt": "The Forgotten Frontier Beacon emblem.",
+    "caption": "Game Beacon emblem used as the wiki favicon."
+  },
+  {
+    "path": "/images/stations/workbench.png",
+    "source": "Screens/wiki/icons/build_Workbench.png",
+    "version": "0.16.0",
+    "alt": "Workbench, baked from the actual game model.",
+    "caption": "Workbench building icon from the running v0.16.0 game."
+  },
+  {
+    "path": "/images/stations/herbalist-s-table.png",
+    "source": "Screens/wiki/icons/build_Herbalist's Table.png",
+    "version": "0.16.0",
+    "alt": "Herbalist's Table, baked from the actual game model.",
+    "caption": "Herbalist's Table building icon from the running v0.16.0 game."
+  },
+  {
+    "path": "/images/stations/forge.png",
+    "source": "Screens/wiki/icons/build_Forge.png",
+    "version": "0.16.0",
+    "alt": "Forge, baked from the actual game model.",
+    "caption": "Forge building icon from the running v0.16.0 game."
+  },
+  {
+    "path": "/images/stations/stonecutter.png",
+    "source": "Screens/wiki/icons/build_Stonecutter.png",
+    "version": "0.16.0",
+    "alt": "Stonecutter, baked from the actual game model.",
+    "caption": "Stonecutter building icon from the running v0.16.0 game."
+  },
+  {
+    "path": "/images/stations/tanning-rack.png",
+    "source": "Screens/wiki/icons/build_Tanning Rack.png",
+    "version": "0.16.0",
+    "alt": "Tanning Rack, baked from the actual game model.",
+    "caption": "Tanning Rack building icon from the running v0.16.0 game."
+  },
+  {
+    "path": "/images/stations/bloomery.png",
+    "source": "Screens/wiki/icons/build_Bloomery.png",
+    "version": "0.16.0",
+    "alt": "Bloomery, baked from the actual game model.",
+    "caption": "Bloomery building icon from the running v0.16.0 game."
+  },
+  {
+    "path": "/images/stations/campfire.png",
+    "source": "Screens/wiki/icons/build_Campfire.png",
+    "version": "0.16.0",
+    "alt": "Campfire, baked from the actual game model.",
+    "caption": "Campfire building icon from the running v0.16.0 game."
+  },
+  {
+    "path": "/images/creatures/stalker-thumb.webp",
+    "source": "Screens/wiki/thumbnails/stalker.webp",
+    "version": "0.16.0",
+    "alt": "Stalker from an actual in-game portrait.",
+    "caption": "Cropped thumbnail of the staged stalker gameplay photograph; original remains available in the gallery."
+  },
+  {
+    "path": "/images/creatures/charger-thumb.webp",
+    "source": "Screens/wiki/thumbnails/charger.webp",
+    "version": "0.16.0",
+    "alt": "Charger from an actual in-game portrait.",
+    "caption": "Cropped thumbnail of the staged charger gameplay photograph; original remains available in the gallery."
+  },
+  {
+    "path": "/images/creatures/hollow-thumb.webp",
+    "source": "Screens/wiki/thumbnails/hollow.webp",
+    "version": "0.16.0",
+    "alt": "Hollow from an actual in-game portrait.",
+    "caption": "Cropped thumbnail of the staged hollow gameplay photograph; original remains available in the gallery."
+  },
+  {
+    "path": "/images/creatures/greyhorn-thumb.webp",
+    "source": "Screens/wiki/thumbnails/greyhorn.webp",
+    "version": "0.16.0",
+    "alt": "Greyhorn from an actual in-game portrait.",
+    "caption": "Cropped thumbnail of the staged greyhorn gameplay photograph; original remains available in the gallery."
+  },
+  {
+    "path": "/images/creatures/spider-thumb.webp",
+    "source": "Screens/wiki/thumbnails/spider.webp",
+    "version": "0.16.0",
+    "alt": "Spider from an actual in-game portrait.",
+    "caption": "Cropped thumbnail of the staged spider gameplay photograph; original remains available in the gallery."
+  },
+  {
+    "path": "/images/creatures/guardian-thumb.webp",
+    "source": "Screens/wiki/thumbnails/guardian.webp",
+    "version": "0.16.0",
+    "alt": "Guardian from an actual in-game portrait.",
+    "caption": "Cropped thumbnail of the staged guardian gameplay photograph; original remains available in the gallery."
+  },
+  {
+    "path": "/images/icons/silver.png",
+    "source": "Screens/wiki/icons/Silver.png",
+    "version": "0.17.0",
+    "alt": "Silver (hacksilver) inventory icon rendered from the game model.",
+    "caption": "Silver — in-game inventory icon, v0.17.0."
+  },
+  {
+    "path": "/images/icons/cloudberry.png",
+    "source": "Screens/wiki/icons/Cloudberry.png",
+    "version": "0.17.0",
+    "alt": "Cloudberries inventory icon rendered from the game model.",
+    "caption": "Cloudberries — in-game inventory icon, v0.17.0."
+  },
+  {
+    "path": "/images/icons/spidersilk.png",
+    "source": "Screens/wiki/icons/SpiderSilk.png",
+    "version": "0.17.0",
+    "alt": "Spider Silk inventory icon rendered from the game model.",
+    "caption": "Spider Silk — in-game inventory icon, v0.17.0."
+  },
+  {
+    "path": "/images/icons/frostlichen.png",
+    "source": "Screens/wiki/icons/FrostLichen.png",
+    "version": "0.17.0",
+    "alt": "Frost Lichen inventory icon rendered from the game model.",
+    "caption": "Frost Lichen — in-game inventory icon, v0.17.0."
+  },
+  {
+    "path": "/images/icons/amber.png",
+    "source": "Screens/wiki/icons/Amber.png",
+    "version": "0.17.0",
+    "alt": "Amber inventory icon rendered from the game model.",
+    "caption": "Amber — in-game inventory icon, v0.17.0."
+  },
+  {
+    "path": "/images/icons/cloudberrytart.png",
+    "source": "Screens/wiki/icons/CloudberryTart.png",
+    "version": "0.17.0",
+    "alt": "Cloudberry Tart inventory icon rendered from the game model.",
+    "caption": "Cloudberry Tart — in-game inventory icon, v0.17.0."
+  },
+  {
+    "path": "/images/icons/silkbandage.png",
+    "source": "Screens/wiki/icons/SilkBandage.png",
+    "version": "0.17.0",
+    "alt": "Silk Bandage inventory icon rendered from the game model.",
+    "caption": "Silk Bandage — in-game inventory icon, v0.17.0."
+  },
+  {
+    "path": "/images/icons/gear-charm-amber.png",
+    "source": "Screens/wiki/icons/gear_charm_amber.png",
+    "version": "0.17.0",
+    "alt": "Amber Charm equipment icon rendered from the game model.",
+    "caption": "Amber Charm — in-game equipment icon, v0.17.0."
+  },
+  {
+    "path": "/images/build-v017.webp",
+    "source": "Screens/wiki/build-v017.webp",
+    "version": "0.17.0",
+    "alt": "The build panel on the right: the whole Structure tab in bold white text, with the selected Floor's cost below.",
+    "caption": "Build mode in v0.17.0: a solid panel with the whole tab at once."
+  },
+  {
+    "path": "/images/trader-v017.webp",
+    "source": "Screens/wiki/trader-v017.webp",
+    "version": "0.17.0",
+    "alt": "Orm the Peddler beside his covered cart at dusk, with the trade prompt and one of the hero's quiet thoughts.",
+    "caption": "Trader's Rest on the Birchwood road, v0.17.0. The italic line is one of the hero's thoughts."
+  },
+  {
+    "path": "/images/inventory-v017.webp",
+    "source": "Screens/wiki/inventory-v017.webp",
+    "version": "0.17.0",
+    "alt": "The satchel showing 14 of 20 slots, stacks of up to 20, silver and the new outer-land finds.",
+    "caption": "The satchel in v0.17.0: slots, stacks of 20, empty slots for the room left."
+  },
+  {
+    "path": "/images/guard-v017.webp",
+    "source": "Screens/wiki/guard-v017.webp",
+    "version": "0.17.0",
+    "alt": "A hero holding a club diagonally across the chest in the guard pose.",
+    "caption": "Guarding with a club, v0.17.0 (staged close-up)."
+  },
+  {
+    "path": "/images/shimmer-v017.webp",
+    "source": "Screens/wiki/shimmer-v017.webp",
+    "version": "0.17.0",
+    "alt": "A golden glint running along a masterwork iron spear in the hero's hands.",
+    "caption": "A masterwork weapon's shimmer, v0.17.0 (staged close-up)."
+  },
+  {
+    "path": "/images/firepath-v017.webp",
+    "source": "Screens/wiki/firepath-v017.webp",
+    "version": "0.17.0",
+    "alt": "A column of flame rising where the hero stood beside a signal brazier, embers spiralling, the screen warming.",
+    "caption": "The fire paths taking a hero, v0.17.0 (slowed for the capture)."
+  },
+  {
+    "path": "/images/forage-v017.webp",
+    "source": "Screens/wiki/forage-v017.webp",
+    "version": "0.17.0",
+    "alt": "Four close-ups: cloudberry plants, a spider's silk nest, a lichen-crusted boulder and amber in an oak root.",
+    "caption": "The outer lands' own finds in v0.17.0: Birchwood, the Mire, the Highlands and Elderwood (four game captures in one picture)."
+  },
+  {
+    "path": "/images/birchwood-detail-v017.webp",
+    "source": "Screens/wiki/birchwood-detail-v017.webp",
+    "version": "0.17.0",
+    "alt": "A Birchwood glade with a fallen trunk and gold leaves drifting on the wind.",
+    "caption": "Birchwood clutter in v0.17.0: fallen trunks, stumps and berry patches."
+  }
+]

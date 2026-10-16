@@ -1,0 +1,407 @@
+[
+  {
+    "id": "creature:Stalker",
+    "key": "Stalker",
+    "kind": "creature",
+    "name": "Stalker",
+    "aliases": [
+      "Frontier Stalker",
+      "Courtyard Stalker"
+    ],
+    "description": "Circles its prey, then commits to a lunge. Dodge or parry the lunge and punish its recovery.",
+    "source": "Assets/Scripts/Enemies/Stalker.cs",
+    "page": "creatures/stalker",
+    "image": "/images/stalker-v016.webp",
+    "thumbnail": "/images/creatures/stalker-thumb.webp",
+    "stats": {
+      "health": 42,
+      "poise": 24,
+      "speed": 5.6
+    },
+    "attacks": [
+      [
+        "Lunge",
+        12
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Hide",
+        "quantity": "1 (60%) or 2 (40%)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:RawMeat",
+        "quantity": "1 (70%) or 2 (30%)",
+        "chance": "80%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Crystal",
+        "quantity": "1",
+        "chance": "20%",
+        "condition": "Level 2+"
+      }
+    ]
+  },
+  {
+    "id": "creature:Charger",
+    "key": "Charger",
+    "kind": "creature",
+    "name": "Charger",
+    "aliases": [
+      "Elder Charger"
+    ],
+    "description": "An aggressive beast with a headbutt and a committed charge. Bait its charge into an obstacle to stun it.",
+    "source": "Assets/Scripts/Enemies/Charger.cs",
+    "page": "creatures/charger",
+    "image": "/images/charger-v016.webp",
+    "thumbnail": "/images/creatures/charger-thumb.webp",
+    "stats": {
+      "health": 115,
+      "poise": 65,
+      "speed": 3.6
+    },
+    "attacks": [
+      [
+        "Headbutt",
+        16
+      ],
+      [
+        "Charge",
+        24
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Hide",
+        "quantity": "2",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:RawMeat",
+        "quantity": "2 (50%) or 3 (50%)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Tusk",
+        "quantity": "1 (65%) or 2 (35%)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Crystal",
+        "quantity": "1",
+        "chance": "50%",
+        "condition": "Level 2+"
+      }
+    ]
+  },
+  {
+    "id": "creature:Hollow",
+    "key": "Hollow",
+    "kind": "creature",
+    "name": "Hollow",
+    "aliases": [
+      "Barrow Hollow",
+      "Hollow Thane"
+    ],
+    "description": "A shield-bearing undead warrior. Frontal light hits and arrows glance off its guard; heavy blows break it. Watch for a two-hit combo and a leap. Its blade carries grave rot.",
+    "source": "Assets/Scripts/Enemies/Hollow.cs",
+    "page": "creatures/hollow",
+    "image": "/images/hollow-v016.webp",
+    "thumbnail": "/images/creatures/hollow-thumb.webp",
+    "stats": {
+      "health": 74,
+      "poise": 42,
+      "speed": 2.5
+    },
+    "attacks": [
+      [
+        "First slash",
+        13
+      ],
+      [
+        "Second slash",
+        11
+      ],
+      [
+        "Leap",
+        20
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Bone",
+        "quantity": "1 or 2 (50% each) at level 1; always 2 at level 2+",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:GraveIron",
+        "quantity": "1 (70%) or 2 (30%)",
+        "chance": "65% / 75% / 85%",
+        "condition": "Level 1 / 2 / 3"
+      },
+      {
+        "item": "item:Crystal",
+        "quantity": "1",
+        "chance": "20%",
+        "condition": "Level 2+"
+      }
+    ]
+  },
+  {
+    "id": "creature:Greyhorn",
+    "key": "Greyhorn",
+    "kind": "creature",
+    "name": "Greyhorn",
+    "aliases": [
+      "Greyhorn Bull",
+      "Old Greyhorn Bull"
+    ],
+    "description": "A grazing herd animal. Cows flee; injured bulls can turn and gore or charge. Level 1 has a 35% chance to be a bull; level 2+ is always a bull.",
+    "source": "Assets/Scripts/Enemies/Greyhorn.cs",
+    "page": "creatures/greyhorn",
+    "image": "/images/greyhorn-v016.webp",
+    "thumbnail": "/images/creatures/greyhorn-thumb.webp",
+    "stats": {
+      "health": 70,
+      "poise": 36,
+      "speed": 3.2
+    },
+    "attacks": [
+      [
+        "Gore (bull)",
+        17
+      ],
+      [
+        "Charge (bull)",
+        21
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Venison",
+        "quantity": "2 (cow) or 3 (bull)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Hide",
+        "quantity": "2",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Antler",
+        "quantity": "2 (60%) or 3 (40%)",
+        "chance": "100%",
+        "condition": "Bull or elite"
+      },
+      {
+        "item": "item:Antler",
+        "quantity": "1",
+        "chance": "25%",
+        "condition": "Non-elite cow only"
+      }
+    ]
+  },
+  {
+    "id": "creature:Spider",
+    "key": "Spider",
+    "kind": "creature",
+    "name": "Mire Spider",
+    "aliases": [
+      "Bog Weaver"
+    ],
+    "description": "Keeps its distance, spits slowing webs, then darts in to bite. Venom prevents healing. Bring Bogwalker’s Balm to protect against venom and webs.",
+    "source": "Assets/Scripts/Enemies/Spider.cs",
+    "page": "creatures/mire-spider",
+    "image": "/images/spider-v016.webp",
+    "thumbnail": "/images/creatures/spider-thumb.webp",
+    "stats": {
+      "health": 46,
+      "poise": 22,
+      "speed": 5.6
+    },
+    "attacks": [
+      [
+        "Bite",
+        11
+      ],
+      [
+        "Web impact",
+        4
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:SpiderSilk",
+        "quantity": "1 (60%) or 2 (40%)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Resin",
+        "quantity": "1 (60%) or 2 (40%)",
+        "chance": "60%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Hide",
+        "quantity": "1",
+        "chance": "35%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Crystal",
+        "quantity": "1",
+        "chance": "25%",
+        "condition": "Level 2+"
+      }
+    ]
+  },
+  {
+    "id": "creature:Guardian",
+    "key": "Guardian",
+    "kind": "creature",
+    "name": "Ancient Guardian",
+    "aliases": [
+      "Guardian"
+    ],
+    "description": "The boss of the Forgotten Courtyard. Bait a charge into a wall or restored Echo pillar: the impact removes 5% of its maximum health and leaves it staggered for 3.5 seconds and Exposed for 4.5 seconds. Below half health it moves and attacks faster. Echoes help but are not required.",
+    "source": "Assets/Scripts/Enemies/Guardian.cs",
+    "page": "bosses/ancient-guardian",
+    "image": "/images/guardian-v016.webp",
+    "thumbnail": "/images/creatures/guardian-thumb.webp",
+    "stats": {
+      "health": 1450,
+      "poise": 260,
+      "speed": 3.3
+    },
+    "attacks": [
+      [
+        "Slam",
+        38
+      ],
+      [
+        "Sweep",
+        29
+      ],
+      [
+        "Charge",
+        40
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Heart",
+        "quantity": "1",
+        "chance": "100%",
+        "condition": "On defeat"
+      },
+      {
+        "item": "item:Crystal",
+        "quantity": "6 (three stacks of 2)",
+        "chance": "100%",
+        "condition": "On defeat"
+      },
+      {
+        "item": "item:Iron",
+        "quantity": "6 (three stacks of 2)",
+        "chance": "100%",
+        "condition": "Raw ore, not bars"
+      }
+    ]
+  },
+  {
+    "id": "station:Workbench",
+    "key": "Workbench",
+    "kind": "station",
+    "name": "Workbench",
+    "aliases": [],
+    "description": "Tools, weapons, leatherwork, linen and equipment repairs.",
+    "source": "Assets/Scripts/World/Stations.cs",
+    "page": "crafting/stations/workbench",
+    "image": "/images/stations/workbench.png",
+    "iconSource": "Screens/wiki/icons/build_Workbench.png"
+  },
+  {
+    "id": "station:HerbTable",
+    "key": "HerbTable",
+    "kind": "station",
+    "name": "Herbalist's Table",
+    "aliases": [],
+    "description": "Draughts, salves, tonics and protective preparations.",
+    "source": "Assets/Scripts/World/Stations.cs",
+    "page": "crafting/stations/herbalist-s-table",
+    "image": "/images/stations/herbalist-s-table.png",
+    "iconSource": "Screens/wiki/icons/build_Herbalist's Table.png"
+  },
+  {
+    "id": "station:Forge",
+    "key": "Forge",
+    "kind": "station",
+    "name": "Forge",
+    "aliases": [],
+    "description": "Iron equipment, repairs and progression rites.",
+    "source": "Assets/Scripts/World/Stations.cs",
+    "page": "crafting/stations/forge",
+    "image": "/images/stations/forge.png",
+    "iconSource": "Screens/wiki/icons/build_Forge.png"
+  },
+  {
+    "id": "station:Stonecutter",
+    "key": "Stonecutter",
+    "kind": "station",
+    "name": "Stonecutter",
+    "aliases": [],
+    "description": "Stone construction, whetstones and bone meal.",
+    "source": "Assets/Scripts/World/Stations.cs",
+    "page": "crafting/stations/stonecutter",
+    "image": "/images/stations/stonecutter.png",
+    "iconSource": "Screens/wiki/icons/build_Stonecutter.png"
+  },
+  {
+    "id": "station:TanningRack",
+    "key": "TanningRack",
+    "kind": "station",
+    "name": "Tanning Rack",
+    "aliases": [],
+    "description": "Cures hides into leather, including while away or asleep.",
+    "source": "Assets/Scripts/World/Stations.cs",
+    "page": "crafting/stations/tanning-rack",
+    "image": "/images/stations/tanning-rack.png",
+    "iconSource": "Screens/wiki/icons/build_Tanning Rack.png"
+  },
+  {
+    "id": "station:Bloomery",
+    "key": "Bloomery",
+    "kind": "station",
+    "name": "Bloomery",
+    "aliases": [],
+    "description": "Smelts iron ore or grave iron into bars using wood as fuel.",
+    "source": "Assets/Scripts/World/Stations.cs",
+    "page": "crafting/stations/bloomery",
+    "image": "/images/stations/bloomery.png",
+    "iconSource": "Screens/wiki/icons/build_Bloomery.png"
+  },
+  {
+    "id": "station:Hearth",
+    "key": "Hearth",
+    "kind": "station",
+    "name": "Hearth",
+    "aliases": [
+      "Campfire"
+    ],
+    "description": "Cook food at the homestead hearth or a built campfire.",
+    "source": "Assets/Scripts/World/Stations.cs",
+    "page": "crafting/stations/hearth",
+    "image": "/images/stations/campfire.png",
+    "iconSource": "Screens/wiki/icons/build_Campfire.png"
+  }
+]

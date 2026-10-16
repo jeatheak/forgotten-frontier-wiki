@@ -1,0 +1,3752 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "0.17.0",
+  "sourceCommit": "b5ae5a47b85a04492e06003b69b557198e84fae5",
+  "basis": "Implemented local game source; working tree may contain unreleased changes.",
+  "sourceHashes": {
+    "Assets/Scripts/Core/Art.cs": "57e4ae9e0af0f973d12d1c77cb0b3064bc8af77822f23e5554b641061c8c638e",
+    "Assets/Scripts/Core/AutoTest.cs": "5780bdc5e2e7a28c64d326e60eb6f027ea7221b370378897d66f6b3f340b9a94",
+    "Assets/Scripts/Core/CharAnimator.cs": "b5b1dde95c58f12a01b17685cbdadfe27adb454cbffb59eee676b84c70aa9f38",
+    "Assets/Scripts/Core/CharModel.cs": "90170837e5619ef4d81fdc8a4a8dc97a259a7d5eeab69a4f97d8b1ba170b13e1",
+    "Assets/Scripts/Core/DevTools.cs": "f376afad3d29367c6eb76f3624ba858e0f68f2b4a92d74c8bc673932a9b3295b",
+    "Assets/Scripts/Core/Difficulty.cs": "4b875dbeb95a6b6633d2c48d184eb20385bbe773650498704cdfeb6886240a6c",
+    "Assets/Scripts/Core/Fx.cs": "d3493403ae4cd13a47c7bb9c8dd65f544e14d9813e488b66759b5503d0bdab0d",
+    "Assets/Scripts/Core/FxWorld.cs": "847390f3524f010808f88914747443b3108898c1658c111f15636a67a95ac65e",
+    "Assets/Scripts/Core/GameManager.cs": "812e960ba16331b5f324b732f32d7941d46efe556b0968664125a502fc298d6e",
+    "Assets/Scripts/Core/Gear.cs": "9335061352e66c26b94a4b3488f3ee131af5245c327343d5a2f519a103f6a37a",
+    "Assets/Scripts/Core/Guide.cs": "aa1bcfe870517df9d7935fdcaf9bf7011acad874231dac4402416a2822227d39",
+    "Assets/Scripts/Core/HeroCamp.cs": "f2f37af7f974614c747998c11866dd2111b940c65487ecbaa1fbdee6b6972453",
+    "Assets/Scripts/Core/InputSource.cs": "d08ef857b0e9ed131923c77df79a2ae640e58a800646cedffcfd7e28d84204a5",
+    "Assets/Scripts/Core/IntroScene.cs": "08925e0e2076f5db270f04bbbf4d91c0147e3c1f8ede83238a07a8176dcd1739",
+    "Assets/Scripts/Core/Items.cs": "6784e7e379e341723c1cc133a749cd607f5519899b522159dcf88bad00d30cf7",
+    "Assets/Scripts/Core/Music.cs": "d353887e782ef68ace649aaabce210ff9f5c4bb6674d5c81dab847aec3d0c244",
+    "Assets/Scripts/Core/PerfProbe.cs": "c19b4f8c273cec589d65429656552e0ec5679823529d7cc601a24faea0a5cada",
+    "Assets/Scripts/Core/SaveSystem.cs": "b2bc6d8a6bc72040130845507d9cd3a9e855a0d11ad0c7281a31f4b3d4f6d43c",
+    "Assets/Scripts/Core/Settings.cs": "2865000e1ee4e817ed8f07efdd9069317db54a6c6003381f67f512f8ac906843",
+    "Assets/Scripts/Core/Sfx.cs": "ed4ab6f68be733c3d28ce9a5f5aead18611c6116edff4fd6c88875d374db314d",
+    "Assets/Scripts/Core/Skills.cs": "1d37863c4a2f1faeedfb11be1bb2ad47989439c41d1e2c560087d40fced3ea67",
+    "Assets/Scripts/Core/SpatialGrid.cs": "9ee825e1a5d86cdf347a38730866cebd2092c316f5e14c2743a0bbbd589cbf63",
+    "Assets/Scripts/Core/StadiaGamepad.cs": "14fdf2d0ca3a72125c87356bf18f1e1f845089699381698928d336357c42490d",
+    "Assets/Scripts/Enemies/Charger.cs": "d68b74da3ede38bd967e5c45a66e510cc378ff478ffb3370f2f36d5c604a7e60",
+    "Assets/Scripts/Enemies/Elites.cs": "eb5a21dfdc02e0dbc29951042d45c8f2a1e4a5ddf16574a22370ee659ed33818",
+    "Assets/Scripts/Enemies/Enemy.cs": "b406053f4fc8691d614ad3389b6c1a9c838cf2ee1938535c6fb8bca423082511",
+    "Assets/Scripts/Enemies/EnemySpawner.cs": "892e046598b921fc8598398f5766c07f250ea45ddb4f775b40103baf760e93d1",
+    "Assets/Scripts/Enemies/Greyhorn.cs": "349f898172204835acee54ffb96b116fbfbeb455e9f63098679a9607858e08dd",
+    "Assets/Scripts/Enemies/Guardian.cs": "99f8d8ee02805b0bc758cd7feefde831b4110c63d6c7b30118a4130f3f8d320f",
+    "Assets/Scripts/Enemies/Hollow.cs": "50a6894ba5a46f95d8e6469de7d79717929b68f50658f2cfca2f7ce13d767029",
+    "Assets/Scripts/Enemies/Spider.cs": "d150a12005107b39d548fac9476484d163b3c1546e5d4b78f46a1338a2b7618e",
+    "Assets/Scripts/Enemies/Stalker.cs": "3dfba2ed64a347f9ee251610d417b78489ec8e9224c6fb7b18f87d9268a3769a",
+    "Assets/Scripts/Net/Net.cs": "7a3605ea9e98cb12c6c3ecaa16ae2eb9b6b20e99b51876bc10451356a1b3e3fe",
+    "Assets/Scripts/Net/NetClient.cs": "6c711afc31dd47285999ad8d408c11fd93c2c514bd82779495465831310bd93f",
+    "Assets/Scripts/Net/NetHud.cs": "543d50137768c48b94a8fbf69a606ba0cee30df22e2cd9c8233d3711afc37209",
+    "Assets/Scripts/Net/NetSession.Enemies.cs": "df63ca20392317ee8ba2aefe774f6eda56b03634509ddd73f3c44105a8224c8e",
+    "Assets/Scripts/Net/NetSession.World.cs": "047c46eda914c6d227ba47b305220324b28dd0b1ba933ba2d0eb24a25e7cbc2a",
+    "Assets/Scripts/Net/NetSession.cs": "65187b79d880b83d08189381a0954e0fc3b2b5046c211475f42e79775b2852c1",
+    "Assets/Scripts/Net/NetTest.cs": "6f3f9fd2f2288fb537dda7b1bf3606b03746e89a4d335ba22bfcbb03861fab0a",
+    "Assets/Scripts/Net/RemoteVisual.cs": "3108b331e10758a0d5beacec5d947cc60f7506a95d3ce04a71e87c0a12e8c478",
+    "Assets/Scripts/Net/Shared/NetProto.cs": "5ffb0f7156850b088e857d215daac5ad02bb294ba9c35b4d98fa2be7733e88f5",
+    "Assets/Scripts/Net/Shared/SaveTypes.cs": "1919edbf778c0c3ecfbad705b3aa78b93824e2546c25935189015b4282da57b9",
+    "Assets/Scripts/Net/Shared/WorldMerge.cs": "37fd8dad1cc24ec5c4d41e96027206c0ab9791be81e56889d929535ebdbfcb81",
+    "Assets/Scripts/Player/ArrowShot.cs": "3e073c860eb438a67d30287fb085d7c37d134aff1c29a22982654921184777b0",
+    "Assets/Scripts/Player/BowRig.cs": "1188b4f1654bd2865d1d8b98126f05bd98c3830151f0678b6f36cfd580d2c917",
+    "Assets/Scripts/Player/BuildSystem.cs": "94a90ccfbf4623380541d925184a57fe78c455fc9720eb21d663740923cb8e59",
+    "Assets/Scripts/Player/CharmWear.cs": "5d169dfbd606749484c4acc76af424e49c07b6c1c518f6234dca8b090798ac5c",
+    "Assets/Scripts/Player/Lute.cs": "6fa998c7fad6ebca59f239c1426979bba2440b520a61e11fb6b7c1ea6235a092",
+    "Assets/Scripts/Player/PlayerCamera.cs": "6e0ef4d255949713adae8e3bf1691c89325482961bc014f2a616bae475e24e20",
+    "Assets/Scripts/Player/PlayerCombat.cs": "8db091c322c7b51d342b705a2007982559383748352697abc9738378058b7645",
+    "Assets/Scripts/Player/PlayerController.cs": "b19d8f1ec4b47dd83f483e5b8acca9362eb6a2cb2de3734c583aeb693ffd75af",
+    "Assets/Scripts/Player/PlayerVisual.cs": "cdf02ff9f6899d96857b096e7e8cbac93fc00193eb122dcdc183d25dff458aab",
+    "Assets/Scripts/Player/TorchProp.cs": "8093bdd6e3d359e91f5bea66b5111e1893b707d9eb0151bf0e295c08eaf508fe",
+    "Assets/Scripts/UI/ChangelogScreen.cs": "354b1a49f905617c66e8c601437ae8dae4460dcbeccd4e5654684fa7c084efc2",
+    "Assets/Scripts/UI/GameMenu.cs": "f0870db4edd745519345ff5378f0c2e6be5e2fa9a2daff23b97fa6ff016c23d3",
+    "Assets/Scripts/UI/GameMenuTabs.cs": "0effbfd673b2fda40718f4f77ea4fc5f694f1cefcfc2199d83f2835f60deee34",
+    "Assets/Scripts/UI/HudView.cs": "1906d6288427af4b89a0ffbfbe2ebb6654003e6d8ebcc06b4294a7c6bf3cb777",
+    "Assets/Scripts/UI/ItemSort.cs": "2e0c7d9e85ea842d85e2d5bc134aecc384f0504412d7894cc96fe31d05256570",
+    "Assets/Scripts/UI/JoinScreen.cs": "e20642d35fa8b2c96b9d72c70982b92246693fb28980422c389a107732bfcf7f",
+    "Assets/Scripts/UI/LoadingScreen.cs": "f2c40b9586aaf38e855d5ed6bbed30bed888187e59596424a57dd3ee39ada08a",
+    "Assets/Scripts/UI/Menu.cs": "0b2b28537f0eb86e0c683a5446fe0253c583fcb3053e7a68040aac78694c4a20",
+    "Assets/Scripts/UI/SagaScreens.cs": "ea3a07d8094deb7488fc0e6c8c5d436ae2198af0b9369f1316a1fb5af74a35f6",
+    "Assets/Scripts/UI/Screens.cs": "d759ac2977db808d7c6b1b17c93e78c296bc1a0f0000db09fdd86eddefbb4df6",
+    "Assets/Scripts/UI/SettingsScreen.cs": "507f67659c7436c67ecfa1be58df2a1a99f0fd9eee927292920fb3b1d7d2f4c8",
+    "Assets/Scripts/UI/Stage3D.cs": "5e0dab4b419724aaab33091ec713d321ed201348567c29af246b0421a7b6c1e5",
+    "Assets/Scripts/UI/StorageScreen.cs": "985d6cdc710a6d9a2ed04b5260888c5a850d2c0174fb682e339f53e1c960b30c",
+    "Assets/Scripts/UI/TitleScreens.cs": "e991a2091daa7cac115c600e0d14a27f6ffa00dc3acb6241ff9aeb401136c0ad",
+    "Assets/Scripts/UI/UIKit.cs": "ec1f6f503b5d0a2c4b2e342f56787472ee7daebbdf2d791c811f71d3fb21f4be",
+    "Assets/Scripts/UI/UIRoot.cs": "4b2ca3f7c711ffe03fa51087dcdaaab049bfa25a7160b2d5920f489d5342ffab",
+    "Assets/Scripts/UI/Updater.cs": "1968be56da1499d6ebd74200675042eebcc2c63b1ad8f0c3dad9ecb36185c372",
+    "Assets/Scripts/World/AmbientLife.cs": "6b0e7ca6a491640150a36fe8554cf2ffd0bad7feab0f0b358026e167415accdb",
+    "Assets/Scripts/World/BuildExtras.cs": "550acc39fe4fe16330ad48464b45b7db7d734bbff754f86355f69ecff9d1eea0",
+    "Assets/Scripts/World/Crafting.cs": "4f741f8642f2743bd14c62450164121ccf0845b428006842c057c53c4f4788fe",
+    "Assets/Scripts/World/Crypt.cs": "cbf1cf7b8b8f2295400679739e0bf61fdab9031541e5ca231c43d73a85b76771",
+    "Assets/Scripts/World/DayNight.cs": "ece26fff3c5a493ce7554618dca384ee8424a357921bc56386a11ecd922f4abb",
+    "Assets/Scripts/World/Dropped.cs": "6247ca9c6d8ed88168bc56926f9d6fedb97b8fe1264d706ff58459d677ec558a",
+    "Assets/Scripts/World/Echo.cs": "05dc1f857fb0d6eac40116d52c82f92991f28a1f86cd7e2a0c7cee046255d699",
+    "Assets/Scripts/World/Exploration.cs": "a52b256b56d1f683f7eeedc5994e89b181104e000603ea929b7bfcdc992cae84",
+    "Assets/Scripts/World/Farming.cs": "9f9a444c26e912eed862da7888ae30048696840c30641bbf970b4d562d0ef3c9",
+    "Assets/Scripts/World/Fire.cs": "7759b3ee30f40e1b909f9df8426374dcbc50ad9ad8473c9525b3d1ed816fee65",
+    "Assets/Scripts/World/GaleLock.cs": "f625894bec8c6d8c1e8f0a4bc857f485c6b026a249a72a2b6dcd5b8f3a345ef1",
+    "Assets/Scripts/World/Gathering.cs": "544a1dcb5f9a505ee2e279a5e55c79ad0ffda9f89f336a69cf0414cea33e41ff",
+    "Assets/Scripts/World/GrassField.cs": "67a5452d0aac1ae48c75d65567a560486d4c6d0a3c51063fa2a91434ec445a82",
+    "Assets/Scripts/World/HallvardTrail.cs": "b9cdfd6d87eee213ba5ad491e176809d0d37404da8ec593a983e2797cdfdfe0a",
+    "Assets/Scripts/World/Interactables.cs": "52706b5b84470c20893b406d74a60bc06d1d3e14712f72352859ce7ce516cba8",
+    "Assets/Scripts/World/LootChest.cs": "c5202a95a237f40c4242c37b1a4f3595210dc375cb9ca301699ecdb4f18d7f94",
+    "Assets/Scripts/World/NpcPath.cs": "83c76d2be9919480ebc51188eb758aec514a37fc41f8cf54a417c9f2784e3bd9",
+    "Assets/Scripts/World/Omens.cs": "23015bdff1430223878c0586be13d44214678d88f68dd532d9cb86305a231d3a",
+    "Assets/Scripts/World/Puzzles.cs": "2bc3793662f9c0623e23d42d86ac94d5fe3b9ecbc80d4c1b33407cbd89f2329e",
+    "Assets/Scripts/World/Stations.cs": "c4c98369a84de0f1531a6efc6f11800f31ffc31a684868b3b363aab965d1c634",
+    "Assets/Scripts/World/Trader.cs": "ff6ef30fc573166be4bb154587380987134940979b8a37b5aa5673f2c0e83c6e",
+    "Assets/Scripts/World/Upgrades.cs": "660027b9dadbfead6198beef46ffe333418b944684c4aa2e1f6599987cef0e87",
+    "Assets/Scripts/World/Weather.cs": "c44c1920ac55684430526914e4055319c3cb262958b33e294bb9fdc88f0872ce",
+    "Assets/Scripts/World/WorldBuilder.cs": "247ede2c7e63db5d79f59198a4f6f3dfbfd7c40d5e6e10fb2b338594adb15501",
+    "Assets/Scripts/World/WorldFrontier.cs": "9bbea65460e9e802e3b9f12e55ddc61b2bb5bbb28b1b089d65c3677dc95df297",
+    "Assets/Scripts/World/WorldGen.cs": "3e6d9f57dc5eda6c60432fdc006fbd4a2a14ef79454c9a5479cf94b4f26bc82b",
+    "Assets/Scripts/World/WorldMire.cs": "d0fe48631bf2dc392f1e5ae75e0bc9a96bc73596f46104bd05b5b979738af27a",
+    "Assets/Scripts/World/WorldPOI.cs": "770f1cbd5d54a3889275f2f4c1194157be6b34964cb076df1daa9aa7599f7eaf",
+    "Assets/Scripts/World/WorldStreamer.cs": "a572dc042fe0d83a0e75ab201364f31936bf14dd5c2ab316aee912affb110943",
+    "Assets/Scripts/World/WorldUpgrades.cs": "3d2f2bc5a5bfe3262921767474043e5c71b76fcaa00f5440a5736a0db91c272d",
+    "Assets/Scripts/World/WorldWater.cs": "e084661cc3a15d924324e7f06ef881e8add46b574191e49183beedba47bc7425",
+    "CHANGELOG.md": "f417806b2b980a4ce7efdf4b5b6eca7a58acfa4775887fe2c076d1a88f470841",
+    "Server/FFServer/GameServer.cs": "cae3d33f7fe3d458ee2bdf2bee8a96a804aa94d8248b14fe53c8be8a3a2505d4",
+    "Server/FFServer/Program.cs": "8afcf9db84887c5a03af838e7743f9f08fead07535e476f89638d9e69187462d",
+    "Server/FFServer/ServerConfig.cs": "09297b955f2a2e8769ddd061d55c89a068505ff20158aad603f8c7baf2e0fd24",
+    "Server/SERVER.md": "037d837387801a2e828df65158eb4f4f6d0ef0716edf891117011e6610f5f623",
+    "Screens/ui/v15_coop_hud.png": "5c0a56cde7f837c441168b51ad9ec023f6f4a973b2c41e7a7d36e15d609990c3",
+    "Screens/ui/v14_title.png": "1df16f71ec8fcb5bb7f8fba8f5de099c069ed7f2de3f7756c0c7dcbb0aaf1539",
+    "Screens/wiki/icons/Wood.png": "8af273402bb4e839ff5e2238191f6cf5f6419aa32784938a1fb7f200e3bb0b50",
+    "Screens/wiki/icons/OakWood.png": "c663869c7975d09a77a00d6fa95998f5148fea9c9f66f1afccbe327b1cd48437",
+    "Screens/wiki/icons/Stone.png": "503828ef40f2701c4fa0bc9bd72bbd33c4dea5acc75df4490cc60a35166e805c",
+    "Screens/wiki/icons/Flint.png": "226ba63549b32ac466185cb7f78d5a21b4cafdb379cd2e2c7f6ef6b3a3175970",
+    "Screens/wiki/icons/Iron.png": "0ff439308dedf729f1322c87a4d97806536154c3429e58d57c24d34fb2db6f31",
+    "Screens/wiki/icons/IronBar.png": "7110a57387f995ea986f7bccf3f08b9873233cf69559185fcef9e99e7504e27e",
+    "Screens/wiki/icons/Hide.png": "fcecb19324c119a4cf947c2def1efa5d9f072244e47ec9984171c00d4a538eb3",
+    "Screens/wiki/icons/Leather.png": "4b70dcf406c277a5d62821771a0cd488879e167ee0626428b4b2719c8011ffd5",
+    "Screens/wiki/icons/Tusk.png": "343a5f16c94f55f280b73cf45fbe4698ca3aa63aa2a30ee8d199b481b7eb8501",
+    "Screens/wiki/icons/Resin.png": "31203be52569d09b660097f2588c6854e8ecd49793250fdcd5ee5d4ed1948216",
+    "Screens/wiki/icons/Herb.png": "65d69c2fd12dac1a6ce306fa8e53e9e14979d3f5d7de7cd480dee4bbd8c14df1",
+    "Screens/wiki/icons/Mushroom.png": "7c62e186a7d3f55933c25d7d1edc2778a5072a6a94be528f251904deb5d1d1be",
+    "Screens/wiki/icons/Flax.png": "5400034b8bcd718cc9bcafab4ca9717e8b702170ac8483ecdf31e0b7b4a5ec48",
+    "Screens/wiki/icons/Crystal.png": "6300dc04d0c096a77f92031c561ab3d8cfb30df84ef78ef52a94fa23af8b84ae",
+    "Screens/wiki/icons/Potion.png": "fb190dcee990cc97d9e1ba34b01823b97321322e1bb8de0687c6c0a1b60b218f",
+    "Screens/wiki/icons/Salve.png": "d384bc06f0459fb6105139793442fc26b6a1f0460230d5c1f5c30840f7f1860e",
+    "Screens/wiki/icons/Bandage.png": "2dbd21061445367afdd8aba146bebca0ce44ad4079eed6d3faac154be3199bc5",
+    "Screens/wiki/icons/Heart.png": "28eb98fd73e67e3cfec77e125d180f6b129f646bc79c5f79db6219c21855ac1b",
+    "Screens/wiki/icons/EchoFocus.png": "f5ba497db25d862277062bd29074d1dfe49730fd700d5234660f7b6e4166c624",
+    "Screens/wiki/icons/RawMeat.png": "dba51d5947519ec7fd4612d8061a0bbf7203594be2d92aa2bd07b69d69639e14",
+    "Screens/wiki/icons/CookedMeat.png": "b5fc0552442cc8d8e34682f90e38b3ff7bd577c5ed8648fecd2d032d1d23f60b",
+    "Screens/wiki/icons/Stew.png": "a8c9140439bb1010c7abee24d16432c260a854a8323ab5753428cbd29c92f17d",
+    "Screens/wiki/icons/Barley.png": "6ee5222cb60c386cdf4825a8738d80e94871425bb67de795f24644416ce87d38",
+    "Screens/wiki/icons/Flatbread.png": "0252e8aa721c8995eb9852693d3c6baeb0971b1274d18a2d1ee8f99a95fe008c",
+    "Screens/wiki/icons/Skewer.png": "a9a70cb985641c193d346a16eca51943260612f0e9284401031fa84ce6bc267d",
+    "Screens/wiki/icons/VigorTonic.png": "8e2cd49e20fd9ed1a4b204e3657092ea055e5ede8f641f34937ebabd64769f86",
+    "Screens/wiki/icons/IronbarkBrew.png": "510faf8ba3a670a1b3fbb7c5cd002a7d5639c56c8358c3a10bcc215a97a8e22d",
+    "Screens/wiki/icons/StalkerTrophy.png": "d9827f609e8ca0cd8bdf8d3130a0fe08077d1577c45406a7c0279e50e16f7630",
+    "Screens/wiki/icons/ChargerTrophy.png": "16df3d7f522a3eab3f8cd723d7632796856a0a7bf99460c179b5dcad7b7987ef",
+    "Screens/wiki/icons/Bucket.png": "e545750ce48e91b4691e62e35a0fe4b3b8029a2214f8d793506a0569357ce4c1",
+    "Screens/wiki/icons/WaterBucket.png": "d7d6164bbc19daf1db22dba6f408631d927e7ba95bfba9e89f2f6c17d2c4cbe3",
+    "Screens/wiki/icons/Bone.png": "782c08983514debe70798bc93f196d08eceedb090de8b03b87858125924ca195",
+    "Screens/wiki/icons/GraveIron.png": "7244a2d8aca85467711f240b0e76122bfb9714bf917babcbf5f1175e127d49c4",
+    "Screens/wiki/icons/Antler.png": "4a60426a41e28bae063095bf079f070a8f79672076467a156eb00ac8d78bfc29",
+    "Screens/wiki/icons/Venison.png": "a1a15a851c65a55228436bbb069e5c7afe708a6c59d5e6d5232cd350a1875082",
+    "Screens/wiki/icons/ArrowFlint.png": "09576ec561d849735238d931cfd1d048899588eeb959eca812702664df8a34a7",
+    "Screens/wiki/icons/ArrowBone.png": "d53f6ffcc1effe1f3546e7de1edbbb7cb6f3b7a180ff5881246d4d2011acb1e9",
+    "Screens/wiki/icons/ArrowIron.png": "1d502110cba51f6a5d34688c8845170bdf17f780d0ba2df89cdc288b7a994a20",
+    "Screens/wiki/icons/ArrowFire.png": "5e98ae6d0b34b20ac6ccdd676bc1fa04214c0696d7af320fd9b20830b1ccdba2",
+    "Screens/wiki/icons/GreyhornTrophy.png": "b516903cb781bd2c13976642797626c1091c55c878750d89f24f0d540cc60055",
+    "Screens/wiki/icons/HollowTrophy.png": "e0ac3f53cdb85876a29904e2e6199de3d616c751364bddb5775f7732935417f8",
+    "Screens/wiki/icons/VenisonRoast.png": "e92d79bed08f2d1cfff4d3a8294257a51991277b2986cd38b3f8d45a254c47df",
+    "Screens/wiki/icons/BoneBroth.png": "086038cee42e065fa716e1af27e2b16c5a8e6554b0b6d182963bb9ac3b8eefee",
+    "Screens/wiki/icons/Porridge.png": "da5198bf769c6caf361279b6563f3563519c85bbae8398e09a00c717398a171c",
+    "Screens/wiki/icons/GraveWard.png": "3b64c0bf943ccef71debf364ce6c4a98ecbada49e978cd658104c7290882b1fa",
+    "Screens/wiki/icons/Whetstone.png": "900198d73ad62ac5da193d08f71077329342d1ebe4a288d2859a1725c3eee64a",
+    "Screens/wiki/icons/BoneMeal.png": "c03765e43a7448be3c3a08fa6a7c695b211a293f7eab7cddec8396e452d12f6e",
+    "Screens/wiki/icons/BogBalm.png": "22bbf3f59509093635121cecd52f5fc2dc7aa76506887d94c980d16dac9bf031",
+    "Screens/wiki/icons/WarmingDraught.png": "963998c9a4675c2992a1f0b90676216b8038ef5b1e2ebb6ce210bf44962adc87",
+    "Screens/wiki/icons/gear_axe_flint.png": "acb4b63f0bd3543d47e9fb278e72e77191ec90c4dc94d2b3cb0c36bfd5d8f45f",
+    "Screens/wiki/icons/gear_axe_iron.png": "96ddd623bc654c93288b19678ffe7e254d6c834a3e4316bf93a4590789368c0e",
+    "Screens/wiki/icons/gear_pick_stone.png": "d5eaf4d36380264cd22a4dd316ba46b79fc07a76deb99b3905108579f92f25ad",
+    "Screens/wiki/icons/gear_pick_tusk.png": "33968125cda4944c46522e08deaeba50d838def77f51c91efc8d350e421bc3cc",
+    "Screens/wiki/icons/gear_pick_antler.png": "606a565ce49cc77347a9bb41f38ceca140e404f704464bb92cbb6f44749ec2f3",
+    "Screens/wiki/icons/gear_pick_iron.png": "9dea521271e36a0e791872a81f5299f01fcd007dd8a9c1fac6fb9a3a1e740a24",
+    "Screens/wiki/icons/gear_club.png": "88f56ba3c4894ce280ee1d862b17a470d73b4973586d2ffd192f4e96c998a800",
+    "Screens/wiki/icons/gear_spear_flint.png": "2684c8f99252f5eba9165e028e093228201633880b49fa70de7278d9aecdfb4b",
+    "Screens/wiki/icons/gear_spear_iron.png": "a1ff4615036a9c3e48f0bbdea8531adf4198f45dfe378b3b7edfad8ac26c2feb",
+    "Screens/wiki/icons/gear_blades_iron.png": "bbe7708b9b393e9c4af72b3e955b24a9cf6334baf3761fc649ab10d49b493aa0",
+    "Screens/wiki/icons/gear_mace_iron.png": "eb771965aff6786d0cc19d0d8c56474b3f6528e6581314b00b215f355a14e417",
+    "Screens/wiki/icons/gear_torch.png": "9be26d6394c060f869f01eb724c41730006fae6f08c7d434cacb429135613f6e",
+    "Screens/wiki/icons/gear_bow_hunting.png": "fa31d1dab429d9b37e307a3baec098eb7f8959c43c7a78e54036b07818a4b845",
+    "Screens/wiki/icons/gear_bow_horn.png": "7be73a5b62c4ea6993c420c72eb7ffbb6ae8e230b08b9f819c5d7aa59ce7abb3",
+    "Screens/wiki/icons/gear_lute.png": "1dd17c57602277306eaa93dc99d6b4afc80030bfd9b1aaa7ca670e74ab90341f",
+    "Screens/wiki/icons/gear_bracers.png": "f66f34ab2a719038c9e813c893f8dffc1044ebbd15ec5567d6ae5139be2b74ad",
+    "Screens/wiki/icons/gear_hide_vest.png": "4387320fd5a45f75d4ef39ad30b14daa2fcd612453e2d4aa1af740e4bc9dce47",
+    "Screens/wiki/icons/gear_fur_mantle.png": "444a164fb8b27c89cb5694721c17c88fda2e8047f871dcc4fea49550a0861804",
+    "Screens/wiki/icons/gear_cap_leather.png": "816868af16429420ad0ef36b2d8cb56a24fff557acdb200e1ad5924c7c3b00e5",
+    "Screens/wiki/icons/gear_iron_helm.png": "a10148ffc01b315ff65d8c343182317ae26be8f82aa7fb7caff00b04b0bb6eed",
+    "Screens/wiki/icons/gear_lamellar.png": "e7c69f55b07b2f6f82682da2e89746f78be7b895634b28b8134fb192d9e9bd66",
+    "Screens/wiki/icons/gear_spaulders.png": "6cb5d7e6b8dba92eb34f62a20d3f73f7f732fdc0bc62f2c148531de5875120ca",
+    "Screens/wiki/icons/gear_axe_hallvard.png": "7ff3879ffa13bae09beb0c718c325720a62d9a5e50fd8831ad6b53e1942bc027",
+    "Screens/wiki/icons/gear_charm_fang.png": "06621699ba6b8d091530ead57b6d80d99bff714b638d9e3e1e8ce139e0c1d794",
+    "Screens/wiki/icons/gear_charm_tusk.png": "f817079836f1971e15b8eaf4f5069eed0f3d9f9b38d49ce039e02a759ef676d1",
+    "Screens/wiki/icons/gear_charm_hearth.png": "41f135c86a973a1b05e3eedc0e8c54eac5a8fce06e7337b462479ebfb2208c76",
+    "Screens/wiki/icons/gear_charm_sigil.png": "b87ffdcc75220dd91ef2bd55273f747c5451f494e993395de030462db887d734",
+    "Screens/wiki/icons/gear_charm_grave.png": "e2060c3e15421dd8cb77dd406ac821e6ee1e2c68bcf1da2ec08ed12ac0234f11",
+    "Screens/wiki/icons/gear_charm_stag.png": "69da9dfc9c868fcb8bbf291378d1d5e7aaf919cc77c9ce33c7b556d96984ced2",
+    "Screens/wiki/icons/RelicEmber.png": "583b6b04db40df7f084cc8a97d5005be10598c3f162ab0a9ee57d4ee08e9acef",
+    "Screens/wiki/icons/Attunement.png": "5d751de85df0944f10054a241349f0a7fd7c0337cef327121d42ac56b1668491",
+    "Screens/wiki/homestead-v016.webp": "52a09a4621cf7dbf31713c0cfd9aacdaebd46e360177be496a0838dae38da730",
+    "Screens/wiki/birchwood-v016.webp": "b66dc3d3a576de22a365084d2eace0a4c12ea8bb2a6e22f7a2b0ba6d5d86f278",
+    "Screens/wiki/elderwood-v016.webp": "38876b823248a67c36c6f82a9f8cbf8d6438b8272b6f20202fba465b02d42f27",
+    "Screens/wiki/mire-v016.webp": "22923a575ab8ff3dc7ce13915032d95aa22ee6f10e54c7f755856eaeca1c5688",
+    "Screens/wiki/highlands-v016.webp": "9235856d47ee55f2a1554ceb9e04ca64cbd60ec4c181a3bd021288ffa4375b93",
+    "Screens/wiki/ruins-v016.webp": "a44c973f8d69b5a236016666a5ff1a3bfb23c02ab54c31c12d66fc49d362cd54",
+    "Screens/wiki/courtyard-v016.webp": "91a9ea6c015087a3212afb89cf47b984888b41ea284d0f0a3bf8265aa60e3f7b",
+    "Screens/wiki/stations-v016.webp": "de71c1a24f23dc31e601614ffe737bae47de3267910522384d87f3ac93951549",
+    "Screens/wiki/inventory-v016.webp": "02995cff1604b301f3884f0aac8d4b67888bcf276ac47762abfb67420e85c2da",
+    "Screens/wiki/crafting-v016.webp": "520c26db47d3e2a24eade5b447293369ab0f1b3adced8efe3733eddfa1187150",
+    "Screens/wiki/torchlight-v016.webp": "8623022335aeb29bf8181777eb03b6a190dafb062eaf17d03176108a8ca1fc5a",
+    "Screens/wiki/stalker-v016.webp": "65a6044b7f17690f6caa83af14d40f69e92d0665f0c09d21fde87f8a2fc9d791",
+    "Screens/wiki/charger-v016.webp": "bdff11fe6308fde06ec21b0fabc818c3218053273012689354133b834179d6e3",
+    "Screens/wiki/hollow-v016.webp": "2ae325dd3f59cc2719250b642e579373e9b31f3d0811fc6ba98f153b1852b614",
+    "Screens/wiki/greyhorn-v016.webp": "8ff074ad02afe3d56730f6ae29f2ef0b22df627b5d3f244b2af2a29f3f1d9d73",
+    "Screens/wiki/spider-v016.webp": "0f4418c5d2555d22d091e2cb4606d3ada6c6d2189e0c64d1249e36350da58a66",
+    "Screens/wiki/guardian-v016.webp": "731a722890e0c65fe5803dfff3acd2e0bcc7b61abaa34fd4abfb37e0d55ca513",
+    "Screens/wiki/icons/site_emblem.png": "e53c6b1e664b75886712b22acee4c73768abf1e3b1c86c8ebf40064b9dcfec70",
+    "Screens/wiki/icons/build_Workbench.png": "80578114b749b7bbc61da6d60d84418efb2b876d986b506cf831527cc0a60bc7",
+    "Screens/wiki/icons/build_Herbalist's Table.png": "99daf1c22f95e6a4937d45e9ad295114eaed4c09f8e180729e5bdb27bd9ee8b0",
+    "Screens/wiki/icons/build_Forge.png": "190ef30cfa1407a6bf214d3d3cd1bd8182ee7fbe2804d4e9b5876a2894cc4bae",
+    "Screens/wiki/icons/build_Stonecutter.png": "b1daa8b6cca990713556853d276192ce3905e82976f37b7e7eab0ad893289605",
+    "Screens/wiki/icons/build_Tanning Rack.png": "684de1b9ec270c7f4ea3cf5b3778a0bcd32be178814fd64c0c4a35cf07c6f2bb",
+    "Screens/wiki/icons/build_Bloomery.png": "e651b18a3d4b5cb65407362e24cc7ab292362e61c1f663d09afa8bbf27220347",
+    "Screens/wiki/icons/build_Campfire.png": "5e53f2c2fff26d70d6467b6415d8acf59842b2fdfe6660895dc57879a42fde8b",
+    "Screens/wiki/thumbnails/stalker.webp": "3cc8bcf86ca4db50e6f2d49cbce74ce680ed0bc8d3a88a3e2c6548b6c3063a8b",
+    "Screens/wiki/thumbnails/charger.webp": "082477aa2c630bd608faf30e5ce1f119ffee88f10269ebed245b9b68a4a02da6",
+    "Screens/wiki/thumbnails/hollow.webp": "5af3baf706d71e99393e5c78f352f9afce11af11be4b640b8f8fea7ef802c3c8",
+    "Screens/wiki/thumbnails/greyhorn.webp": "ae81af193433df2fe355afb9c79cfb8caf460421820a6fd29c76d9ed98959ffa",
+    "Screens/wiki/thumbnails/spider.webp": "856c98ecb55daa0ad429b0a1cefe8ff79c2d4886fd200886899f1e188aec6196",
+    "Screens/wiki/thumbnails/guardian.webp": "e9f8a4d4ebea77b90408ba78aceea56891b1c395c63b3df373e243696be396f5",
+    "Screens/wiki/icons/Silver.png": "1612b988b55b5e6a0fe092463afc75db96cf8d73b8917a8fef9a104fbc3bbd47",
+    "Screens/wiki/icons/Cloudberry.png": "0e091f69aa48f82d0829296451b2b66334e74488506e7fd372b3d4e74b7d31cc",
+    "Screens/wiki/icons/SpiderSilk.png": "87338cde63de055d6895c4d472e66760d77515095f990aa0b8ef77abeaa45e41",
+    "Screens/wiki/icons/FrostLichen.png": "c6c9102db85fc478f99191531c4c3b8f70f6c0f3a2d8329ec45aed23c54767a4",
+    "Screens/wiki/icons/Amber.png": "e0a32db4a13ca08f350c670079956bc14756e0c27e818b6568d1149f571f8bfd",
+    "Screens/wiki/icons/CloudberryTart.png": "641ea10269716cd4908b8f61f768a4c3a25e98be8d4b04730ce91029dd574377",
+    "Screens/wiki/icons/SilkBandage.png": "80821c7041a1ff994973abdaed7f458a528917162afa58fa96e27a1186dd4f03",
+    "Screens/wiki/icons/gear_charm_amber.png": "c176b19c7627a41c6fd91d1a44acfd0b9c4c1499038301e63ad83e6714dee8c7",
+    "Screens/wiki/build-v017.webp": "5c666780522d5ce5b16533108154ab48434a68a9061b3bcb2c645729d5b4bd5f",
+    "Screens/wiki/trader-v017.webp": "30d61dc90266966190a07d5f634213945f69882c917cba8125f54cdaaa7667e1",
+    "Screens/wiki/inventory-v017.webp": "07c456d90afc088006d6e0a7437f5f17a15b2163623fb79e7f6507b357db369c",
+    "Screens/wiki/guard-v017.webp": "646495336f15197c649f21a6ab22f0206d4be9253a31c1eafb81e254d8758f58",
+    "Screens/wiki/shimmer-v017.webp": "2e41f1fb0a7f0eac50dd9d5121cb751cf068be747df84edf786ae1076d9dbe19",
+    "Screens/wiki/firepath-v017.webp": "776370323210f745c89946f2691d914ea98e30da6a94ea434fc60d1750b425f6",
+    "Screens/wiki/forage-v017.webp": "b99e82c4c1691dbaf35312c6bdd4fa41a3ae1646e09af59f0f2cbbb24d89e975",
+    "Screens/wiki/birchwood-detail-v017.webp": "89dbce6b7a503315773476cb31fa62949f3005a114b336ed7b9da48b14323526"
+  },
+  "entities": [
+    {
+      "id": "item:Wood",
+      "kind": "item",
+      "key": "Wood",
+      "name": "Wood",
+      "description": "Split birch and pine. Walls, floors, fuel and the hafts of tools.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/wood",
+      "image": "/images/icons/wood.png"
+    },
+    {
+      "id": "item:OakWood",
+      "kind": "item",
+      "key": "OakWood",
+      "name": "Oak Wood",
+      "description": "Dense, pale-hearted oak. Too hard for flint - but it makes the best hafts and beams.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/oak-wood",
+      "image": "/images/icons/oakwood.png"
+    },
+    {
+      "id": "item:Stone",
+      "kind": "item",
+      "key": "Stone",
+      "name": "Stone",
+      "description": "Grey fieldstone, knocked loose from boulders.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/stone",
+      "image": "/images/icons/stone.png"
+    },
+    {
+      "id": "item:Flint",
+      "kind": "item",
+      "key": "Flint",
+      "name": "Flint",
+      "description": "A glassy nodule with a chalky rind. Knapped, it takes an edge sharp enough to cut wood.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/flint",
+      "image": "/images/icons/flint.png"
+    },
+    {
+      "id": "item:Iron",
+      "kind": "item",
+      "key": "Iron",
+      "name": "Iron Ore",
+      "description": "Rust-veined ore broken from the orange seams in the rocks. Useless until it is smelted.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/iron",
+      "image": "/images/icons/iron.png"
+    },
+    {
+      "id": "item:IronBar",
+      "kind": "item",
+      "key": "IronBar",
+      "name": "Iron Bar",
+      "description": "A bloom of iron, hammered into a bar. Ready for the forge.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/iron-bar",
+      "image": "/images/icons/ironbar.png"
+    },
+    {
+      "id": "item:Hide",
+      "kind": "item",
+      "key": "Hide",
+      "name": "Raw Hide",
+      "description": "A raw pelt. It will stiffen and rot unless it is cured.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/hide",
+      "image": "/images/icons/hide.png"
+    },
+    {
+      "id": "item:Leather",
+      "kind": "item",
+      "key": "Leather",
+      "name": "Leather",
+      "description": "Cured, supple leather. Straps, grips, armour.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/leather",
+      "image": "/images/icons/leather.png"
+    },
+    {
+      "id": "item:Tusk",
+      "kind": "item",
+      "key": "Tusk",
+      "name": "Charger Tusk",
+      "description": "A curved, heavy tusk from a Charger. Hard enough to bite into ore.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/tusk",
+      "image": "/images/icons/tusk.png"
+    },
+    {
+      "id": "item:Resin",
+      "kind": "item",
+      "key": "Resin",
+      "name": "Pine Resin",
+      "description": "Sticky amber gum that weeps from felled pines. It seals wounds and burns well.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/resin",
+      "image": "/images/icons/resin.png"
+    },
+    {
+      "id": "item:Herb",
+      "kind": "item",
+      "key": "Herb",
+      "name": "Moonpetal",
+      "description": "Pale moonpetals from beneath the forest canopy. Bitter, cooling, cleansing.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/herb",
+      "image": "/images/icons/herb.png"
+    },
+    {
+      "id": "item:Mushroom",
+      "kind": "item",
+      "key": "Mushroom",
+      "name": "Redcap",
+      "description": "A red-capped mushroom that grows in deep shade. Warming; it thickens the blood.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/mushroom",
+      "image": "/images/icons/mushroom.png"
+    },
+    {
+      "id": "item:Flax",
+      "kind": "item",
+      "key": "Flax",
+      "name": "Flax",
+      "description": "Blue-flowered flax from the meadows. Its fibres spin into cord and linen.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/flax",
+      "image": "/images/icons/flax.png"
+    },
+    {
+      "id": "item:Crystal",
+      "kind": "item",
+      "key": "Crystal",
+      "name": "Echo Crystal",
+      "description": "A shard that hums with the memory of the old world. The Echo stones answer to it.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/crystal",
+      "image": "/images/icons/crystal.png"
+    },
+    {
+      "id": "item:Potion",
+      "kind": "item",
+      "key": "Potion",
+      "name": "Healing Draught",
+      "description": "A thick red draught. Restores 40 health. One every 30 seconds.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/potion",
+      "image": "/images/icons/potion.png"
+    },
+    {
+      "id": "item:Salve",
+      "kind": "item",
+      "key": "Salve",
+      "name": "Wound Salve",
+      "description": "A green, cooling salve of moonpetal bound in pine resin. It draws out rot.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/salve",
+      "image": "/images/icons/salve.png"
+    },
+    {
+      "id": "item:Bandage",
+      "kind": "item",
+      "key": "Bandage",
+      "name": "Linen Bandage",
+      "description": "Clean linen strips, rolled tight.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/bandage",
+      "image": "/images/icons/bandage.png"
+    },
+    {
+      "id": "item:Heart",
+      "kind": "item",
+      "key": "Heart",
+      "name": "Guardian's Heart",
+      "description": "Still warm. The stone heart of the Ancient Guardian pulses with captured light.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/heart",
+      "image": "/images/icons/heart.png"
+    },
+    {
+      "id": "item:EchoFocus",
+      "kind": "item",
+      "key": "EchoFocus",
+      "name": "Echo Focus",
+      "description": "Two echo crystals caged in forged iron and bound with leather. Old shrines will pour what they keep into it.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/echo-focus",
+      "image": "/images/icons/echofocus.png"
+    },
+    {
+      "id": "item:RawMeat",
+      "kind": "item",
+      "key": "RawMeat",
+      "name": "Raw Meat",
+      "description": "Lean, dark meat from a wild creature. Cook it at a fire before you eat it.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/raw-meat",
+      "image": "/images/icons/rawmeat.png"
+    },
+    {
+      "id": "item:CookedMeat",
+      "kind": "item",
+      "key": "CookedMeat",
+      "name": "Grilled Meat",
+      "description": "Meat seared over the fire. Eaten, it keeps you going: more stamina, faster breath and slow healing for six minutes.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/cooked-meat",
+      "image": "/images/icons/cookedmeat.png"
+    },
+    {
+      "id": "item:Stew",
+      "kind": "item",
+      "key": "Stew",
+      "name": "Hunter's Stew",
+      "description": "Meat, redcaps and moonpetal simmered for hours. A full belly for ten minutes: much more stamina, steady healing.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/stew",
+      "image": "/images/icons/stew.png"
+    },
+    {
+      "id": "item:Barley",
+      "kind": "item",
+      "key": "Barley",
+      "name": "Barley",
+      "description": "Bearded heads of wild barley from the open meadows. Ground on a flat stone it makes bread; it also sprouts in a garden bed.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/barley",
+      "image": "/images/icons/barley.png"
+    },
+    {
+      "id": "item:Flatbread",
+      "kind": "item",
+      "key": "Flatbread",
+      "name": "Barley Flatbread",
+      "description": "Barley flatbread baked on a hot stone. Plain, filling, long-lasting: more stamina and slow healing for eight minutes.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/flatbread",
+      "image": "/images/icons/flatbread.png"
+    },
+    {
+      "id": "item:Skewer",
+      "kind": "item",
+      "key": "Skewer",
+      "name": "Redcap Skewer",
+      "description": "Redcaps threaded on a green stick and charred over the coals. A quick bite: a little more stamina for four minutes.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/skewer",
+      "image": "/images/icons/skewer.png"
+    },
+    {
+      "id": "item:VigorTonic",
+      "kind": "item",
+      "key": "VigorTonic",
+      "name": "Vigor Tonic",
+      "description": "Moonpetal and redcap steeped in sour barley water. Drink it and your breath comes back half again as fast for three minutes.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/vigor-tonic",
+      "image": "/images/icons/vigortonic.png"
+    },
+    {
+      "id": "item:IronbarkBrew",
+      "kind": "item",
+      "key": "IronbarkBrew",
+      "name": "Ironbark Brew",
+      "description": "A bitter, black brew of oak shavings and pine resin. The skin tightens like bark: a quarter less damage for two and a half minutes.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/ironbark-brew",
+      "image": "/images/icons/ironbarkbrew.png"
+    },
+    {
+      "id": "item:StalkerTrophy",
+      "kind": "item",
+      "key": "StalkerTrophy",
+      "name": "Stalker Trophy",
+      "description": "The scarred head of a Stalker that was more than it should have been. Hunters of old wore their fangs.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/stalker-trophy",
+      "image": "/images/icons/stalkertrophy.png"
+    },
+    {
+      "id": "item:ChargerTrophy",
+      "kind": "item",
+      "key": "ChargerTrophy",
+      "name": "Charger Trophy",
+      "description": "The great tusked skull of an elite Charger. Bound to oak it makes a totem that hits like the beast did.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/charger-trophy",
+      "image": "/images/icons/chargertrophy.png"
+    },
+    {
+      "id": "item:Bucket",
+      "kind": "item",
+      "key": "Bucket",
+      "name": "Bucket",
+      "description": "Staves of split pine in a leather band, sealed with resin. Wade into water (or draw from a well) to fill it.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/bucket",
+      "image": "/images/icons/bucket.png"
+    },
+    {
+      "id": "item:WaterBucket",
+      "kind": "item",
+      "key": "WaterBucket",
+      "name": "Bucket of Water",
+      "description": "A bucket of clear water. A freshly planted garden bed needs one before it will grow (rain does it for you).",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/water-bucket",
+      "image": "/images/icons/waterbucket.png"
+    },
+    {
+      "id": "item:Bone",
+      "kind": "item",
+      "key": "Bone",
+      "name": "Bone",
+      "description": "Grey, dry bones from the barrow dead. Ground, they feed a garden; carved, they tip arrows; boiled, they make a broth.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/bone",
+      "image": "/images/icons/bone.png"
+    },
+    {
+      "id": "item:GraveIron",
+      "kind": "item",
+      "key": "GraveIron",
+      "name": "Grave Iron",
+      "description": "Rusted scraps of the grave goods the Hollows were buried with. The bloomery smelts two of them into a bar.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/grave-iron",
+      "image": "/images/icons/graveiron.png"
+    },
+    {
+      "id": "item:Antler",
+      "kind": "item",
+      "key": "Antler",
+      "name": "Greyhorn Antler",
+      "description": "A tine from a Greyhorn's broad antler. Hard, springy and lighter than iron: picks and horn bows.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/antler",
+      "image": "/images/icons/antler.png"
+    },
+    {
+      "id": "item:Venison",
+      "kind": "item",
+      "key": "Venison",
+      "name": "Raw Venison",
+      "description": "A dark haunch of Greyhorn venison. Roast it at a fire.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/venison",
+      "image": "/images/icons/venison.png"
+    },
+    {
+      "id": "item:ArrowFlint",
+      "kind": "item",
+      "key": "ArrowFlint",
+      "name": "Flint Arrows",
+      "description": "Ash shafts with knapped flint heads and grey fletching. Loosed from any bow.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/arrow-flint",
+      "image": "/images/icons/arrowflint.png"
+    },
+    {
+      "id": "item:ArrowBone",
+      "kind": "item",
+      "key": "ArrowBone",
+      "name": "Bone Arrows",
+      "description": "Barbed bone points: they bite deeper and stagger harder than flint.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/arrow-bone",
+      "image": "/images/icons/arrowbone.png"
+    },
+    {
+      "id": "item:ArrowIron",
+      "kind": "item",
+      "key": "ArrowIron",
+      "name": "Iron Arrows",
+      "description": "Forged bodkins. They punch through hide and old iron alike.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/arrow-iron",
+      "image": "/images/icons/arrowiron.png"
+    },
+    {
+      "id": "item:ArrowFire",
+      "kind": "item",
+      "key": "ArrowFire",
+      "name": "Fire Arrows",
+      "description": "A resin-soaked rag behind a small iron point. Whatever it strikes catches fire.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/arrow-fire",
+      "image": "/images/icons/arrowfire.png"
+    },
+    {
+      "id": "item:GreyhornTrophy",
+      "kind": "item",
+      "key": "GreyhornTrophy",
+      "name": "Greyhorn Trophy",
+      "description": "The antlered head of a Greyhorn bull that would not run. Its strength goes into a charm of quick feet.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/greyhorn-trophy",
+      "image": "/images/icons/greyhorntrophy.png"
+    },
+    {
+      "id": "item:HollowTrophy",
+      "kind": "item",
+      "key": "HollowTrophy",
+      "name": "Hollow Trophy",
+      "description": "A rusted helm on a grinning skull; the cold light still moves in the sockets. Bound in a charm, it wards off grave rot.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/hollow-trophy",
+      "image": "/images/icons/hollowtrophy.png"
+    },
+    {
+      "id": "item:VenisonRoast",
+      "kind": "item",
+      "key": "VenisonRoast",
+      "name": "Venison Roast",
+      "description": "Venison roasted with moonpetal over the coals. A great deal more stamina and good healing (12 min).",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/venison-roast",
+      "image": "/images/icons/venisonroast.png"
+    },
+    {
+      "id": "item:BoneBroth",
+      "kind": "item",
+      "key": "BoneBroth",
+      "name": "Bone Broth",
+      "description": "Bones simmered for a day with redcap and moonpetal. Warms you through: the fastest healing of any meal (9 min).",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/bone-broth",
+      "image": "/images/icons/bonebroth.png"
+    },
+    {
+      "id": "item:Porridge",
+      "kind": "item",
+      "key": "Porridge",
+      "name": "Barley Porridge",
+      "description": "Barley boiled thick with a few redcaps. Plain and filling: more stamina and slow healing (10 min).",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/porridge",
+      "image": "/images/icons/porridge.png"
+    },
+    {
+      "id": "item:GraveWard",
+      "kind": "item",
+      "key": "GraveWard",
+      "name": "Grave Ward",
+      "description": "A pale draught of bone ash, moonpetal and resin. For four minutes grave rot cannot take hold of you, and the dead hit you a quarter less hard.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/grave-ward",
+      "image": "/images/icons/graveward.png"
+    },
+    {
+      "id": "item:Whetstone",
+      "kind": "item",
+      "key": "Whetstone",
+      "name": "Whetstone",
+      "description": "A fine-grained stone. Hone the weapon in your hand: +15% damage for five minutes.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/whetstone",
+      "image": "/images/icons/whetstone.png"
+    },
+    {
+      "id": "item:BoneMeal",
+      "kind": "item",
+      "key": "BoneMeal",
+      "name": "Bone Meal",
+      "description": "Bones ground to a pale meal at the stonecutter's quern. Worked into a garden bed, it brings the crop up in half the time.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/bone-meal",
+      "image": "/images/icons/bonemeal.png"
+    },
+    {
+      "id": "item:BogBalm",
+      "kind": "item",
+      "key": "BogBalm",
+      "name": "Bogwalker's Balm",
+      "description": "A sharp-smelling balm of moonpetal, resin and flax oil, rubbed into the skin. For six minutes the Mire's webs slide off you and spider venom cannot take hold.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/bog-balm",
+      "image": "/images/icons/bogbalm.png"
+    },
+    {
+      "id": "item:WarmingDraught",
+      "kind": "item",
+      "key": "WarmingDraught",
+      "name": "Warming Draught",
+      "description": "Redcaps boiled down with resin and moonpetal until it burns going down. For six minutes the Highland cold cannot reach you.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/warming-draught",
+      "image": "/images/icons/warmingdraught.png"
+    },
+    {
+      "id": "item:Silver",
+      "kind": "item",
+      "key": "Silver",
+      "name": "Silver",
+      "description": "Hacksilver: cut coins, rings and bits of chain, weighed rather than counted. The trader takes it, and pays in it.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/silver",
+      "image": "/images/icons/silver.png"
+    },
+    {
+      "id": "item:Cloudberry",
+      "kind": "item",
+      "key": "Cloudberry",
+      "name": "Cloudberries",
+      "description": "Amber berries from the low bushes of Birchwood, sweet and sharp. Nowhere else in the Vale do they ripen.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/cloudberry",
+      "image": "/images/icons/cloudberry.png"
+    },
+    {
+      "id": "item:SpiderSilk",
+      "kind": "item",
+      "key": "SpiderSilk",
+      "name": "Spider Silk",
+      "description": "Pale, strong silk from the nests of the Mire spiders. Finer than flax, and it never rots.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/spider-silk",
+      "image": "/images/icons/spidersilk.png"
+    },
+    {
+      "id": "item:FrostLichen",
+      "kind": "item",
+      "key": "FrostLichen",
+      "name": "Frost Lichen",
+      "description": "A grey-blue crust that grows only on the frozen Highland rocks. Chewed, it numbs; brewed, it warms.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/frost-lichen",
+      "image": "/images/icons/frostlichen.png"
+    },
+    {
+      "id": "item:Amber",
+      "kind": "item",
+      "key": "Amber",
+      "name": "Amber",
+      "description": "Old resin turned to stone, prised from the roots of the great Elderwood oaks. Warm to the touch, and something hums inside.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/amber",
+      "image": "/images/icons/amber.png"
+    },
+    {
+      "id": "item:CloudberryTart",
+      "kind": "item",
+      "key": "CloudberryTart",
+      "name": "Cloudberry Tart",
+      "description": "Cloudberries baked into barley dough. Sweet and quick: more stamina and the fastest breath of any meal (8 min).",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/cloudberry-tart",
+      "image": "/images/icons/cloudberrytart.png"
+    },
+    {
+      "id": "item:SilkBandage",
+      "kind": "item",
+      "key": "SilkBandage",
+      "name": "Silk Bandage",
+      "description": "Spider silk woven tight with moonpetal. Wrapped round a wound it stops the bleeding at once: 60 health over a few seconds.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/silk-bandage",
+      "image": "/images/icons/silkbandage.png"
+    },
+    {
+      "id": "gear:axe_flint",
+      "kind": "gear",
+      "key": "axe_flint",
+      "name": "Flint Axe",
+      "description": "A knapped flint wedge lashed into a split haft. It bites birch and pine.",
+      "gearKind": "Axe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Flint",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 9,
+        "chop": 14,
+        "mine": 0,
+        "speed": 0.85,
+        "armor": 0,
+        "poise": 1,
+        "durability": 130
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/axe-flint",
+      "image": "/images/icons/gear-axe-flint.png"
+    },
+    {
+      "id": "gear:axe_iron",
+      "kind": "gear",
+      "key": "axe_iron",
+      "name": "Iron Axe",
+      "description": "A bearded iron axe. Heavy enough for old oak.",
+      "gearKind": "Axe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 16,
+        "chop": 26,
+        "mine": 0,
+        "speed": 0.9,
+        "armor": 0,
+        "poise": 1,
+        "durability": 320
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/axe-iron",
+      "image": "/images/icons/gear-axe-iron.png"
+    },
+    {
+      "id": "gear:pick_stone",
+      "kind": "gear",
+      "key": "pick_stone",
+      "name": "Stone Pickaxe",
+      "description": "A pointed stone bound to a haft. It breaks fieldstone, but iron seams turn it aside.",
+      "gearKind": "Pickaxe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Stone",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 8,
+        "chop": 0,
+        "mine": 12,
+        "speed": 0.8,
+        "armor": 0,
+        "poise": 1,
+        "durability": 130
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/pick-stone",
+      "image": "/images/icons/gear-pick-stone.png"
+    },
+    {
+      "id": "gear:pick_tusk",
+      "kind": "gear",
+      "key": "pick_tusk",
+      "name": "Tusk Pickaxe",
+      "description": "A Charger's tusk lashed to a haft. Hard enough to bite into iron ore.",
+      "gearKind": "Pickaxe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Tusk",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 10,
+        "chop": 0,
+        "mine": 17,
+        "speed": 0.82,
+        "armor": 0,
+        "poise": 1,
+        "durability": 240
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/pick-tusk",
+      "image": "/images/icons/gear-pick-tusk.png"
+    },
+    {
+      "id": "gear:pick_antler",
+      "kind": "gear",
+      "key": "pick_antler",
+      "name": "Antler Pickaxe",
+      "description": "A Greyhorn tine lashed across an ash haft. Lighter than tusk and quicker in the hand; it bites iron ore.",
+      "gearKind": "Pickaxe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Antler",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 11,
+        "chop": 0,
+        "mine": 19,
+        "speed": 0.86,
+        "armor": 0,
+        "poise": 1,
+        "durability": 260
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/pick-antler",
+      "image": "/images/icons/gear-pick-antler.png"
+    },
+    {
+      "id": "gear:pick_iron",
+      "kind": "gear",
+      "key": "pick_iron",
+      "name": "Iron Pickaxe",
+      "description": "A forged pick. It splits anything - even the humming echo crystals.",
+      "gearKind": "Pickaxe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 3,
+        "damage": 13,
+        "chop": 0,
+        "mine": 27,
+        "speed": 0.86,
+        "armor": 0,
+        "poise": 1,
+        "durability": 380
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/pick-iron",
+      "image": "/images/icons/gear-pick-iron.png"
+    },
+    {
+      "id": "gear:club",
+      "kind": "gear",
+      "key": "club",
+      "name": "Wooden Club",
+      "description": "A knotted length of hardwood. Crude, but it staggers.",
+      "gearKind": "Club",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Wood",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 14,
+        "chop": 0,
+        "mine": 0,
+        "speed": 0.78,
+        "armor": 0,
+        "poise": 1.5,
+        "durability": 110
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/club",
+      "image": "/images/icons/gear-club.png"
+    },
+    {
+      "id": "gear:spear_flint",
+      "kind": "gear",
+      "key": "spear_flint",
+      "name": "Flint Spear",
+      "description": "An ash shaft with a knapped flint point. Reach keeps the teeth away.",
+      "gearKind": "Spear",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Flint",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 12,
+        "chop": 0,
+        "mine": 0,
+        "speed": 0.95,
+        "armor": 0,
+        "poise": 1,
+        "durability": 150
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/spear-flint",
+      "image": "/images/icons/gear-spear-flint.png"
+    },
+    {
+      "id": "gear:spear_iron",
+      "kind": "gear",
+      "key": "spear_iron",
+      "name": "Iron Spear",
+      "description": "A leaf-bladed iron spear. Precise, long, unforgiving.",
+      "gearKind": "Spear",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 19,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 320
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/spear-iron",
+      "image": "/images/icons/gear-spear-iron.png"
+    },
+    {
+      "id": "gear:blades_iron",
+      "kind": "gear",
+      "key": "blades_iron",
+      "name": "Iron Blades",
+      "description": "A pair of short seax blades. Fast, evasive - and cruel from behind.",
+      "gearKind": "Blades",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 8.5,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1.25,
+        "armor": 0,
+        "poise": 0.8,
+        "durability": 300
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/blades-iron",
+      "image": "/images/icons/gear-blades-iron.png"
+    },
+    {
+      "id": "gear:mace_iron",
+      "kind": "gear",
+      "key": "mace_iron",
+      "name": "Iron Mace",
+      "description": "Six iron flanges round an oak haft. It does not cut; it breaks. Shields, helms and the dead all fold under it.",
+      "gearKind": "Club",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 23,
+        "chop": 0,
+        "mine": 0,
+        "speed": 0.8,
+        "armor": 0,
+        "poise": 1.9,
+        "durability": 340
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/mace-iron",
+      "image": "/images/icons/gear-mace-iron.png"
+    },
+    {
+      "id": "gear:torch",
+      "kind": "gear",
+      "key": "torch",
+      "name": "Torch",
+      "description": "A stick with resin-soaked linen bound round the head. Held, it lights the dark around you for nine minutes or so, and a blow with it sets creatures alight. Burned out, rekindle it at a workbench (repair) or make another.",
+      "gearKind": "Club",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Wood",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 6,
+        "chop": 0,
+        "mine": 0,
+        "speed": 0.92,
+        "armor": 0,
+        "poise": 0.7,
+        "durability": 140
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/torch",
+      "image": "/images/icons/gear-torch.png"
+    },
+    {
+      "id": "gear:bow_hunting",
+      "kind": "gear",
+      "key": "bow_hunting",
+      "name": "Hunting Bow",
+      "description": "A plain flatbow of split ash with a linen string. Hold to draw, release to loose; a full draw flies far and hits hard. A click looses a quick, weak shot.",
+      "gearKind": "Bow",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Wood",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 13,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 0.8,
+        "durability": 160
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/bow-hunting",
+      "image": "/images/icons/gear-bow-hunting.png"
+    },
+    {
+      "id": "gear:bow_horn",
+      "kind": "gear",
+      "key": "bow_horn",
+      "name": "Horn Bow",
+      "description": "A short recurve of oak backed with Greyhorn antler and sinew. It draws quicker and casts an arrow twice as hard.",
+      "gearKind": "Bow",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Antler",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 21,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1.12,
+        "armor": 0,
+        "poise": 1,
+        "durability": 300
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/bow-horn",
+      "image": "/images/icons/gear-bow-horn.png"
+    },
+    {
+      "id": "gear:lute",
+      "kind": "gear",
+      "key": "lute",
+      "name": "Lute",
+      "description": "A round-backed lute of oak staves with flax-gut strings. Take it in hand to play: real notes, and loops you can layer. Music by the fire rests whoever hears it.",
+      "gearKind": "Instrument",
+      "upgradable": false,
+      "slot": "MainHand",
+      "material": "OakWood",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 500
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/lute",
+      "image": "/images/icons/gear-lute.png"
+    },
+    {
+      "id": "gear:bracers",
+      "kind": "gear",
+      "key": "bracers",
+      "name": "Leather Bracers",
+      "description": "Laced leather guards for the forearms.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Arms",
+      "material": "Leather",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 3,
+        "poise": 1,
+        "durability": 120
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/bracers",
+      "image": "/images/icons/gear-bracers.png"
+    },
+    {
+      "id": "gear:hide_vest",
+      "kind": "gear",
+      "key": "hide_vest",
+      "name": "Hide Vest",
+      "description": "Layered hide and leather over the tunic.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Chest",
+      "material": "Leather",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 7,
+        "poise": 1,
+        "durability": 150
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/hide-vest",
+      "image": "/images/icons/gear-hide-vest.png"
+    },
+    {
+      "id": "gear:fur_mantle",
+      "kind": "gear",
+      "key": "fur_mantle",
+      "name": "Fur Mantle",
+      "description": "A shaggy mantle. Warm, and it turns a claw.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Shoulders",
+      "material": "Hide",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 4,
+        "poise": 1,
+        "durability": 120
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/fur-mantle",
+      "image": "/images/icons/gear-fur-mantle.png"
+    },
+    {
+      "id": "gear:cap_leather",
+      "kind": "gear",
+      "key": "cap_leather",
+      "name": "Leather Cap",
+      "description": "A stitched leather cap with a fur trim and ear flaps. Warm, and better than a bare head.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Head",
+      "material": "Leather",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 3,
+        "poise": 1,
+        "durability": 120
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/cap-leather",
+      "image": "/images/icons/gear-cap-leather.png"
+    },
+    {
+      "id": "gear:iron_helm",
+      "kind": "gear",
+      "key": "iron_helm",
+      "name": "Iron Helm",
+      "description": "A spectacle helm with a mail aventail.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Head",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 7,
+        "poise": 1,
+        "durability": 220
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/iron-helm",
+      "image": "/images/icons/gear-iron-helm.png"
+    },
+    {
+      "id": "gear:lamellar",
+      "kind": "gear",
+      "key": "lamellar",
+      "name": "Iron Lamellar",
+      "description": "Laced iron plates over a padded coat.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Chest",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 15,
+        "poise": 1,
+        "durability": 260
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/lamellar",
+      "image": "/images/icons/gear-lamellar.png"
+    },
+    {
+      "id": "gear:spaulders",
+      "kind": "gear",
+      "key": "spaulders",
+      "name": "Iron Spaulders",
+      "description": "Riveted iron shoulder plates.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Shoulders",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 7,
+        "poise": 1,
+        "durability": 220
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/spaulders",
+      "image": "/images/icons/gear-spaulders.png"
+    },
+    {
+      "id": "gear:axe_hallvard",
+      "kind": "gear",
+      "key": "axe_hallvard",
+      "name": "Hallvard's Axe",
+      "description": "The watchman's own bearded axe, its haft worn pale where his hands held it. Runes run along the cheek of the blade: KEEP THE HEARTH.",
+      "gearKind": "Axe",
+      "upgradable": false,
+      "slot": "MainHand",
+      "material": "IronBar",
+      "unique": true,
+      "foundQuality": "Masterwork",
+      "stats": {
+        "tier": 3,
+        "damage": 22,
+        "chop": 34,
+        "mine": 0,
+        "speed": 0.95,
+        "armor": 0,
+        "poise": 1,
+        "durability": 480
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/axe-hallvard",
+      "image": "/images/icons/gear-axe-hallvard.png"
+    },
+    {
+      "id": "gear:charm_fang",
+      "kind": "gear",
+      "key": "charm_fang",
+      "name": "Fang Charm",
+      "description": "An elite Stalker's fangs strung on braided flax. Its bite lives on in yours: +12% attack damage.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "StalkerTrophy",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-fang",
+      "image": "/images/icons/gear-charm-fang.png"
+    },
+    {
+      "id": "gear:charm_tusk",
+      "kind": "gear",
+      "key": "charm_tusk",
+      "name": "Tusk Totem",
+      "description": "A sliver of elite Charger tusk lashed to an oak peg. Your blows land with the beast's weight: +40% stagger.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "ChargerTrophy",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-tusk",
+      "image": "/images/icons/gear-charm-tusk.png"
+    },
+    {
+      "id": "gear:charm_hearth",
+      "kind": "gear",
+      "key": "charm_hearth",
+      "name": "Hearth Charm",
+      "description": "A drop of resin around a crystal chip, still warm from the fire it was set in. Breath comes back 20% faster.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "Crystal",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-hearth",
+      "image": "/images/icons/gear-charm-hearth.png"
+    },
+    {
+      "id": "gear:charm_sigil",
+      "kind": "gear",
+      "key": "charm_sigil",
+      "name": "Keeper's Sigil",
+      "description": "Hallvard's bronze sigil of the Keepers of the Vale: the Beacon over a ring of runes. The old knowledge comes easier to whoever wears it: skills grow 20% faster, breath 8%.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "Crystal",
+      "unique": true,
+      "foundQuality": "Common",
+      "stats": {
+        "tier": 3,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-sigil",
+      "image": "/images/icons/gear-charm-sigil.png"
+    },
+    {
+      "id": "gear:charm_grave",
+      "kind": "gear",
+      "key": "charm_grave",
+      "name": "Grave Charm",
+      "description": "A Hollow's finger bone and a rusted grave ring on a cord, with a chip of the cold light. Grave rot cannot take hold of you, and you hit 6% harder.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "HollowTrophy",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-grave",
+      "image": "/images/icons/gear-charm-grave.png"
+    },
+    {
+      "id": "gear:charm_stag",
+      "kind": "gear",
+      "key": "charm_stag",
+      "name": "Stag Charm",
+      "description": "A polished tine from a Greyhorn bull that stood its ground. Light on your feet: 8% faster, breath 5%.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "GreyhornTrophy",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-stag",
+      "image": "/images/icons/gear-charm-stag.png"
+    },
+    {
+      "id": "gear:charm_amber",
+      "kind": "gear",
+      "key": "charm_amber",
+      "name": "Amber Charm",
+      "description": "Three drops of Elderwood amber in a leather knot, one with a moth caught inside it. The old forest's patience: skills grow 10% faster, breath 10%.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "Amber",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-amber",
+      "image": "/images/icons/gear-charm-amber.png"
+    },
+    {
+      "id": "recipe:axe_flint-Hand",
+      "kind": "recipe",
+      "name": "Flint Axe",
+      "station": "Hand",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:axe_flint",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 3
+        },
+        {
+          "item": "item:Flint",
+          "count": 3
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/axe-flint-hand",
+      "image": "/images/icons/gear-axe-flint.png"
+    },
+    {
+      "id": "recipe:club-Hand",
+      "kind": "recipe",
+      "name": "Wooden Club",
+      "station": "Hand",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:club",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 5
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/club-hand",
+      "image": "/images/icons/gear-club.png"
+    },
+    {
+      "id": "recipe:torch-Hand",
+      "kind": "recipe",
+      "name": "Torch",
+      "station": "Hand",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:torch",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 2
+        },
+        {
+          "item": "item:Resin",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/torch-hand",
+      "image": "/images/icons/gear-torch.png"
+    },
+    {
+      "id": "recipe:pick_stone-Workbench",
+      "kind": "recipe",
+      "name": "Stone Pickaxe",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:pick_stone",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 3
+        },
+        {
+          "item": "item:Stone",
+          "count": 4
+        },
+        {
+          "item": "item:Flint",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/pick-stone-workbench",
+      "image": "/images/icons/gear-pick-stone.png"
+    },
+    {
+      "id": "recipe:spear_flint-Workbench",
+      "kind": "recipe",
+      "name": "Flint Spear",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:spear_flint",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 4
+        },
+        {
+          "item": "item:Flint",
+          "count": 3
+        },
+        {
+          "item": "item:Flax",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/spear-flint-workbench",
+      "image": "/images/icons/gear-spear-flint.png"
+    },
+    {
+      "id": "recipe:pick_tusk-Workbench",
+      "kind": "recipe",
+      "name": "Tusk Pickaxe",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:pick_tusk",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 3
+        },
+        {
+          "item": "item:Tusk",
+          "count": 2
+        },
+        {
+          "item": "item:Leather",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/pick-tusk-workbench",
+      "image": "/images/icons/gear-pick-tusk.png"
+    },
+    {
+      "id": "recipe:bracers-Workbench",
+      "kind": "recipe",
+      "name": "Leather Bracers",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:bracers",
+      "cost": [
+        {
+          "item": "item:Leather",
+          "count": 3
+        },
+        {
+          "item": "item:Flax",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/bracers-workbench",
+      "image": "/images/icons/gear-bracers.png"
+    },
+    {
+      "id": "recipe:hide_vest-Workbench",
+      "kind": "recipe",
+      "name": "Hide Vest",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:hide_vest",
+      "cost": [
+        {
+          "item": "item:Hide",
+          "count": 3
+        },
+        {
+          "item": "item:Leather",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/hide-vest-workbench",
+      "image": "/images/icons/gear-hide-vest.png"
+    },
+    {
+      "id": "recipe:fur_mantle-Workbench",
+      "kind": "recipe",
+      "name": "Fur Mantle",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:fur_mantle",
+      "cost": [
+        {
+          "item": "item:Hide",
+          "count": 4
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/fur-mantle-workbench",
+      "image": "/images/icons/gear-fur-mantle.png"
+    },
+    {
+      "id": "recipe:Bandage-Workbench",
+      "kind": "recipe",
+      "name": "Linen Bandage",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:Bandage",
+      "cost": [
+        {
+          "item": "item:Flax",
+          "count": 3
+        }
+      ],
+      "conditional": false,
+      "description": "Flax fibre beaten, spun and woven into clean strips.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/bandage-workbench",
+      "image": "/images/icons/bandage.png"
+    },
+    {
+      "id": "recipe:Bucket-Workbench",
+      "kind": "recipe",
+      "name": "Bucket",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:Bucket",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 4
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        },
+        {
+          "item": "item:Resin",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Staves of split pine bound with a leather band and sealed with resin. Carry water to the garden: wade into a stream or a pond to fill it, or draw from a well.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/bucket-workbench",
+      "image": "/images/icons/bucket.png"
+    },
+    {
+      "id": "recipe:charm_fang-Workbench",
+      "kind": "recipe",
+      "name": "Fang Charm",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:charm_fang",
+      "cost": [
+        {
+          "item": "item:StalkerTrophy",
+          "count": 1
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        },
+        {
+          "item": "item:Flax",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/charm-fang-workbench",
+      "image": "/images/icons/gear-charm-fang.png"
+    },
+    {
+      "id": "recipe:charm_tusk-Workbench",
+      "kind": "recipe",
+      "name": "Tusk Totem",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:charm_tusk",
+      "cost": [
+        {
+          "item": "item:ChargerTrophy",
+          "count": 1
+        },
+        {
+          "item": "item:OakWood",
+          "count": 1
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/charm-tusk-workbench",
+      "image": "/images/icons/gear-charm-tusk.png"
+    },
+    {
+      "id": "recipe:bow_hunting-Workbench",
+      "kind": "recipe",
+      "name": "Hunting Bow",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:bow_hunting",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 6
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        },
+        {
+          "item": "item:Flax",
+          "count": 3
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/bow-hunting-workbench",
+      "image": "/images/icons/gear-bow-hunting.png"
+    },
+    {
+      "id": "recipe:bow_horn-Workbench",
+      "kind": "recipe",
+      "name": "Horn Bow",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 2,
+      "result": "gear:bow_horn",
+      "cost": [
+        {
+          "item": "item:OakWood",
+          "count": 3
+        },
+        {
+          "item": "item:Antler",
+          "count": 2
+        },
+        {
+          "item": "item:Leather",
+          "count": 2
+        },
+        {
+          "item": "item:SpiderSilk",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/bow-horn-workbench",
+      "image": "/images/icons/gear-bow-horn.png"
+    },
+    {
+      "id": "recipe:lute-Workbench",
+      "kind": "recipe",
+      "name": "Lute",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 2,
+      "result": "gear:lute",
+      "cost": [
+        {
+          "item": "item:OakWood",
+          "count": 3
+        },
+        {
+          "item": "item:Wood",
+          "count": 2
+        },
+        {
+          "item": "item:Flax",
+          "count": 4
+        },
+        {
+          "item": "item:Resin",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/lute-workbench",
+      "image": "/images/icons/gear-lute.png"
+    },
+    {
+      "id": "recipe:ArrowFlint-Workbench",
+      "kind": "recipe",
+      "name": "Flint Arrows",
+      "station": "Workbench",
+      "count": 10,
+      "minLevel": 1,
+      "result": "item:ArrowFlint",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 2
+        },
+        {
+          "item": "item:Flint",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "Ten ash shafts, knapped flint points, fletched with grey goose feathers from the marsh.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/arrow-flint-workbench",
+      "image": "/images/icons/arrowflint.png"
+    },
+    {
+      "id": "recipe:ArrowBone-Workbench",
+      "kind": "recipe",
+      "name": "Bone Arrows",
+      "station": "Workbench",
+      "count": 10,
+      "minLevel": 1,
+      "result": "item:ArrowBone",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 2
+        },
+        {
+          "item": "item:Bone",
+          "count": 3
+        }
+      ],
+      "conditional": false,
+      "description": "Ten barbed bone points from the barrow dead: deeper wounds, harder stagger.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/arrow-bone-workbench",
+      "image": "/images/icons/arrowbone.png"
+    },
+    {
+      "id": "recipe:ArrowFire-Workbench",
+      "kind": "recipe",
+      "name": "Fire Arrows",
+      "station": "Workbench",
+      "count": 8,
+      "minLevel": 3,
+      "result": "item:ArrowFire",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 2
+        },
+        {
+          "item": "item:Resin",
+          "count": 2
+        },
+        {
+          "item": "item:Flax",
+          "count": 1
+        },
+        {
+          "item": "item:Flint",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Eight arrows with resin-soaked flax bound behind the point. They set whatever they strike alight.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/arrow-fire-workbench",
+      "image": "/images/icons/arrowfire.png"
+    },
+    {
+      "id": "recipe:Whetstone-Workbench",
+      "kind": "recipe",
+      "name": "Ground Whetstones",
+      "station": "Workbench",
+      "count": 3,
+      "minLevel": 3,
+      "result": "item:Whetstone",
+      "cost": [
+        {
+          "item": "item:Stone",
+          "count": 3
+        },
+        {
+          "item": "item:Flint",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Three hones ground true on the grindstone's wheel. Cheaper than the stonecutter's, and as keen.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/whetstone-workbench",
+      "image": "/images/icons/whetstone.png"
+    },
+    {
+      "id": "recipe:pick_antler-Workbench",
+      "kind": "recipe",
+      "name": "Antler Pickaxe",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 2,
+      "result": "gear:pick_antler",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 3
+        },
+        {
+          "item": "item:Antler",
+          "count": 2
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/pick-antler-workbench",
+      "image": "/images/icons/gear-pick-antler.png"
+    },
+    {
+      "id": "recipe:cap_leather-Workbench",
+      "kind": "recipe",
+      "name": "Leather Cap",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:cap_leather",
+      "cost": [
+        {
+          "item": "item:Leather",
+          "count": 3
+        },
+        {
+          "item": "item:Hide",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/cap-leather-workbench",
+      "image": "/images/icons/gear-cap-leather.png"
+    },
+    {
+      "id": "recipe:charm_grave-Workbench",
+      "kind": "recipe",
+      "name": "Grave Charm",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:charm_grave",
+      "cost": [
+        {
+          "item": "item:HollowTrophy",
+          "count": 1
+        },
+        {
+          "item": "item:Bone",
+          "count": 3
+        },
+        {
+          "item": "item:Flax",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/charm-grave-workbench",
+      "image": "/images/icons/gear-charm-grave.png"
+    },
+    {
+      "id": "recipe:charm_stag-Workbench",
+      "kind": "recipe",
+      "name": "Stag Charm",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:charm_stag",
+      "cost": [
+        {
+          "item": "item:GreyhornTrophy",
+          "count": 1
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        },
+        {
+          "item": "item:Flax",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/charm-stag-workbench",
+      "image": "/images/icons/gear-charm-stag.png"
+    },
+    {
+      "id": "recipe:charm_amber-Workbench",
+      "kind": "recipe",
+      "name": "Amber Charm",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:charm_amber",
+      "cost": [
+        {
+          "item": "item:Amber",
+          "count": 3
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        },
+        {
+          "item": "item:Crystal",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/charm-amber-workbench",
+      "image": "/images/icons/gear-charm-amber.png"
+    },
+    {
+      "id": "recipe:Potion-HerbTable",
+      "kind": "recipe",
+      "name": "Healing Draught",
+      "station": "HerbTable",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:Potion",
+      "cost": [
+        {
+          "item": "item:Herb",
+          "count": 2
+        },
+        {
+          "item": "item:Mushroom",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Moonpetal steeped with redcap. Drink to restore 40 health.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/potion-herb-table",
+      "image": "/images/icons/potion.png"
+    },
+    {
+      "id": "recipe:Salve-HerbTable",
+      "kind": "recipe",
+      "name": "Wound Salve",
+      "station": "HerbTable",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:Salve",
+      "cost": [
+        {
+          "item": "item:Herb",
+          "count": 2
+        },
+        {
+          "item": "item:Resin",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Moonpetal ground into warm pine resin. It cleans a wound and keeps the rot out.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/salve-herb-table",
+      "image": "/images/icons/salve.png"
+    },
+    {
+      "id": "recipe:VigorTonic-HerbTable",
+      "kind": "recipe",
+      "name": "Vigor Tonic",
+      "station": "HerbTable",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:VigorTonic",
+      "cost": [
+        {
+          "item": "item:Herb",
+          "count": 1
+        },
+        {
+          "item": "item:Mushroom",
+          "count": 1
+        },
+        {
+          "item": "item:Barley",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "Sour barley water with moonpetal and redcap steeped in it. Stamina comes back 50% faster for three minutes.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/vigor-tonic-herb-table",
+      "image": "/images/icons/vigortonic.png"
+    },
+    {
+      "id": "recipe:IronbarkBrew-HerbTable",
+      "kind": "recipe",
+      "name": "Ironbark Brew",
+      "station": "HerbTable",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:IronbarkBrew",
+      "cost": [
+        {
+          "item": "item:OakWood",
+          "count": 1
+        },
+        {
+          "item": "item:Resin",
+          "count": 2
+        },
+        {
+          "item": "item:Mushroom",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Oak shavings boiled black with resin and redcap. Take a quarter less damage for two and a half minutes.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/ironbark-brew-herb-table",
+      "image": "/images/icons/ironbarkbrew.png"
+    },
+    {
+      "id": "recipe:charm_hearth-HerbTable",
+      "kind": "recipe",
+      "name": "Hearth Charm",
+      "station": "HerbTable",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:charm_hearth",
+      "cost": [
+        {
+          "item": "item:Resin",
+          "count": 2
+        },
+        {
+          "item": "item:Flax",
+          "count": 2
+        },
+        {
+          "item": "item:Crystal",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/charm-hearth-herb-table",
+      "image": "/images/icons/gear-charm-hearth.png"
+    },
+    {
+      "id": "recipe:BogBalm-HerbTable",
+      "kind": "recipe",
+      "name": "Bogwalker's Balm",
+      "station": "HerbTable",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:BogBalm",
+      "cost": [
+        {
+          "item": "item:Herb",
+          "count": 2
+        },
+        {
+          "item": "item:Resin",
+          "count": 1
+        },
+        {
+          "item": "item:Flax",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Moonpetal and resin worked into flax oil. For six minutes the Mire's webs slide off you and spider venom cannot take hold.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/bog-balm-herb-table",
+      "image": "/images/icons/bogbalm.png"
+    },
+    {
+      "id": "recipe:WarmingDraught-HerbTable",
+      "kind": "recipe",
+      "name": "Warming Draught",
+      "station": "HerbTable",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:WarmingDraught",
+      "cost": [
+        {
+          "item": "item:Mushroom",
+          "count": 2
+        },
+        {
+          "item": "item:Resin",
+          "count": 1
+        },
+        {
+          "item": "item:Herb",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Redcaps boiled down with resin until it burns going down. For six minutes the Highland cold cannot reach you.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/warming-draught-herb-table",
+      "image": "/images/icons/warmingdraught.png"
+    },
+    {
+      "id": "recipe:GraveWard-HerbTable",
+      "kind": "recipe",
+      "name": "Grave Ward",
+      "station": "HerbTable",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:GraveWard",
+      "cost": [
+        {
+          "item": "item:Herb",
+          "count": 2
+        },
+        {
+          "item": "item:Bone",
+          "count": 2
+        },
+        {
+          "item": "item:Resin",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Bone ash, moonpetal and resin. For four minutes grave rot cannot take hold, and the dead hit a quarter less hard.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/grave-ward-herb-table",
+      "image": "/images/icons/graveward.png"
+    },
+    {
+      "id": "recipe:SilkBandage-HerbTable",
+      "kind": "recipe",
+      "name": "Silk Bandage",
+      "station": "HerbTable",
+      "count": 2,
+      "minLevel": 1,
+      "result": "item:SilkBandage",
+      "cost": [
+        {
+          "item": "item:SpiderSilk",
+          "count": 2
+        },
+        {
+          "item": "item:Herb",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Mire silk woven tight round crushed moonpetal. Two bandages: each heals 60 at once and draws out grave rot.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/silk-bandage-herb-table",
+      "image": "/images/icons/silkbandage.png"
+    },
+    {
+      "id": "recipe:lichen-tea-HerbTable",
+      "kind": "recipe",
+      "name": "Lichen Tea",
+      "station": "HerbTable",
+      "count": 2,
+      "minLevel": 1,
+      "result": "item:WarmingDraught",
+      "cost": [
+        {
+          "item": "item:FrostLichen",
+          "count": 2
+        },
+        {
+          "item": "item:Herb",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Frost lichen steeped hot with moonpetal: the Highlands' own cure for their cold. Two Warming Draughts.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/lichen-tea-herb-table",
+      "image": "/images/icons/warmingdraught.png"
+    },
+    {
+      "id": "recipe:CookedMeat-Hearth",
+      "kind": "recipe",
+      "name": "Grilled Meat",
+      "station": "Hearth",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:CookedMeat",
+      "cost": [
+        {
+          "item": "item:RawMeat",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Seared on a stick over the coals. Eat it for more stamina, faster recovery and slow healing (6 min).",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/cooked-meat-hearth",
+      "image": "/images/icons/cookedmeat.png"
+    },
+    {
+      "id": "recipe:Stew-Hearth",
+      "kind": "recipe",
+      "name": "Hunter's Stew",
+      "station": "Hearth",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:Stew",
+      "cost": [
+        {
+          "item": "item:RawMeat",
+          "count": 2
+        },
+        {
+          "item": "item:Mushroom",
+          "count": 1
+        },
+        {
+          "item": "item:Herb",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "A thick stew of meat, redcaps and moonpetal. Much more stamina and steady healing (10 min).",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/stew-hearth",
+      "image": "/images/icons/stew.png"
+    },
+    {
+      "id": "recipe:Skewer-Hearth",
+      "kind": "recipe",
+      "name": "Redcap Skewer",
+      "station": "Hearth",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:Skewer",
+      "cost": [
+        {
+          "item": "item:Mushroom",
+          "count": 3
+        },
+        {
+          "item": "item:Wood",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Redcaps charred on a green stick. A quick bite: a little more stamina (4 min).",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/skewer-hearth",
+      "image": "/images/icons/skewer.png"
+    },
+    {
+      "id": "recipe:Flatbread-Hearth",
+      "kind": "recipe",
+      "name": "Barley Flatbread",
+      "station": "Hearth",
+      "count": 2,
+      "minLevel": 1,
+      "result": "item:Flatbread",
+      "cost": [
+        {
+          "item": "item:Barley",
+          "count": 3
+        }
+      ],
+      "conditional": false,
+      "description": "Barley ground on a flat stone, mixed with water and baked on the hearthstones. Two loaves: more stamina and slow healing (8 min).",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/flatbread-hearth",
+      "image": "/images/icons/flatbread.png"
+    },
+    {
+      "id": "recipe:VenisonRoast-Hearth",
+      "kind": "recipe",
+      "name": "Venison Roast",
+      "station": "Hearth",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:VenisonRoast",
+      "cost": [
+        {
+          "item": "item:Venison",
+          "count": 1
+        },
+        {
+          "item": "item:Herb",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "A Greyhorn haunch roasted slowly with moonpetal. The best meal in the Vale: much more stamina and good healing (12 min).",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/venison-roast-hearth",
+      "image": "/images/icons/venisonroast.png"
+    },
+    {
+      "id": "recipe:BoneBroth-Hearth",
+      "kind": "recipe",
+      "name": "Bone Broth",
+      "station": "Hearth",
+      "count": 2,
+      "minLevel": 1,
+      "result": "item:BoneBroth",
+      "cost": [
+        {
+          "item": "item:Bone",
+          "count": 3
+        },
+        {
+          "item": "item:Mushroom",
+          "count": 1
+        },
+        {
+          "item": "item:Herb",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Bones simmered with redcap and moonpetal. Two bowls: the fastest healing of any meal (9 min).",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/bone-broth-hearth",
+      "image": "/images/icons/bonebroth.png"
+    },
+    {
+      "id": "recipe:Porridge-Hearth",
+      "kind": "recipe",
+      "name": "Barley Porridge",
+      "station": "Hearth",
+      "count": 2,
+      "minLevel": 1,
+      "result": "item:Porridge",
+      "cost": [
+        {
+          "item": "item:Barley",
+          "count": 3
+        },
+        {
+          "item": "item:Mushroom",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Barley boiled thick with redcaps. Two bowls: more stamina and slow healing (10 min).",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/porridge-hearth",
+      "image": "/images/icons/porridge.png"
+    },
+    {
+      "id": "recipe:CloudberryTart-Hearth",
+      "kind": "recipe",
+      "name": "Cloudberry Tart",
+      "station": "Hearth",
+      "count": 2,
+      "minLevel": 1,
+      "result": "item:CloudberryTart",
+      "cost": [
+        {
+          "item": "item:Cloudberry",
+          "count": 4
+        },
+        {
+          "item": "item:Barley",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "Birchwood cloudberries baked into barley dough. Two tarts: more stamina and the fastest breath of any meal (8 min).",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/cloudberry-tart-hearth",
+      "image": "/images/icons/cloudberrytart.png"
+    },
+    {
+      "id": "recipe:axe_iron-Forge",
+      "kind": "recipe",
+      "name": "Iron Axe",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:axe_iron",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 3
+        },
+        {
+          "item": "item:IronBar",
+          "count": 3
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/axe-iron-forge",
+      "image": "/images/icons/gear-axe-iron.png"
+    },
+    {
+      "id": "recipe:pick_iron-Forge",
+      "kind": "recipe",
+      "name": "Iron Pickaxe",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:pick_iron",
+      "cost": [
+        {
+          "item": "item:OakWood",
+          "count": 2
+        },
+        {
+          "item": "item:IronBar",
+          "count": 4
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/pick-iron-forge",
+      "image": "/images/icons/gear-pick-iron.png"
+    },
+    {
+      "id": "recipe:spear_iron-Forge",
+      "kind": "recipe",
+      "name": "Iron Spear",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:spear_iron",
+      "cost": [
+        {
+          "item": "item:OakWood",
+          "count": 2
+        },
+        {
+          "item": "item:IronBar",
+          "count": 3
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/spear-iron-forge",
+      "image": "/images/icons/gear-spear-iron.png"
+    },
+    {
+      "id": "recipe:blades_iron-Forge",
+      "kind": "recipe",
+      "name": "Iron Blades",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:blades_iron",
+      "cost": [
+        {
+          "item": "item:OakWood",
+          "count": 1
+        },
+        {
+          "item": "item:IronBar",
+          "count": 4
+        },
+        {
+          "item": "item:Leather",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/blades-iron-forge",
+      "image": "/images/icons/gear-blades-iron.png"
+    },
+    {
+      "id": "recipe:mace_iron-Forge",
+      "kind": "recipe",
+      "name": "Iron Mace",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 2,
+      "result": "gear:mace_iron",
+      "cost": [
+        {
+          "item": "item:OakWood",
+          "count": 2
+        },
+        {
+          "item": "item:IronBar",
+          "count": 4
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/mace-iron-forge",
+      "image": "/images/icons/gear-mace-iron.png"
+    },
+    {
+      "id": "recipe:ArrowIron-Forge",
+      "kind": "recipe",
+      "name": "Iron Arrows",
+      "station": "Forge",
+      "count": 10,
+      "minLevel": 1,
+      "result": "item:ArrowIron",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 2
+        },
+        {
+          "item": "item:IronBar",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Ten forged bodkin points on ash shafts. They punch through hide and old iron alike.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/arrow-iron-forge",
+      "image": "/images/icons/arrowiron.png"
+    },
+    {
+      "id": "recipe:iron_helm-Forge",
+      "kind": "recipe",
+      "name": "Iron Helm",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:iron_helm",
+      "cost": [
+        {
+          "item": "item:IronBar",
+          "count": 3
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/iron-helm-forge",
+      "image": "/images/icons/gear-iron-helm.png"
+    },
+    {
+      "id": "recipe:lamellar-Forge",
+      "kind": "recipe",
+      "name": "Iron Lamellar",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 2,
+      "result": "gear:lamellar",
+      "cost": [
+        {
+          "item": "item:IronBar",
+          "count": 6
+        },
+        {
+          "item": "item:Leather",
+          "count": 3
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/lamellar-forge",
+      "image": "/images/icons/gear-lamellar.png"
+    },
+    {
+      "id": "recipe:spaulders-Forge",
+      "kind": "recipe",
+      "name": "Iron Spaulders",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:spaulders",
+      "cost": [
+        {
+          "item": "item:IronBar",
+          "count": 4
+        },
+        {
+          "item": "item:Leather",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/spaulders-forge",
+      "image": "/images/icons/gear-spaulders.png"
+    },
+    {
+      "id": "recipe:EchoFocus-Forge",
+      "kind": "recipe",
+      "name": "Echo Focus",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 1,
+      "result": "item:EchoFocus",
+      "cost": [
+        {
+          "item": "item:Crystal",
+          "count": 2
+        },
+        {
+          "item": "item:IronBar",
+          "count": 1
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "A cage of forged iron around two echo crystals. A vessel for whatever an old shrine keeps.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/echo-focus-forge",
+      "image": "/images/icons/echofocus.png"
+    },
+    {
+      "id": "recipe:Whetstone-Stonecutter",
+      "kind": "recipe",
+      "name": "Whetstone",
+      "station": "Stonecutter",
+      "count": 2,
+      "minLevel": 1,
+      "result": "item:Whetstone",
+      "cost": [
+        {
+          "item": "item:Stone",
+          "count": 4
+        },
+        {
+          "item": "item:Flint",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "description": "Two fine-grained stones, sawn and dressed. Hone the weapon in your hand: +15% damage for five minutes.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/whetstone-stonecutter",
+      "image": "/images/icons/whetstone.png"
+    },
+    {
+      "id": "recipe:BoneMeal-Stonecutter",
+      "kind": "recipe",
+      "name": "Bone Meal",
+      "station": "Stonecutter",
+      "count": 3,
+      "minLevel": 1,
+      "result": "item:BoneMeal",
+      "cost": [
+        {
+          "item": "item:Bone",
+          "count": 3
+        }
+      ],
+      "conditional": false,
+      "description": "Bones ground at the quern. Worked into a garden bed, it brings the crop up in half the time.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/bone-meal-stonecutter",
+      "image": "/images/icons/bonemeal.png"
+    },
+    {
+      "id": "recipe:ember-relic-Forge",
+      "kind": "recipe",
+      "name": "Ember Relic",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 1,
+      "result": null,
+      "cost": [
+        {
+          "item": "item:Crystal",
+          "count": 4
+        },
+        {
+          "item": "item:IronBar",
+          "count": 2
+        }
+      ],
+      "conditional": true,
+      "description": "Relic: hitting Staggered or Exposed enemies sets them ablaze, and fire spreads between creatures.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/ember-relic-forge",
+      "image": "/images/icons/relicember.png"
+    },
+    {
+      "id": "recipe:echo-attunement-Forge",
+      "kind": "recipe",
+      "name": "Echo Attunement",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 3,
+      "result": null,
+      "cost": [
+        {
+          "item": "item:Crystal",
+          "count": 6
+        }
+      ],
+      "conditional": true,
+      "description": "Crystal resonance: all Echoes last 50% longer and recover faster.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/echo-attunement-forge",
+      "image": "/images/icons/attunement.png"
+    },
+    {
+      "id": "creature:Stalker",
+      "key": "Stalker",
+      "kind": "creature",
+      "name": "Stalker",
+      "aliases": [
+        "Frontier Stalker",
+        "Courtyard Stalker"
+      ],
+      "description": "Circles its prey, then commits to a lunge. Dodge or parry the lunge and punish its recovery.",
+      "source": "Assets/Scripts/Enemies/Stalker.cs",
+      "page": "creatures/stalker",
+      "image": "/images/stalker-v016.webp",
+      "thumbnail": "/images/creatures/stalker-thumb.webp",
+      "stats": {
+        "health": 42,
+        "poise": 24,
+        "speed": 5.6
+      },
+      "attacks": [
+        [
+          "Lunge",
+          12
+        ]
+      ],
+      "drops": [
+        {
+          "item": "item:Hide",
+          "quantity": "1 (60%) or 2 (40%)",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:RawMeat",
+          "quantity": "1 (70%) or 2 (30%)",
+          "chance": "80%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Crystal",
+          "quantity": "1",
+          "chance": "20%",
+          "condition": "Level 2+"
+        }
+      ]
+    },
+    {
+      "id": "creature:Charger",
+      "key": "Charger",
+      "kind": "creature",
+      "name": "Charger",
+      "aliases": [
+        "Elder Charger"
+      ],
+      "description": "An aggressive beast with a headbutt and a committed charge. Bait its charge into an obstacle to stun it.",
+      "source": "Assets/Scripts/Enemies/Charger.cs",
+      "page": "creatures/charger",
+      "image": "/images/charger-v016.webp",
+      "thumbnail": "/images/creatures/charger-thumb.webp",
+      "stats": {
+        "health": 115,
+        "poise": 65,
+        "speed": 3.6
+      },
+      "attacks": [
+        [
+          "Headbutt",
+          16
+        ],
+        [
+          "Charge",
+          24
+        ]
+      ],
+      "drops": [
+        {
+          "item": "item:Hide",
+          "quantity": "2",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:RawMeat",
+          "quantity": "2 (50%) or 3 (50%)",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Tusk",
+          "quantity": "1 (65%) or 2 (35%)",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Crystal",
+          "quantity": "1",
+          "chance": "50%",
+          "condition": "Level 2+"
+        }
+      ]
+    },
+    {
+      "id": "creature:Hollow",
+      "key": "Hollow",
+      "kind": "creature",
+      "name": "Hollow",
+      "aliases": [
+        "Barrow Hollow",
+        "Hollow Thane"
+      ],
+      "description": "A shield-bearing undead warrior. Frontal light hits and arrows glance off its guard; heavy blows break it. Watch for a two-hit combo and a leap. Its blade carries grave rot.",
+      "source": "Assets/Scripts/Enemies/Hollow.cs",
+      "page": "creatures/hollow",
+      "image": "/images/hollow-v016.webp",
+      "thumbnail": "/images/creatures/hollow-thumb.webp",
+      "stats": {
+        "health": 74,
+        "poise": 42,
+        "speed": 2.5
+      },
+      "attacks": [
+        [
+          "First slash",
+          13
+        ],
+        [
+          "Second slash",
+          11
+        ],
+        [
+          "Leap",
+          20
+        ]
+      ],
+      "drops": [
+        {
+          "item": "item:Bone",
+          "quantity": "1 or 2 (50% each) at level 1; always 2 at level 2+",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:GraveIron",
+          "quantity": "1 (70%) or 2 (30%)",
+          "chance": "65% / 75% / 85%",
+          "condition": "Level 1 / 2 / 3"
+        },
+        {
+          "item": "item:Crystal",
+          "quantity": "1",
+          "chance": "20%",
+          "condition": "Level 2+"
+        }
+      ]
+    },
+    {
+      "id": "creature:Greyhorn",
+      "key": "Greyhorn",
+      "kind": "creature",
+      "name": "Greyhorn",
+      "aliases": [
+        "Greyhorn Bull",
+        "Old Greyhorn Bull"
+      ],
+      "description": "A grazing herd animal. Cows flee; injured bulls can turn and gore or charge. Level 1 has a 35% chance to be a bull; level 2+ is always a bull.",
+      "source": "Assets/Scripts/Enemies/Greyhorn.cs",
+      "page": "creatures/greyhorn",
+      "image": "/images/greyhorn-v016.webp",
+      "thumbnail": "/images/creatures/greyhorn-thumb.webp",
+      "stats": {
+        "health": 70,
+        "poise": 36,
+        "speed": 3.2
+      },
+      "attacks": [
+        [
+          "Gore (bull)",
+          17
+        ],
+        [
+          "Charge (bull)",
+          21
+        ]
+      ],
+      "drops": [
+        {
+          "item": "item:Venison",
+          "quantity": "2 (cow) or 3 (bull)",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Hide",
+          "quantity": "2",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Antler",
+          "quantity": "2 (60%) or 3 (40%)",
+          "chance": "100%",
+          "condition": "Bull or elite"
+        },
+        {
+          "item": "item:Antler",
+          "quantity": "1",
+          "chance": "25%",
+          "condition": "Non-elite cow only"
+        }
+      ]
+    },
+    {
+      "id": "creature:Spider",
+      "key": "Spider",
+      "kind": "creature",
+      "name": "Mire Spider",
+      "aliases": [
+        "Bog Weaver"
+      ],
+      "description": "Keeps its distance, spits slowing webs, then darts in to bite. Venom prevents healing. Bring Bogwalker’s Balm to protect against venom and webs.",
+      "source": "Assets/Scripts/Enemies/Spider.cs",
+      "page": "creatures/mire-spider",
+      "image": "/images/spider-v016.webp",
+      "thumbnail": "/images/creatures/spider-thumb.webp",
+      "stats": {
+        "health": 46,
+        "poise": 22,
+        "speed": 5.6
+      },
+      "attacks": [
+        [
+          "Bite",
+          11
+        ],
+        [
+          "Web impact",
+          4
+        ]
+      ],
+      "drops": [
+        {
+          "item": "item:SpiderSilk",
+          "quantity": "1 (60%) or 2 (40%)",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Resin",
+          "quantity": "1 (60%) or 2 (40%)",
+          "chance": "60%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Hide",
+          "quantity": "1",
+          "chance": "35%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Crystal",
+          "quantity": "1",
+          "chance": "25%",
+          "condition": "Level 2+"
+        }
+      ]
+    },
+    {
+      "id": "creature:Guardian",
+      "key": "Guardian",
+      "kind": "creature",
+      "name": "Ancient Guardian",
+      "aliases": [
+        "Guardian"
+      ],
+      "description": "The boss of the Forgotten Courtyard. Bait a charge into a wall or restored Echo pillar: the impact removes 5% of its maximum health and leaves it staggered for 3.5 seconds and Exposed for 4.5 seconds. Below half health it moves and attacks faster. Echoes help but are not required.",
+      "source": "Assets/Scripts/Enemies/Guardian.cs",
+      "page": "bosses/ancient-guardian",
+      "image": "/images/guardian-v016.webp",
+      "thumbnail": "/images/creatures/guardian-thumb.webp",
+      "stats": {
+        "health": 1450,
+        "poise": 260,
+        "speed": 3.3
+      },
+      "attacks": [
+        [
+          "Slam",
+          38
+        ],
+        [
+          "Sweep",
+          29
+        ],
+        [
+          "Charge",
+          40
+        ]
+      ],
+      "drops": [
+        {
+          "item": "item:Heart",
+          "quantity": "1",
+          "chance": "100%",
+          "condition": "On defeat"
+        },
+        {
+          "item": "item:Crystal",
+          "quantity": "6 (three stacks of 2)",
+          "chance": "100%",
+          "condition": "On defeat"
+        },
+        {
+          "item": "item:Iron",
+          "quantity": "6 (three stacks of 2)",
+          "chance": "100%",
+          "condition": "Raw ore, not bars"
+        }
+      ]
+    },
+    {
+      "id": "station:Workbench",
+      "key": "Workbench",
+      "kind": "station",
+      "name": "Workbench",
+      "aliases": [],
+      "description": "Tools, weapons, leatherwork, linen and equipment repairs.",
+      "source": "Assets/Scripts/World/Stations.cs",
+      "page": "crafting/stations/workbench",
+      "image": "/images/stations/workbench.png",
+      "iconSource": "Screens/wiki/icons/build_Workbench.png"
+    },
+    {
+      "id": "station:HerbTable",
+      "key": "HerbTable",
+      "kind": "station",
+      "name": "Herbalist's Table",
+      "aliases": [],
+      "description": "Draughts, salves, tonics and protective preparations.",
+      "source": "Assets/Scripts/World/Stations.cs",
+      "page": "crafting/stations/herbalist-s-table",
+      "image": "/images/stations/herbalist-s-table.png",
+      "iconSource": "Screens/wiki/icons/build_Herbalist's Table.png"
+    },
+    {
+      "id": "station:Forge",
+      "key": "Forge",
+      "kind": "station",
+      "name": "Forge",
+      "aliases": [],
+      "description": "Iron equipment, repairs and progression rites.",
+      "source": "Assets/Scripts/World/Stations.cs",
+      "page": "crafting/stations/forge",
+      "image": "/images/stations/forge.png",
+      "iconSource": "Screens/wiki/icons/build_Forge.png"
+    },
+    {
+      "id": "station:Stonecutter",
+      "key": "Stonecutter",
+      "kind": "station",
+      "name": "Stonecutter",
+      "aliases": [],
+      "description": "Stone construction, whetstones and bone meal.",
+      "source": "Assets/Scripts/World/Stations.cs",
+      "page": "crafting/stations/stonecutter",
+      "image": "/images/stations/stonecutter.png",
+      "iconSource": "Screens/wiki/icons/build_Stonecutter.png"
+    },
+    {
+      "id": "station:TanningRack",
+      "key": "TanningRack",
+      "kind": "station",
+      "name": "Tanning Rack",
+      "aliases": [],
+      "description": "Cures hides into leather, including while away or asleep.",
+      "source": "Assets/Scripts/World/Stations.cs",
+      "page": "crafting/stations/tanning-rack",
+      "image": "/images/stations/tanning-rack.png",
+      "iconSource": "Screens/wiki/icons/build_Tanning Rack.png"
+    },
+    {
+      "id": "station:Bloomery",
+      "key": "Bloomery",
+      "kind": "station",
+      "name": "Bloomery",
+      "aliases": [],
+      "description": "Smelts iron ore or grave iron into bars using wood as fuel.",
+      "source": "Assets/Scripts/World/Stations.cs",
+      "page": "crafting/stations/bloomery",
+      "image": "/images/stations/bloomery.png",
+      "iconSource": "Screens/wiki/icons/build_Bloomery.png"
+    },
+    {
+      "id": "station:Hearth",
+      "key": "Hearth",
+      "kind": "station",
+      "name": "Hearth",
+      "aliases": [
+        "Campfire"
+      ],
+      "description": "Cook food at the homestead hearth or a built campfire.",
+      "source": "Assets/Scripts/World/Stations.cs",
+      "page": "crafting/stations/hearth",
+      "image": "/images/stations/campfire.png",
+      "iconSource": "Screens/wiki/icons/build_Campfire.png"
+    }
+  ],
+  "generatedFiles": [
+    "public/images/birchwood-detail-v017.webp",
+    "public/images/birchwood-v016.webp",
+    "public/images/build-v017.webp",
+    "public/images/charger-v016.webp",
+    "public/images/coop-v0.15.png",
+    "public/images/courtyard-v016.webp",
+    "public/images/crafting-v016.webp",
+    "public/images/creatures/charger-thumb.webp",
+    "public/images/creatures/greyhorn-thumb.webp",
+    "public/images/creatures/guardian-thumb.webp",
+    "public/images/creatures/hollow-thumb.webp",
+    "public/images/creatures/spider-thumb.webp",
+    "public/images/creatures/stalker-thumb.webp",
+    "public/images/elderwood-v016.webp",
+    "public/images/firepath-v017.webp",
+    "public/images/forage-v017.webp",
+    "public/images/greyhorn-v016.webp",
+    "public/images/guard-v017.webp",
+    "public/images/guardian-v016.webp",
+    "public/images/highlands-v016.webp",
+    "public/images/hollow-v016.webp",
+    "public/images/homestead-v016.webp",
+    "public/images/icons/amber.png",
+    "public/images/icons/antler.png",
+    "public/images/icons/arrowbone.png",
+    "public/images/icons/arrowfire.png",
+    "public/images/icons/arrowflint.png",
+    "public/images/icons/arrowiron.png",
+    "public/images/icons/attunement.png",
+    "public/images/icons/bandage.png",
+    "public/images/icons/barley.png",
+    "public/images/icons/bogbalm.png",
+    "public/images/icons/bone.png",
+    "public/images/icons/bonebroth.png",
+    "public/images/icons/bonemeal.png",
+    "public/images/icons/bucket.png",
+    "public/images/icons/chargertrophy.png",
+    "public/images/icons/cloudberry.png",
+    "public/images/icons/cloudberrytart.png",
+    "public/images/icons/cookedmeat.png",
+    "public/images/icons/crystal.png",
+    "public/images/icons/echofocus.png",
+    "public/images/icons/flatbread.png",
+    "public/images/icons/flax.png",
+    "public/images/icons/flint.png",
+    "public/images/icons/frostlichen.png",
+    "public/images/icons/gear-axe-flint.png",
+    "public/images/icons/gear-axe-hallvard.png",
+    "public/images/icons/gear-axe-iron.png",
+    "public/images/icons/gear-blades-iron.png",
+    "public/images/icons/gear-bow-horn.png",
+    "public/images/icons/gear-bow-hunting.png",
+    "public/images/icons/gear-bracers.png",
+    "public/images/icons/gear-cap-leather.png",
+    "public/images/icons/gear-charm-amber.png",
+    "public/images/icons/gear-charm-fang.png",
+    "public/images/icons/gear-charm-grave.png",
+    "public/images/icons/gear-charm-hearth.png",
+    "public/images/icons/gear-charm-sigil.png",
+    "public/images/icons/gear-charm-stag.png",
+    "public/images/icons/gear-charm-tusk.png",
+    "public/images/icons/gear-club.png",
+    "public/images/icons/gear-fur-mantle.png",
+    "public/images/icons/gear-hide-vest.png",
+    "public/images/icons/gear-iron-helm.png",
+    "public/images/icons/gear-lamellar.png",
+    "public/images/icons/gear-lute.png",
+    "public/images/icons/gear-mace-iron.png",
+    "public/images/icons/gear-pick-antler.png",
+    "public/images/icons/gear-pick-iron.png",
+    "public/images/icons/gear-pick-stone.png",
+    "public/images/icons/gear-pick-tusk.png",
+    "public/images/icons/gear-spaulders.png",
+    "public/images/icons/gear-spear-flint.png",
+    "public/images/icons/gear-spear-iron.png",
+    "public/images/icons/gear-torch.png",
+    "public/images/icons/graveiron.png",
+    "public/images/icons/graveward.png",
+    "public/images/icons/greyhorntrophy.png",
+    "public/images/icons/heart.png",
+    "public/images/icons/herb.png",
+    "public/images/icons/hide.png",
+    "public/images/icons/hollowtrophy.png",
+    "public/images/icons/iron.png",
+    "public/images/icons/ironbar.png",
+    "public/images/icons/ironbarkbrew.png",
+    "public/images/icons/leather.png",
+    "public/images/icons/mushroom.png",
+    "public/images/icons/oakwood.png",
+    "public/images/icons/porridge.png",
+    "public/images/icons/potion.png",
+    "public/images/icons/rawmeat.png",
+    "public/images/icons/relicember.png",
+    "public/images/icons/resin.png",
+    "public/images/icons/salve.png",
+    "public/images/icons/silkbandage.png",
+    "public/images/icons/silver.png",
+    "public/images/icons/site-emblem.png",
+    "public/images/icons/skewer.png",
+    "public/images/icons/spidersilk.png",
+    "public/images/icons/stalkertrophy.png",
+    "public/images/icons/stew.png",
+    "public/images/icons/stone.png",
+    "public/images/icons/tusk.png",
+    "public/images/icons/venison.png",
+    "public/images/icons/venisonroast.png",
+    "public/images/icons/vigortonic.png",
+    "public/images/icons/warmingdraught.png",
+    "public/images/icons/waterbucket.png",
+    "public/images/icons/whetstone.png",
+    "public/images/icons/wood.png",
+    "public/images/inventory-v016.webp",
+    "public/images/inventory-v017.webp",
+    "public/images/mire-v016.webp",
+    "public/images/ruins-v016.webp",
+    "public/images/shimmer-v017.webp",
+    "public/images/spider-v016.webp",
+    "public/images/stalker-v016.webp",
+    "public/images/stations-v016.webp",
+    "public/images/stations/bloomery.png",
+    "public/images/stations/campfire.png",
+    "public/images/stations/forge.png",
+    "public/images/stations/herbalist-s-table.png",
+    "public/images/stations/stonecutter.png",
+    "public/images/stations/tanning-rack.png",
+    "public/images/stations/workbench.png",
+    "public/images/title-v0.14.png",
+    "public/images/torchlight-v016.webp",
+    "public/images/trader-v017.webp",
+    "src/content/docs/bosses/ancient-guardian.md",
+    "src/content/docs/crafting/recipes/arrow-bone-workbench.md",
+    "src/content/docs/crafting/recipes/arrow-fire-workbench.md",
+    "src/content/docs/crafting/recipes/arrow-flint-workbench.md",
+    "src/content/docs/crafting/recipes/arrow-iron-forge.md",
+    "src/content/docs/crafting/recipes/axe-flint-hand.md",
+    "src/content/docs/crafting/recipes/axe-iron-forge.md",
+    "src/content/docs/crafting/recipes/bandage-workbench.md",
+    "src/content/docs/crafting/recipes/blades-iron-forge.md",
+    "src/content/docs/crafting/recipes/bog-balm-herb-table.md",
+    "src/content/docs/crafting/recipes/bone-broth-hearth.md",
+    "src/content/docs/crafting/recipes/bone-meal-stonecutter.md",
+    "src/content/docs/crafting/recipes/bow-horn-workbench.md",
+    "src/content/docs/crafting/recipes/bow-hunting-workbench.md",
+    "src/content/docs/crafting/recipes/bracers-workbench.md",
+    "src/content/docs/crafting/recipes/bucket-workbench.md",
+    "src/content/docs/crafting/recipes/cap-leather-workbench.md",
+    "src/content/docs/crafting/recipes/charm-amber-workbench.md",
+    "src/content/docs/crafting/recipes/charm-fang-workbench.md",
+    "src/content/docs/crafting/recipes/charm-grave-workbench.md",
+    "src/content/docs/crafting/recipes/charm-hearth-herb-table.md",
+    "src/content/docs/crafting/recipes/charm-stag-workbench.md",
+    "src/content/docs/crafting/recipes/charm-tusk-workbench.md",
+    "src/content/docs/crafting/recipes/cloudberry-tart-hearth.md",
+    "src/content/docs/crafting/recipes/club-hand.md",
+    "src/content/docs/crafting/recipes/cooked-meat-hearth.md",
+    "src/content/docs/crafting/recipes/echo-attunement-forge.md",
+    "src/content/docs/crafting/recipes/echo-focus-forge.md",
+    "src/content/docs/crafting/recipes/ember-relic-forge.md",
+    "src/content/docs/crafting/recipes/flatbread-hearth.md",
+    "src/content/docs/crafting/recipes/fur-mantle-workbench.md",
+    "src/content/docs/crafting/recipes/grave-ward-herb-table.md",
+    "src/content/docs/crafting/recipes/hide-vest-workbench.md",
+    "src/content/docs/crafting/recipes/index.md",
+    "src/content/docs/crafting/recipes/iron-helm-forge.md",
+    "src/content/docs/crafting/recipes/ironbark-brew-herb-table.md",
+    "src/content/docs/crafting/recipes/lamellar-forge.md",
+    "src/content/docs/crafting/recipes/lichen-tea-herb-table.md",
+    "src/content/docs/crafting/recipes/lute-workbench.md",
+    "src/content/docs/crafting/recipes/mace-iron-forge.md",
+    "src/content/docs/crafting/recipes/pick-antler-workbench.md",
+    "src/content/docs/crafting/recipes/pick-iron-forge.md",
+    "src/content/docs/crafting/recipes/pick-stone-workbench.md",
+    "src/content/docs/crafting/recipes/pick-tusk-workbench.md",
+    "src/content/docs/crafting/recipes/porridge-hearth.md",
+    "src/content/docs/crafting/recipes/potion-herb-table.md",
+    "src/content/docs/crafting/recipes/salve-herb-table.md",
+    "src/content/docs/crafting/recipes/silk-bandage-herb-table.md",
+    "src/content/docs/crafting/recipes/skewer-hearth.md",
+    "src/content/docs/crafting/recipes/spaulders-forge.md",
+    "src/content/docs/crafting/recipes/spear-flint-workbench.md",
+    "src/content/docs/crafting/recipes/spear-iron-forge.md",
+    "src/content/docs/crafting/recipes/stew-hearth.md",
+    "src/content/docs/crafting/recipes/torch-hand.md",
+    "src/content/docs/crafting/recipes/venison-roast-hearth.md",
+    "src/content/docs/crafting/recipes/vigor-tonic-herb-table.md",
+    "src/content/docs/crafting/recipes/warming-draught-herb-table.md",
+    "src/content/docs/crafting/recipes/whetstone-stonecutter.md",
+    "src/content/docs/crafting/recipes/whetstone-workbench.md",
+    "src/content/docs/crafting/stations/bloomery.md",
+    "src/content/docs/crafting/stations/forge.md",
+    "src/content/docs/crafting/stations/hearth.md",
+    "src/content/docs/crafting/stations/herbalist-s-table.md",
+    "src/content/docs/crafting/stations/index.md",
+    "src/content/docs/crafting/stations/stonecutter.md",
+    "src/content/docs/crafting/stations/tanning-rack.md",
+    "src/content/docs/crafting/stations/workbench.md",
+    "src/content/docs/creatures/charger.md",
+    "src/content/docs/creatures/greyhorn.md",
+    "src/content/docs/creatures/hollow.md",
+    "src/content/docs/creatures/mire-spider.md",
+    "src/content/docs/creatures/stalker.md",
+    "src/content/docs/equipment/gear/axe-flint.md",
+    "src/content/docs/equipment/gear/axe-hallvard.md",
+    "src/content/docs/equipment/gear/axe-iron.md",
+    "src/content/docs/equipment/gear/blades-iron.md",
+    "src/content/docs/equipment/gear/bow-horn.md",
+    "src/content/docs/equipment/gear/bow-hunting.md",
+    "src/content/docs/equipment/gear/bracers.md",
+    "src/content/docs/equipment/gear/cap-leather.md",
+    "src/content/docs/equipment/gear/charm-amber.md",
+    "src/content/docs/equipment/gear/charm-fang.md",
+    "src/content/docs/equipment/gear/charm-grave.md",
+    "src/content/docs/equipment/gear/charm-hearth.md",
+    "src/content/docs/equipment/gear/charm-sigil.md",
+    "src/content/docs/equipment/gear/charm-stag.md",
+    "src/content/docs/equipment/gear/charm-tusk.md",
+    "src/content/docs/equipment/gear/club.md",
+    "src/content/docs/equipment/gear/fur-mantle.md",
+    "src/content/docs/equipment/gear/hide-vest.md",
+    "src/content/docs/equipment/gear/index.md",
+    "src/content/docs/equipment/gear/iron-helm.md",
+    "src/content/docs/equipment/gear/lamellar.md",
+    "src/content/docs/equipment/gear/lute.md",
+    "src/content/docs/equipment/gear/mace-iron.md",
+    "src/content/docs/equipment/gear/pick-antler.md",
+    "src/content/docs/equipment/gear/pick-iron.md",
+    "src/content/docs/equipment/gear/pick-stone.md",
+    "src/content/docs/equipment/gear/pick-tusk.md",
+    "src/content/docs/equipment/gear/spaulders.md",
+    "src/content/docs/equipment/gear/spear-flint.md",
+    "src/content/docs/equipment/gear/spear-iron.md",
+    "src/content/docs/equipment/gear/torch.md",
+    "src/content/docs/equipment/items/amber.md",
+    "src/content/docs/equipment/items/antler.md",
+    "src/content/docs/equipment/items/arrow-bone.md",
+    "src/content/docs/equipment/items/arrow-fire.md",
+    "src/content/docs/equipment/items/arrow-flint.md",
+    "src/content/docs/equipment/items/arrow-iron.md",
+    "src/content/docs/equipment/items/bandage.md",
+    "src/content/docs/equipment/items/barley.md",
+    "src/content/docs/equipment/items/bog-balm.md",
+    "src/content/docs/equipment/items/bone-broth.md",
+    "src/content/docs/equipment/items/bone-meal.md",
+    "src/content/docs/equipment/items/bone.md",
+    "src/content/docs/equipment/items/bucket.md",
+    "src/content/docs/equipment/items/charger-trophy.md",
+    "src/content/docs/equipment/items/cloudberry-tart.md",
+    "src/content/docs/equipment/items/cloudberry.md",
+    "src/content/docs/equipment/items/cooked-meat.md",
+    "src/content/docs/equipment/items/crystal.md",
+    "src/content/docs/equipment/items/echo-focus.md",
+    "src/content/docs/equipment/items/flatbread.md",
+    "src/content/docs/equipment/items/flax.md",
+    "src/content/docs/equipment/items/flint.md",
+    "src/content/docs/equipment/items/frost-lichen.md",
+    "src/content/docs/equipment/items/grave-iron.md",
+    "src/content/docs/equipment/items/grave-ward.md",
+    "src/content/docs/equipment/items/greyhorn-trophy.md",
+    "src/content/docs/equipment/items/heart.md",
+    "src/content/docs/equipment/items/herb.md",
+    "src/content/docs/equipment/items/hide.md",
+    "src/content/docs/equipment/items/hollow-trophy.md",
+    "src/content/docs/equipment/items/index.md",
+    "src/content/docs/equipment/items/iron-bar.md",
+    "src/content/docs/equipment/items/iron.md",
+    "src/content/docs/equipment/items/ironbark-brew.md",
+    "src/content/docs/equipment/items/leather.md",
+    "src/content/docs/equipment/items/mushroom.md",
+    "src/content/docs/equipment/items/oak-wood.md",
+    "src/content/docs/equipment/items/porridge.md",
+    "src/content/docs/equipment/items/potion.md",
+    "src/content/docs/equipment/items/raw-meat.md",
+    "src/content/docs/equipment/items/resin.md",
+    "src/content/docs/equipment/items/salve.md",
+    "src/content/docs/equipment/items/silk-bandage.md",
+    "src/content/docs/equipment/items/silver.md",
+    "src/content/docs/equipment/items/skewer.md",
+    "src/content/docs/equipment/items/spider-silk.md",
+    "src/content/docs/equipment/items/stalker-trophy.md",
+    "src/content/docs/equipment/items/stew.md",
+    "src/content/docs/equipment/items/stone.md",
+    "src/content/docs/equipment/items/tusk.md",
+    "src/content/docs/equipment/items/venison-roast.md",
+    "src/content/docs/equipment/items/venison.md",
+    "src/content/docs/equipment/items/vigor-tonic.md",
+    "src/content/docs/equipment/items/warming-draught.md",
+    "src/content/docs/equipment/items/water-bucket.md",
+    "src/content/docs/equipment/items/whetstone.md",
+    "src/content/docs/equipment/items/wood.md",
+    "src/content/docs/updates/index.md",
+    "src/data/equipment-calculator.json",
+    "src/data/reference-links.json"
+  ]
+}

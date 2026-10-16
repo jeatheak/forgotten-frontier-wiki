@@ -1,0 +1,55 @@
+---
+import Footer from '@astrojs/starlight/components/Footer.astro';
+---
+<Footer />
+<dialog id="wiki-lightbox" aria-label="Image viewer">
+  <div class="lightbox-toolbar"><span id="lightbox-count"></span><button type="button" data-lightbox-close aria-label="Close image viewer">Close ×</button></div>
+  <figure><img id="lightbox-image" alt="" /><figcaption id="lightbox-caption"></figcaption></figure>
+  <div class="lightbox-controls"><button type="button" data-lightbox-prev aria-label="Previous image">← Previous</button><button type="button" data-lightbox-next aria-label="Next image">Next →</button></div>
+</dialog>
+<script>
+  const dialog=document.querySelector<HTMLDialogElement>('#wiki-lightbox')!;
+  const picture=dialog.querySelector<HTMLImageElement>('#lightbox-image')!;
+  const caption=dialog.querySelector<HTMLElement>('#lightbox-caption')!;
+  const counter=dialog.querySelector<HTMLElement>('#lightbox-count')!;
+  let images: HTMLImageElement[]=[], current=0, opener: HTMLElement|null=null;
+  const previous=dialog.querySelector<HTMLButtonElement>('[data-lightbox-prev]')!;
+  const next=dialog.querySelector<HTMLButtonElement>('[data-lightbox-next]')!;
+  for(const image of document.querySelectorAll<HTMLImageElement>('.sl-markdown-content img')) {
+    if(image.closest('.entity-link,.entry-card,.ingredient-list,.feature-card'))continue;
+    const anchor=image.closest('a');
+    if(anchor){anchor.setAttribute('aria-haspopup','dialog');continue;}
+    image.tabIndex=0;image.setAttribute('role','button');image.setAttribute('aria-haspopup','dialog');image.setAttribute('aria-label',`Enlarge image: ${image.alt}`);
+    image.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();image.click();}});
+  }
+  function show(index:number) {
+    current=(index+images.length)%images.length;
+    const source=images[current];
+    const anchor=source.closest<HTMLAnchorElement>('a[href]');
+    picture.src=anchor?.pathname.startsWith('/images/') ? anchor.href : source.currentSrc || source.src;
+    picture.alt=source.alt;
+    caption.textContent=source.closest('figure')?.querySelector('figcaption')?.textContent || source.alt;
+    counter.textContent=`${current+1} / ${images.length}`;
+    previous.hidden=next.hidden=images.length<2;
+  }
+  document.addEventListener('click',event=>{
+    const target=event.target as HTMLElement;
+    const source=target.closest<HTMLImageElement>('.sl-markdown-content img') || target.closest<HTMLAnchorElement>('.sl-markdown-content a[href^="/images/"]')?.querySelector<HTMLImageElement>('img');
+    if (!source || source.closest('.entity-link,.entry-card,.ingredient-list,.feature-card')) return;
+    const anchor=source.closest<HTMLAnchorElement>('a');
+    if (anchor && !anchor.pathname.startsWith('/images/')) return;
+    if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    images=Array.from(document.querySelectorAll<HTMLImageElement>('.sl-markdown-content img')).filter(i=>!i.closest('.entity-link,.entry-card,.ingredient-list,.feature-card'));
+    opener=anchor || source;
+    show(images.indexOf(source));
+    dialog.showModal();
+    document.documentElement.classList.add('lightbox-open');
+  });
+  dialog.querySelector('[data-lightbox-close]')!.addEventListener('click',()=>dialog.close());
+  previous.addEventListener('click',()=>show(current-1));
+  next.addEventListener('click',()=>show(current+1));
+  dialog.addEventListener('click',e=>{if(e.target===dialog) dialog.close();});
+  dialog.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(current-1);if(e.key==='ArrowRight')show(current+1);});
+  dialog.addEventListener('close',()=>{document.documentElement.classList.remove('lightbox-open');opener?.focus();picture.removeAttribute('src');});
+</script>

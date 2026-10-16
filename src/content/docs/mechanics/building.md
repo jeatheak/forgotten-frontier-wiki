@@ -1,0 +1,22 @@
+---
+title: "Building and storage"
+description: "Raise a home, support upper storeys and use household materials."
+verification: verified
+sources: ["Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/UI/HudView.cs", "Assets/Scripts/UI/StorageScreen.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/Player/PlayerController.cs", "CHANGELOG.md"]
+---
+
+<div class="gallery-grid"><figure><a href="/images/stations-v016.webp" aria-label="Open full-size image: Stations placed around the homestead in a demonstration setup."><img src="/images/stations-v016.webp" alt="Stations placed around the homestead in a demonstration setup." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Stations placed around the homestead in a demonstration setup.</figcaption></figure><figure><a href="/images/homestead-v016.webp" aria-label="Open full-size image: The clearing where a new wanderer begins building a home."><img src="/images/homestead-v016.webp" alt="The clearing where a new wanderer begins building a home." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The clearing where a new wanderer begins building a home.</figcaption></figure></div>
+
+Enter build mode with **B** near the homestead. The pieces of the chosen tab (structure, crafting or furniture) are listed in a panel on the right, five to a row, with the selected piece's description and cost (what you carry and what is in the chests) below. Choose a piece, align its placement preview, rotate it as needed and place it when the preview allows; the line at the bottom says whether it can be placed and how well it is supported. Escape leaves build mode.
+
+<div class="gallery-grid"><figure><a href="/images/build-v017.webp" aria-label="Open full-size image: The build panel in v0.17.0: the whole Structure tab at once."><img src="/images/build-v017.webp" alt="The build panel in v0.17.0: the whole Structure tab at once." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The build panel in v0.17.0: the whole Structure tab at once.</figcaption></figure></div>
+
+Buildings use structural support. Floors, walls, roofs and stairs let you build multiple storeys; unsupported placements need a stronger connection below. A roof piece beside another roof lines up with it, also over an eave or the middle of a wide house where no wall stands below; aim at the side of a roof to run it out sideways (from inside the house works too). Beams, posts and smaller snap pieces attach to nearby pieces. Build stations, beds, chests and furnishings as your home grows.
+
+Building draws materials from **your satchel and household chests**. The panel shows the combined amount. Removing a piece refunds its material cost: into your satchel, then into the chests if the satchel is full, and whatever is left is set down beside you.
+
+## Storage
+
+Every chest opens the one **household stash**, which holds **10 slots per chest** (up to 20 of a kind in a slot, one piece of gear a slot; with no chest built it still holds 10). Build another chest for more room. When the chests are full, Store materials moves what fits and the rest stays in the satchel. The stash is shared in online co-op.
+
+Place station extensions close to their parent station to raise its level. [Station extensions](/crafting/) unlock better equipment and upgrades. Beds provide a home to return to; [garden beds](/mechanics/farming/) grow supplies.
