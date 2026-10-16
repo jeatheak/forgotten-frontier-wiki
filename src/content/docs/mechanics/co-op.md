@@ -2,7 +2,7 @@
 title: "Online co-op"
 description: "Join a shared world and understand what travels with your hero."
 verification: verified
-sources: ["Assets/Scripts/Net/NetSession.cs", "Assets/Scripts/Net/NetSession.World.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/SaveSystem.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/Net/NetHud.cs", "Server/FFServer/GameServer.cs", "Server/SERVER.md", "CHANGELOG.md"]
+sources: ["Assets/Scripts/Net/NetSession.cs", "Assets/Scripts/Net/NetSession.World.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/SaveSystem.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/Net/NetHud.cs", "Server/FFServer/GameServer.cs", "Server/SERVER.md", "CHANGELOG.md", "Assets/Scripts/UI/Screens.cs"]
 ---
 
 Choose **Join a world** on the title screen. Select a hero or **+ New hero**, then enter the host address and password. The address accepts `host` or `host:port`; the default port is **2456 TCP**. Your game and server must have matching versions. Servers default to four players and can be configured for 1–16.
@@ -15,11 +15,15 @@ Buildings, beds, gardens, chests, station work, drops, fallen satchels, creature
 
 When two players reach for the same thing at the same moment (a piece of gear in the chests, the last of a stack, the bars in a bloomery or a station's load), the first hand gets it; the other is told someone was quicker and gets back what they paid. Your hero arrives wearing what they wore and with their hotbar as they left it. The hero's thoughts, the lands a hero has walked and the hints they have learned are each hero's own. Only moderators can change the server's clock.
 
-Nothing pauses online. The server's clock advances while someone is connected. Everyone must be in bed to skip the night. Downed heroes can be helped up. Enter opens chat; on a controller hold D-Up for quick chat. Music from a lute rests nearby listeners.
+Nothing pauses online, and the Escape menu has no Save: your hero is saved as you play and when you leave, and the server keeps the world. The server's clock advances while someone is connected. Everyone must be in bed to skip the night. Downed heroes can be helped up. Enter opens chat; on a controller hold D-Up for quick chat. Music from a lute rests nearby listeners.
 
 ![Two heroes beside the home campfire with a remote name plate and party health bar.](/images/coop-v0.15.png)
 
 *Co-op in v0.15.0; the current chat presentation changed in v0.16.0.*
+
+![The co-op chat log with moderator and server lines, and the SAY line for typing directly beneath it.](/images/chat-v018.webp)
+
+*Co-op chat in v0.18.0: the line you type sits under the log.*
 
 ## Moderators and commands
 

@@ -23,6 +23,7 @@ export default defineConfig({
       { label: 'Equipment & Echoes', items: ['equipment', 'equipment/gear', 'equipment/calculator', 'equipment/items', 'runes'] },
       { label: 'Crafting', items: ['crafting', 'crafting/stations', 'crafting/recipes'] },
       { label: 'Survival', items: [{ autogenerate: { directory: 'mechanics' } }, 'progression'] },
+      { label: 'Hosting', items: [{ autogenerate: { directory: 'hosting' } }] },
       { label: 'Archive', items: [{ autogenerate: { directory: 'lore' } }, { autogenerate: { directory: 'updates' } }] }
     ]
   })]

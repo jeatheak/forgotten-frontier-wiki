@@ -901,5 +901,33 @@
     "version": "0.17.0",
     "alt": "A Birchwood glade with a fallen trunk and gold leaves drifting on the wind.",
     "caption": "Birchwood clutter in v0.17.0: fallen trunks, stumps and berry patches."
+  },
+  {
+    "path": "/images/ridge-hut-v018.webp",
+    "source": "Screens/wiki/ridge-hut-v018.webp",
+    "version": "0.18.0",
+    "alt": "A one-square log hut with a door, under a steep thatched Ridge Roof closed by a pointed plank Ridge Gable with crossed ridge horns.",
+    "caption": "A one-room hut under a Ridge Roof and Ridge Gables in v0.18.0."
+  },
+  {
+    "path": "/images/build-pointer-v018.webp",
+    "source": "Screens/wiki/build-pointer-v018.webp",
+    "version": "0.18.0",
+    "alt": "Build mode with the piece panel on the right showing the Ridge Roof selected and its description, a red placement preview of the roof, and hints for picking a piece with the pointer.",
+    "caption": "The build panel in v0.18.0 with the pointer out (Tab): click a piece to pick it."
+  },
+  {
+    "path": "/images/chat-v018.webp",
+    "source": "Screens/wiki/chat-v018.webp",
+    "version": "0.18.0",
+    "alt": "The co-op chat log with moderator and server lines, and the SAY line for typing directly beneath it.",
+    "caption": "Co-op chat in v0.18.0: the line you type sits under the log."
+  },
+  {
+    "path": "/images/hearthstone-v018.webp",
+    "source": "Screens/wiki/hearthstone-v018.webp",
+    "version": "0.18.0",
+    "alt": "Hallvard's Hearthstone beside the homestead campfire, its glowing carving facing the fire.",
+    "caption": "Hallvard's Hearthstone by the homestead fire in v0.18.0."
   }
 ]
