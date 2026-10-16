@@ -109,7 +109,7 @@
       "Barrow Hollow",
       "Hollow Thane"
     ],
-    "description": "A shield-bearing undead warrior. Frontal light hits and arrows glance off its guard; heavy blows break it. Watch for a two-hit combo and a leap. Its blade carries grave rot.",
+    "description": "A shield-bearing undead warrior. Frontal light hits and arrows glance off its guard; heavy blows break it. Watch for a two-hit combo (both blows are marked on the ground) and a leap. Its blade carries grave rot.",
     "source": "Assets/Scripts/Enemies/Hollow.cs",
     "page": "creatures/hollow",
     "image": "/images/hollow-v016.webp",

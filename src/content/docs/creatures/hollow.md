@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Enemies/Hollow.cs","Assets/Scripts/Enemies/Enemy.cs","
 
 <figure class="reference-portrait"><a href="/images/hollow-v016.webp"><img src="/images/hollow-v016.webp" alt="Hollow — staged in-game portrait" width="1600" height="900" /></a><figcaption>Actual game model, staged for this portrait in v0.16.0.</figcaption></figure>
 
-A shield-bearing undead warrior. Frontal light hits and arrows glance off its guard; heavy blows break it. Watch for a two-hit combo and a leap. Its blade carries grave rot.
+A shield-bearing undead warrior. Frontal light hits and arrows glance off its guard; heavy blows break it. Watch for a two-hit combo (both blows are marked on the ground) and a leap. Its blade carries grave rot.
 
 ## Health and poise
 

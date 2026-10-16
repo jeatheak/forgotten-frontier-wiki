@@ -2,7 +2,7 @@
 title: "Your first day"
 description: "Start a hero, gather supplies, craft tools and survive your first expedition."
 verification: verified
-sources: ["Assets/Scripts/World/Crafting.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/Core/Guide.cs", "CHANGELOG.md"]
+sources: ["Assets/Scripts/World/Crafting.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/Core/Guide.cs", "CHANGELOG.md"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/homestead-v016.webp" aria-label="Open full-size image: Your journey begins beside the homestead campfire."><img src="/images/homestead-v016.webp" alt="Your journey begins beside the homestead campfire." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Your journey begins beside the homestead campfire.</figcaption></figure><figure><a href="/images/inventory-v016.webp" aria-label="Open full-size image: The satchel, equipment slots and hotbar in v0.16.0."><img src="/images/inventory-v016.webp" alt="The satchel, equipment slots and hotbar in v0.16.0." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The satchel, equipment slots and hotbar in v0.16.0.</figcaption></figure></div>
@@ -18,6 +18,8 @@ Choose a hero slot on the title screen and create your wanderer. Choose difficul
 7. When the satchel fills up, take what the land gives to **Orm the Peddler** by the Birchwood road, west of the old ruins. He pays in silver and sells a bigger satchel.
 
 Your satchel holds **15 slots**, up to **20 of a kind in a slot**; gear is strapped on and needs no slot. What does not fit is set down at your feet, and loot on the ground waits until you have room. Orm sells more room, five slots at a time (30, 60, 100, 150 and 220 silver), up to 40.
+
+What you gather grows back in its own time: a felled tree after about 7 minutes (once its log is cleared away), a broken rock after 8, a boulder after 12, an echo crystal after 10, and plants after about 5 to 20. Walking away and coming back does not hurry it, and nothing grows back while someone stands close by.
 
 If you are unsure what to do next, keep an eye on the quiet line your hero sometimes thinks out loud at the bottom of the screen.
 
