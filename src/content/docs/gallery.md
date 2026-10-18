@@ -5,9 +5,19 @@ verification: verified
 sources: ["Assets/Scripts/World/WorldBuilder.cs", "Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/UI/Stage3D.cs", "CHANGELOG.md", "Assets/Scripts/UI/GameMenu.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "Assets/Scripts/UI/StorageScreen.cs", "Assets/Scripts/UI/HudView.cs"]
 ---
 
-These pictures were captured from the running game (**v0.16.0**, and **v0.17.0**, **v0.18.0**, **v0.19.0**, **v0.20.0** or **v0.21.0 beta** where the caption says so). Creature portraits and equipment demonstrations are staged using game tools; environments and models are the actual game assets. Tap a picture to open it at full size.
+These pictures were captured from the running game (**v0.16.0**, and **v0.17.0**, **v0.18.0**, **v0.19.0**, **v0.20.0**, **v0.21.0 beta** or **v0.21.1 beta** where the caption says so). Creature portraits and equipment demonstrations are staged using game tools; environments and models are the actual game assets. Tap a picture to open it at full size.
 
 ## Draw and shelter — v0.21.0 beta
+
+### Follow-up — v0.21.1 beta
+
+![Inventory with a persistently highlighted hotbar bow and the Money pouch button showing 123 silver.](/images/inventory-pouch-v0211.webp)
+
+*Hotbar focus and visible money-pouch balance, staged in v0.21.1 beta.*
+
+![The real game HUD showing an E Recover Flint Arrows prompt for an intact arrow at the homestead.](/images/arrow-recovery-v0211.webp)
+
+*An intact arrow's recovery prompt, staged in v0.21.1 beta.*
 
 ![A partially drawn Hunting Bow with a wide circular aiming reticle in the forest.](/images/bow-partial-v021.webp)
 

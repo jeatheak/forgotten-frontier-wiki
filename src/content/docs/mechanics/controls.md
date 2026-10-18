@@ -2,7 +2,7 @@
 title: "Controls and hotbar"
 description: "Keyboard and mouse bindings and controller shortcuts."
 verification: verified
-sources: ["Assets/Scripts/Core/InputSource.cs", "Assets/Scripts/UI/UIKit.cs", "CHANGELOG.md", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Ladder.cs", "Assets/Scripts/UI/GameMenu.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "Assets/Scripts/UI/StorageScreen.cs"]
+sources: ["Assets/Scripts/Core/InputSource.cs", "Assets/Scripts/UI/UIKit.cs", "CHANGELOG.md", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Ladder.cs", "Assets/Scripts/UI/GameMenu.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "Assets/Scripts/UI/StorageScreen.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Player/PlayerCombat.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/inventory-v016.webp" aria-label="Open full-size image: Historical inventory and hotbar layout in v0.16.0."><img src="/images/inventory-v016.webp" alt="Historical inventory and hotbar layout in v0.16.0." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Historical inventory and hotbar layout in v0.16.0.</figcaption></figure><figure><a href="/images/crafting-v016.webp" aria-label="Open full-size image: Keyboard prompts are shown along the bottom of the crafting screen."><img src="/images/crafting-v016.webp" alt="Keyboard prompts are shown along the bottom of the crafting screen." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Keyboard prompts are shown along the bottom of the crafting screen.</figcaption></figure></div>
@@ -37,7 +37,8 @@ In build mode (since v0.19, as in Valheim) **B** opens on the piece menu with th
 On a controller, focus a hotbar cell and press **A** to use/equip it, **X** to return it to the satchel, or **Y**
 for drop/destroy options. Focus spare gear and press X, then choose a hotbar slot with left/right and confirm with A.
 Equipped gear remains accessible through the equipment diamonds. Full satchels must have space before clearing a
-hotbar slot or removing gear. The **Money pouch** button opens deposit and withdrawal choices.
+hotbar slot or removing gear. The **Money pouch** button opens deposit and withdrawal choices. Since **v0.21.1 beta**,
+the button itself shows the current silver balance and updates after transfers or spending.
 
 On the map, click to add a pin. With a controller, move the cursor with the **right stick** and press **X** to add
 one. Select a pin for its label, waypoint toggle or removal. In **v0.21.0 beta**, clicking an existing custom pin opens
@@ -48,7 +49,19 @@ home is always marked. Storage filters use the Filter button or **LT / RT**.
 
 The game draws its own mouse pointer, a bronze arrowhead, wherever a menu wants the mouse.
 
-Drag a tool, weapon or supported consumable from the satchel onto a hotbar slot; right-click a slot to clear it. Consumables on the bar are used when their key is pressed. One stack of up to 20 is reserved outside the satchel; additional stacks stay in the bag. On the bow, a brief click releases a quick weak shot; the left button also releases while holding the draw with the right button.
+Drag a tool, weapon or supported consumable from the satchel onto a hotbar slot. Since **v0.21.1 beta**, drag a hotbar
+item back onto the satchel to return it; right-click a slot or use its controller Return action for the same result.
+Returning a held weapon also unequips it. A full satchel refuses the whole change, preserving the binding and equipment.
+Hotbar hover stays highlighted like other inventory cells. Consumables on the bar are used when their key is pressed.
+One stack of up to 20 is reserved outside the satchel; additional stacks stay in the bag.
+
+**v0.21.1 beta bow controls:** hold **left mouse** (RT) to draw, then release to shoot. **Right mouse** (LT or Y)
+cancels. Exhaustion also cancels, without firing or spending an arrow. Release the draw button before starting again
+after cancellation. A brief left click still releases a quick weak shot once the arrow is nocked.
+
+![Inventory with a persistently highlighted hotbar bow and the Money pouch button showing 123 silver.](/images/inventory-pouch-v0211.webp)
+
+*Hotbar focus and the current pouch balance, staged in v0.21.1 beta.*
 
 
 ![A full satchel has exactly fifteen occupied cells; worn headgear and a hotbar club sit outside it, and controller focus compares the spare cap with the worn one.](/images/inventory-v020.webp)

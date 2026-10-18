@@ -25,6 +25,17 @@ to deal **50% extra critical damage**. Enemy defenses and existing vulnerability
 
 The stable v0.20 release has the earlier, faster bow handling.
 
+Since **v0.21.1 beta**, left mouse/RT draws and release shoots; right mouse/LT/Y cancels the draw. Running out of
+stamina cancels too, without firing or consuming ammunition. Release the draw button after a cancellation before drawing
+again. Intact non-fire arrows stuck in the world can be recovered automatically within **2.4 m**, or with the interact
+button when their **Recover** prompt appears. The existing **60% survival chance** is unchanged: broken shafts vanish
+quickly, fire arrows burn out, and arrows striking creatures are not recoverable. A full bag can accept an arrow into a
+partial stack; if no room remains the intact arrow stays available until it expires.
+
+![The real game HUD showing an E Recover Flint Arrows prompt for an intact arrow at the homestead.](/images/arrow-recovery-v0211.webp)
+
+*An intact world arrow offers a recovery prompt, staged in v0.21.1 beta.*
+
 ![A partially drawn Hunting Bow with a wide circular aiming reticle in the forest.](/images/bow-partial-v021.webp)
 
 *Partial draw: a wide accuracy circle, staged in v0.21.0 beta.*

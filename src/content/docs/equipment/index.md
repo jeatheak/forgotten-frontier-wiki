@@ -14,6 +14,10 @@ starts at a 2-second full draw before quality and skill bonuses; the Horn Bow dr
 current spread, including shake from holding too long. Full-draw hits have a 95% chance of 50% extra critical damage.
 Base damage and ordinary upgrade multipliers remain as listed below. See [Archery](/mechanics/#archery-in-v0210-beta).
 
+**v0.21.1 beta:** left attack draws/releases bows, while right attack or exhaustion cancels without using an arrow.
+Intact world arrows have a recovery prompt and a 2.4 m automatic pickup reach. Non-fire arrows retain their 60%
+survival chance; broken shafts disappear quickly.
+
 Axes chop wood; pickaxes mine stone and ore. Since v0.19 tools hit creatures for about half the damage of a weapon of their tier (chopping and mining are unchanged). Clubs, spears, blades and bows offer different combat styles. Armour occupies head, chest, shoulders and arms; charms occupy their own slot. The lute is an instrument. A torch is carried gear and uses club attacks, with burning unchanged and just **25 base durability** since v0.20.
 
 Clubs, spears and blades can also **block** (see [Survival and combat](/mechanics/)).

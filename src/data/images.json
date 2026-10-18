@@ -1034,5 +1034,19 @@
     "version": "0.21.0",
     "alt": "A three-square log house with two roof slopes joining a raised central Ridge Roof, and a Ridge Gable stacked above a Gable Wall.",
     "caption": "Real game pieces forming a wide roof and stacked gable, staged in v0.21.0 beta."
+  },
+  {
+    "path": "/images/inventory-pouch-v0211.webp",
+    "source": "Screens/wiki/v0211/inventory-pouch.webp",
+    "version": "0.21.1",
+    "alt": "Inventory with a persistently highlighted hotbar bow and the Money pouch button showing 123 silver.",
+    "caption": "Hotbar focus and visible money-pouch balance, staged in v0.21.1 beta."
+  },
+  {
+    "path": "/images/arrow-recovery-v0211.webp",
+    "source": "Screens/wiki/v0211/arrow-recovery.webp",
+    "version": "0.21.1",
+    "alt": "The real game HUD showing an E Recover Flint Arrows prompt for an intact arrow at the homestead.",
+    "caption": "An intact world arrow offers a recovery prompt, staged in v0.21.1 beta."
   }
 ]
