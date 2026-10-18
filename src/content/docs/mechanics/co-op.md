@@ -7,7 +7,7 @@ sources: ["Assets/Scripts/Net/NetSession.cs", "Assets/Scripts/Net/NetSession.Wor
 
 Choose **Join a world** on the title screen. Select a hero or **+ New hero**, then enter the host address and password. The address accepts `host` or `host:port`; the default port is **2456 TCP**. Your game and server must have matching versions. Servers default to four players and can be configured for 1–16.
 
-**v0.21.0 beta:** local adventures and each server now keep independent hero profiles. Equipment, supplies, satchel capacity,
+**v0.22.0:** local adventures and each server now keep independent hero profiles. Equipment, supplies, satchel capacity,
 skills, map pins and progress earned on a server stay on that server's profile. They do not replace your local hero.
 On the first visit after upgrading, an existing hero record from that server is restored; a new server starts with
 a one-time copy of the selected local hero. Later visits resume the separate server profile and position.
@@ -15,7 +15,7 @@ a one-time copy of the selected local hero. Later visits resume the separate ser
 Local saves are stored in `Saves/Local`; client profiles for each server are under `Saves/Servers` in the game's save
 directory. Older local save files and their backup/recovery copies are copied into Local; the original files remain
 available for recovery. This prevents future mixing; it cannot reconstruct belongings or worlds already overwritten
-by an older version. The stable v0.20 release still uses the earlier shared hero slot behavior.
+by an older version. The older v0.20 release used the earlier shared hero slot behavior.
 
 ## Shared world
 

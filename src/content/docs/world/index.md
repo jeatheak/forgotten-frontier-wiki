@@ -41,7 +41,7 @@ The map begins obscured. Exploration reveals nearby terrain; discovered places a
 
 *Historical map pins and two active waypoints, staged in v0.20.0. In v0.21.0 beta the controller cursor is hidden in mouse mode.*
 
-In **v0.21.0 beta**, click a custom map pin to edit it and right-click to remove it. A right-click on a fallen satchel
+In **v0.22.0**, click a custom map pin to edit it and right-click to remove it. A right-click on a fallen satchel
 marker hides that marker from your map and compass; the satchel remains in the world for recovery. Controller users
 can hide satchel markers with the map's list buttons. Hidden markers are saved with that hero; a new death gets its
 own visible marker. Home and discovered-place markers remain landmarks.

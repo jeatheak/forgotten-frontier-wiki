@@ -78,7 +78,7 @@ Worlds are JSON files in the save folder (`saves/vale.json` by default). Each sa
 backups (`vale.json.1`, `.2`, ...) are kept on the backup interval. To move a world to another server, stop the server
 and copy its world file and corresponding `<world>.heroes.json` to retain hero reconnect/recovery records. Bans are kept in `saves/bans.txt`, one per line.
 
-The world's clock only runs while someone is connected. In **v0.21.0 beta**, each client keeps an independent hero
+The world's clock only runs while someone is connected. In **v0.22.0**, each client keeps an independent hero
 profile for each server. The server also retains complete hero records in `<world>.heroes.json`, including the last
 position, for reconnecting and recovering an existing hero during migration. Local heroes and worlds remain separate.
 

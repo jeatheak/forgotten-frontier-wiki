@@ -5,7 +5,21 @@ verification: verified
 sources: ["Assets/Scripts/World/WorldBuilder.cs", "Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/UI/Stage3D.cs", "CHANGELOG.md", "Assets/Scripts/UI/GameMenu.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "Assets/Scripts/UI/StorageScreen.cs", "Assets/Scripts/UI/HudView.cs"]
 ---
 
-These pictures were captured from the running game (**v0.16.0**, and **v0.17.0**, **v0.18.0**, **v0.19.0**, **v0.20.0**, **v0.21.0 beta** or **v0.21.1 beta** where the caption says so). Creature portraits and equipment demonstrations are staged using game tools; environments and models are the actual game assets. Tap a picture to open it at full size.
+These pictures were captured from the running game (**v0.16.0**, and **v0.17.0**, **v0.18.0**, **v0.19.0**, **v0.20.0**, **v0.21.0 beta** or **v0.21.1 beta**, or **v0.22.0** where the caption says so). Creature portraits and equipment demonstrations are staged using game tools; environments and models are the actual game assets. Tap a picture to open it at full size.
+
+## Waters and harvests — v0.22.0
+
+![Overhead view of a Mire pool with dark water following its natural banks.](/images/mire-water-v022.webp)
+
+*Mire water and natural pool banks in v0.22.0, captured with a staged overhead camera.*
+
+![A watered barley bed with the game HUD reporting that it will ripen in 2 game days.](/images/garden-days-v022.webp)
+
+*Day-based crop growth prompt, staged in v0.22.0.*
+
+![Inventory with the main-hand equipment slot highlighted and the pouch showing 123 silver.](/images/inventory-hover-v022.webp)
+
+*Equipment-slot focus and current pouch balance, staged in v0.22.0.*
 
 ## Draw and shelter — v0.21.0 beta
 

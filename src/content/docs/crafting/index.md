@@ -30,7 +30,7 @@ Build extensions within **4.5 m** of their station. The second extension needs t
 | Forge | Smith's Rack: mace and lamellar | Quench Trough: Echo Attunement |
 
 Arrow recipes show what the arrows do with your bow (the one in hand, else the best you own): base damage at full draw
-and for a quick shot, and stagger. These figures exclude critical damage. In **v0.21.0 beta**, a successful full-draw
+and for a quick shot, and stagger. These figures exclude critical damage. In **v0.22.0**, a successful full-draw
 hit has a 95% chance of dealing 50% extra critical damage; target defenses and vulnerability effects still apply.
 
 Crafting takes time while the world continues. What does not fit in your satchel is set down beside you. Each completed piece is paid for when it finishes; closing the menu does not charge for unfinished work. Gear quality can vary. Food crafting can yield an extra portion through Cooking skill.

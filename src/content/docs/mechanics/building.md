@@ -13,7 +13,7 @@ Enter build mode with **B** near the homestead. It opens on the **piece menu** w
 
 ## Snapping
 
-**v0.21.0 beta:** Roof Slopes and Ridge Roofs join at their actual edge heights. Aim at a slope's high end to put the
+**v0.22.0:** Roof Slopes and Ridge Roofs join at their actual edge heights. Aim at a slope's high end to put the
 ridge's low eave there; an opposite slope can then descend to the far wall. This supports
 **wall → slope → raised ridge ← slope ← wall**. A **Ridge Gable** also stacks on a **Gable Wall**, with its foot
 2 m above the panel's foot and separate structural support. The one-square ridge hut still works as before.

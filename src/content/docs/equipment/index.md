@@ -9,12 +9,12 @@ sources: ["Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/Upgrades.cs", "As
 
 [Equipment calculator](/equipment/calculator/) · [Browse every equipment definition](/equipment/gear/) or [all stackable items](/equipment/items/).
 
-**v0.21.0 beta bows:** tier, quality and upgrades improve accuracy, while upgrades also speed the draw. The Hunting Bow
+**v0.22.0 bows:** tier, quality and upgrades improve accuracy, while upgrades also speed the draw. The Hunting Bow
 starts at a 2-second full draw before quality and skill bonuses; the Horn Bow draws faster. The aiming circle shows
 current spread, including shake from holding too long. Full-draw hits have a 95% chance of 50% extra critical damage.
-Base damage and ordinary upgrade multipliers remain as listed below. See [Archery](/mechanics/#archery-in-v0210-beta).
+Base damage and ordinary upgrade multipliers remain as listed below. See [Archery](/mechanics/#archery).
 
-**v0.21.1 beta:** left attack draws/releases bows, while right attack or exhaustion cancels without using an arrow.
+**v0.22.0:** left attack draws/releases bows, while guard, heavy attack or exhaustion cancels without using an arrow.
 Intact world arrows have a recovery prompt and a 2.4 m automatic pickup reach. Non-fire arrows retain their 60%
 survival chance; broken shafts disappear quickly.
 

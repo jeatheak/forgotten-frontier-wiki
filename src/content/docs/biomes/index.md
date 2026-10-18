@@ -33,6 +33,14 @@ The displayed danger rating describes the region, not a promise that every encou
 
 The common finds are thinner there in turn: Birchwood has fewer moonpetals, the Highlands no flax. Flint is restricted to watersides rather than dry inland ground. The trader pays well for all four.
 
+**v0.22.0:** dedicated flint deposits are added on dry banks beside Stillwater Tarn, its brook,
+bog pools and the ocean coast. Look just above the waterline for loose nodules. Mire water also blends continuously
+with the surrounding biome and the offshore sea, replacing the rectangular material boundary. These changes are
+included in the stable release.
+
+The release thins the extra shoreline deposits substantially, especially near home and Mira's campsite;
+existing forage placement is unchanged. Flint remains a waterside resource, including on ocean beaches.
+
 ## The Mire
 
 Venom damages you over time and prevents healing; webs slow movement. **Bogwalker's Balm** protects against both for six minutes.
@@ -42,3 +50,7 @@ Venom damages you over time and prevents healing; webs slow movement. **Bogwalke
 Away from home, shelter and fire, Highland cold can hinder recovery. Night, storms, rain and being soaked can make it worse. A **Fur Mantle** or **Warming Draught** protects against cold; a leather cap and bone broth reduce its severity. The draught lasts six minutes.
 
 [Items and consumables](/equipment/items/) · [Crafting recipes](/crafting/recipes/)
+
+![Overhead view of a Mire pool with dark water following its natural banks.](/images/mire-water-v022.webp)
+
+*Real gameplay capture, staged in v0.22.0.*

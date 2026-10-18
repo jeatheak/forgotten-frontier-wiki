@@ -5,11 +5,13 @@ verification: verified
 sources: ["CHANGELOG.md"]
 ---
 
-This is the player wiki for **The Forgotten Frontier**, a co-op survival and action RPG. It documents implemented game content. Current source version: **0.21.1 beta — draw and shelter**. The latest stable public release remains v0.20.0; beta changes are labeled. A source version does not prove that a release has been published.
+This is the player wiki for **The Forgotten Frontier**, a co-op survival and action RPG. It documents implemented game content. Current source and stable release: **0.22.0 — waters and harvests**. Earlier beta captures remain labeled with their original versions. A source version does not prove that a release has been published.
 
 Item, equipment and recipe references and the update archive are generated from game definitions. Player guides are reviewed against the relevant implementations. The maintenance workflow records source hashes and flags changed sources for review. It requires an agent working in the game project; it is not a background service.
 
 ## Pictures
+
+New **v0.22.0** captures show Mire water, an equipment-slot highlight and the garden prompt measured in game days.
 
 New **v0.21.0 beta** photographs show partial and full bow-draw circles, the corrected mouse map, and a raised ridge
 roof with stacked gables. These are real game captures from an isolated test session.

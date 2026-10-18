@@ -2,7 +2,7 @@
 title: "Farming and water"
 description: "Plant garden beds and keep crops watered."
 verification: verified
-sources: ["Assets/Scripts/World/Farming.cs", "Assets/Scripts/Player/PlayerController.cs"]
+sources: ["Assets/Scripts/World/Farming.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/World/DayNight.cs"]
 ---
 
 Build a garden bed at home. Plant from the wild crops already in your bag: **flax, barley, moonpetals or redcaps**. A new planting needs water once before it grows: use a bucket, or let rain water an uncovered bed. Pale soil is dry; dark soil is watered.
@@ -11,9 +11,16 @@ Fill a bucket by wading into a stream or pond, or draw water from a well. Plants
 
 | Crop | Base time to ripen |
 | --- | --- |
-| Barley | 420 seconds |
-| Flax | 480 seconds |
-| Moonpetals | 600 seconds |
-| Redcaps | 560 seconds |
+| Barley | 2 game days |
+| Flax | 2.5 game days |
+| Moonpetals | 3 game days |
+| Redcaps | 2.75 game days |
 
 These times are before Farming skill and omen modifiers, and exclude time spent waiting for water. A harvest that does not fit in the satchel is set down beside the bed. The planter's Farming skill is recorded when planting.
+
+Since **v0.22.0**, growth durations and prompts use game days. Sleep advances growth, and existing plantings retain
+their growth percentage when loaded. The earlier v0.21.1 draft used shorter minute-based timers.
+
+![A watered barley bed with the game HUD reporting that it will ripen in 2 game days.](/images/garden-days-v022.webp)
+
+*Barley growing at its base day-based pace, staged in v0.22.0.*

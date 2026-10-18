@@ -11,7 +11,7 @@ Health keeps you alive; stamina pays for strenuous actions, attacks and evasions
 
 Watch a creature's windup, evade or block the committed attack, then use its recovery window. Stagger and Exposed states create openings. The spear and blades support weapon arts. Relics add further abilities.
 
-## Archery in v0.21.0 beta
+## Archery
 
 Hold attack to draw and release to loose. A basic Common Hunting Bow takes **2 seconds** to draw before skill bonuses;
 movement slows to a quarter of normal while drawing. The aiming circle shows the shot's spread and shrinks as you
@@ -23,9 +23,9 @@ steady window, the circle widens as your arms shake. Release when ready instead 
 Arrows follow a visible arc over distance. Base bow damage is unchanged; a successful full-draw shot has a **95% chance**
 to deal **50% extra critical damage**. Enemy defenses and existing vulnerability effects still apply.
 
-The stable v0.20 release has the earlier, faster bow handling.
+The earlier v0.20 release used faster bow handling; the deliberate draw is included in stable v0.22.0.
 
-Since **v0.21.1 beta**, left mouse/RT draws and release shoots; right mouse/LT/Y cancels the draw. Running out of
+Since **v0.22.0**, left mouse/RT draws and release shoots; right mouse/LT/Y cancels the draw. Running out of
 stamina cancels too, without firing or consuming ammunition. Release the draw button after a cancellation before drawing
 again. Intact non-fire arrows stuck in the world can be recovered automatically within **2.4 m**, or with the interact
 button when their **Recover** prompt appears. The existing **60% survival chance** is unchanged: broken shafts vanish
@@ -58,7 +58,10 @@ during its 1.05-second warning, then use its recovery window.
 
 ## Blocking and parrying
 
-With a **club, spear or blades** in hand, hold **MMB or C** (LT on a controller) to guard. A blow from the front (within **70°** to either side of where you face) is mostly stopped; blows from the side or behind get through. In front a club stops **70%**, a spear **60%** and blades **50%** (less with a broken weapon). Each blocked blow costs stamina (4 plus 90% of the blow's damage, less with weapon skill); with too little stamina the guard breaks, more gets through and you are thrown off balance. While guarding you move at half speed and stamina does not recover. Fists, tools and the bow cannot block.
+Hold **right mouse or C** to guard; **middle mouse** performs a heavy attack. Both can cancel a bow draw. Shift only
+sprints; use Left Alt or mouse button 4 to dodge. Controller bindings are unchanged.
+
+With a **club, spear or blades** in hand, hold **RMB or C** (LT on a controller) to guard. A blow from the front (within **70°** to either side of where you face) is mostly stopped; blows from the side or behind get through. In front a club stops **70%**, a spear **60%** and blades **50%** (less with a broken weapon). Each blocked blow costs stamina (4 plus 90% of the blow's damage, less with weapon skill); with too little stamina the guard breaks, more gets through and you are thrown off balance. While guarding you move at half speed and stamina does not recover. Fists, tools and the bow cannot block.
 
 Raise the guard **just as the blow lands** (within a quarter of a second) to **parry**: nothing gets through and the attacker reels, Staggered and Exposed. Raising it again straight after lowering it gives no parry window. Mira's lesson, the **Riposte**, adds a counter-blow to every parry.
 

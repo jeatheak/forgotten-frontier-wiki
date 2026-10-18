@@ -19,5 +19,5 @@ Multipliers are difficulty factors before other creature modifiers; creatures bo
 
 In online co-op, the **server's difficulty** applies to everyone. Hardcore becomes Hard there; permanent death is a single-player rule. Retrieve recoverable belongings from the glowing satchel where you fell. Silver kept in the money pouch stays with the hero when they fall; loose silver follows the ordinary carried-item rules.
 
-In **v0.21.0 beta**, right-click a death-satchel map marker, or use its **Hide satchel** button on the map, to dismiss
+In **v0.22.0**, right-click a death-satchel map marker, or use its **Hide satchel** button on the map, to dismiss
 its map and compass marker. This only changes that hero's marker visibility: the physical satchel and loot remain.
