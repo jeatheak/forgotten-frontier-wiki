@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Enemies/Charger.cs","Assets/Scripts/Enemies/Enemy.cs",
 
 <figure class="reference-portrait"><a href="/images/charger-v016.webp"><img src="/images/charger-v016.webp" alt="Charger — staged in-game portrait" width="1600" height="900" /></a><figcaption>Actual game model, staged for this portrait in v0.16.0.</figcaption></figure>
 
-An aggressive beast with a headbutt and a committed charge. Bait its charge into an obstacle to stun it.
+An aggressive beast with a headbutt, a committed charge and a close-range stomp. Crowding or circling its flanks can trigger a 360-degree stomp with 12 knockback: leave the marked 3.2 m circle during the 1.05-second warning; it recovers for 1.4 seconds and has a 6-second stomp cooldown. Bait its charge into an obstacle to stun it.
 
 ## Health and poise
 
@@ -27,6 +27,7 @@ These are non-elite values before omens. Poise does not scale with creature leve
 | --- | --- | --- |
 | Headbutt | 16 | 17.92 |
 | Charge | 24 | 26.88 |
+| Stomp | 14 | 15.68 |
 
 Damage = base × (1 + 0.3 × (level − 1)) × difficulty multiplier. Easy/Builder: ×1; Normal: ×1.12; Hard/Hardcore: ×1.35. This is outgoing hit damage before the hero’s armour, mitigation and other combat effects. Venom and grave rot are separate status effects.
 

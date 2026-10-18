@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Enemies/Guardian.cs","Assets/Scripts/Enemies/Enemy.cs"
 
 <figure class="reference-portrait"><a href="/images/guardian-v016.webp"><img src="/images/guardian-v016.webp" alt="Ancient Guardian — staged in-game portrait" width="1600" height="900" /></a><figcaption>Actual game model, staged for this portrait in v0.16.0.</figcaption></figure>
 
-The boss of the Forgotten Courtyard. Since v0.19 the Courtyard gate is sealed until the Keepers’ trials are passed and a Keepers’ Key is set in the seal (see [the journey](/progression/)). Bait a charge into a wall or restored Echo pillar: the impact removes 5% of its maximum health and leaves it staggered for 3.5 seconds and Exposed for 4.5 seconds. Below half health it moves and attacks faster. Echoes help but are not required.
+The boss of the Forgotten Courtyard. Since v0.19 the Courtyard gate is sealed until the Keepers’ trials are passed, every unlockable companion (currently Mira) has joined, and a Keepers’ Key is set in the seal (see [the journey](/progression/)). Bait a charge into a wall or restored Echo pillar: the impact removes 5% of its maximum health and leaves it staggered for 3.5 seconds and Exposed for 4.5 seconds. Below half health it moves and attacks faster. Echoes help but are not required.
 
 ## Health and poise
 

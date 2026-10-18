@@ -2,7 +2,7 @@
 title: "The Vale and the outer lands"
 description: "Explore the homestead, wilderness, ruins and crypts."
 verification: verified
-sources: ["Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/World/WorldBuilder.cs", "Assets/Scripts/World/WorldWater.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/WorldPOI.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/World/Puzzles.cs", "Assets/Scripts/World/Exploration.cs", "Assets/Scripts/World/Crypt.cs"]
+sources: ["Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/World/WorldBuilder.cs", "Assets/Scripts/World/WorldWater.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/WorldPOI.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/World/Puzzles.cs", "Assets/Scripts/World/Exploration.cs", "Assets/Scripts/World/Crypt.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "Assets/Scripts/UI/HudView.cs", "Assets/Scripts/Core/SaveSystem.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/ruins-v016.webp" aria-label="Open full-size image: The old ruins, seen from above the forest in v0.16.0."><img src="/images/ruins-v016.webp" alt="The old ruins, seen from above the forest in v0.16.0." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The old ruins, seen from above the forest in v0.16.0.</figcaption></figure><figure><a href="/images/homestead-v016.webp" aria-label="Open full-size image: A new wanderer at the homestead fire in v0.16.0."><img src="/images/homestead-v016.webp" alt="A new wanderer at the homestead fire in v0.16.0." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>A new wanderer at the homestead fire in v0.16.0.</figcaption></figure></div>
@@ -11,7 +11,7 @@ The world spans a **720 m square**. The central Vale contains the homestead, for
 
 <div class="gallery-grid"><figure><a href="/images/coast-v019.webp" aria-label="Open full-size image: The south coast and the sea in v0.19.0."><img src="/images/coast-v019.webp" alt="A hero standing on a grassy dune above a narrow sandy beach, looking out over a calm grey-blue sea to a hazy horizon in light rain." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The south coast and the sea in v0.19.0.</figcaption></figure></div>
 
-The homestead is your base for crafting, storage and building. Follow paths into the forest, find places and lore, prepare for the northern frontier, and eventually reach the Forgotten Courtyard and Beacon. Barrows lead into underground crypts with their own dangers.
+The homestead is your base for crafting, storage and building. Follow paths into the forest, find places and lore, prepare for the northern frontier, and eventually reach the Forgotten Courtyard and Beacon. Barrows lead into underground crypts with their own dangers. After clearing the first chamber, the burial-hall gate stays shut: interact with it when ready to face the Warden. You have time to heal and prepare first.
 
 **Trader's Rest**, a stride off the Birchwood road west of the old ruins, is the camp of **Orm the Peddler**. He buys wood, stone, hides, ore, trophies and the outer lands' finds for silver, and sells a bigger satchel, healing draughts, arrows, whetstones, bandages and seed barley. Creatures do not hunt within his lantern light.
 
@@ -21,7 +21,10 @@ Lit signal fires are linked by the **fire paths**: throw a handful of resin on o
 
 <div class="gallery-grid"><figure><a href="/images/firepath-v017.webp" aria-label="Open full-size image: The fire paths taking a hero (slowed for the capture, v0.17.0)."><img src="/images/firepath-v017.webp" alt="The fire paths taking a hero (slowed for the capture, v0.17.0)." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The fire paths taking a hero (slowed for the capture, v0.17.0).</figcaption></figure></div>
 
-The map begins obscured. Exploration reveals nearby terrain; discovered places and objectives help you navigate. Shared worlds synchronize exploration.
+Flint nodes and incidental flint gathering drops occur only near water: the tarn, brook, bog pools or coast.
+The sea now fills the shallow shoreline around Grove of Svartmark without the old straight dry strip.
+
+The map begins obscured. Exploration reveals nearby terrain; discovered places and objectives help you navigate. Shared worlds synchronize exploration. Personal map pins are saved with your hero: click the map to add one, or move its cursor with the right stick and press X. Select pins to choose a label, remove them or toggle their waypoints. Only two waypoints may be active; home is always on the compass.
 
 | Direction | Outer region |
 | --- | --- |
@@ -32,3 +35,13 @@ The map begins obscured. Exploration reveals nearby terrain; discovered places a
 | All round the edge | The Coast and the sea |
 
 [Biome preparation](/biomes/) · [Creatures](/creatures/) · [Echoes](/runes/) · [Progression spoilers](/progression/)
+
+
+![Personal map pins, with Camp and Danger active as two waypoints and Resources inactive.](/images/map-waypoints-v020.webp)
+
+*Map pins and two active waypoints, staged in v0.20.0.*
+
+
+![A hero at the south coast where continuous sea water meets the sandy shore.](/images/coast-v020.webp)
+
+*The coast and continuous shore water, v0.20.0.*

@@ -2,7 +2,7 @@
 title: "Survival and combat"
 description: "The systems that keep a wanderer alive."
 verification: verified
-sources: ["Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/Core/Skills.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/World/DayNight.cs", "CHANGELOG.md"]
+sources: ["Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/Core/Skills.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/World/DayNight.cs", "CHANGELOG.md", "Assets/Scripts/Enemies/Charger.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/Gear.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/torchlight-v016.webp" aria-label="Open full-size image: Carry a light when you head into the night."><img src="/images/torchlight-v016.webp" alt="Carry a light when you head into the night." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Carry a light when you head into the night.</figcaption></figure><figure><a href="/images/stalker-v016.webp" aria-label="Open full-size image: A Stalker, photographed in a staged in-game encounter."><img src="/images/stalker-v016.webp" alt="A Stalker, photographed in a staged in-game encounter." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>A Stalker, photographed in a staged in-game encounter.</figcaption></figure></div>
@@ -10,6 +10,18 @@ sources: ["Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/Pl
 Health keeps you alive; stamina pays for strenuous actions, attacks and evasions. Avoid spending your last breath before a creature strikes. Food improves stamina and recovery, and healing supplies help you recover from mistakes.
 
 Watch a creature's windup, evade or block the committed attack, then use its recovery window. Stagger and Exposed states create openings. The spear and blades support weapon arts. Relics add further abilities.
+
+## Meals, rest and light
+
+One meal can be active at a time. While Fed, the same food cannot be eaten again until 30 seconds or less remain;
+a different food can replace it. Sleeping through the night in your own claimed bed grants Rested, as does
+resting by the fire or listening to the lute. Another hero's bed is unavailable, even at night.
+
+The torch still hits and sets creatures alight, but has only **25 base durability**. It wears down while held and
+when used; save a real weapon for sustained fighting. Repair a burned-out torch at a workbench.
+
+At close range a Charger can stomp in every direction, knocking nearby heroes back. Leave the marked circle
+during its 1.05-second warning, then use its recovery window.
 
 ## Blocking and parrying
 

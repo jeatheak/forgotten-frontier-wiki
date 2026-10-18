@@ -17,4 +17,4 @@ Bait a charge into a wall or a restored Echo pillar to leave it stunned and **Ex
 
 The definition starts at **1450 health** and **260 poise** before encounter modifiers, including difficulty and co-op scaling. Do not read these as guaranteed final fight values.
 
-Its heart is part of [restoring the Beacon](/progression/). [Echo mechanics](/runes/) Ã‚Â· [Difficulty](/mechanics/difficulty/).
+Its heart is part of [restoring the Beacon](/progression/). [Echo mechanics](/runes/) · [Difficulty](/mechanics/difficulty/).

@@ -53,7 +53,7 @@
     "aliases": [
       "Elder Charger"
     ],
-    "description": "An aggressive beast with a headbutt and a committed charge. Bait its charge into an obstacle to stun it.",
+    "description": "An aggressive beast with a headbutt, a committed charge and a close-range stomp. Crowding or circling its flanks can trigger a 360-degree stomp with 12 knockback: leave the marked 3.2 m circle during the 1.05-second warning; it recovers for 1.4 seconds and has a 6-second stomp cooldown. Bait its charge into an obstacle to stun it.",
     "source": "Assets/Scripts/Enemies/Charger.cs",
     "page": "creatures/charger",
     "image": "/images/charger-v016.webp",
@@ -71,6 +71,10 @@
       [
         "Charge",
         24
+      ],
+      [
+        "Stomp",
+        14
       ]
     ],
     "drops": [
@@ -273,7 +277,7 @@
     "aliases": [
       "Guardian"
     ],
-    "description": "The boss of the Forgotten Courtyard. Since v0.19 the Courtyard gate is sealed until the Keepers’ trials are passed and a Keepers’ Key is set in the seal (see [the journey](/progression/)). Bait a charge into a wall or restored Echo pillar: the impact removes 5% of its maximum health and leaves it staggered for 3.5 seconds and Exposed for 4.5 seconds. Below half health it moves and attacks faster. Echoes help but are not required.",
+    "description": "The boss of the Forgotten Courtyard. Since v0.19 the Courtyard gate is sealed until the Keepers’ trials are passed, every unlockable companion (currently Mira) has joined, and a Keepers’ Key is set in the seal (see [the journey](/progression/)). Bait a charge into a wall or restored Echo pillar: the impact removes 5% of its maximum health and leaves it staggered for 3.5 seconds and Exposed for 4.5 seconds. Below half health it moves and attacks faster. Echoes help but are not required.",
     "source": "Assets/Scripts/Enemies/Guardian.cs",
     "page": "bosses/ancient-guardian",
     "image": "/images/guardian-v016.webp",

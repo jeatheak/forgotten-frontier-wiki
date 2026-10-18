@@ -24,7 +24,8 @@ Since v0.19 the **Courtyard gate is sealed**. The Keepers ask for proof before t
 3. Light a ruined watchtower's five fire baskets.
 4. Wake the Gale relic in the shrine on the Mesa.
 5. Forge the Ember relic.
-6. Forge a **[Keepers' Key](/equipment/items/keepers-key/)** at the forge (it can be forged once the trials above are passed) from what only the outer lands give: amber, frost lichen, spider silk and cloudberries, with iron bars and echo crystals.
+6. Recruit every unlockable companion to the homestead (currently **Mira**).
+7. Forge a **[Keepers' Key](/equipment/items/keepers-key/)** at the forge (it can be forged once the trials above are passed) from what only the outer lands give: amber, frost lichen, spider silk and cloudberries, with iron bars and echo crystals.
 
 Set the key in the seal and the gate opens for good. In a world whose Guardian fell before v0.19, the gate is open.
 

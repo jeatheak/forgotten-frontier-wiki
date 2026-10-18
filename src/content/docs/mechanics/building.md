@@ -2,7 +2,7 @@
 title: "Building and storage"
 description: "Raise a home, support upper storeys and use household materials."
 verification: verified
-sources: ["Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/UI/HudView.cs", "Assets/Scripts/UI/StorageScreen.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/World/Ladder.cs", "Assets/Scripts/World/Stations.cs", "CHANGELOG.md"]
+sources: ["Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/UI/HudView.cs", "Assets/Scripts/UI/StorageScreen.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/World/Ladder.cs", "Assets/Scripts/World/Stations.cs", "CHANGELOG.md", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Core/SaveSystem.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/stations-v016.webp" aria-label="Open full-size image: Stations placed around the homestead in a demonstration setup."><img src="/images/stations-v016.webp" alt="Stations placed around the homestead in a demonstration setup." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Stations placed around the homestead in a demonstration setup.</figcaption></figure><figure><a href="/images/homestead-v016.webp" aria-label="Open full-size image: The clearing where a new wanderer begins building a home."><img src="/images/homestead-v016.webp" alt="The clearing where a new wanderer begins building a home." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The clearing where a new wanderer begins building a home.</figcaption></figure></div>
@@ -45,8 +45,30 @@ The **tanning rack** may stand under a roof since v0.19, and needs one in bad we
 
 Building draws materials from **your satchel and household chests**. The panel shows the combined amount. Removing a piece refunds its material cost: into your satchel, then into the chests if the satchel is full, and whatever is left is set down beside you.
 
+Since v0.20, the piece grid scrolls within the screen while the description and cost stay visible. On a controller,
+selecting a piece scrolls it into view. A **Chest** costs **10 Wood**, without flint. A **Woodpile** costs **100 Wood**;
+take it down to recover the wood through the usual refund path.
+
 ## Storage
 
 Every chest opens the one **household stash**, which holds **10 slots per chest** (up to 20 of a kind in a slot, one piece of gear a slot; with no chest built it still holds 10). Build another chest for more room. When the chests are full, Store materials moves what fits and the rest stays in the satchel. The stash is shared in online co-op.
 
+Use the **Filter** button (LT / RT on a controller) to show All, Equipment, Materials, Consumables or Valuables
+in both panes. Transfer and sorting keep the panes at their scroll positions. The free cells match actual capacity;
+spare gear takes one slot, while worn gear and the hotbar stay outside the satchel.
+
+Open **Money pouch** in the inventory to put loose silver away without using slots. Pouched silver can be spent
+at the trader. Withdraw one, a stack of up to 20, or all that fits to move it to the stash or drop it for someone.
+The pouch itself is personal and its silver stays with the hero when they fall.
+
 Place station extensions close to their parent station to raise its level. [Station extensions](/crafting/) unlock better equipment and upgrades. Beds provide a home to return to; [garden beds](/mechanics/farming/) grow supplies.
+
+
+![Home storage with a full 15-slot satchel, a shared stash and its quick category filter.](/images/stash-filters-v020.webp)
+
+*Shared storage and accurate satchel slots, staged in v0.20.0.*
+
+
+![The five-column build menu scrolls above fully visible Roof Corner details and cost.](/images/build-menu-v020.webp)
+
+*Build menu with its description and cost fully on screen, staged in v0.20.0.*

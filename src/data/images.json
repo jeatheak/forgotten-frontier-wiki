@@ -971,5 +971,40 @@
     "version": "0.19.0",
     "alt": "Keepers' Key inventory icon rendered from the game model.",
     "caption": "Keepers' Key — in-game inventory icon, v0.19.0."
+  },
+  {
+    "path": "/images/map-waypoints-v020.webp",
+    "source": "Screens/wiki/map-waypoints-v020.webp",
+    "version": "0.20.0",
+    "alt": "Personal map pins, with Camp and Danger active as two waypoints and Resources inactive.",
+    "caption": "Map pins and two active waypoints, staged in v0.20.0."
+  },
+  {
+    "path": "/images/stash-filters-v020.webp",
+    "source": "Screens/wiki/stash-filters-v020.webp",
+    "version": "0.20.0",
+    "alt": "Home storage with a full 15-slot satchel, a shared stash and its quick category filter.",
+    "caption": "Shared storage and accurate satchel slots, staged in v0.20.0."
+  },
+  {
+    "path": "/images/coast-v020.webp",
+    "source": "Screens/wiki/coast-v020.webp",
+    "version": "0.20.0",
+    "alt": "A hero at the south coast where continuous sea water meets the sandy shore.",
+    "caption": "The coast and continuous shore water, v0.20.0."
+  },
+  {
+    "path": "/images/build-menu-v020.webp",
+    "source": "Screens/wiki/build-menu-v020.webp",
+    "version": "0.20.0",
+    "alt": "The five-column build menu scrolls above fully visible Roof Corner details and cost.",
+    "caption": "Build menu with its description and cost fully on screen, staged in v0.20.0."
+  },
+  {
+    "path": "/images/inventory-v020.webp",
+    "source": "Screens/wiki/inventory-v020.webp",
+    "version": "0.20.0",
+    "alt": "A full satchel has exactly fifteen occupied cells; worn headgear and a hotbar club sit outside it, and controller focus compares the spare cap with the worn one.",
+    "caption": "Accurate 15/15 satchel slots, equipment comparison and controller prompts, staged in v0.20.0."
   }
 ]

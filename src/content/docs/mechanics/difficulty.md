@@ -17,4 +17,4 @@ Choose difficulty when creating a hero. In that hero's own world it can later be
 
 Multipliers are difficulty factors before other creature modifiers; creatures born in the outer lands have ×1.3 health and ×1.2 damage on top (see [Biomes](/biomes/)). Builder holds the sun at noon and the sky clear. Greyhorns still graze, and the Guardian remains available for story progression.
 
-In online co-op, the **server's difficulty** applies to everyone. Hardcore becomes Hard there; permanent death is a single-player rule. Retrieve recoverable belongings from the glowing satchel where you fell.
+In online co-op, the **server's difficulty** applies to everyone. Hardcore becomes Hard there; permanent death is a single-player rule. Retrieve recoverable belongings from the glowing satchel where you fell. Silver kept in the money pouch stays with the hero when they fall; loose silver follows the ordinary carried-item rules.

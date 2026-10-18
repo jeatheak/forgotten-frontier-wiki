@@ -291,7 +291,7 @@
       "kind": "gear",
       "key": "torch",
       "name": "Torch",
-      "description": "A stick with resin-soaked linen bound round the head. Held, it lights the dark around you for nine minutes or so, and a blow with it sets creatures alight. Burned out, rekindle it at a workbench (repair) or make another.",
+      "description": "A stick with resin-soaked linen bound round the head. Held, it lights the dark briefly, and a blow with it sets creatures alight. Burned out, rekindle it at a workbench (repair) or make another.",
       "gearKind": "Club",
       "upgradable": true,
       "slot": "MainHand",
@@ -306,7 +306,7 @@
         "speed": 0.92,
         "armor": 0,
         "poise": 0.7,
-        "durability": 140
+        "durability": 25
       },
       "source": "Assets/Scripts/Core/Gear.cs",
       "page": "equipment/gear/torch",

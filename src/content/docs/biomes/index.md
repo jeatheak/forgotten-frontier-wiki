@@ -2,7 +2,7 @@
 title: "Biomes and preparation"
 description: "Eight regions, their danger ratings and environmental hazards."
 verification: verified
-sources: ["Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/EnemySpawner.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Gear.cs"]
+sources: ["Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/EnemySpawner.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/WorldWater.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/birchwood-v016.webp" aria-label="Open full-size image: Birchwood: open grassland and pale trunks in the western hills."><img src="/images/birchwood-v016.webp" alt="Birchwood: open grassland and pale trunks in the western hills." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Birchwood: open grassland and pale trunks in the western hills.</figcaption></figure><figure><a href="/images/elderwood-v016.webp" aria-label="Open full-size image: Elderwood: dense southern forest."><img src="/images/elderwood-v016.webp" alt="Elderwood: dense southern forest." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Elderwood: dense southern forest.</figcaption></figure><figure><a href="/images/mire-v016.webp" aria-label="Open full-size image: The Mire: dark pools, reeds and low mist."><img src="/images/mire-v016.webp" alt="The Mire: dark pools, reeds and low mist." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The Mire: dark pools, reeds and low mist.</figcaption></figure><figure><a href="/images/highlands-v016.webp" aria-label="Open full-size image: Stoneteeth Highlands: bare slopes and distant snow."><img src="/images/highlands-v016.webp" alt="Stoneteeth Highlands: bare slopes and distant snow." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Stoneteeth Highlands: bare slopes and distant snow.</figcaption></figure></div>
@@ -31,7 +31,7 @@ The displayed danger rating describes the region, not a promise that every encou
 | Stoneteeth Highlands | [Frost Lichen](/equipment/items/frost-lichen/) | Lichen-crusted boulders | [Lichen Tea](/crafting/recipes/lichen-tea-herb-table/) (two Warming Draughts) |
 | Elderwood | [Amber](/equipment/items/amber/) | Exposed oak roots; sometimes in a felled oak | [Amber Charm](/equipment/gear/charm-amber/) |
 
-The common finds are thinner there in turn: Birchwood has fewer moonpetals, the Mire no flint, the Highlands no flax. The trader pays well for all four.
+The common finds are thinner there in turn: Birchwood has fewer moonpetals, the Highlands no flax. Flint is restricted to watersides rather than dry inland ground. The trader pays well for all four.
 
 ## The Mire
 

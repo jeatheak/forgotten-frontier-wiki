@@ -2,10 +2,10 @@
 title: "Controls and hotbar"
 description: "Keyboard and mouse bindings and controller shortcuts."
 verification: verified
-sources: ["Assets/Scripts/Core/InputSource.cs", "Assets/Scripts/UI/UIKit.cs", "CHANGELOG.md", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Ladder.cs"]
+sources: ["Assets/Scripts/Core/InputSource.cs", "Assets/Scripts/UI/UIKit.cs", "CHANGELOG.md", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Ladder.cs", "Assets/Scripts/UI/GameMenu.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "Assets/Scripts/UI/StorageScreen.cs"]
 ---
 
-<div class="gallery-grid"><figure><a href="/images/inventory-v016.webp" aria-label="Open full-size image: Inventory and hotbar controls in the current game."><img src="/images/inventory-v016.webp" alt="Inventory and hotbar controls in the current game." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Inventory and hotbar controls in the current game.</figcaption></figure><figure><a href="/images/crafting-v016.webp" aria-label="Open full-size image: Keyboard prompts are shown along the bottom of the crafting screen."><img src="/images/crafting-v016.webp" alt="Keyboard prompts are shown along the bottom of the crafting screen." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Keyboard prompts are shown along the bottom of the crafting screen.</figcaption></figure></div>
+<div class="gallery-grid"><figure><a href="/images/inventory-v016.webp" aria-label="Open full-size image: Historical inventory and hotbar layout in v0.16.0."><img src="/images/inventory-v016.webp" alt="Historical inventory and hotbar layout in v0.16.0." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Historical inventory and hotbar layout in v0.16.0.</figcaption></figure><figure><a href="/images/crafting-v016.webp" aria-label="Open full-size image: Keyboard prompts are shown along the bottom of the crafting screen."><img src="/images/crafting-v016.webp" alt="Keyboard prompts are shown along the bottom of the crafting screen." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Keyboard prompts are shown along the bottom of the crafting screen.</figcaption></figure></div>
 
 | Action | Keyboard / mouse |
 | --- | --- |
@@ -34,6 +34,20 @@ Use the in-game Controls page for the complete context-sensitive controller refe
 
 In build mode (since v0.19, as in Valheim) **B** opens on the piece menu with the mouse pointer: hover a piece to read it, click it to pick it (the menu folds away and you aim again) or click a tab to switch. **B** or **Tab** brings the menu back and puts it away again; **Escape** leaves build mode. The number keys 1–5 pick from the row being chosen from, and the wheel (or the d-pad) steps through the pieces. Hold **Left Shift** (L3 on a controller) to place a piece without snapping it to the piece you aim at.
 
+On a controller, focus a hotbar cell and press **A** to use/equip it, **X** to return it to the satchel, or **Y**
+for drop/destroy options. Focus spare gear and press X, then choose a hotbar slot with left/right and confirm with A.
+Equipped gear remains accessible through the equipment diamonds. Full satchels must have space before clearing a
+hotbar slot or removing gear. The **Money pouch** button opens deposit and withdrawal choices.
+
+On the map, click to add a pin. With a controller, move the cursor with the **right stick** and press **X** to add
+one. Select a pin for its label, waypoint toggle or removal. At most two waypoint pins appear on the compass;
+home is always marked. Storage filters use the Filter button or **LT / RT**.
+
 The game draws its own mouse pointer, a bronze arrowhead, wherever a menu wants the mouse.
 
-Drag a tool, weapon or supported consumable from the satchel onto a hotbar slot; right-click a slot to clear it. Consumables on the bar are used when their key is pressed and show the carried count. On the bow, a brief click releases a quick weak shot; the left button also releases while holding the draw with the right button.
+Drag a tool, weapon or supported consumable from the satchel onto a hotbar slot; right-click a slot to clear it. Consumables on the bar are used when their key is pressed. One stack of up to 20 is reserved outside the satchel; additional stacks stay in the bag. On the bow, a brief click releases a quick weak shot; the left button also releases while holding the draw with the right button.
+
+
+![A full satchel has exactly fifteen occupied cells; worn headgear and a hotbar club sit outside it, and controller focus compares the spare cap with the worn one.](/images/inventory-v020.webp)
+
+*Accurate 15/15 satchel slots, equipment comparison and controller prompts, staged in v0.20.0.*
