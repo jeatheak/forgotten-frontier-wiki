@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-axe-flint.png" alt="Flint Axe" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Axe · Main hand</p><p class="entity-description">A knapped flint wedge lashed into a split haft. It bites birch and pine.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>1</dd></div><div><dt>Damage</dt><dd>9</dd></div><div><dt>Chopping</dt><dd>14</dd></div><div><dt>Attack speed</dt><dd>0.85</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>130</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>1</dd></div><div><dt>Damage</dt><dd>7</dd></div><div><dt>Chopping</dt><dd>14</dd></div><div><dt>Attack speed</dt><dd>0.85</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>130</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -21,11 +21,11 @@ Values below exclude skills, perks, buffs, wear and combat conditions. Stats are
 
 | Quality | +0 | +1 | +2 | +3 |
 | --- | --- | --- | --- | --- |
-| Crude | 7.65 | 8.42 | 9.18 | 9.94 |
-| Common | 9 | 9.9 | 10.8 | 11.7 |
-| Good | 10.08 | 11.09 | 12.1 | 13.1 |
-| Fine | 10.89 | 11.98 | 13.07 | 14.16 |
-| Masterwork | 11.97 | 13.17 | 14.36 | 15.56 |
+| Crude | 5.95 | 6.55 | 7.14 | 7.74 |
+| Common | 7 | 7.7 | 8.4 | 9.1 |
+| Good | 7.84 | 8.62 | 9.41 | 10.19 |
+| Fine | 8.47 | 9.32 | 10.16 | 11.01 |
+| Masterwork | 9.31 | 10.24 | 11.17 | 12.1 |
 
 ### Chopping
 

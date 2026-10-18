@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-blades-iron.png" alt="Iron Blades" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Blades · Main hand</p><p class="entity-description">A pair of short seax blades. Fast, evasive - and cruel from behind.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>8.5</dd></div><div><dt>Attack speed</dt><dd>1.25</dd></div><div><dt>Poise multiplier</dt><dd>0.8×</dd></div><div><dt>Durability</dt><dd>300</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>9.5</dd></div><div><dt>Attack speed</dt><dd>1.25</dd></div><div><dt>Poise multiplier</dt><dd>0.8×</dd></div><div><dt>Durability</dt><dd>300</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -21,11 +21,11 @@ Values below exclude skills, perks, buffs, wear and combat conditions. Stats are
 
 | Quality | +0 | +1 | +2 | +3 |
 | --- | --- | --- | --- | --- |
-| Crude | 7.23 | 7.95 | 8.67 | 9.39 |
-| Common | 8.5 | 9.35 | 10.2 | 11.05 |
-| Good | 9.52 | 10.47 | 11.42 | 12.38 |
-| Fine | 10.28 | 11.31 | 12.34 | 13.37 |
-| Masterwork | 11.31 | 12.44 | 13.57 | 14.7 |
+| Crude | 8.07 | 8.88 | 9.69 | 10.5 |
+| Common | 9.5 | 10.45 | 11.4 | 12.35 |
+| Good | 10.64 | 11.7 | 12.77 | 13.83 |
+| Fine | 11.5 | 12.64 | 13.79 | 14.94 |
+| Masterwork | 12.64 | 13.9 | 15.16 | 16.43 |
 
 ### Attack speed
 

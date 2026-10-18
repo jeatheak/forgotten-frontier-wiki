@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Enemies/Guardian.cs","Assets/Scripts/Enemies/Enemy.cs"
 
 <figure class="reference-portrait"><a href="/images/guardian-v016.webp"><img src="/images/guardian-v016.webp" alt="Ancient Guardian — staged in-game portrait" width="1600" height="900" /></a><figcaption>Actual game model, staged for this portrait in v0.16.0.</figcaption></figure>
 
-The boss of the Forgotten Courtyard. Bait a charge into a wall or restored Echo pillar: the impact removes 5% of its maximum health and leaves it staggered for 3.5 seconds and Exposed for 4.5 seconds. Below half health it moves and attacks faster. Echoes help but are not required.
+The boss of the Forgotten Courtyard. Since v0.19 the Courtyard gate is sealed until the Keepers’ trials are passed and a Keepers’ Key is set in the seal (see [the journey](/progression/)). Bait a charge into a wall or restored Echo pillar: the impact removes 5% of its maximum health and leaves it staggered for 3.5 seconds and Exposed for 4.5 seconds. Below half health it moves and attacks faster. Echoes help but are not required.
 
 ## Health and poise
 
@@ -17,7 +17,7 @@ The boss of the Forgotten Courtyard. Bait a charge into a wall or restored Echo 
 | --- | --- | --- | --- | --- | --- |
 | 1 | Ancient Guardian | 1450 | 1595 | 1885 | 260 |
 
-These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood and the ridge) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **3.3 m/s**, before night, state, omen and elite modifiers. Guardian health also multiplies by **1 + 0.6 × (heroes − 1)** when it wakes; the solo Normal value is 1595.
+These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood and the coast) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **3.3 m/s**, before night, state, omen and elite modifiers. Guardian health also multiplies by **1 + 0.6 × (heroes − 1)** when it wakes; the solo Normal value is 1595.
 
 ## Attacks
 

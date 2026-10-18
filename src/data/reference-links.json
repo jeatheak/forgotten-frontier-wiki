@@ -273,7 +273,7 @@
     "aliases": [
       "Guardian"
     ],
-    "description": "The boss of the Forgotten Courtyard. Bait a charge into a wall or restored Echo pillar: the impact removes 5% of its maximum health and leaves it staggered for 3.5 seconds and Exposed for 4.5 seconds. Below half health it moves and attacks faster. Echoes help but are not required.",
+    "description": "The boss of the Forgotten Courtyard. Since v0.19 the Courtyard gate is sealed until the Keepers’ trials are passed and a Keepers’ Key is set in the seal (see [the journey](/progression/)). Bait a charge into a wall or restored Echo pillar: the impact removes 5% of its maximum health and leaves it staggered for 3.5 seconds and Exposed for 4.5 seconds. Below half health it moves and attacks faster. Echoes help but are not required.",
     "source": "Assets/Scripts/Enemies/Guardian.cs",
     "page": "bosses/ancient-guardian",
     "image": "/images/guardian-v016.webp",
@@ -372,7 +372,7 @@
     "kind": "station",
     "name": "Tanning Rack",
     "aliases": [],
-    "description": "Cures hides into leather, including while away or asleep.",
+    "description": "Cures hides into leather, including while away or asleep, but not while rain falls on it: give it a roof.",
     "source": "Assets/Scripts/World/Stations.cs",
     "page": "crafting/stations/tanning-rack",
     "image": "/images/stations/tanning-rack.png",

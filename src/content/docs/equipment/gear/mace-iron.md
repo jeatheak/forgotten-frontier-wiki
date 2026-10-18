@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-mace-iron.png" alt="Iron Mace" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Club · Main hand</p><p class="entity-description">Six iron flanges round an oak haft. It does not cut; it breaks. Shields, helms and the dead all fold under it.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>23</dd></div><div><dt>Attack speed</dt><dd>0.8</dd></div><div><dt>Poise multiplier</dt><dd>1.9×</dd></div><div><dt>Durability</dt><dd>340</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>24</dd></div><div><dt>Attack speed</dt><dd>0.8</dd></div><div><dt>Poise multiplier</dt><dd>1.9×</dd></div><div><dt>Durability</dt><dd>340</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -21,11 +21,11 @@ Values below exclude skills, perks, buffs, wear and combat conditions. Stats are
 
 | Quality | +0 | +1 | +2 | +3 |
 | --- | --- | --- | --- | --- |
-| Crude | 19.55 | 21.51 | 23.46 | 25.42 |
-| Common | 23 | 25.3 | 27.6 | 29.9 |
-| Good | 25.76 | 28.34 | 30.91 | 33.49 |
-| Fine | 27.83 | 30.61 | 33.4 | 36.18 |
-| Masterwork | 30.59 | 33.65 | 36.71 | 39.77 |
+| Crude | 20.4 | 22.44 | 24.48 | 26.52 |
+| Common | 24 | 26.4 | 28.8 | 31.2 |
+| Good | 26.88 | 29.57 | 32.26 | 34.94 |
+| Fine | 29.04 | 31.94 | 34.85 | 37.75 |
+| Masterwork | 31.92 | 35.11 | 38.3 | 41.5 |
 
 ### Attack speed
 

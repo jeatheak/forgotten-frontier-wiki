@@ -15,6 +15,6 @@ Gather, loot or obtain this item in the world. It has no direct crafting recipe.
 
 ## What you can make
 
-<div class="entry-grid"><a class="entry-card" href="/crafting/recipes/charm-amber-workbench/"><img class="" src="/images/icons/gear-charm-amber.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Amber Charm</strong><small>Workbench</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a></div>
+<div class="entry-grid"><a class="entry-card" href="/crafting/recipes/charm-amber-workbench/"><img class="" src="/images/icons/gear-charm-amber.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Amber Charm</strong><small>Workbench</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a><a class="entry-card" href="/crafting/recipes/keepers-key-forge/"><img class="" src="/images/icons/keeperskey.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Keepers' Key</strong><small>Forge</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a></div>
 
 [Browse all items](/equipment/items/)

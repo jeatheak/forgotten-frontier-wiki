@@ -20,7 +20,7 @@ A grazing herd animal. Cows flee; injured bulls can turn and gore or charge. Lev
 | 2 | Greyhorn Bull | 139.2 | 153.12 | 180.96 | 58 |
 | 3 | Old Greyhorn Bull | 182.4 | 200.64 | 237.12 | 58 |
 
-These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood and the ridge) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **3.2 m/s**, before night, state, omen and elite modifiers.
+These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood and the coast) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **3.2 m/s**, before night, state, omen and elite modifiers.
 
 ## Attacks
 

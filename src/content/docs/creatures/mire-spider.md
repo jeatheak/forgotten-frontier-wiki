@@ -19,7 +19,7 @@ Keeps its distance, spits slowing webs, then darts in to bite. Venom prevents he
 | 2 | Mire Spider | 66.7 | 73.37 | 86.71 | 22 |
 | 3 | Bog Weaver | 87.4 | 96.14 | 113.62 | 22 |
 
-These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood and the ridge) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **5.6 m/s**, before night, state, omen and elite modifiers.
+These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood and the coast) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **5.6 m/s**, before night, state, omen and elite modifiers.
 
 ## Attacks
 

@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-pick-tusk.png" alt="Tusk Pickaxe" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Pickaxe · Main hand</p><p class="entity-description">A Charger's tusk lashed to a haft. Hard enough to bite into iron ore.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>10</dd></div><div><dt>Mining</dt><dd>17</dd></div><div><dt>Attack speed</dt><dd>0.82</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>240</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>7</dd></div><div><dt>Mining</dt><dd>17</dd></div><div><dt>Attack speed</dt><dd>0.82</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>240</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -21,11 +21,11 @@ Values below exclude skills, perks, buffs, wear and combat conditions. Stats are
 
 | Quality | +0 | +1 | +2 | +3 |
 | --- | --- | --- | --- | --- |
-| Crude | 8.5 | 9.35 | 10.2 | 11.05 |
-| Common | 10 | 11 | 12 | 13 |
-| Good | 11.2 | 12.32 | 13.44 | 14.56 |
-| Fine | 12.1 | 13.31 | 14.52 | 15.73 |
-| Masterwork | 13.3 | 14.63 | 15.96 | 17.29 |
+| Crude | 5.95 | 6.55 | 7.14 | 7.74 |
+| Common | 7 | 7.7 | 8.4 | 9.1 |
+| Good | 7.84 | 8.62 | 9.41 | 10.19 |
+| Fine | 8.47 | 9.32 | 10.16 | 11.01 |
+| Masterwork | 9.31 | 10.24 | 11.17 | 12.1 |
 
 ### Mining
 

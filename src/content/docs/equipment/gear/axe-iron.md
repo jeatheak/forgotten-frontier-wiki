@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-axe-iron.png" alt="Iron Axe" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Axe · Main hand</p><p class="entity-description">A bearded iron axe. Heavy enough for old oak.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>16</dd></div><div><dt>Chopping</dt><dd>26</dd></div><div><dt>Attack speed</dt><dd>0.9</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>320</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>11</dd></div><div><dt>Chopping</dt><dd>26</dd></div><div><dt>Attack speed</dt><dd>0.9</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>320</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -21,11 +21,11 @@ Values below exclude skills, perks, buffs, wear and combat conditions. Stats are
 
 | Quality | +0 | +1 | +2 | +3 |
 | --- | --- | --- | --- | --- |
-| Crude | 13.6 | 14.96 | 16.32 | 17.68 |
-| Common | 16 | 17.6 | 19.2 | 20.8 |
-| Good | 17.92 | 19.71 | 21.5 | 23.3 |
-| Fine | 19.36 | 21.3 | 23.23 | 25.17 |
-| Masterwork | 21.28 | 23.41 | 25.54 | 27.66 |
+| Crude | 9.35 | 10.29 | 11.22 | 12.16 |
+| Common | 11 | 12.1 | 13.2 | 14.3 |
+| Good | 12.32 | 13.55 | 14.78 | 16.02 |
+| Fine | 13.31 | 14.64 | 15.97 | 17.3 |
+| Masterwork | 14.63 | 16.09 | 17.56 | 19.02 |
 
 ### Chopping
 

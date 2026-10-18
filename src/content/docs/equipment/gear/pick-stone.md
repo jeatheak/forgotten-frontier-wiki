@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-pick-stone.png" alt="Stone Pickaxe" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Pickaxe · Main hand</p><p class="entity-description">A pointed stone bound to a haft. It breaks fieldstone, but iron seams turn it aside.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>1</dd></div><div><dt>Damage</dt><dd>8</dd></div><div><dt>Mining</dt><dd>12</dd></div><div><dt>Attack speed</dt><dd>0.8</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>130</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>1</dd></div><div><dt>Damage</dt><dd>6</dd></div><div><dt>Mining</dt><dd>12</dd></div><div><dt>Attack speed</dt><dd>0.8</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>130</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -21,11 +21,11 @@ Values below exclude skills, perks, buffs, wear and combat conditions. Stats are
 
 | Quality | +0 | +1 | +2 | +3 |
 | --- | --- | --- | --- | --- |
-| Crude | 6.8 | 7.48 | 8.16 | 8.84 |
-| Common | 8 | 8.8 | 9.6 | 10.4 |
-| Good | 8.96 | 9.86 | 10.75 | 11.65 |
-| Fine | 9.68 | 10.65 | 11.62 | 12.58 |
-| Masterwork | 10.64 | 11.7 | 12.77 | 13.83 |
+| Crude | 5.1 | 5.61 | 6.12 | 6.63 |
+| Common | 6 | 6.6 | 7.2 | 7.8 |
+| Good | 6.72 | 7.39 | 8.06 | 8.74 |
+| Fine | 7.26 | 7.99 | 8.71 | 9.44 |
+| Masterwork | 7.98 | 8.78 | 9.58 | 10.37 |
 
 ### Mining
 

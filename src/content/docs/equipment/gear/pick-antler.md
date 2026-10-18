@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-pick-antler.png" alt="Antler Pickaxe" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Pickaxe · Main hand</p><p class="entity-description">A Greyhorn tine lashed across an ash haft. Lighter than tusk and quicker in the hand; it bites iron ore.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>11</dd></div><div><dt>Mining</dt><dd>19</dd></div><div><dt>Attack speed</dt><dd>0.86</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>260</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>8</dd></div><div><dt>Mining</dt><dd>19</dd></div><div><dt>Attack speed</dt><dd>0.86</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>260</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -21,11 +21,11 @@ Values below exclude skills, perks, buffs, wear and combat conditions. Stats are
 
 | Quality | +0 | +1 | +2 | +3 |
 | --- | --- | --- | --- | --- |
-| Crude | 9.35 | 10.29 | 11.22 | 12.16 |
-| Common | 11 | 12.1 | 13.2 | 14.3 |
-| Good | 12.32 | 13.55 | 14.78 | 16.02 |
-| Fine | 13.31 | 14.64 | 15.97 | 17.3 |
-| Masterwork | 14.63 | 16.09 | 17.56 | 19.02 |
+| Crude | 6.8 | 7.48 | 8.16 | 8.84 |
+| Common | 8 | 8.8 | 9.6 | 10.4 |
+| Good | 8.96 | 9.86 | 10.75 | 11.65 |
+| Fine | 9.68 | 10.65 | 11.62 | 12.58 |
+| Masterwork | 10.64 | 11.7 | 12.77 | 13.83 |
 
 ### Mining
 

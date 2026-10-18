@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/Upgrades.cs", "As
 
 [Equipment calculator](/equipment/calculator/) · [Browse every equipment definition](/equipment/gear/) or [all stackable items](/equipment/items/).
 
-Axes chop wood; pickaxes mine stone and ore. Clubs, spears, blades and bows offer different combat styles. Armour occupies head, chest, shoulders and arms; charms occupy their own slot. The lute is an instrument. A torch is carried gear and uses club attacks.
+Axes chop wood; pickaxes mine stone and ore. Since v0.19 tools hit creatures for about half the damage of a weapon of their tier (chopping and mining are unchanged). Clubs, spears, blades and bows offer different combat styles. Armour occupies head, chest, shoulders and arms; charms occupy their own slot. The lute is an instrument. A torch is carried gear and uses club attacks.
 
 Clubs, spears and blades can also **block** (see [Survival and combat](/mechanics/)).
 

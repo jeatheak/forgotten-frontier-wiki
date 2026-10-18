@@ -7,7 +7,7 @@ sources: ["Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/World/WorldStreame
 
 <div class="gallery-grid"><figure><a href="/images/birchwood-v016.webp" aria-label="Open full-size image: Birchwood: open grassland and pale trunks in the western hills."><img src="/images/birchwood-v016.webp" alt="Birchwood: open grassland and pale trunks in the western hills." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Birchwood: open grassland and pale trunks in the western hills.</figcaption></figure><figure><a href="/images/elderwood-v016.webp" aria-label="Open full-size image: Elderwood: dense southern forest."><img src="/images/elderwood-v016.webp" alt="Elderwood: dense southern forest." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Elderwood: dense southern forest.</figcaption></figure><figure><a href="/images/mire-v016.webp" aria-label="Open full-size image: The Mire: dark pools, reeds and low mist."><img src="/images/mire-v016.webp" alt="The Mire: dark pools, reeds and low mist." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The Mire: dark pools, reeds and low mist.</figcaption></figure><figure><a href="/images/highlands-v016.webp" aria-label="Open full-size image: Stoneteeth Highlands: bare slopes and distant snow."><img src="/images/highlands-v016.webp" alt="Stoneteeth Highlands: bare slopes and distant snow." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Stoneteeth Highlands: bare slopes and distant snow.</figcaption></figure></div>
 
-The displayed danger rating describes the region, not a promise that every encounter there is equally difficult. Creatures born in the **outer lands** (Birchwood, the Mire, the Highlands, Elderwood and the ridge) are tougher than in the Vale: ×1.3 health, ×1.15 poise and ×1.2 damage; they notice you from 15% further, move 5% faster, are 60% more often elites, and packs of Stalkers and spiders hold one more.
+The displayed danger rating describes the region, not a promise that every encounter there is equally difficult. Creatures born in the **outer lands** (Birchwood, the Mire, the Highlands, Elderwood and the coast) are tougher than in the Vale: ×1.3 health, ×1.15 poise and ×1.2 damage; they notice you from 15% further, move 5% faster, are 60% more often elites, and packs of Stalkers and spiders hold one more.
 
 | Biome | Danger | Preparation |
 | --- | --- | --- |
@@ -18,7 +18,7 @@ The displayed danger rating describes the region, not a promise that every encou
 | Elderwood | 2 | Supplies for the southern forest |
 | The Mire | 3 | Bogwalker's Balm against spider venom and webs |
 | Stoneteeth Highlands | 3 | Warmth against cold and freezing |
-| The Ridge | 3 | Warmth and supplies for the mountain edge |
+| The Coast | 2 | The island's edge: beaches, driftwood and the sea (since v0.19; before, the mountain ridge) |
 
 ## What each land gives
 
@@ -39,6 +39,6 @@ Venom damages you over time and prevents healing; webs slow movement. **Bogwalke
 
 ## Cold lands
 
-Away from home, shelter and fire, Highland and ridge cold can hinder recovery. Night, storms, rain and being soaked can make it worse. A **Fur Mantle** or **Warming Draught** protects against cold; a leather cap and bone broth reduce its severity. The draught lasts six minutes.
+Away from home, shelter and fire, Highland cold can hinder recovery. Night, storms, rain and being soaked can make it worse. A **Fur Mantle** or **Warming Draught** protects against cold; a leather cap and bone broth reduce its severity. The draught lasts six minutes.
 
 [Items and consumables](/equipment/items/) · [Crafting recipes](/crafting/recipes/)

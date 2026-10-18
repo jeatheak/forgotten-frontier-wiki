@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-spear-flint.png" alt="Flint Spear" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Spear · Main hand</p><p class="entity-description">An ash shaft with a knapped flint point. Reach keeps the teeth away.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>1</dd></div><div><dt>Damage</dt><dd>12</dd></div><div><dt>Attack speed</dt><dd>0.95</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>150</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>1</dd></div><div><dt>Damage</dt><dd>11</dd></div><div><dt>Attack speed</dt><dd>0.95</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>150</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -21,11 +21,11 @@ Values below exclude skills, perks, buffs, wear and combat conditions. Stats are
 
 | Quality | +0 | +1 | +2 | +3 |
 | --- | --- | --- | --- | --- |
-| Crude | 10.2 | 11.22 | 12.24 | 13.26 |
-| Common | 12 | 13.2 | 14.4 | 15.6 |
-| Good | 13.44 | 14.78 | 16.13 | 17.47 |
-| Fine | 14.52 | 15.97 | 17.42 | 18.88 |
-| Masterwork | 15.96 | 17.56 | 19.15 | 20.75 |
+| Crude | 9.35 | 10.29 | 11.22 | 12.16 |
+| Common | 11 | 12.1 | 13.2 | 14.3 |
+| Good | 12.32 | 13.55 | 14.78 | 16.02 |
+| Fine | 13.31 | 14.64 | 15.97 | 17.3 |
+| Masterwork | 14.63 | 16.09 | 17.56 | 19.02 |
 
 ### Attack speed
 

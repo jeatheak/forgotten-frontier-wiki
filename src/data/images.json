@@ -929,5 +929,47 @@
     "version": "0.18.0",
     "alt": "Hallvard's Hearthstone beside the homestead campfire, its glowing carving facing the fire.",
     "caption": "Hallvard's Hearthstone by the homestead fire in v0.18.0."
+  },
+  {
+    "path": "/images/ladder-v019.webp",
+    "source": "Screens/wiki/ladder-v019.webp",
+    "version": "0.19.0",
+    "alt": "A hero climbing a narrow wooden ladder leaned against the log wall of a two-storey house, towards the open upper floor.",
+    "caption": "Climbing a Ladder leaned on a wall up to the upper floor (v0.19.0)."
+  },
+  {
+    "path": "/images/step-ladder-v019.webp",
+    "source": "Screens/wiki/step-ladder-v019.webp",
+    "version": "0.19.0",
+    "alt": "A hero standing on the small platform on top of a free-standing step ladder, one storey above the meadow at the homestead.",
+    "caption": "Standing on top of a Step Ladder in the yard (v0.19.0)."
+  },
+  {
+    "path": "/images/keepers-seal-v019.webp",
+    "source": "Screens/wiki/keepers-seal-v019.webp",
+    "version": "0.19.0",
+    "alt": "A stone lore card titled The Keepers' Seal: a description of the sealed gate, the Keepers' words, and six trials each marked Done, with the choice to set the Keepers' Key in the seal.",
+    "caption": "The Keepers' seal on the Courtyard gate, every trial done (v0.19.0)."
+  },
+  {
+    "path": "/images/coast-v019.webp",
+    "source": "Screens/wiki/coast-v019.webp",
+    "version": "0.19.0",
+    "alt": "A hero standing on a grassy dune above a narrow sandy beach, looking out over a calm grey-blue sea to a hazy horizon in light rain.",
+    "caption": "The south coast and the sea in v0.19.0."
+  },
+  {
+    "path": "/images/build-folded-v019.webp",
+    "source": "Screens/wiki/build-folded-v019.webp",
+    "version": "0.19.0",
+    "alt": "Build mode with the piece menu folded away: a small panel shows the Roof Corner and its cost, a red preview in the air, and hints for placing, rotating, Shift for no snapping and Tab or B for the build menu.",
+    "caption": "Build mode in v0.19.0 with the menu folded to the piece in hand."
+  },
+  {
+    "path": "/images/icons/keeperskey.png",
+    "source": "Screens/wiki/icons/KeepersKey.png",
+    "version": "0.19.0",
+    "alt": "Keepers' Key inventory icon rendered from the game model.",
+    "caption": "Keepers' Key — in-game inventory icon, v0.19.0."
   }
 ]

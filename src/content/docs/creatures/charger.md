@@ -19,7 +19,7 @@ An aggressive beast with a headbutt and a committed charge. Bait its charge into
 | 2 | Charger | 166.75 | 183.43 | 216.78 | 65 |
 | 3 | Elder Charger | 218.5 | 240.35 | 284.05 | 65 |
 
-These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood and the ridge) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **3.6 m/s**, before night, state, omen and elite modifiers.
+These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood and the coast) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **3.6 m/s**, before night, state, omen and elite modifiers.
 
 ## Attacks
 

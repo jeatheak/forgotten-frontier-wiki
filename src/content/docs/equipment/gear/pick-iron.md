@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-pick-iron.png" alt="Iron Pickaxe" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Pickaxe · Main hand</p><p class="entity-description">A forged pick. It splits anything - even the humming echo crystals.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>3</dd></div><div><dt>Damage</dt><dd>13</dd></div><div><dt>Mining</dt><dd>27</dd></div><div><dt>Attack speed</dt><dd>0.86</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>380</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>3</dd></div><div><dt>Damage</dt><dd>9</dd></div><div><dt>Mining</dt><dd>27</dd></div><div><dt>Attack speed</dt><dd>0.86</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>380</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -21,11 +21,11 @@ Values below exclude skills, perks, buffs, wear and combat conditions. Stats are
 
 | Quality | +0 | +1 | +2 | +3 |
 | --- | --- | --- | --- | --- |
-| Crude | 11.05 | 12.16 | 13.26 | 14.36 |
-| Common | 13 | 14.3 | 15.6 | 16.9 |
-| Good | 14.56 | 16.02 | 17.47 | 18.93 |
-| Fine | 15.73 | 17.3 | 18.88 | 20.45 |
-| Masterwork | 17.29 | 19.02 | 20.75 | 22.48 |
+| Crude | 7.65 | 8.42 | 9.18 | 9.94 |
+| Common | 9 | 9.9 | 10.8 | 11.7 |
+| Good | 10.08 | 11.09 | 12.1 | 13.1 |
+| Fine | 10.89 | 11.98 | 13.07 | 14.16 |
+| Masterwork | 11.97 | 13.17 | 14.36 | 15.56 |
 
 ### Mining
 

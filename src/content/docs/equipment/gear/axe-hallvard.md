@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-axe-hallvard.png" alt="Hallvard's Axe" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Axe · Main hand</p><p class="entity-description">The watchman's own bearded axe, its haft worn pale where his hands held it. Runes run along the cheek of the blade: KEEP THE HEARTH.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>3</dd></div><div><dt>Damage</dt><dd>22</dd></div><div><dt>Chopping</dt><dd>34</dd></div><div><dt>Attack speed</dt><dd>0.95</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>480</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>3</dd></div><div><dt>Damage</dt><dd>15</dd></div><div><dt>Chopping</dt><dd>34</dd></div><div><dt>Attack speed</dt><dd>0.95</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>480</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -19,7 +19,7 @@ Found at **Masterwork** quality, +0; it cannot be upgraded.
 
 | Stat | Found value |
 | --- | --- |
-| Damage | 29.26 |
+| Damage | 19.95 |
 | Chopping | 45.22 |
 | Attack speed | 1.03 |
 | Durability | 528 |

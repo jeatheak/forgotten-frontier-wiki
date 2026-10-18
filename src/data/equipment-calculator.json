@@ -14,7 +14,7 @@
       "foundQuality": null,
       "stats": {
         "tier": 1,
-        "damage": 9,
+        "damage": 7,
         "chop": 14,
         "mine": 0,
         "speed": 0.85,
@@ -40,7 +40,7 @@
       "foundQuality": null,
       "stats": {
         "tier": 2,
-        "damage": 16,
+        "damage": 11,
         "chop": 26,
         "mine": 0,
         "speed": 0.9,
@@ -66,7 +66,7 @@
       "foundQuality": null,
       "stats": {
         "tier": 1,
-        "damage": 8,
+        "damage": 6,
         "chop": 0,
         "mine": 12,
         "speed": 0.8,
@@ -92,7 +92,7 @@
       "foundQuality": null,
       "stats": {
         "tier": 2,
-        "damage": 10,
+        "damage": 7,
         "chop": 0,
         "mine": 17,
         "speed": 0.82,
@@ -118,7 +118,7 @@
       "foundQuality": null,
       "stats": {
         "tier": 2,
-        "damage": 11,
+        "damage": 8,
         "chop": 0,
         "mine": 19,
         "speed": 0.86,
@@ -144,7 +144,7 @@
       "foundQuality": null,
       "stats": {
         "tier": 3,
-        "damage": 13,
+        "damage": 9,
         "chop": 0,
         "mine": 27,
         "speed": 0.86,
@@ -196,7 +196,7 @@
       "foundQuality": null,
       "stats": {
         "tier": 1,
-        "damage": 12,
+        "damage": 11,
         "chop": 0,
         "mine": 0,
         "speed": 0.95,
@@ -222,7 +222,7 @@
       "foundQuality": null,
       "stats": {
         "tier": 2,
-        "damage": 19,
+        "damage": 17,
         "chop": 0,
         "mine": 0,
         "speed": 1,
@@ -248,7 +248,7 @@
       "foundQuality": null,
       "stats": {
         "tier": 2,
-        "damage": 8.5,
+        "damage": 9.5,
         "chop": 0,
         "mine": 0,
         "speed": 1.25,
@@ -274,7 +274,7 @@
       "foundQuality": null,
       "stats": {
         "tier": 2,
-        "damage": 23,
+        "damage": 24,
         "chop": 0,
         "mine": 0,
         "speed": 0.8,
@@ -586,7 +586,7 @@
       "foundQuality": "Masterwork",
       "stats": {
         "tier": 3,
-        "damage": 22,
+        "damage": 15,
         "chop": 34,
         "mine": 0,
         "speed": 0.95,
@@ -1117,6 +1117,12 @@
       "name": "Silk Bandage",
       "image": "/images/icons/silkbandage.png",
       "page": "equipment/items/silk-bandage"
+    },
+    {
+      "key": "KeepersKey",
+      "name": "Keepers' Key",
+      "image": "/images/icons/keeperskey.png",
+      "page": "equipment/items/keepers-key"
     }
   ],
   "stations": [

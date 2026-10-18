@@ -17,7 +17,7 @@ A recipe normally becomes known after you have held every ingredient at least on
 | Workbench | Early tools, weapons, armour, bows, arrows and the lute |
 | Herbalist's Table | Draughts, salves, tonics and protective preparations |
 | Hearth | Cooked food |
-| Forge | Iron equipment, iron arrows and progression rites |
+| Forge | Iron equipment, iron arrows, progression rites and the Keepers' Key |
 | Stonecutter | Stone-related work, including whetstones and bone meal |
 
 ## Extensions

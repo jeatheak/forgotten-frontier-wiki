@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Core/Gear.cs","Assets/Scripts/World/Crafting.cs","Asse
 
 <div class="entity-intro"><div class="entity-art"><img class="" src="/images/icons/gear-spear-iron.png" alt="Iron Spear" width="192" height="192" loading="eager" decoding="async" /></div><div><p class="eyebrow">Spear · Main hand</p><p class="entity-description">A leaf-bladed iron spear. Precise, long, unforgiving.</p></div></div>
 
-<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>19</dd></div><div><dt>Attack speed</dt><dd>1</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>320</dd></div></dl>
+<dl class="stat-grid"><div><dt>Tier</dt><dd>2</dd></div><div><dt>Damage</dt><dd>17</dd></div><div><dt>Attack speed</dt><dd>1</dd></div><div><dt>Poise multiplier</dt><dd>1×</dd></div><div><dt>Durability</dt><dd>320</dd></div></dl>
 
 <p class="wiki-note">Common-quality base values. Skills, quality, upgrades and perks can change the final result.</p>
 
@@ -21,11 +21,11 @@ Values below exclude skills, perks, buffs, wear and combat conditions. Stats are
 
 | Quality | +0 | +1 | +2 | +3 |
 | --- | --- | --- | --- | --- |
-| Crude | 16.15 | 17.77 | 19.38 | 21 |
-| Common | 19 | 20.9 | 22.8 | 24.7 |
-| Good | 21.28 | 23.41 | 25.54 | 27.66 |
-| Fine | 22.99 | 25.29 | 27.59 | 29.89 |
-| Masterwork | 25.27 | 27.8 | 30.32 | 32.85 |
+| Crude | 14.45 | 15.9 | 17.34 | 18.78 |
+| Common | 17 | 18.7 | 20.4 | 22.1 |
+| Good | 19.04 | 20.94 | 22.85 | 24.75 |
+| Fine | 20.57 | 22.63 | 24.68 | 26.74 |
+| Masterwork | 22.61 | 24.87 | 27.13 | 29.39 |
 
 ### Attack speed
 
