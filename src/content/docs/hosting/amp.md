@@ -51,7 +51,8 @@ The game port is AMP's **Game Port** (TCP, 2456 by default).
 
 ## Running it
 
-- **Update** downloads the latest server. Update the instance whenever a new game version is released: the game and
+- **Update** downloads the latest stable server. Draft and prerelease betas do not replace that download; beta testing
+  requires manually selecting the matching game and server packages. Update the instance whenever a new stable game version is released: the game and
   the server must be the same version.
 - **Stop** sends the server's `stop` command, which saves the world before it quits.
 - The console accepts every [server command](/hosting/dedicated-server/#console-commands).

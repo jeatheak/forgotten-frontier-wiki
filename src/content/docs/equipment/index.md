@@ -2,12 +2,17 @@
 title: "Equipment, quality and upgrades"
 description: "Weapons, tools, armour, charms and their base statistics."
 verification: verified
-sources: ["Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/Upgrades.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/UI/GameMenu.cs"]
+sources: ["Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/Upgrades.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/UI/GameMenu.cs", "Assets/Scripts/Player/ArrowShot.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/inventory-v016.webp" aria-label="Open full-size image: Historical inventory in v0.16.0, with a demonstration loadout."><img src="/images/inventory-v016.webp" alt="Historical inventory in v0.16.0, with a demonstration loadout." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Historical inventory in v0.16.0, with a demonstration loadout.</figcaption></figure><figure><a href="/images/torchlight-v016.webp" aria-label="Open full-size image: A held torch illuminates the homestead at night."><img src="/images/torchlight-v016.webp" alt="A held torch illuminates the homestead at night." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>A held torch illuminates the homestead at night.</figcaption></figure></div>
 
 [Equipment calculator](/equipment/calculator/) · [Browse every equipment definition](/equipment/gear/) or [all stackable items](/equipment/items/).
+
+**v0.21.0 beta bows:** tier, quality and upgrades improve accuracy, while upgrades also speed the draw. The Hunting Bow
+starts at a 2-second full draw before quality and skill bonuses; the Horn Bow draws faster. The aiming circle shows
+current spread, including shake from holding too long. Full-draw hits have a 95% chance of 50% extra critical damage.
+Base damage and ordinary upgrade multipliers remain as listed below. See [Archery](/mechanics/#archery-in-v0210-beta).
 
 Axes chop wood; pickaxes mine stone and ore. Since v0.19 tools hit creatures for about half the damage of a weapon of their tier (chopping and mining are unchanged). Clubs, spears, blades and bows offer different combat styles. Armour occupies head, chest, shoulders and arms; charms occupy their own slot. The lute is an instrument. A torch is carried gear and uses club attacks, with burning unchanged and just **25 base durability** since v0.20.
 

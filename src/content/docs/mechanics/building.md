@@ -13,6 +13,15 @@ Enter build mode with **B** near the homestead. It opens on the **piece menu** w
 
 ## Snapping
 
+**v0.21.0 beta:** Roof Slopes and Ridge Roofs join at their actual edge heights. Aim at a slope's high end to put the
+ridge's low eave there; an opposite slope can then descend to the far wall. This supports
+**wall → slope → raised ridge ← slope ← wall**. A **Ridge Gable** also stacks on a **Gable Wall**, with its foot
+2 m above the panel's foot and separate structural support. The one-square ridge hut still works as before.
+
+![A three-square log house with two roof slopes joining a raised central Ridge Roof, and a Ridge Gable stacked above a Gable Wall.](/images/roof-chain-v021.webp)
+
+*The requested wide-roof arrangement, staged with real game pieces in v0.21.0 beta.*
+
 Since v0.19 a piece snaps to the piece you aim at and turns with it:
 
 - A roof or gable aimed at a wall, a floor or stairs goes on the walls of **that storey**: aim at an upper floor to roof the top of a two-storey house. A roof aimed at a wall goes over the room the wall closes (the side with the floor and more walls); when that square is roofed, the next one aimed at the wall is an eave over the outside.

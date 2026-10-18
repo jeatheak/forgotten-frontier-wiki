@@ -2,7 +2,7 @@
 title: "Dedicated server"
 description: "Run FFServer on Windows or Linux: settings, server.json, console commands, saves and backups."
 verification: verified
-sources: ["Server/FFServer/ServerConfig.cs", "Server/FFServer/GameServer.cs", "Server/FFServer/Program.cs", "Server/SERVER.md", "Assets/Scripts/Net/Shared/NetProto.cs", "UPDATES.md"]
+sources: ["Server/FFServer/ServerConfig.cs", "Server/FFServer/GameServer.cs", "Server/FFServer/Program.cs", "Server/SERVER.md", "Assets/Scripts/Net/Shared/NetProto.cs", "UPDATES.md", "Assets/Scripts/Core/SaveSystem.cs", "Assets/Scripts/Core/GameManager.cs"]
 ---
 
 A shared world runs on **FFServer**, a small program that keeps the world while players bring their own heroes. It runs on
@@ -76,10 +76,11 @@ player can type `/players` and `/help`. Moderators cannot kick or ban each other
 
 Worlds are JSON files in the save folder (`saves/vale.json` by default). Each save replaces the file safely, and the
 backups (`vale.json.1`, `.2`, ...) are kept on the backup interval. To move a world to another server, stop the server
-and copy its world file. Bans are kept in `saves/bans.txt`, one per line.
+and copy its world file and corresponding `<world>.heroes.json` to retain hero reconnect/recovery records. Bans are kept in `saves/bans.txt`, one per line.
 
-The world's clock only runs while someone is connected. Heroes are saved in the players' own game, not on the server;
-the server remembers where each hero was for their next visit.
+The world's clock only runs while someone is connected. In **v0.21.0 beta**, each client keeps an independent hero
+profile for each server. The server also retains complete hero records in `<world>.heroes.json`, including the last
+position, for reconnecting and recovering an existing hero during migration. Local heroes and worlds remain separate.
 
 ## Playing over the internet
 

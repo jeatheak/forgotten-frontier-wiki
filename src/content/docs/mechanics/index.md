@@ -2,7 +2,7 @@
 title: "Survival and combat"
 description: "The systems that keep a wanderer alive."
 verification: verified
-sources: ["Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/Core/Skills.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/World/DayNight.cs", "CHANGELOG.md", "Assets/Scripts/Enemies/Charger.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/Gear.cs"]
+sources: ["Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/Core/Skills.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/World/DayNight.cs", "CHANGELOG.md", "Assets/Scripts/Enemies/Charger.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Player/ArrowShot.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/torchlight-v016.webp" aria-label="Open full-size image: Carry a light when you head into the night."><img src="/images/torchlight-v016.webp" alt="Carry a light when you head into the night." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Carry a light when you head into the night.</figcaption></figure><figure><a href="/images/stalker-v016.webp" aria-label="Open full-size image: A Stalker, photographed in a staged in-game encounter."><img src="/images/stalker-v016.webp" alt="A Stalker, photographed in a staged in-game encounter." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>A Stalker, photographed in a staged in-game encounter.</figcaption></figure></div>
@@ -10,6 +10,28 @@ sources: ["Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/Pl
 Health keeps you alive; stamina pays for strenuous actions, attacks and evasions. Avoid spending your last breath before a creature strikes. Food improves stamina and recovery, and healing supplies help you recover from mistakes.
 
 Watch a creature's windup, evade or block the committed attack, then use its recovery window. Stagger and Exposed states create openings. The spear and blades support weapon arts. Relics add further abilities.
+
+## Archery in v0.21.0 beta
+
+Hold attack to draw and release to loose. A basic Common Hunting Bow takes **2 seconds** to draw before skill bonuses;
+movement slows to a quarter of normal while drawing. The aiming circle shows the shot's spread and shrinks as you
+pull. Early shots scatter widely. The Horn Bow, better quality, upgrades and Archery skill improve handling; upgrades
+also shorten the draw. A brief click still releases a weak shot once the arrow is nocked.
+
+Drawing spends stamina. A full draw spends it faster, and holding longer increases the drain further. After a short
+steady window, the circle widens as your arms shake. Release when ready instead of waiting indefinitely at full draw.
+Arrows follow a visible arc over distance. Base bow damage is unchanged; a successful full-draw shot has a **95% chance**
+to deal **50% extra critical damage**. Enemy defenses and existing vulnerability effects still apply.
+
+The stable v0.20 release has the earlier, faster bow handling.
+
+![A partially drawn Hunting Bow with a wide circular aiming reticle in the forest.](/images/bow-partial-v021.webp)
+
+*Partial draw: a wide accuracy circle, staged in v0.21.0 beta.*
+
+![The same Hunting Bow at full draw, with its accuracy circle contracted around the aiming point.](/images/bow-full-v021.webp)
+
+*Full draw: the circle contracts. Holding longer spends more stamina and eventually widens the spread.*
 
 ## Meals, rest and light
 

@@ -40,7 +40,10 @@ Equipped gear remains accessible through the equipment diamonds. Full satchels m
 hotbar slot or removing gear. The **Money pouch** button opens deposit and withdrawal choices.
 
 On the map, click to add a pin. With a controller, move the cursor with the **right stick** and press **X** to add
-one. Select a pin for its label, waypoint toggle or removal. At most two waypoint pins appear on the compass;
+one. Select a pin for its label, waypoint toggle or removal. In **v0.21.0 beta**, clicking an existing custom pin opens
+its options; **right-click** removes it. Right-click a death-satchel marker to hide it on the map and compass while
+leaving its loot available. Controllers use the map's **Hide satchel** list buttons. The cursor appears only in
+controller mode. At most two waypoint pins appear on the compass;
 home is always marked. Storage filters use the Filter button or **LT / RT**.
 
 The game draws its own mouse pointer, a bronze arrowhead, wherever a menu wants the mouse.

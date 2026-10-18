@@ -1006,5 +1006,33 @@
     "version": "0.20.0",
     "alt": "A full satchel has exactly fifteen occupied cells; worn headgear and a hotbar club sit outside it, and controller focus compares the spare cap with the worn one.",
     "caption": "Accurate 15/15 satchel slots, equipment comparison and controller prompts, staged in v0.20.0."
+  },
+  {
+    "path": "/images/bow-partial-v021.webp",
+    "source": "Screens/wiki/v021/bow-partial.webp",
+    "version": "0.21.0",
+    "alt": "A partially drawn Hunting Bow with a wide circular aiming reticle in the forest.",
+    "caption": "Wide shot spread during a partial draw, staged in v0.21.0 beta."
+  },
+  {
+    "path": "/images/bow-full-v021.webp",
+    "source": "Screens/wiki/v021/bow-full.webp",
+    "version": "0.21.0",
+    "alt": "The same Hunting Bow at full draw, with its accuracy circle contracted around the aiming point.",
+    "caption": "The full-draw accuracy circle, staged in v0.21.0 beta."
+  },
+  {
+    "path": "/images/map-mouse-v021.webp",
+    "source": "Screens/wiki/v021/map-mouse.webp",
+    "version": "0.21.0",
+    "alt": "The mouse map showing home and the hero, with no extra controller cursor, and instructions for removing pins and hiding satchels.",
+    "caption": "The mouse map with the controller cursor hidden, v0.21.0 beta."
+  },
+  {
+    "path": "/images/roof-chain-v021.webp",
+    "source": "Screens/wiki/v021/roof-chain.webp",
+    "version": "0.21.0",
+    "alt": "A three-square log house with two roof slopes joining a raised central Ridge Roof, and a Ridge Gable stacked above a Gable Wall.",
+    "caption": "Real game pieces forming a wide roof and stacked gable, staged in v0.21.0 beta."
   }
 ]

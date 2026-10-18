@@ -2,7 +2,7 @@
 title: "Crafting and stations"
 description: "Discover recipes, prepare ingredients and upgrade your stations."
 verification: verified
-sources: ["Assets/Scripts/World/Crafting.cs", "Assets/Scripts/World/Upgrades.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/UI/GameMenuTabs.cs"]
+sources: ["Assets/Scripts/World/Crafting.cs", "Assets/Scripts/World/Upgrades.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/ArrowShot.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/stations-v016.webp" aria-label="Open full-size image: Crafting stations at the homestead. An in-game demonstration setup."><img src="/images/stations-v016.webp" alt="Crafting stations at the homestead. An in-game demonstration setup." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Crafting stations at the homestead. An in-game demonstration setup.</figcaption></figure><figure><a href="/images/crafting-v016.webp" aria-label="Open full-size image: The v0.16.0 crafting screen, with the Flint Axe recipe selected."><img src="/images/crafting-v016.webp" alt="The v0.16.0 crafting screen, with the Flint Axe recipe selected." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The v0.16.0 crafting screen, with the Flint Axe recipe selected.</figcaption></figure></div>
@@ -29,7 +29,9 @@ Build extensions within **4.5 m** of their station. The second extension needs t
 | Workbench | Shaving Horse: horn bow, antler pick and lute | Grindstone: fire arrows and ground whetstones |
 | Forge | Smith's Rack: mace and lamellar | Quench Trough: Echo Attunement |
 
-Arrow recipes show what the arrows do with your bow (the one in hand, else the best you own): damage at full draw and for a quick shot, and stagger.
+Arrow recipes show what the arrows do with your bow (the one in hand, else the best you own): base damage at full draw
+and for a quick shot, and stagger. These figures exclude critical damage. In **v0.21.0 beta**, a successful full-draw
+hit has a 95% chance of dealing 50% extra critical damage; target defenses and vulnerability effects still apply.
 
 Crafting takes time while the world continues. What does not fit in your satchel is set down beside you. Each completed piece is paid for when it finishes; closing the menu does not charge for unfinished work. Gear quality can vary. Food crafting can yield an extra portion through Cooking skill.
 
