@@ -43,6 +43,7 @@ FFServer -port 2456 -password secret -name "Our Vale" -maxplayers 4 -world vale 
 | `-savedir` | `saveDir` | saves | Where worlds, backups and the ban list go. |
 | `-bind` | `bind` | 0.0.0.0 | The address to listen on (all addresses by default). |
 | `-far` | `farMeters` | 260 | Players further apart than this many metres get each other's movement, and creatures twice as far off, at a third of the rate. 0 turns it off. |
+| `-timeout` | `timeoutSeconds` | 30 | Seconds without a word from a player before they are dropped, 10 to 300 (the command-line option arrives in v0.23.0). |
 | `-config` | | server.json | Read another settings file instead. |
 
 A port outside 1–65535, a bind address that is not an IP address or an unknown difficulty is reported in the log and
@@ -58,7 +59,7 @@ or name; a unique start of a name is enough.
 | `list` (`players`, `who`) | Who is online. |
 | `status` | Uptime, players, traffic and memory. |
 | `kick <player> [reason]` | Disconnects a player. |
-| `ban <player, client id or IP>` | Bans and disconnects. An online player is banned by client id and hero name. |
+| `ban <player, client id or IP>` | Bans and disconnects. An online player is banned by client id and hero name (from v0.23.0 also their public IP address; local, private and tunnel addresses are left out because many players can share them). |
 | `unban <entry>` / `bans` | Lifts a ban / lists the bans. |
 | `mod <player>` / `unmod <player>` / `mods` | Makes or unmakes a moderator until the server restarts (use the moderators setting to keep it) / lists them. |
 | `say <text>` | A line from the server in everyone's chat. |
@@ -81,6 +82,20 @@ and copy its world file and corresponding `<world>.heroes.json` to retain hero r
 The world's clock only runs while someone is connected. In **v0.22.0**, each client keeps an independent hero
 profile for each server. The server also retains complete hero records in `<world>.heroes.json`, including the last
 position, for reconnecting and recovering an existing hero during migration. Local heroes and worlds remain separate.
+
+## When things go wrong (v0.23.0, in development)
+
+- **A damaged world file** is kept aside as `<world>.json.damaged-<date>` and the newest readable backup is loaded. If
+  no copy can be read, the server stops with a message: restore a good copy as `saves/<world>.json`, or start with
+  another world name.
+- **A player whose game crashed or whose connection dropped** can join again at once; the new connection replaces the
+  old one.
+- **Stopping the server** tells every player it is restarting; their game offers **Rejoin** and keeps trying for
+  about a minute.
+- Felled trees, broken rocks and picked plants are kept in the world file until they grow back.
+- Connections that have not joined yet are kept few and short (closed after 15 seconds), and chat and commands are
+  limited to a few lines a second. The join screen briefly connects to ask recent servers for their name, players,
+  version and whether they need a password.
 
 ## Playing over the internet
 

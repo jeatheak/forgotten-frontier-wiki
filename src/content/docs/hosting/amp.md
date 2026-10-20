@@ -54,7 +54,8 @@ The game port is AMP's **Game Port** (TCP, 2456 by default).
 - **Update** downloads the latest stable server. Draft and prerelease betas do not replace that download; beta testing
   requires manually selecting the matching game and server packages. Update the instance whenever a new stable game version is released: the game and
   the server must be the same version.
-- **Stop** sends the server's `stop` command, which saves the world before it quits.
+- **Stop** sends the server's `stop` command, which saves the world before it quits. From v0.23.0 (in development)
+  players are told the server is restarting, and their game offers **Rejoin** and keeps trying for about a minute.
 - The console accepts every [server command](/hosting/dedicated-server/#console-commands).
 - AMP's player list offers **Kick**, **Ban**, **Make Moderator** and **Remove Moderator** for anyone online. Moderators
   made this way last until the server restarts; put them in the **Moderators** setting to keep them.

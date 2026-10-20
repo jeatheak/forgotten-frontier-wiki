@@ -58,7 +58,7 @@ during its 1.05-second warning, then use its recovery window.
 
 ## Blocking and parrying
 
-Hold **right mouse or C** to guard; **middle mouse** performs a heavy attack. Both can cancel a bow draw. Shift only
+Hold **right mouse or C** to guard; **middle mouse** (or **V** from v0.23.0) performs a heavy attack. Both can cancel a bow draw. Shift only
 sprints; use Left Alt or mouse button 4 to dodge. Controller bindings are unchanged.
 
 With a **club, spear or blades** in hand, hold **RMB or C** (LT on a controller) to guard. A blow from the front (within **70°** to either side of where you face) is mostly stopped; blows from the side or behind get through. In front a club stops **70%**, a spear **60%** and blades **50%** (less with a broken weapon). Each blocked blow costs stamina (4 plus 90% of the blow's damage, less with weapon skill); with too little stamina the guard breaks, more gets through and you are thrown off balance. While guarding you move at half speed and stamina does not recover. Fists, tools and the bow cannot block.

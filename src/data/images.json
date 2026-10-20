@@ -1069,5 +1069,19 @@
     "version": "0.22.0",
     "alt": "Inventory with the main-hand equipment slot highlighted and the pouch showing 123 silver.",
     "caption": "Equipment-slot focus and current pouch balance, staged in v0.22.0."
+  },
+  {
+    "path": "/images/join-recent-v023.webp",
+    "source": "Screens/wiki/v023/join-recent.webp",
+    "version": "0.23.0 (in development)",
+    "alt": "The Join a world screen listing two recent servers: Our Vale with 0 of 4 playing, its latency and a password, and Old Friends shown offline.",
+    "caption": "Recent servers on the join screen, captured from the v0.23.0 development source against a local test server."
+  },
+  {
+    "path": "/images/disconnected-rejoin-v023.webp",
+    "source": "Screens/wiki/v023/disconnected-rejoin.webp",
+    "version": "0.23.0 (in development)",
+    "alt": "A Disconnected dialog saying the server closed the connection and the hero has been saved, with Back to the title and Rejoin buttons.",
+    "caption": "After a lost connection, Rejoin goes straight back in (v0.23.0 development source, local test server)."
   }
 ]

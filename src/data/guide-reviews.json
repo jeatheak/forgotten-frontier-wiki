@@ -1,8 +1,8 @@
 {
   "about.md": {
-    "contentHash": "30f316bc7634adecda59deeca61e120affc135283266291af8b4a70a3a0e3781",
+    "contentHash": "ad98c998d8ed895bf002303269b5f7743a2849ce61a0a3d2cb794bbe5caaee80",
     "sources": {
-      "CHANGELOG.md": "fec3e1464c8f7a2d9b1be53c9f8c2730e163d97eee0c9bd8469764c479a36cf5"
+      "CHANGELOG.md": "89e10e623fcb561e6e5345d50c1b0a4a19cbe2a5f8d072903f74e787bf483c21"
     }
   },
   "biomes/index.md": {
@@ -10,10 +10,10 @@
     "sources": {
       "Assets/Scripts/World/WorldGen.cs": "1b4deaa7b1b085f265c086d3eaf179c19e7d642ce325b4adf402b7a764f22eec",
       "Assets/Scripts/World/WorldStreamer.cs": "4d55eaa4a3006084b5838fb4814a04805a8892cbca74ded20b608bf217c8802f",
-      "Assets/Scripts/World/Gathering.cs": "4f966495792ad462cf46f0071063f89bd78effbc6b824a09675c73dda8ef7ee4",
+      "Assets/Scripts/World/Gathering.cs": "4b60c8e3a1e07e1b341657c06bdeb1d52bda656223c8000b06ccda4f5452a3bc",
       "Assets/Scripts/Enemies/Enemy.cs": "666d62898f0b783f15842b18122a6a7afa6ae90ab873851ee50f17ced636df79",
       "Assets/Scripts/Enemies/EnemySpawner.cs": "593920d48f3d6372c63df77c960982727907aed62fd689d951d850abc1995b2c",
-      "Assets/Scripts/Player/PlayerController.cs": "79346acde3e7d6a0eaf63370b048cce8f3153703cdff40753043b4d17213ed60",
+      "Assets/Scripts/Player/PlayerController.cs": "673cade8a042fdf60da37966c7ee5619da449c6d2dd208e00c56e455ad9c3d01",
       "Assets/Scripts/Core/Items.cs": "266ed1c284f67b9a6def00b67182f13043f30169d53ad41899f20b3ebddba01b",
       "Assets/Scripts/Core/Gear.cs": "ec420f00a5c811e14798123cdb5fd5b71d3344644b241822c7f6e32174c7e697",
       "Assets/Scripts/World/WorldWater.cs": "49b50f9f0979e07b8f8836a1b975f035e25e41c191b731dc4170458c3514e3a5"
@@ -56,20 +56,20 @@
       "Assets/Scripts/World/Upgrades.cs": "660027b9dadbfead6198beef46ffe333418b944684c4aa2e1f6599987cef0e87",
       "Assets/Scripts/Player/PlayerCombat.cs": "ab0e648e976154eb89220461b365c53ae0d0f03a7b27f98cea607275b239ed93",
       "Assets/Scripts/Player/PlayerVisual.cs": "a20df3931608973c1ebe8ee4ef04d3b8390bb3491e2d9bc7c206171c3cec7f87",
-      "Assets/Scripts/UI/GameMenu.cs": "833753097154178bde7fc786668ce3ea7969e5f633f2746af5cb227efbd33b11",
+      "Assets/Scripts/UI/GameMenu.cs": "7de12475d7ecc9c6ccb088542a8d986917fe21778f6d604f33d0c680928f1ad0",
       "Assets/Scripts/Player/ArrowShot.cs": "f2c3a06b8cddced552248c4699a8ff19a0e31bc0528e1baa367f7caadee1151e"
     }
   },
   "getting-started.md": {
-    "contentHash": "e7960359e3dbd7417876c5d62461a777e22173b792503d95ac531ba4df3cee27",
+    "contentHash": "8a71b6204d5bb35f56d55e956d5d8ac7adf2e75c796fdf18ad53adef9343e1ff",
     "sources": {
       "Assets/Scripts/World/Crafting.cs": "17753e8bf98f9c70c97098edeea27efb909258562a16a26a9d685b04a5226238",
-      "Assets/Scripts/World/Gathering.cs": "4f966495792ad462cf46f0071063f89bd78effbc6b824a09675c73dda8ef7ee4",
+      "Assets/Scripts/World/Gathering.cs": "4b60c8e3a1e07e1b341657c06bdeb1d52bda656223c8000b06ccda4f5452a3bc",
       "Assets/Scripts/Core/Items.cs": "266ed1c284f67b9a6def00b67182f13043f30169d53ad41899f20b3ebddba01b",
-      "Assets/Scripts/Player/PlayerController.cs": "79346acde3e7d6a0eaf63370b048cce8f3153703cdff40753043b4d17213ed60",
+      "Assets/Scripts/Player/PlayerController.cs": "673cade8a042fdf60da37966c7ee5619da449c6d2dd208e00c56e455ad9c3d01",
       "Assets/Scripts/World/Trader.cs": "d5cc457432fb6a57e91805ad120fda6613d71cdbf6ccfbe1edb45738cb1f4f21",
       "Assets/Scripts/Core/Guide.cs": "162bcdbe907fdc2ee694691b97bd3733c1cdcbeb6d55d41739098e4ca7eae986",
-      "CHANGELOG.md": "fec3e1464c8f7a2d9b1be53c9f8c2730e163d97eee0c9bd8469764c479a36cf5",
+      "CHANGELOG.md": "89e10e623fcb561e6e5345d50c1b0a4a19cbe2a5f8d072903f74e787bf483c21",
       "Assets/Scripts/World/WorldWater.cs": "49b50f9f0979e07b8f8836a1b975f035e25e41c191b731dc4170458c3514e3a5",
       "Assets/Scripts/World/WorldStreamer.cs": "4d55eaa4a3006084b5838fb4814a04805a8892cbca74ded20b608bf217c8802f",
       "Assets/Scripts/World/Stations.cs": "4148898eb5359efdc796d3ad2e279ce1bb9c68f482cba9b9376f469c5b7e019a",
@@ -77,21 +77,21 @@
     }
   },
   "index.mdx": {
-    "contentHash": "649415e17f6240a6bee3f09aab7a0f71e52f21a9c679867071090b4823b058a3",
+    "contentHash": "51292ec94478b34f7fbd8e2fc433d431077218ba303f0a1f3668c3e8b8597e3b",
     "sources": {
-      "CHANGELOG.md": "fec3e1464c8f7a2d9b1be53c9f8c2730e163d97eee0c9bd8469764c479a36cf5",
-      "Assets/Scripts/Core/GameManager.cs": "05e17155c64d9fd3c8fb7b028f7eb464fd574df2a3e53eafc0bfd9eced2877a0"
+      "CHANGELOG.md": "89e10e623fcb561e6e5345d50c1b0a4a19cbe2a5f8d072903f74e787bf483c21",
+      "Assets/Scripts/Core/GameManager.cs": "d11a3fb6ef25a4287f55512fcea94ed0b353e259dddad035806a464ad3fbc6b6"
     }
   },
   "lore/index.md": {
     "contentHash": "b934f56c50fe535e01c96d0c3de04782c2ae9e1d1a4de65209a445ffa2ad92b0",
     "sources": {
-      "Assets/Scripts/Core/GameManager.cs": "05e17155c64d9fd3c8fb7b028f7eb464fd574df2a3e53eafc0bfd9eced2877a0",
+      "Assets/Scripts/Core/GameManager.cs": "d11a3fb6ef25a4287f55512fcea94ed0b353e259dddad035806a464ad3fbc6b6",
       "Assets/Scripts/World/Echo.cs": "a0327cdbe0fe6520c610190c4e09fe32ccfa34fde3d7b48bf61ad8a1d8426fcd",
-      "CHANGELOG.md": "fec3e1464c8f7a2d9b1be53c9f8c2730e163d97eee0c9bd8469764c479a36cf5",
+      "CHANGELOG.md": "89e10e623fcb561e6e5345d50c1b0a4a19cbe2a5f8d072903f74e787bf483c21",
       "Assets/Scripts/World/Crafting.cs": "17753e8bf98f9c70c97098edeea27efb909258562a16a26a9d685b04a5226238",
       "Assets/Scripts/Core/Voice.cs": "6c71c12efa8d92adf3a331db91f70e1627ae18f515c642d12d469f08c0252a75",
-      "Assets/Scripts/UI/SettingsScreen.cs": "911de6688fdeba9851243d75a5e583d6206996fcf24f4dda01eaa10f2264780c",
+      "Assets/Scripts/UI/SettingsScreen.cs": "2007336ba122023c75d392be7fc39ceb74012c05efda088e9003b2d7f7a5462f",
       "Assets/Scripts/World/KeepersSeal.cs": "cb25eacb46f826adc1b45760be8997392dbab09cde536f0ef002d00dfa1fa829"
     }
   },
@@ -99,52 +99,52 @@
     "contentHash": "0c48cefa37b079344ca503a41180e0c11a08002319506a7b38f5d1e26ac1499d",
     "sources": {
       "Assets/Scripts/Player/BuildSystem.cs": "488acdbdd3b8ba5249caa164b07c69e9948d86d08437731cb4231f05c00f44b4",
-      "Assets/Scripts/UI/HudView.cs": "189e19fc96b118ddde4edbd53e7b09eb24b1e402797a0f03f42d7c732836d7bd",
+      "Assets/Scripts/UI/HudView.cs": "2a0fb385c4aba2164fa55493a2168a235ade5f020a308b56bef35c09e965bdf7",
       "Assets/Scripts/UI/StorageScreen.cs": "2602caa004f658bc572ec9dc5f089a01892e81556efaaab4cdedf886e4b551bc",
-      "Assets/Scripts/Core/GameManager.cs": "05e17155c64d9fd3c8fb7b028f7eb464fd574df2a3e53eafc0bfd9eced2877a0",
-      "Assets/Scripts/Player/PlayerController.cs": "79346acde3e7d6a0eaf63370b048cce8f3153703cdff40753043b4d17213ed60",
+      "Assets/Scripts/Core/GameManager.cs": "d11a3fb6ef25a4287f55512fcea94ed0b353e259dddad035806a464ad3fbc6b6",
+      "Assets/Scripts/Player/PlayerController.cs": "673cade8a042fdf60da37966c7ee5619da449c6d2dd208e00c56e455ad9c3d01",
       "Assets/Scripts/World/Ladder.cs": "41d74525bc3c625dd6e8da16eab1c4d5a3ecfc0508525848ee6b31835ddb9817",
       "Assets/Scripts/World/Stations.cs": "4148898eb5359efdc796d3ad2e279ce1bb9c68f482cba9b9376f469c5b7e019a",
-      "CHANGELOG.md": "fec3e1464c8f7a2d9b1be53c9f8c2730e163d97eee0c9bd8469764c479a36cf5",
+      "CHANGELOG.md": "89e10e623fcb561e6e5345d50c1b0a4a19cbe2a5f8d072903f74e787bf483c21",
       "Assets/Scripts/Core/Items.cs": "266ed1c284f67b9a6def00b67182f13043f30169d53ad41899f20b3ebddba01b",
       "Assets/Scripts/Core/Gear.cs": "ec420f00a5c811e14798123cdb5fd5b71d3344644b241822c7f6e32174c7e697",
-      "Assets/Scripts/Core/SaveSystem.cs": "c73dc76581fd97efa563de1382db843b86d914024a073cee084f25cb55f1de78"
+      "Assets/Scripts/Core/SaveSystem.cs": "31981b84695ccd35c22858f132f3733fdcb5cec44c744e3345757f1880aa760e"
     }
   },
   "mechanics/co-op.md": {
-    "contentHash": "ee1131446982be5942e602002da077bd619de929330b8cacdabec7f4b8010af7",
+    "contentHash": "1a7bc91ae5a85e8c8b88dd4158a6c2102d16b33247b25a0787d56cf1ac1b190d",
     "sources": {
-      "Assets/Scripts/Net/NetSession.cs": "59650603121f00ff886c45e17183aec36387b8cd4ad821f8af2c6553c0cea946",
-      "Assets/Scripts/Net/NetSession.World.cs": "498525f971210fd56793d4af50bb896685ea8f0b0924d21906ba1a0626c67fa4",
+      "Assets/Scripts/Net/NetSession.cs": "75dce5e078cfd09c6483ddd249b86741bc14621287341eeb665c9e1a13a2a0cc",
+      "Assets/Scripts/Net/NetSession.World.cs": "fb1fe1e74ddd87a22d530ca55ac6b7488146e03176342d3ad53bd15b21c5ff21",
       "Assets/Scripts/World/Stations.cs": "4148898eb5359efdc796d3ad2e279ce1bb9c68f482cba9b9376f469c5b7e019a",
-      "Assets/Scripts/Core/SaveSystem.cs": "c73dc76581fd97efa563de1382db843b86d914024a073cee084f25cb55f1de78",
+      "Assets/Scripts/Core/SaveSystem.cs": "31981b84695ccd35c22858f132f3733fdcb5cec44c744e3345757f1880aa760e",
       "Assets/Scripts/Core/Guide.cs": "162bcdbe907fdc2ee694691b97bd3733c1cdcbeb6d55d41739098e4ca7eae986",
-      "Assets/Scripts/Net/NetHud.cs": "e7678cb5c618f94c82d680b89e42e793c569f02111fddad68884d354da9aca63",
-      "Server/FFServer/GameServer.cs": "6ba49f5bf3e6fc57e92730c9f94991e133cef4c8f6851da56b1caf3b97c80222",
-      "Server/SERVER.md": "efeed28a09d63f0097612c510f7756f1bc6ffa046fb64a072d31d3981914ec17",
-      "CHANGELOG.md": "fec3e1464c8f7a2d9b1be53c9f8c2730e163d97eee0c9bd8469764c479a36cf5",
-      "Assets/Scripts/UI/Screens.cs": "1633d6a608105da75b8d528176da6515bc230d0c46d6d4dbacbd5e3456c05f06",
+      "Assets/Scripts/Net/NetHud.cs": "d77a553a46f7c19f4a19db9198d233617791352e354ee14c6b8c1611bbd2bbfb",
+      "Server/FFServer/GameServer.cs": "f4ac9017bc52f3ecb7558055faa3c815a50d123f3046a70f17c5c70cad72903a",
+      "Server/SERVER.md": "9b479d828b8c2c298fdd9de9b0cfa9370a78e4ee0a221e7781089a254c927e9d",
+      "CHANGELOG.md": "89e10e623fcb561e6e5345d50c1b0a4a19cbe2a5f8d072903f74e787bf483c21",
+      "Assets/Scripts/UI/Screens.cs": "c43253a189c20b73aa53f651fd2bc75022c3efbc51bdb912e98bddd403336f1f",
       "Assets/Scripts/Core/Items.cs": "266ed1c284f67b9a6def00b67182f13043f30169d53ad41899f20b3ebddba01b",
-      "Assets/Scripts/Core/GameManager.cs": "05e17155c64d9fd3c8fb7b028f7eb464fd574df2a3e53eafc0bfd9eced2877a0",
+      "Assets/Scripts/Core/GameManager.cs": "d11a3fb6ef25a4287f55512fcea94ed0b353e259dddad035806a464ad3fbc6b6",
       "Assets/Scripts/World/Crypt.cs": "fdf1c85a0ecb33867544d48784774a1eb390e168ec74eeb54b3520f3bad4b550",
-      "Assets/Scripts/Player/PlayerController.cs": "79346acde3e7d6a0eaf63370b048cce8f3153703cdff40753043b4d17213ed60",
-      "Assets/Scripts/UI/JoinScreen.cs": "23f441d0b613dbe62486bc832aa3e23144971895f6175c070f482152ffc7057f",
-      "Assets/Scripts/Net/Shared/SaveTypes.cs": "8507eebe5367d5e87a08f98ce5e3f01d9a0815dd2ea1e79181a69099ac420c45"
+      "Assets/Scripts/Player/PlayerController.cs": "673cade8a042fdf60da37966c7ee5619da449c6d2dd208e00c56e455ad9c3d01",
+      "Assets/Scripts/UI/JoinScreen.cs": "3841ca37cafb2d8e63e23385b2905ca8b1453be9daf97c8fbac87fa1202def37",
+      "Assets/Scripts/Net/Shared/SaveTypes.cs": "0aa1a4b893002e45ea772cad487687fc86c7b19d68308bfa7aadc5af7b44fb83"
     }
   },
   "mechanics/controls.md": {
-    "contentHash": "9e80f029de2dffea6096e57c28afe932351dc1c9d2cab48b9b2fa6d680137129",
+    "contentHash": "70de0dfebe108ccd72b38d5ebd808899a9667deb750fbbe641c96bd87252a03d",
     "sources": {
-      "Assets/Scripts/Core/InputSource.cs": "12cdc2daf5a5778fa6badcebeaa4a69ea04c4fc79c6413096745b10c42673f36",
+      "Assets/Scripts/Core/InputSource.cs": "d1bf4b6fc555301764ba409747e6c186c0f1cf0f9fa4ecec445152371390c3f5",
       "Assets/Scripts/Core/DevTools.cs": "a9769cb8d284a0b21252170a4f0a0f66a15496aa9d214ea25077b560cd689eff",
-      "Assets/Scripts/UI/SettingsScreen.cs": "911de6688fdeba9851243d75a5e583d6206996fcf24f4dda01eaa10f2264780c",
-      "Assets/Scripts/UI/UIKit.cs": "85e85238afeaef50504cbac7371c0726d8d0e3f74e37ee3f3b7a1f0db095024d",
-      "CHANGELOG.md": "fec3e1464c8f7a2d9b1be53c9f8c2730e163d97eee0c9bd8469764c479a36cf5",
+      "Assets/Scripts/UI/SettingsScreen.cs": "2007336ba122023c75d392be7fc39ceb74012c05efda088e9003b2d7f7a5462f",
+      "Assets/Scripts/UI/UIKit.cs": "b0ea88d357fe816346bf1abf59c10cb253fa8a3de18b7b50683472f84a505395",
+      "CHANGELOG.md": "89e10e623fcb561e6e5345d50c1b0a4a19cbe2a5f8d072903f74e787bf483c21",
       "Assets/Scripts/Player/BuildSystem.cs": "488acdbdd3b8ba5249caa164b07c69e9948d86d08437731cb4231f05c00f44b4",
-      "Assets/Scripts/Player/PlayerController.cs": "79346acde3e7d6a0eaf63370b048cce8f3153703cdff40753043b4d17213ed60",
-      "Assets/Scripts/Core/GameManager.cs": "05e17155c64d9fd3c8fb7b028f7eb464fd574df2a3e53eafc0bfd9eced2877a0",
+      "Assets/Scripts/Player/PlayerController.cs": "673cade8a042fdf60da37966c7ee5619da449c6d2dd208e00c56e455ad9c3d01",
+      "Assets/Scripts/Core/GameManager.cs": "d11a3fb6ef25a4287f55512fcea94ed0b353e259dddad035806a464ad3fbc6b6",
       "Assets/Scripts/World/Ladder.cs": "41d74525bc3c625dd6e8da16eab1c4d5a3ecfc0508525848ee6b31835ddb9817",
-      "Assets/Scripts/UI/GameMenu.cs": "833753097154178bde7fc786668ce3ea7969e5f633f2746af5cb227efbd33b11",
+      "Assets/Scripts/UI/GameMenu.cs": "7de12475d7ecc9c6ccb088542a8d986917fe21778f6d604f33d0c680928f1ad0",
       "Assets/Scripts/UI/GameMenuTabs.cs": "d1b5c9c248642c12c26757cdc1ca0ca90a5b40e6ffb417df5ee552e00825c9ee",
       "Assets/Scripts/UI/StorageScreen.cs": "2602caa004f658bc572ec9dc5f089a01892e81556efaaab4cdedf886e4b551bc",
       "Assets/Scripts/Core/Gear.cs": "ec420f00a5c811e14798123cdb5fd5b71d3344644b241822c7f6e32174c7e697",
@@ -155,35 +155,35 @@
     "contentHash": "cea10fa4eeabcf659ce21e83eff45d1247943e38a3b9a50ac26f3ad326236916",
     "sources": {
       "Assets/Scripts/Core/Difficulty.cs": "4b875dbeb95a6b6633d2c48d184eb20385bbe773650498704cdfeb6886240a6c",
-      "Assets/Scripts/Player/PlayerController.cs": "79346acde3e7d6a0eaf63370b048cce8f3153703cdff40753043b4d17213ed60",
+      "Assets/Scripts/Player/PlayerController.cs": "673cade8a042fdf60da37966c7ee5619da449c6d2dd208e00c56e455ad9c3d01",
       "Assets/Scripts/Enemies/Enemy.cs": "666d62898f0b783f15842b18122a6a7afa6ae90ab873851ee50f17ced636df79",
-      "Server/SERVER.md": "efeed28a09d63f0097612c510f7756f1bc6ffa046fb64a072d31d3981914ec17",
+      "Server/SERVER.md": "9b479d828b8c2c298fdd9de9b0cfa9370a78e4ee0a221e7781089a254c927e9d",
       "Assets/Scripts/World/Interactables.cs": "5b5c0aa418e67616a10a14258c95843460487975749a7301ea234b7d0fdedd8d",
       "Assets/Scripts/UI/GameMenuTabs.cs": "d1b5c9c248642c12c26757cdc1ca0ca90a5b40e6ffb417df5ee552e00825c9ee",
-      "Assets/Scripts/UI/HudView.cs": "189e19fc96b118ddde4edbd53e7b09eb24b1e402797a0f03f42d7c732836d7bd",
-      "Assets/Scripts/Core/SaveSystem.cs": "c73dc76581fd97efa563de1382db843b86d914024a073cee084f25cb55f1de78"
+      "Assets/Scripts/UI/HudView.cs": "2a0fb385c4aba2164fa55493a2168a235ade5f020a308b56bef35c09e965bdf7",
+      "Assets/Scripts/Core/SaveSystem.cs": "31981b84695ccd35c22858f132f3733fdcb5cec44c744e3345757f1880aa760e"
     }
   },
   "mechanics/farming.md": {
     "contentHash": "ec798929b5ad779ff0ab3fc8599fcd814983052c1280e0d1fb6452fdb86a3ae5",
     "sources": {
       "Assets/Scripts/World/Farming.cs": "d75de78e0a5333241250f1a910bf6f2ed500bd469a58b5e8428018fb38634f51",
-      "Assets/Scripts/Player/PlayerController.cs": "79346acde3e7d6a0eaf63370b048cce8f3153703cdff40753043b4d17213ed60",
+      "Assets/Scripts/Player/PlayerController.cs": "673cade8a042fdf60da37966c7ee5619da449c6d2dd208e00c56e455ad9c3d01",
       "Assets/Scripts/World/DayNight.cs": "0cf86e8780e08b5717477f54cefc0baf935cd044fcc93f5891aac66091884ee4"
     }
   },
   "mechanics/index.md": {
-    "contentHash": "63e7d0ad29f5cb8b6b99e1188ae0aab4a50377c6968e64d020c9b4c5f01ad424",
+    "contentHash": "8230046a478eb95b0d850c2e2ef632058351f44bec5e74321ec64785a29a1dbe",
     "sources": {
-      "Assets/Scripts/Player/PlayerController.cs": "79346acde3e7d6a0eaf63370b048cce8f3153703cdff40753043b4d17213ed60",
+      "Assets/Scripts/Player/PlayerController.cs": "673cade8a042fdf60da37966c7ee5619da449c6d2dd208e00c56e455ad9c3d01",
       "Assets/Scripts/Player/PlayerCombat.cs": "ab0e648e976154eb89220461b365c53ae0d0f03a7b27f98cea607275b239ed93",
       "Assets/Scripts/Player/PlayerVisual.cs": "a20df3931608973c1ebe8ee4ef04d3b8390bb3491e2d9bc7c206171c3cec7f87",
       "Assets/Scripts/Core/Skills.cs": "1d37863c4a2f1faeedfb11be1bb2ad47989439c41d1e2c560087d40fced3ea67",
       "Assets/Scripts/Core/Guide.cs": "162bcdbe907fdc2ee694691b97bd3733c1cdcbeb6d55d41739098e4ca7eae986",
       "Assets/Scripts/World/DayNight.cs": "0cf86e8780e08b5717477f54cefc0baf935cd044fcc93f5891aac66091884ee4",
-      "CHANGELOG.md": "fec3e1464c8f7a2d9b1be53c9f8c2730e163d97eee0c9bd8469764c479a36cf5",
+      "CHANGELOG.md": "89e10e623fcb561e6e5345d50c1b0a4a19cbe2a5f8d072903f74e787bf483c21",
       "Assets/Scripts/Enemies/Charger.cs": "3a3e9a0194ad8dd13346f78cfee06a59c531a7d21acb5c7e7abbeb1be920f504",
-      "Assets/Scripts/Core/GameManager.cs": "05e17155c64d9fd3c8fb7b028f7eb464fd574df2a3e53eafc0bfd9eced2877a0",
+      "Assets/Scripts/Core/GameManager.cs": "d11a3fb6ef25a4287f55512fcea94ed0b353e259dddad035806a464ad3fbc6b6",
       "Assets/Scripts/World/Stations.cs": "4148898eb5359efdc796d3ad2e279ce1bb9c68f482cba9b9376f469c5b7e019a",
       "Assets/Scripts/Core/Gear.cs": "ec420f00a5c811e14798123cdb5fd5b71d3344644b241822c7f6e32174c7e697",
       "Assets/Scripts/Player/ArrowShot.cs": "f2c3a06b8cddced552248c4699a8ff19a0e31bc0528e1baa367f7caadee1151e"
@@ -192,14 +192,14 @@
   "progression/index.md": {
     "contentHash": "802e10763173d32f049f8c983eeaec27eeacd59c6c09a84d3498c53c1b756cd9",
     "sources": {
-      "Assets/Scripts/Core/GameManager.cs": "05e17155c64d9fd3c8fb7b028f7eb464fd574df2a3e53eafc0bfd9eced2877a0",
+      "Assets/Scripts/Core/GameManager.cs": "d11a3fb6ef25a4287f55512fcea94ed0b353e259dddad035806a464ad3fbc6b6",
       "Assets/Scripts/Core/Difficulty.cs": "4b875dbeb95a6b6633d2c48d184eb20385bbe773650498704cdfeb6886240a6c",
       "Assets/Scripts/World/Crafting.cs": "17753e8bf98f9c70c97098edeea27efb909258562a16a26a9d685b04a5226238",
       "Assets/Scripts/Player/PlayerCombat.cs": "ab0e648e976154eb89220461b365c53ae0d0f03a7b27f98cea607275b239ed93",
       "Assets/Scripts/World/Trader.cs": "d5cc457432fb6a57e91805ad120fda6613d71cdbf6ccfbe1edb45738cb1f4f21",
       "Assets/Scripts/World/KeepersSeal.cs": "cb25eacb46f826adc1b45760be8997392dbab09cde536f0ef002d00dfa1fa829",
       "Assets/Scripts/World/Echo.cs": "a0327cdbe0fe6520c610190c4e09fe32ccfa34fde3d7b48bf61ad8a1d8426fcd",
-      "CHANGELOG.md": "fec3e1464c8f7a2d9b1be53c9f8c2730e163d97eee0c9bd8469764c479a36cf5"
+      "CHANGELOG.md": "89e10e623fcb561e6e5345d50c1b0a4a19cbe2a5f8d072903f74e787bf483c21"
     }
   },
   "runes/index.md": {
@@ -221,11 +221,11 @@
       "Assets/Scripts/World/WorldPOI.cs": "e6511d83f27a164d6363631cb61f2a428327544a2e85c87211e4fb19ef0cfed0",
       "Assets/Scripts/World/Trader.cs": "d5cc457432fb6a57e91805ad120fda6613d71cdbf6ccfbe1edb45738cb1f4f21",
       "Assets/Scripts/World/Puzzles.cs": "e7caab288dabcbe22dc343df9d61b763d74089f65064aa6659265c9e468495e8",
-      "Assets/Scripts/World/Exploration.cs": "a52b256b56d1f683f7eeedc5994e89b181104e000603ea929b7bfcdc992cae84",
+      "Assets/Scripts/World/Exploration.cs": "fcbc8d3d575e6ca86eae1793a9c5effcef6297230b1cd76a55ba93c4329da91b",
       "Assets/Scripts/World/Crypt.cs": "fdf1c85a0ecb33867544d48784774a1eb390e168ec74eeb54b3520f3bad4b550",
       "Assets/Scripts/UI/GameMenuTabs.cs": "d1b5c9c248642c12c26757cdc1ca0ca90a5b40e6ffb417df5ee552e00825c9ee",
-      "Assets/Scripts/UI/HudView.cs": "189e19fc96b118ddde4edbd53e7b09eb24b1e402797a0f03f42d7c732836d7bd",
-      "Assets/Scripts/Core/SaveSystem.cs": "c73dc76581fd97efa563de1382db843b86d914024a073cee084f25cb55f1de78"
+      "Assets/Scripts/UI/HudView.cs": "2a0fb385c4aba2164fa55493a2168a235ade5f020a308b56bef35c09e965bdf7",
+      "Assets/Scripts/Core/SaveSystem.cs": "31981b84695ccd35c22858f132f3733fdcb5cec44c744e3345757f1880aa760e"
     }
   },
   "gallery.md": {
@@ -234,11 +234,11 @@
       "Assets/Scripts/World/WorldBuilder.cs": "54319c0e6a69c48c054ba712f4ef4faa72ecf5eb2c353651ef0dcce1960aad4b",
       "Assets/Scripts/World/WorldGen.cs": "1b4deaa7b1b085f265c086d3eaf179c19e7d642ce325b4adf402b7a764f22eec",
       "Assets/Scripts/UI/Stage3D.cs": "ba07460b45bf781de1dd6a47c744a7c8ce087cac4ae6d088aa7429bba4b92e8c",
-      "CHANGELOG.md": "fec3e1464c8f7a2d9b1be53c9f8c2730e163d97eee0c9bd8469764c479a36cf5",
-      "Assets/Scripts/UI/GameMenu.cs": "833753097154178bde7fc786668ce3ea7969e5f633f2746af5cb227efbd33b11",
+      "CHANGELOG.md": "89e10e623fcb561e6e5345d50c1b0a4a19cbe2a5f8d072903f74e787bf483c21",
+      "Assets/Scripts/UI/GameMenu.cs": "7de12475d7ecc9c6ccb088542a8d986917fe21778f6d604f33d0c680928f1ad0",
       "Assets/Scripts/UI/GameMenuTabs.cs": "d1b5c9c248642c12c26757cdc1ca0ca90a5b40e6ffb417df5ee552e00825c9ee",
       "Assets/Scripts/UI/StorageScreen.cs": "2602caa004f658bc572ec9dc5f089a01892e81556efaaab4cdedf886e4b551bc",
-      "Assets/Scripts/UI/HudView.cs": "189e19fc96b118ddde4edbd53e7b09eb24b1e402797a0f03f42d7c732836d7bd"
+      "Assets/Scripts/UI/HudView.cs": "2a0fb385c4aba2164fa55493a2168a235ade5f020a308b56bef35c09e965bdf7"
     }
   },
   "equipment/calculator.mdx": {
@@ -249,7 +249,7 @@
     }
   },
   "hosting/amp.md": {
-    "contentHash": "35d9571e34aebe5cda1e0060e16335c8080f802ad747b7c2f7ae62fd9b84bcb8",
+    "contentHash": "cba00ffce26f6cdba7d49128f26d621054969ff293a96962421df892e4d26ba2",
     "sources": {
       "Server/AMP/forgottenfrontier.kvp": "8bddae44c9147d93111458c301b145b5a1728355b6e5dcfa4ee0eb6f58316092",
       "Server/AMP/forgottenfrontierconfig.json": "0a7d63d7a6f425b222c06f844dd6741fb49af5e60d37a6364ac3a6243ca45075",
@@ -257,21 +257,21 @@
       "Server/AMP/forgottenfrontierupdates.json": "7088c99309ad7839c89b47049a5b4ed7454f74e183fe9fd0b1d6f78884583a15",
       "Server/AMP/manifest.json": "ae46dc9b25546c74a015fbfa5cdc9a326c97cc60cbe286114cb6b10df879323c",
       "Server/AMP/README.md": "9e0362cc0b8c6d4d523d82a9a737ad13c10438ebfa3f3d638ab2690edb0061d6",
-      "Server/SERVER.md": "efeed28a09d63f0097612c510f7756f1bc6ffa046fb64a072d31d3981914ec17",
-      "Server/FFServer/ServerConfig.cs": "77b525f2598055c35e1c38bcd0e12f43ff3104eb251521eeba3191575a88f554"
+      "Server/SERVER.md": "9b479d828b8c2c298fdd9de9b0cfa9370a78e4ee0a221e7781089a254c927e9d",
+      "Server/FFServer/ServerConfig.cs": "e5faf9a7a0230307766cfd31b8da96742f78f0af72f5e50f852332b8ea4610d5"
     }
   },
   "hosting/dedicated-server.md": {
-    "contentHash": "f7edf200220924f7b60e787824381d820b4e237b3d9a9eeb6df57af6e32f5036",
+    "contentHash": "6b477af75d301bcfe195b3fbdee7ca35690aad4ec655664dbdca978d53227c4b",
     "sources": {
-      "Server/FFServer/ServerConfig.cs": "77b525f2598055c35e1c38bcd0e12f43ff3104eb251521eeba3191575a88f554",
-      "Server/FFServer/GameServer.cs": "6ba49f5bf3e6fc57e92730c9f94991e133cef4c8f6851da56b1caf3b97c80222",
-      "Server/FFServer/Program.cs": "e563b5a950e3f8f4a6c62033763f2063b5a395376b6520349ab363974b8a2569",
-      "Server/SERVER.md": "efeed28a09d63f0097612c510f7756f1bc6ffa046fb64a072d31d3981914ec17",
-      "Assets/Scripts/Net/Shared/NetProto.cs": "5ffb0f7156850b088e857d215daac5ad02bb294ba9c35b4d98fa2be7733e88f5",
+      "Server/FFServer/ServerConfig.cs": "e5faf9a7a0230307766cfd31b8da96742f78f0af72f5e50f852332b8ea4610d5",
+      "Server/FFServer/GameServer.cs": "f4ac9017bc52f3ecb7558055faa3c815a50d123f3046a70f17c5c70cad72903a",
+      "Server/FFServer/Program.cs": "f4bc7be51b00ad055760466ab76cc6a96b820dddd742041afa7ec555c078035c",
+      "Server/SERVER.md": "9b479d828b8c2c298fdd9de9b0cfa9370a78e4ee0a221e7781089a254c927e9d",
+      "Assets/Scripts/Net/Shared/NetProto.cs": "9fe600c11db8d1bfa5c002b7142fa2ab1b830d6454961bfd815ba4b1896528f4",
       "UPDATES.md": "705ca61b47c42b62228ba160074e8edb47159666485b59523313733aa7e135a3",
-      "Assets/Scripts/Core/SaveSystem.cs": "c73dc76581fd97efa563de1382db843b86d914024a073cee084f25cb55f1de78",
-      "Assets/Scripts/Core/GameManager.cs": "05e17155c64d9fd3c8fb7b028f7eb464fd574df2a3e53eafc0bfd9eced2877a0"
+      "Assets/Scripts/Core/SaveSystem.cs": "31981b84695ccd35c22858f132f3733fdcb5cec44c744e3345757f1880aa760e",
+      "Assets/Scripts/Core/GameManager.cs": "d11a3fb6ef25a4287f55512fcea94ed0b353e259dddad035806a464ad3fbc6b6"
     }
   }
 }

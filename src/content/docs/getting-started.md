@@ -19,7 +19,7 @@ Choose a hero slot on the title screen and create your wanderer. Choose difficul
 
 Your satchel holds **15 slots**, up to **20 of a kind in a slot**; spare gear uses one slot each. Worn gear and hotbar gear use no satchel slot. A bound consumable keeps one stack of up to 20 on the hotbar; further stacks use satchel space. What does not fit is set down at your feet, and loot on the ground waits until you have room. Orm sells more room, five slots at a time (30, 60, 100, 150 and 220 silver), up to 40.
 
-What you gather grows back in its own time: a felled tree after about 7 minutes (once its log is cleared away), a broken rock after 8, a boulder after 12, an echo crystal after 10, and plants after about 5 to 20. Walking away and coming back does not hurry it, and nothing grows back while someone stands close by.
+What you gather grows back in its own time: a felled tree after about 7 minutes (once its log is cleared away), a broken rock after 8, a boulder after 12, an echo crystal after 10, and plants after about 5 to 20. Walking away and coming back does not hurry it, and nothing grows back while someone stands close by. On a server (from v0.23.0) the world remembers it for everyone, including players who join later.
 
 If you are unsure what to do next, keep an eye on the quiet line your hero sometimes thinks out loud at the bottom of the screen.
 

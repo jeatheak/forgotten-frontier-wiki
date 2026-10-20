@@ -11,7 +11,7 @@ sources: ["Assets/Scripts/Core/InputSource.cs", "Assets/Scripts/Core/DevTools.cs
 | --- | --- |
 | Move / look | WASD / mouse |
 | Jump | Space |
-| Light / heavy attack | Left / middle mouse button |
+| Light / heavy attack | Left / middle mouse button (v0.23.0 also V for heavy) |
 | Block (hold); parry by raising it as the blow lands | Right mouse button or C |
 | Dodge | Left Alt or mouse button 4; Shift only sprints |
 | Sprint | Hold Left Shift |
@@ -62,6 +62,9 @@ after cancellation. A brief left click still releases a quick weak shot once the
 **v0.22.0** moves heavy attack to middle mouse and block to right mouse. Right mouse still
 cancels bow draws; middle mouse or C also cancels. Controller bindings are unchanged. Equipment-slot hover now avoids
 the character preview's glow and rotation area.
+
+**v0.23.0 (in development):** **V** is also a heavy attack (and cancels a bow draw), for keyboards and laptops without a
+middle mouse button. On a controller, the right stick scrolls the changelog and the controls tables.
 
 In release builds, start with **-ffdev** to show **F3 → Developer**. Developer tools are disabled online. God mode keeps health and stamina full, with no stamina spent by actions.
 The fly toggle permits flight: press jump to take off, hold Space/A to rise, Ctrl/L3 to descend, and Shift/B-hold to
