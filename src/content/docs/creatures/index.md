@@ -17,4 +17,8 @@ Each creature has its own reference page with health by level and difficulty, at
 
 Creatures in the outer lands are tougher than in the Vale (×1.3 health, ×1.2 damage, more elites, bigger packs). Barrow Hollows and Hollow Thanes are stronger Hollow variants. Crypts have their own defenders, including wardens. Elite creatures carry additional modifiers; read their names and warnings rather than treating them as ordinary encounters.
 
+From v0.24.0 creatures see ahead and hear all round, so a hero who sneaks can strike first for triple
+damage, and each kind is weak to one kind of blow (crushing, cutting or piercing); several also resist another. Each
+reference page lists them; see [sneaking and damage types](/mechanics/#sneaking-and-damage-types).
+
 The reference pages separate ordinary creatures from difficulty and elite modifiers. [Difficulty](/mechanics/difficulty/) · [Ancient Guardian](/bosses/).

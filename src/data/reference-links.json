@@ -167,7 +167,7 @@
       "Greyhorn Bull",
       "Old Greyhorn Bull"
     ],
-    "description": "A grazing herd animal. Cows flee; injured bulls can turn and gore or charge. Level 1 has a 35% chance to be a bull; level 2+ is always a bull.",
+    "description": "A grazing herd animal. Cows flee; injured bulls can turn and gore or charge. Level 1 has a 35% chance to be a bull; level 2+ is always a bull. A herd bolts from a walking hero at about 11 m; a hunter who sneaks gets about half as close (closer with the Sneak skill).",
     "source": "Assets/Scripts/Enemies/Greyhorn.cs",
     "page": "creatures/greyhorn",
     "image": "/images/greyhorn-v016.webp",

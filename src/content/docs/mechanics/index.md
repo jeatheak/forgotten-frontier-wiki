@@ -2,7 +2,7 @@
 title: "Survival and combat"
 description: "The systems that keep a wanderer alive."
 verification: verified
-sources: ["Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/Core/Skills.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/World/DayNight.cs", "CHANGELOG.md", "Assets/Scripts/Enemies/Charger.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Player/ArrowShot.cs"]
+sources: ["Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/Core/Skills.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/World/DayNight.cs", "CHANGELOG.md", "Assets/Scripts/Enemies/Charger.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Player/ArrowShot.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/Greyhorn.cs", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/UI/HudView.cs", "Assets/Scripts/Player/StealthLight.cs", "Assets/Scripts/UI/UIRoot.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Settings.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/torchlight-v016.webp" aria-label="Open full-size image: Carry a light when you head into the night."><img src="/images/torchlight-v016.webp" alt="Carry a light when you head into the night." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Carry a light when you head into the night.</figcaption></figure><figure><a href="/images/stalker-v016.webp" aria-label="Open full-size image: A Stalker, photographed in a staged in-game encounter."><img src="/images/stalker-v016.webp" alt="A Stalker, photographed in a staged in-game encounter." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>A Stalker, photographed in a staged in-game encounter.</figcaption></figure></div>
@@ -10,6 +10,49 @@ sources: ["Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/Pl
 Health keeps you alive; stamina pays for strenuous actions, attacks and evasions. Avoid spending your last breath before a creature strikes. Food improves stamina and recovery, and healing supplies help you recover from mistakes.
 
 Watch a creature's windup, evade or block the committed attack, then use its recovery window. Stagger and Exposed states create openings. The spear and blades support weapon arts. Relics add further abilities.
+
+## Sneaking and damage types
+
+*New in v0.24.0.*
+
+**Creatures look and listen.** They see what is in front of them (about 70° to either side), out to their noticing
+range, but never through rock, trunks or walls. They hear all round, through walls too, as far as your noise carries:
+standing still is nearly silent, walking carries about a third of their range, jogging about half and sprinting all of
+it. Swings, rolls and hard landings are louder for a moment; chopping and mining carry further than their sight. A
+creature right beside you always notices. One that notices you shows a **!** and calls the others of its kind within
+9 m. For 20 seconds after a fight, or after being hit, a creature looks all round.
+
+Press **Left Ctrl** (**L3** on a controller) to **sneak**. You crouch, move at about 1.8 m/s and make almost no noise.
+How far creatures see a sneaking hero depends on the **light** on them: about three quarters of their range in open
+sunlight, under half in shade (behind a rock, a wall or under a roof), at night or underground; with the Sneak skill at
+100, two fifths in sunlight down to a fifth in the dark. Fires, lanterns and torches near you light you up, your own
+torch too. An eye under the compass shows **HIDDEN** or **SEEN** (something is hunting you), and over each creature near
+you a pale eye means it has not noticed you (gold: your next blow would be a sneak attack) and a red **!** means it is
+hunting you. Sprinting, jumping, climbing, sitting or opening the build menu stands you up. Greyhorns let a sneaking
+hunter come about half as close as a walking one.
+
+![The hero crouched low in a forest clearing with a mace, an eye marked SEEN under the compass, and the status line reading Rested 5:43, Comfort 1.](/images/sneak-v024.webp)
+
+*Sneaking, with the stealth eye under the compass (v0.24.0 development source).*
+
+A blow on a creature that has not noticed anyone is a **sneak attack**: **×3 damage**, arrows included. The same
+creature can be taken unawares only once every **5 minutes**; the Guardian never. The **Sneak** skill rises while you
+sneak near unaware creatures and with each sneak attack; it makes you harder to see and up to 25% faster while sneaking.
+
+**Damage types.** Clubs and fists **crush**, blades and axes **cut**, spears, picks and arrows **pierce**. A creature
+takes **×1.5** from a kind it is weak to and **×0.7** from one it resists:
+
+| Creature | Weak to | Resists |
+| --- | --- | --- |
+| Stalker | Cuts | — |
+| Charger | Piercing | Crushing |
+| Hollow | Crushing | Piercing |
+| Mire Spider | Crushing | Cuts |
+| Greyhorn | Piercing | — |
+| Ancient Guardian | Crushing | Piercing |
+
+Damage numbers turn orange on a weak spot and grey when resisted, and a short line says so now and then. The
+journal's **Creatures** section lists every kind you have fought with what it suffers and shrugs off.
 
 ## Archery
 
@@ -46,9 +89,24 @@ partial stack; if no room remains the intact arrow stays available until it expi
 
 ## Meals, rest and light
 
-One meal can be active at a time. While Fed, the same food cannot be eaten again until 30 seconds or less remain;
-a different food can replace it. Sleeping through the night in your own claimed bed grants Rested, as does
+From v0.24.0 **up to three different meals** can be on the go at once, as in Valheim. Each adds
+stamina and slow healing; its stamina fades as it wears off (still about three quarters with 40% of its time left). A
+meal can be eaten again, or a fourth dish take the place of the one nearest its end, once it is **half gone**. The
+status line lists each meal and its time left (dimmed once it may be replaced), and a meal's details in the inventory
+show its stamina, healing and how long it lasts. Each meal gives about 60% of what a single meal gave in v0.23.0, so
+three good meals reach about 180 stamina. Before v0.24.0 only one meal could be active at a time.
+
+Stamina recovers faster the emptier the bar: twice as fast from empty as when nearly full (v0.24.0).
+
+**Falls** go by height (v0.24.0): up to **4 m** is free, then the damage rises evenly to **100 at 20 m**;
+landing in water softens it. Armour does not help.
+
+Sleeping through the night in your own claimed bed grants Rested, as does
 resting by the fire or listening to the lute. Another hero's bed is unavailable, even at night.
+
+Rested speeds stamina recovery and, from v0.24.0, makes every skill learn **25% faster**. How long it
+lasts depends on **comfort** where you rest: **8 minutes**, plus **1 minute per comfort level** above 1. See
+[comfort](/mechanics/building/#comfort).
 
 The torch still hits and sets creatures alight, but has only **25 base durability**. It wears down while held and
 when used; save a real weapon for sustained fighting. Repair a burned-out torch at a workbench.
@@ -71,13 +129,13 @@ Raise the guard **just as the blow lands** (within a quarter of a second) to **p
 
 Good, Fine and Masterwork **weapons** shimmer in the hand in their quality colour; tools and armour do not. Buffs show faintly on the hero: honed, rested, each tonic and the Gale and Ember relics.
 
-Skills improve by doing their associated activities and range from **0 to 100**: Woodcutting, Mining, Foraging, Farming, Cooking, Smithing, Running, Unarmed, Clubs, Spears, Blades, Archery and Building.
+Skills improve by doing their associated activities and range from **0 to 100**: Woodcutting, Mining, Foraging, Farming, Cooking, Smithing, Running, Unarmed, Clubs, Spears, Blades, Archery, Building and (from v0.24.0) Sneak.
 
 The sun rises at 06:00 and sets at **20:00**; full dark comes a little after, and creatures grow bolder from about 20:40 until dawn.
 
 Now and then your hero **thinks out loud**: one quiet line at the bottom of the screen about what might come next, such as a tool, a bed before nightfall, the trader or a land not yet walked. Each thought comes once and never in a fight; Settings > Gameplay > Hero's thoughts turns them off. They are hints, not quests.
 
-Inventory, crafting and map screens leave the world running. The pause menu stops single player; online play keeps running. Creature health bars can be disabled under Settings > Gameplay.
+Inventory, crafting and map screens leave the world running. The pause menu stops single player; online play keeps running. Creature health bars can be disabled under Settings > Gameplay. From v0.24.0 Settings > Video also has **Distance blur** (far scenery softly out of focus; nothing within 60 m) and **Colour fringe** (a faint chromatic edge towards the corners), both on by default.
 
 - [Controls and hotbar](/mechanics/controls/)
 - [Difficulty and death](/mechanics/difficulty/)

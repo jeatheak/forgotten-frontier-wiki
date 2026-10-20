@@ -41,6 +41,13 @@ included in the stable release.
 The release thins the extra shoreline deposits substantially, especially near home and Mira's campsite;
 existing forage placement is unchanged. Flint remains a waterside resource, including on ocean beaches.
 
+**v0.24.0:** some things grow together. A cell of the wilds may hold one patch: a **ring of redcaps**
+in the Elderwood (often) or the Vale's forest (now and then), a **patch of cloudberries** in the Birchwood, a **stand of
+flax** in the meadows and the Frontier, or **lichen** in the Highlands, never within about 60 m of home. The Birchwood,
+the Elderwood and the Mire now grow in glades and thickets, as the Vale's forest already did, with about the same
+number of trees overall. No tree of the wilds stands on ground steeper than 34°, and nothing to forage grows on ground
+steeper than 30°. Felled trees and picked plants are still remembered by place.
+
 ## The Mire
 
 Venom damages you over time and prevents healing; webs slow movement. **Bogwalker's Balm** protects against both for six minutes.

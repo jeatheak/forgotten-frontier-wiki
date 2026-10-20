@@ -1073,15 +1073,22 @@
   {
     "path": "/images/join-recent-v023.webp",
     "source": "Screens/wiki/v023/join-recent.webp",
-    "version": "0.23.0 (in development)",
+    "version": "0.23.0",
     "alt": "The Join a world screen listing two recent servers: Our Vale with 0 of 4 playing, its latency and a password, and Old Friends shown offline.",
     "caption": "Recent servers on the join screen, captured from the v0.23.0 development source against a local test server."
   },
   {
     "path": "/images/disconnected-rejoin-v023.webp",
     "source": "Screens/wiki/v023/disconnected-rejoin.webp",
-    "version": "0.23.0 (in development)",
+    "version": "0.23.0",
     "alt": "A Disconnected dialog saying the server closed the connection and the hero has been saved, with Back to the title and Rejoin buttons.",
     "caption": "After a lost connection, Rejoin goes straight back in (v0.23.0 development source, local test server)."
+  },
+  {
+    "path": "/images/sneak-v024.webp",
+    "source": "Screens/wiki/v024/sneak.webp",
+    "version": "0.24.0",
+    "alt": "The hero crouched low in a forest clearing with a mace, an eye marked SEEN under the compass, and the status line reading Rested 5:43, Comfort 1.",
+    "caption": "Sneaking, with the stealth eye under the compass (autotest capture from the v0.24.0 development source; a bull it had just wounded was hunting the hero)."
   }
 ]

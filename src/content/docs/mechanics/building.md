@@ -46,6 +46,10 @@ Walk into a ladder at its foot (or press **E** beside it) to get on. Moving towa
 
 Buildings use structural support. Floors, walls, roofs and stairs let you build multiple storeys; unsupported placements need a stronger connection below. A roof piece beside another roof lines up with it, also over an eave or the middle of a wide house where no wall stands below; aim at the side of a roof to run it out sideways (from inside the house works too). Beams, posts and smaller snap pieces attach to nearby pieces.
 
+From v0.24.0 the built piece you aim at in build mode takes on its **support colour**, as in Valheim:
+blue-green when it is well carried, through green and yellow to red close to failing. Nothing can be placed where a hero
+is standing ("Someone is standing there").
+
 ## Roofs
 
 For a hut of a single square, the **Ridge Roof** is a whole steep roof in one piece: two thatched sides meeting at a ridge over the middle (rotate it to turn the ridge). Close its two ends with **Ridge Gables**, pointed plank ends that sit on the walls under the ridge. Wider houses use Roof Slopes back to back, with Gables, Gable Walls and Roof Flats. Build stations, beds, chests and furnishings as your home grows.
@@ -57,6 +61,25 @@ Building draws materials from **your satchel and household chests**. The panel s
 Since v0.20, the piece grid scrolls within the screen while the description and cost stay visible. On a controller,
 selecting a piece scrolls it into view. A **Chest** costs **10 Wood**, without flint. A **Woodpile** costs **100 Wood**;
 take it down to recover the wood through the usual refund path.
+
+## Comfort
+
+*New in v0.24.0.*
+
+Furniture near where you rest makes **Rested** last longer: **8 minutes**, plus **1 minute per comfort level** above
+1. Comfort is counted where you sit by a fire, sleep or hear the lute:
+
+- You start at **1**; a roof over you adds **1**.
+- Each kind of comfort piece within **10 m** adds its value once, the best of the kind counting: a fire (campfire,
+  fire basket), a bed, a seat (bench, stool), a table, a hide rug, a banner, a light (lantern, wall lantern, echo
+  brazier: 1; chandelier: 2), a trophy and a painted shield, each +1.
+- The weapon rack, rune stone, Keeper column and dragon cross each count **+1** on their own.
+- Under the open sky only a fire counts.
+
+The build menu shows what each piece adds. The Rested line in the HUD shows the comfort it was granted at, and the
+prompt while you sit shows the comfort where you are. A bench indoors also rests you with a fire basket burning near.
+A sheltered hall with a fire, bed, bench, table, rug, banner, chandelier and a trophy reaches comfort 11: 18 minutes
+of Rested.
 
 ## Storage
 

@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Enemies/Greyhorn.cs","Assets/Scripts/Enemies/Enemy.cs"
 
 <figure class="reference-portrait"><a href="/images/greyhorn-v016.webp"><img src="/images/greyhorn-v016.webp" alt="Greyhorn — staged in-game portrait" width="1600" height="900" /></a><figcaption>Actual game model, staged for this portrait in v0.16.0.</figcaption></figure>
 
-A grazing herd animal. Cows flee; injured bulls can turn and gore or charge. Level 1 has a 35% chance to be a bull; level 2+ is always a bull.
+A grazing herd animal. Cows flee; injured bulls can turn and gore or charge. Level 1 has a 35% chance to be a bull; level 2+ is always a bull. A herd bolts from a walking hero at about 11 m; a hunter who sneaks gets about half as close (closer with the Sneak skill).
 
 ## Health and poise
 
@@ -30,6 +30,16 @@ These are non-elite values before omens. Poise does not scale with creature leve
 | Charge (bull) | 21 | 23.52 |
 
 Damage = base × (1 + 0.3 × (level − 1)) × difficulty multiplier. Easy/Builder: ×1; Normal: ×1.12; Hard/Hardcore: ×1.35. This is outgoing hit damage before the hero’s armour, mitigation and other combat effects. Venom and grave rot are separate status effects.
+
+## Damage types
+
+| Kind of blow | Damage taken | Effect |
+| --- | --- | --- |
+| Crushing (clubs, fists) | ×1 | Normal |
+| Cutting (blades, axes) | ×1 | Normal |
+| Piercing (spears, arrows, picks) | ×1.5 | Weak |
+
+A blow on a creature that has not noticed anyone is a **sneak attack**: ×3 damage, at most once every 5 minutes per creature. Exposed creatures take ×1.6 on top. See [Sneaking and damage types](/mechanics/#sneaking-and-damage-types).
 
 ## Drop table
 

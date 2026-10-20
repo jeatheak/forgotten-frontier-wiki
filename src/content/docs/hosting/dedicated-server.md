@@ -83,7 +83,7 @@ The world's clock only runs while someone is connected. In **v0.22.0**, each cli
 profile for each server. The server also retains complete hero records in `<world>.heroes.json`, including the last
 position, for reconnecting and recovering an existing hero during migration. Local heroes and worlds remain separate.
 
-## When things go wrong (v0.23.0, in development)
+## When things go wrong (v0.23.0)
 
 - **A damaged world file** is kept aside as `<world>.json.damaged-<date>` and the newest readable backup is loaded. If
   no copy can be read, the server stops with a message: restore a good copy as `saves/<world>.json`, or start with

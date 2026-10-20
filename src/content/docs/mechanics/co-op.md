@@ -7,7 +7,7 @@ sources: ["Assets/Scripts/Net/NetSession.cs", "Assets/Scripts/Net/NetSession.Wor
 
 Choose **Join a world** on the title screen. Select a hero or **+ New hero**, then enter the host address and password. The address accepts `host` or `host:port`; the default port is **2456 TCP**. Your game and server must have matching versions. Servers default to four players and can be configured for 1–16.
 
-**v0.23.0 (in development, not yet released):** the join screen lists up to four **recent servers** with their players,
+**v0.23.0:** the join screen lists up to four **recent servers** with their players,
 latency, whether they need a password and whether their version matches yours; pick one to fill in its address and
 password, or Forget it. While joining, the screen says what is happening (connecting, receiving the world, building
 it), and a large world keeps arriving instead of timing out. A version mismatch says which side is behind; when your
@@ -35,7 +35,7 @@ When two players reach for the same thing at the same moment (a piece of gear in
 
 Nothing pauses online, and the Escape menu has no Save: your hero is saved as you play and when you leave, and the server keeps the world. The server's clock advances while someone is connected. Everyone must be in their own claimed bed to skip the night; sleeping through grants Rested. Other heroes cannot sleep in or claim over that bed. Crypt gates wait for a player to open them after the first chamber is cleared, and their open state is shared. Downed heroes can be helped up. Enter opens chat; on a controller hold D-Up for quick chat. Music from a lute rests nearby listeners.
 
-## Connection and rejoining (v0.23.0, in development)
+## Connection and rejoining (v0.23.0)
 
 A line over the party list shows your latency to the server (green, amber or red); after a few seconds without word
 from the server it turns into a connection warning, and after 25 seconds the game stops waiting. When the connection

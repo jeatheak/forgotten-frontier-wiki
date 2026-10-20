@@ -14,7 +14,8 @@ Choose a hero slot on the title screen and create your wanderer. Choose difficul
 3. A **Torch** costs 2 wood and 1 pine resin by hand. It lights the dark while held, wears down as it burns, and can be repaired at a workbench.
 4. Build a workbench to craft a **Stone Pickaxe** (3 wood, 4 stone, 2 flint). Work towards better tools, weapons and protective gear.
 5. Cook meat at a fire and carry healing supplies. Food improves your stamina and recovery; a healing draught restores health.
-6. Build and claim your own bed under shelter; sleeping through the night grants Rested. A chest costs 10 wood and no flint. Watch attack warnings, save stamina for evasion (or block with a weapon), and return to prepare before pushing into dangerous regions.
+6. Build and claim your own bed under shelter; sleeping through the night grants Rested (from v0.24.0, furniture near
+   the bed adds [comfort](/mechanics/building/#comfort) and makes it last longer). A chest costs 10 wood and no flint. Watch attack warnings, save stamina for evasion (or block with a weapon), and return to prepare before pushing into dangerous regions.
 7. When the satchel fills up, take what the land gives to **Orm the Peddler** by the Birchwood road, west of the old ruins. He pays in silver and sells a bigger satchel.
 
 Your satchel holds **15 slots**, up to **20 of a kind in a slot**; spare gear uses one slot each. Worn gear and hotbar gear use no satchel slot. A bound consumable keeps one stack of up to 20 on the hotbar; further stacks use satchel space. What does not fit is set down at your feet, and loot on the ground waits until you have room. Orm sells more room, five slots at a time (30, 60, 100, 150 and 220 silver), up to 40.

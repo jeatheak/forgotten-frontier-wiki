@@ -5,7 +5,7 @@ verification: verified
 sources: ["CHANGELOG.md"]
 ---
 
-This is the player wiki for **The Forgotten Frontier**, a co-op survival and action RPG. It documents implemented game content. Stable release: **0.22.0 — waters and harvests**. Current source: **0.23.0 — steady fires** (in development, not yet released; pages mark its changes). Earlier beta captures remain labeled with their original versions. A source version does not prove that a release has been published.
+This is the player wiki for **The Forgotten Frontier**, a co-op survival and action RPG. It documents implemented game content. Stable release: **0.24.0 — hush and hearth**, which also brings **0.23.0 — steady fires** (never released on its own); pages mark the version each change arrived in. Earlier beta captures remain labeled with their original versions. A source version does not prove that a release has been published.
 
 Item, equipment and recipe references and the update archive are generated from game definitions. Player guides are reviewed against the relevant implementations. The maintenance workflow records source hashes and flags changed sources for review. It requires an agent working in the game project; it is not a background service.
 

@@ -15,6 +15,7 @@ sources: ["Assets/Scripts/Core/InputSource.cs", "Assets/Scripts/Core/DevTools.cs
 | Block (hold); parry by raising it as the blow lands | Right mouse button or C |
 | Dodge | Left Alt or mouse button 4; Shift only sprints |
 | Sprint | Hold Left Shift |
+| Sneak (crouch) on / off | Left Ctrl (from v0.24.0) |
 | Interact | E |
 | Weapon art | Q |
 | Dash Strike (once learned) | F |
@@ -30,7 +31,8 @@ sources: ["Assets/Scripts/Core/InputSource.cs", "Assets/Scripts/Core/DevTools.cs
 | Hotbar | 1–5 |
 | Co-op chat | Enter (start a line with / for server commands) |
 
-Use the in-game Controls page for the complete context-sensitive controller reference. On a controller, tap B to roll and hold it to sprint. In co-op, hold D-Up for quick chat; tap D-Up to drink. L3 sorts the bag or stash. RT is the light attack and Y the heavy attack; **hold LT to block** with a club, spear or blades (with fists, tools or the bow, LT is the heavy attack). LB is Dash Strike once learned.
+Use the in-game Controls page for the complete context-sensitive controller reference. On a controller, tap B to roll and hold it to sprint. From v0.24.0 **L3 crouches to sneak**; it no
+longer toggles the sprint. In co-op, hold D-Up for quick chat; tap D-Up to drink. L3 sorts the bag or stash. RT is the light attack and Y the heavy attack; **hold LT to block** with a club, spear or blades (with fists, tools or the bow, LT is the heavy attack). LB is Dash Strike once learned.
 
 In build mode (since v0.19, as in Valheim) **B** opens on the piece menu with the mouse pointer: hover a piece to read it, click it to pick it (the menu folds away and you aim again) or click a tab to switch. **B** or **Tab** brings the menu back and puts it away again; **Escape** leaves build mode. The number keys 1–5 pick from the row being chosen from, and the wheel (or the d-pad) steps through the pieces. Hold **Left Shift** (L3 on a controller) to place a piece without snapping it to the piece you aim at.
 
@@ -63,7 +65,7 @@ after cancellation. A brief left click still releases a quick weak shot once the
 cancels bow draws; middle mouse or C also cancels. Controller bindings are unchanged. Equipment-slot hover now avoids
 the character preview's glow and rotation area.
 
-**v0.23.0 (in development):** **V** is also a heavy attack (and cancels a bow draw), for keyboards and laptops without a
+**v0.23.0:** **V** is also a heavy attack (and cancels a bow draw), for keyboards and laptops without a
 middle mouse button. On a controller, the right stick scrolls the changelog and the controls tables.
 
 In release builds, start with **-ffdev** to show **F3 → Developer**. Developer tools are disabled online. God mode keeps health and stamina full, with no stamina spent by actions.

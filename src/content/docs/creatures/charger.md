@@ -31,6 +31,16 @@ These are non-elite values before omens. Poise does not scale with creature leve
 
 Damage = base × (1 + 0.3 × (level − 1)) × difficulty multiplier. Easy/Builder: ×1; Normal: ×1.12; Hard/Hardcore: ×1.35. This is outgoing hit damage before the hero’s armour, mitigation and other combat effects. Venom and grave rot are separate status effects.
 
+## Damage types
+
+| Kind of blow | Damage taken | Effect |
+| --- | --- | --- |
+| Crushing (clubs, fists) | ×0.7 | Resists |
+| Cutting (blades, axes) | ×1 | Normal |
+| Piercing (spears, arrows, picks) | ×1.5 | Weak |
+
+A blow on a creature that has not noticed anyone is a **sneak attack**: ×3 damage, at most once every 5 minutes per creature. Exposed creatures take ×1.6 on top. See [Sneaking and damage types](/mechanics/#sneaking-and-damage-types).
+
 ## Drop table
 
 | Item | Quantity when dropped | Chance per kill | Condition |
