@@ -5,7 +5,7 @@ verification: verified
 sources: ["CHANGELOG.md"]
 ---
 
-This is the player wiki for **The Forgotten Frontier**, a co-op survival and action RPG. It documents implemented game content. Stable release: **0.26.0 — sure footing** (a calmer pace with momentum, a little more air, fairer blows, Dash Strike for stamina and a build-mode fix); pages mark the version each change arrived in. Earlier beta captures remain labeled with their original versions. A source version does not prove that a release has been published.
+This is the player wiki for **The Forgotten Frontier**, a co-op survival and action RPG. It documents implemented game content. Stable release: **0.27.0 — hard country** (land danger tiers, packs and hunting packs, pursuit that searches, little healing in the wilds, cover against blows, and co-op persistence fixes); pages mark the version each change arrived in. Earlier beta captures remain labeled with their original versions. A source version does not prove that a release has been published.
 
 Item, equipment and recipe references and the update archive are generated from game definitions. Player guides are reviewed against the relevant implementations. The maintenance workflow records source hashes and flags changed sources for review. It requires an agent working in the game project; it is not a background service.
 

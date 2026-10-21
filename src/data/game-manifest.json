@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "gameVersion": "0.27.0",
-  "sourceCommit": "de443e18d925855161680e19abac1395876858b4",
+  "sourceCommit": "419dc506901b97617e654918ddade2d238428f03",
   "basis": "Implemented local game source; working tree may contain unreleased changes.",
   "sourceHashes": {
     "Assets/Scripts/Core/Art.cs": "57e4ae9e0af0f973d12d1c77cb0b3064bc8af77822f23e5554b641061c8c638e",
@@ -49,7 +49,7 @@
     "Assets/Scripts/Net/NetTest.cs": "779b9bb75df43d8363d3a7dc5786749955ac0490019de998b50700b390b8d274",
     "Assets/Scripts/Net/RemoteVisual.cs": "2f49233188ef3f7a1ffaa61edc6bd3beac80be9a29400d745185b948872077a2",
     "Assets/Scripts/Net/Shared/NetProto.cs": "8f0697c097de3d16f69fa8b947c2f544c33d651e787141d8990e3ed36877be41",
-    "Assets/Scripts/Net/Shared/SaveTypes.cs": "8185e1950170dc45bdd8e2204f6b96a0e75c0a165e1ab5bd2fb4c53e9932cda9",
+    "Assets/Scripts/Net/Shared/SaveTypes.cs": "a2fd3cf5a376300eead9277e27b29f0c7922c8311ffb4e53e5206613a83daf7f",
     "Assets/Scripts/Net/Shared/WorldMerge.cs": "439c3af751165a2bdbbfb1b52aab6ec6cf9e2970e6e2c99639c8f99f2984efdd",
     "Assets/Scripts/Player/ArrowShot.cs": "c3f7d114e3e0c717ad5cd0f51d46d73823319d796532618f6f1d260a4b52ea9f",
     "Assets/Scripts/Player/BowRig.cs": "1188b4f1654bd2865d1d8b98126f05bd98c3830151f0678b6f36cfd580d2c917",
@@ -118,7 +118,7 @@
     "Assets/Scripts/World/WorldStreamer.cs": "c1147da2e44140c8313a42dc14f5caafb62f4381aa3f6289b5bab11b9525abbf",
     "Assets/Scripts/World/WorldUpgrades.cs": "3d2f2bc5a5bfe3262921767474043e5c71b76fcaa00f5440a5736a0db91c272d",
     "Assets/Scripts/World/WorldWater.cs": "7ed5ef33b56a87c0786d3eb36cb3f9eb22a1197e64e6a86f9fd27e4dc0a5cea6",
-    "CHANGELOG.md": "4de289e1ad3490ca01071d34ced6efae1597d1e8c121008a98dc968f6cbcf152",
+    "CHANGELOG.md": "1d14a2208a178d4e6f48ef646bbe6b5cca9d920053da839207d53e96a527fe45",
     "Server/FFServer/GameServer.cs": "3b55466a7c4fc982e84e435b28c9f210c85ae8bbb0b2821c13ebd65e22bf0b6b",
     "Server/FFServer/Program.cs": "14d8134959ba2bdf0fd324c301fe9c02e792999e6f9eba5ffd4159228916b0a5",
     "Server/FFServer/ServerConfig.cs": "e5faf9a7a0230307766cfd31b8da96742f78f0af72f5e50f852332b8ea4610d5",
