@@ -37,6 +37,19 @@ carries you up through the hanging keep to the Throat, and from the Throat back 
 first ride down takes longer; on later rides, Interact or Jump skips to the end. If you save on the lift, you wake at
 the Landing.
 
+## Keeper wards: havens below
+
+Rings of Keeper ward-light are the rare safe places of the Underhearth. Inside a lit ward:
+
+- creatures do not hunt you and hunting packs lose your scent,
+- wounds close as they do at home (the land counts as "Safe haven"),
+- you can **build**: walls, a roof, a bed to wake in (you respawn at the nearest bed), chests and a campfire. The
+  stations stay one of each.
+
+The **Landing**'s ward has never gone out (28 m round the lift). Two more **ward stones** stand dark in the Wilds:
+**the Hollow Ward** by the Glowcap Hollow and **the Ward under the Ribs** on the east side. Rekindle one with
+**3 ember ore and an Echo crystal** to light a ring of 18 m round it, for everyone in the world.
+
 ## The sky
 
 There is no day and night below. A roof of star-crystals with a red-and-violet band across it stands overhead, and a
@@ -84,7 +97,7 @@ The HUD shows HOT, SCORCHING or BURNING beside your other conditions.
 | Creature | Notes |
 | --- | --- |
 | **Ashhound** | Pack hunters of the ash on the Stalker's frame: about half as tough again as a Stalker, harder hitting, a little faster. Fireproof; cutting blows (blades, axes) hurt them most, crushing blows least. Drop **ash pelts**, now and then meat and brimstone. |
-| **The Kindled** | Barrow dead who fell into the deep and burn still. They fight like Hollows, but their blows set you alight, and each one **bursts into flame** a moment after it falls: step away. Fireproof; crushing blows serve best, cutting blows least. Drop bones, brimstone and ember ore. |
+| **The Kindled** | Barrow dead who fell into the deep and burn still. They fight like Hollows, but their blows set you alight (and, like a Hollow's, can carry grave rot), and each one **bursts into flame** a moment after it falls: step away. Fireproof; crushing blows serve best, cutting blows least. Drop bones, brimstone and ember ore. |
 | **Ashhorn** | Great grazers, a Greyhorn's kind but half as big again and more than twice as tough. They want nothing from you and bolt when they notice you; a bull that is hurt turns. Piercing blows hurt them most. Drop venison, hide, an ash pelt and, from bulls, antlers. |
 
 Hunting packs come here too (Ashhounds, with one of the Kindled at night).
@@ -107,9 +120,9 @@ Hunting packs come here too (Ashhounds, with one of the Kindled at night).
 | **Obsidian Arrows** | Workbench | 2 wood, 1 obsidian, 1 resin | 10 arrows, the sharpest there are |
 | **Brimstone Fire Arrows** | Workbench | 2 wood, 1 brimstone, 1 flax | 10 fire arrows |
 
-Ember ore cannot be smelted yet: no forge of the Vale burns hot enough.
+Ember ore cannot be smelted yet (no forge of the Vale burns hot enough), but it feeds the Keeper wards.
 
 ## The map below
 
-While you are in the Underhearth the map shows the Underhearth's own map, places and pins (there is no fog of war
-there yet). Back on the surface it shows the Vale again.
+While you are in the Underhearth the map shows the Underhearth's own map, places and pins, with its own fog of war
+that clears as you walk (shared in co-op like the Vale's). Back on the surface it shows the Vale again.

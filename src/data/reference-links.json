@@ -215,6 +215,176 @@
     ]
   },
   {
+    "id": "creature:Ashhound",
+    "key": "Ashhound",
+    "kind": "creature",
+    "name": "Ashhound",
+    "aliases": [
+      "Ashhound Alpha"
+    ],
+    "description": "A pack hunter of the Underhearth’s ash on the Stalker’s frame: it circles, then lunges, like a Stalker but tougher, harder hitting and faster. It does not burn (fire arrows and torches do nothing). The Strider’s footfalls make Ashhounds near it forget their prey for a while.",
+    "source": "Assets/Scripts/Enemies/DeepCreatures.cs",
+    "page": "creatures/ashhound",
+    "image": "/images/ashhound-v028.webp",
+    "thumbnail": "/images/creatures/ashhound-thumb.webp",
+    "stats": {
+      "health": 65.1,
+      "poise": 31.2,
+      "speed": 6.05
+    },
+    "attacks": [
+      [
+        "Lunge",
+        16.2
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:AshPelt",
+        "quantity": "1 (65%) or 2 (35%)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:RawMeat",
+        "quantity": "1",
+        "chance": "70%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Brimstone",
+        "quantity": "1",
+        "chance": "25%",
+        "condition": "Every level"
+      }
+    ]
+  },
+  {
+    "id": "creature:Kindled",
+    "key": "Kindled",
+    "kind": "creature",
+    "name": "Kindled",
+    "aliases": [
+      "Kindled Thane"
+    ],
+    "description": "The barrow dead who fell into the deep and burn still. It fights like a Hollow (a raised shield, two blows in a row, a leap), but each blow that lands sets the hero **burning** for 2.5 seconds (5 health a second; a roll puts it out sooner) and, like a Hollow’s blade, carries grave rot (60% of hits: 12 seconds, 16 for a Thane), and it **bursts into flame** a moment after it falls: step out of the ring. It does not burn.",
+    "source": "Assets/Scripts/Enemies/DeepCreatures.cs",
+    "page": "creatures/kindled",
+    "image": "/images/kindled-v028.webp",
+    "thumbnail": "/images/creatures/kindled-thumb.webp",
+    "stats": {
+      "health": 107.3,
+      "poise": 42,
+      "speed": 2.8
+    },
+    "attacks": [
+      [
+        "First slash",
+        16.9
+      ],
+      [
+        "Second slash",
+        14.3
+      ],
+      [
+        "Leap",
+        26
+      ],
+      [
+        "Death burst",
+        20.8
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Bone",
+        "quantity": "1 (50%) or 2 (50%)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Brimstone",
+        "quantity": "1",
+        "chance": "60%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:EmberOre",
+        "quantity": "1",
+        "chance": "35%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Crystal",
+        "quantity": "1",
+        "chance": "25%",
+        "condition": "Level 3"
+      }
+    ]
+  },
+  {
+    "id": "creature:Ashhorn",
+    "key": "Ashhorn",
+    "kind": "creature",
+    "name": "Ashhorn",
+    "aliases": [
+      "Ashhorn Bull",
+      "Old Ashhorn Bull"
+    ],
+    "description": "The Underhearth’s great grazer, a Greyhorn half again as big. Herds crop the glowing moss of the Ashen Wilds and want nothing from you: cows flee, and a bull that is hurt turns to gore and charge. Level 1 has a 35% chance to be a bull; level 2+ is always a bull.",
+    "source": "Assets/Scripts/Enemies/DeepCreatures.cs",
+    "page": "creatures/ashhorn",
+    "image": "/images/ashhorn-v028.webp",
+    "thumbnail": "/images/creatures/ashhorn-thumb.webp",
+    "stats": {
+      "health": 211.2,
+      "poise": 104.4,
+      "speed": 2.72
+    },
+    "attacks": [
+      [
+        "Gore (bull)",
+        23.8
+      ],
+      [
+        "Charge (bull)",
+        29.4
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Venison",
+        "quantity": "2 (cow) or 3 (bull)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Hide",
+        "quantity": "2",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:AshPelt",
+        "quantity": "1",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Antler",
+        "quantity": "2 (60%) or 3 (40%)",
+        "chance": "100%",
+        "condition": "Bull or elite"
+      },
+      {
+        "item": "item:Antler",
+        "quantity": "1",
+        "chance": "25%",
+        "condition": "Non-elite cow only"
+      }
+    ]
+  },
+  {
     "id": "creature:Spider",
     "key": "Spider",
     "kind": "creature",

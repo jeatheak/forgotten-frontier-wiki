@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "gameVersion": "0.28.0",
-  "sourceCommit": "419dc506901b97617e654918ddade2d238428f03",
+  "sourceCommit": "c1e9aad85013b06e24c70be19d188e415b3fd999",
   "basis": "Implemented local game source; working tree may contain unreleased changes.",
   "sourceHashes": {
     "Assets/Scripts/Core/Art.cs": "57e4ae9e0af0f973d12d1c77cb0b3064bc8af77822f23e5554b641061c8c638e",
-    "Assets/Scripts/Core/AutoTest.cs": "b860ad79dbf3501a7e6bc282731b60322d0ba734208656ae9729a9c039d10244",
+    "Assets/Scripts/Core/AutoTest.cs": "c814e1b1c96e37cd810f5dc4bc745883488cd97761f7cff6da99c13e601d7f0d",
     "Assets/Scripts/Core/CharAnimator.cs": "b5b1dde95c58f12a01b17685cbdadfe27adb454cbffb59eee676b84c70aa9f38",
     "Assets/Scripts/Core/CharModel.cs": "90170837e5619ef4d81fdc8a4a8dc97a259a7d5eeab69a4f97d8b1ba170b13e1",
     "Assets/Scripts/Core/DevTools.cs": "9dc3f4848dd3d0bd1162d1c11764456daf5e1b8d689a5872a5aaf2bc2684daf0",
@@ -24,20 +24,20 @@
     "Assets/Scripts/Core/PerfProbe.cs": "c336798cc9761bd1bfee0edec6df3233c880b7896cd0f1f72722e0b3efd7ce02",
     "Assets/Scripts/Core/SaveSystem.cs": "feabed0517d8b80fd04e34bae490a5899efd84921307049da21c29be108ddef5",
     "Assets/Scripts/Core/Settings.cs": "52c77d8b887ce5fb90305f10de91d4f3b5ca31b33bcb5169c75a4fd42aa96249",
-    "Assets/Scripts/Core/Sfx.cs": "f8308ec45df4dfa67e656ea0f448fd2658b95965da62c0f325fe63eb364942b6",
+    "Assets/Scripts/Core/Sfx.cs": "4b494dddeda93b0264022e42e4eb27f8b3552319415202f81a40c2de5bce2964",
     "Assets/Scripts/Core/Skills.cs": "2636d816301dff524c108f5aa913345b9a1f47e100cfb2925b4b3e19494af2c9",
     "Assets/Scripts/Core/SpatialGrid.cs": "9ee825e1a5d86cdf347a38730866cebd2092c316f5e14c2743a0bbbd589cbf63",
     "Assets/Scripts/Core/StadiaGamepad.cs": "dc624c589e52a9824eae40fcaa6b24434ac183192c507d9f2f04198cadeb30db",
     "Assets/Scripts/Core/Voice.cs": "6c71c12efa8d92adf3a331db91f70e1627ae18f515c642d12d469f08c0252a75",
     "Assets/Scripts/Enemies/Charger.cs": "c15df6c5894ea511ae65823117fb2a25209704fc634ea23f9397ad73fd66f569",
-    "Assets/Scripts/Enemies/DeepCreatures.cs": "33c5b290cfcd8d1e4ebcbca3a15b081b27cccc88e2520de578a645d8e5fd5b76",
+    "Assets/Scripts/Enemies/DeepCreatures.cs": "6e0026033db7f4dc8211a9d27d759095ee4fa1f25f2b4942cbe5aa06a94d6142",
     "Assets/Scripts/Enemies/Elites.cs": "69a2fa734b9c33cf3f4f6fa3d89ce364af68a375f835a565a17176c9f58338d3",
-    "Assets/Scripts/Enemies/Enemy.cs": "18b8f3a4e808dfa0590c9cb468ea11d4048c7b13853bee687fe830e7ddd2e60f",
+    "Assets/Scripts/Enemies/Enemy.cs": "fc84c6a22e158a5607cbf088845a5028304ab541ec407ce1d7ece3efe3dc4afe",
     "Assets/Scripts/Enemies/EnemySpawner.cs": "9de199170810304428a2675b7c4cb53e0fe482cfa0e4f264059ec2e21d5cc13b",
     "Assets/Scripts/Enemies/Greyhorn.cs": "120ff94414a3a61b85a400c126e89df29a982e21f738925341f93c75a9532c13",
     "Assets/Scripts/Enemies/Guardian.cs": "c66b2aa2a109bb9b11c096168851591d9a45543339217d972f7ed580704bddcc",
     "Assets/Scripts/Enemies/Hollow.cs": "eafacf7f060c0577a4ee941bf2024304afe291dfd45ed017917e00c868c575d6",
-    "Assets/Scripts/Enemies/Hunts.cs": "b501a9f4f35912cb5c4eb5975bc89059b8143939670a3cb4e3b8fe771f849b9d",
+    "Assets/Scripts/Enemies/Hunts.cs": "922de7fe25607f506171f51b69be8ec6572383ed86cd66bfb5c51cf09871ded7",
     "Assets/Scripts/Enemies/Spider.cs": "6638f7001368045e4d10a7f2adaea281231c1f7b525d0962ed386d714467f42b",
     "Assets/Scripts/Enemies/Stalker.cs": "3c2b0693b905f4a5a305a78ae915484658b6060f03d6a13fdd8ec23d627b0d57",
     "Assets/Scripts/Net/Net.cs": "7a3605ea9e98cb12c6c3ecaa16ae2eb9b6b20e99b51876bc10451356a1b3e3fe",
@@ -54,20 +54,20 @@
     "Assets/Scripts/Net/Shared/WorldMerge.cs": "439c3af751165a2bdbbfb1b52aab6ec6cf9e2970e6e2c99639c8f99f2984efdd",
     "Assets/Scripts/Player/ArrowShot.cs": "c3f7d114e3e0c717ad5cd0f51d46d73823319d796532618f6f1d260a4b52ea9f",
     "Assets/Scripts/Player/BowRig.cs": "1188b4f1654bd2865d1d8b98126f05bd98c3830151f0678b6f36cfd580d2c917",
-    "Assets/Scripts/Player/BuildSystem.cs": "7d5b04f657036ebebd6f9d582a05c560b9370013b617b0ade8493a9bb8e1abfa",
+    "Assets/Scripts/Player/BuildSystem.cs": "d9f942e70ee70a26a7f79ab73d115a07e00d031c6b5b93ec2e4b3a06e1e43be4",
     "Assets/Scripts/Player/CharmWear.cs": "5d169dfbd606749484c4acc76af424e49c07b6c1c518f6234dca8b090798ac5c",
     "Assets/Scripts/Player/Coracle.cs": "c27857f8844a0f435ab48795a0e6c72108ad238137f86d638eaec2674329f14e",
     "Assets/Scripts/Player/Lute.cs": "6fa998c7fad6ebca59f239c1426979bba2440b520a61e11fb6b7c1ea6235a092",
     "Assets/Scripts/Player/PlayerCamera.cs": "53b3fe73231d43059ed60cc041cadf6f4d001f252ae2477204a9af4bd21f785e",
     "Assets/Scripts/Player/PlayerCombat.cs": "7d43d4823211f6a21a66044ebe9dcc4b47bfd12d7dddb81f23e569d2495fceb6",
-    "Assets/Scripts/Player/PlayerController.cs": "5a641ededc4707986a94640290db290c141757be66fbc97693e8500740d1c5ab",
+    "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
     "Assets/Scripts/Player/PlayerVisual.cs": "4952fc6161633ced04ae88e938ada4e57545d3e486b4b49227f986a30e191c21",
     "Assets/Scripts/Player/StealthLight.cs": "96d419ebc6659265591bcd1bc465223db106b3559b198440d579d0d1dd13317f",
     "Assets/Scripts/Player/TorchProp.cs": "8093bdd6e3d359e91f5bea66b5111e1893b707d9eb0151bf0e295c08eaf508fe",
     "Assets/Scripts/UI/ChangelogScreen.cs": "1f33b9fc86308d06d72ef4efa5ae9c58e24e38a53c913b96c1c73aaff595b3d8",
     "Assets/Scripts/UI/GameMenu.cs": "fc4a0c50a6f18f6484309e2140e9f3a4644b65f0ec5cefaec5849ca38aa3bb79",
-    "Assets/Scripts/UI/GameMenuTabs.cs": "1e71a044ac04e541df703184127fd29467ab54fa25b6d83e81824b32a09ca7ac",
-    "Assets/Scripts/UI/HudView.cs": "7dbcf0e15b79ef61c605c977754bddb27073ad60ceb210f4647543cb0a2ab64b",
+    "Assets/Scripts/UI/GameMenuTabs.cs": "e8e0a6318ea8f30a54ec7b2d8be90c9a3647bb5964a4d0e0ff222020159e1d39",
+    "Assets/Scripts/UI/HudView.cs": "a268a4c1f50bf051b099f7ae29c91f7e5696b21960d410c62ad30495f2d9620c",
     "Assets/Scripts/UI/ItemSort.cs": "2e0c7d9e85ea842d85e2d5bc134aecc384f0504412d7894cc96fe31d05256570",
     "Assets/Scripts/UI/JoinScreen.cs": "057b05a8c675cb804c75a2fbc1a6e08cdd9dfba3b6f84e32dea257aaa707b52a",
     "Assets/Scripts/UI/LoadingScreen.cs": "f2c40b9586aaf38e855d5ed6bbed30bed888187e59596424a57dd3ee39ada08a",
@@ -84,14 +84,14 @@
     "Assets/Scripts/World/AmbientLife.cs": "e475c6b6a6dc5d21736ea26a2a2cb65b33ae9d1e9b138d4f885d76d387a72acf",
     "Assets/Scripts/World/BiomeAir.cs": "3cd4a22bb630aae6f9208b64dd27f38e68b004cfe089b273b113cfc9a74b717c",
     "Assets/Scripts/World/BuildExtras.cs": "550acc39fe4fe16330ad48464b45b7db7d734bbff754f86355f69ecff9d1eea0",
-    "Assets/Scripts/World/Colossus.cs": "28b85d3786e8605647b6e5a7bdfe0c0dcb23aa89fd297e48edfb8bab396a7f27",
+    "Assets/Scripts/World/Colossus.cs": "3b19ad4951a168503c3f794f230b6932cb2add642fbef98354dce843eed5f11e",
     "Assets/Scripts/World/Crafting.cs": "e16a5b0d01a109007be5e93840f6c08be2417f6ba2d1008177919f6f9e0da028",
     "Assets/Scripts/World/Crypt.cs": "fdf1c85a0ecb33867544d48784774a1eb390e168ec74eeb54b3520f3bad4b550",
     "Assets/Scripts/World/DayNight.cs": "aecd50ad768ba9f0178d52b2f5599af15650bbd5c4216b52056bc409de495c79",
     "Assets/Scripts/World/DeepPassage.cs": "b59e7a8c6b865d8fd0c7b8f04bb3f973d6f5368260890876c27810c8d585ddc9",
     "Assets/Scripts/World/Dropped.cs": "51ce7d95b711d8aafd0764b28cb9fb9aa13bcafc9f5a54c6693edd8c887a35e0",
     "Assets/Scripts/World/Echo.cs": "a0327cdbe0fe6520c610190c4e09fe32ccfa34fde3d7b48bf61ad8a1d8426fcd",
-    "Assets/Scripts/World/Exploration.cs": "2a69383f9ec28af43bcb41848d63c17f0aed58abe1826d8447e4b9e76a7f054e",
+    "Assets/Scripts/World/Exploration.cs": "cf700cf31127d6d59db794b000846d64df9bca35454d39c36b720c2aedab79f5",
     "Assets/Scripts/World/Farming.cs": "cb4a648b7bf0a57668cf6e604a9cc2855fde483120fadd371ab90e25257fe798",
     "Assets/Scripts/World/Fire.cs": "6e6230050f9d2e308966feeeac9d907f7ea88f6fb020979d5532e762116f8bd2",
     "Assets/Scripts/World/GaleLock.cs": "70556392885d1b54a601aab031e63d35e7edd44f40fbf5c3850e5f648cdd0618",
@@ -100,10 +100,10 @@
     "Assets/Scripts/World/HallvardTrail.cs": "0fa142038cf448e3a4700f2be4eec04fc9c8687d090fcc6bae1dd84df8d9192b",
     "Assets/Scripts/World/Interactables.cs": "5b5c0aa418e67616a10a14258c95843460487975749a7301ea234b7d0fdedd8d",
     "Assets/Scripts/World/Isles.cs": "53b689f0d1669ff518343c8153c838919c60f14d5e598b94fa0ddc0f49673674",
-    "Assets/Scripts/World/KeeperLift.cs": "f20e8cae7d0cf2bd39488e38ec834aab6029109666e5f95dea34437e3a66b700",
+    "Assets/Scripts/World/KeeperLift.cs": "868195f2ac93975ab8ec669a4fbc63a1b4ac0b8fc6e59d5def20b20d08cb9710",
     "Assets/Scripts/World/KeepersSeal.cs": "cb25eacb46f826adc1b45760be8997392dbab09cde536f0ef002d00dfa1fa829",
     "Assets/Scripts/World/Ladder.cs": "41d74525bc3c625dd6e8da16eab1c4d5a3ecfc0508525848ee6b31835ddb9817",
-    "Assets/Scripts/World/Lands.cs": "3b02ce750ca561d2ae54810418e9874f120eec51ed57b6efc39dc58075ca7df8",
+    "Assets/Scripts/World/Lands.cs": "4a7bcf8b61745d591daab1b4e0e9338423992a17866c2e44dc4a4ac8cccb2bda",
     "Assets/Scripts/World/LightLod.cs": "04a0fb99e92020326e7dec2c3a070227ea2bb79f224f69d5a53513d6783c4187",
     "Assets/Scripts/World/LootChest.cs": "97eb0db49bd0c2621225f6f7944c9b5f66b1c88c84aa3b52e9eb307e182a8c90",
     "Assets/Scripts/World/NpcPath.cs": "83c76d2be9919480ebc51188eb758aec514a37fc41f8cf54a417c9f2784e3bd9",
@@ -111,10 +111,10 @@
     "Assets/Scripts/World/Puzzles.cs": "e7caab288dabcbe22dc343df9d61b763d74089f65064aa6659265c9e468495e8",
     "Assets/Scripts/World/Stations.cs": "521ae6a52f90a9df68b758055cd371266c79effdf9075e648c313078647eb557",
     "Assets/Scripts/World/Trader.cs": "28bc14237287371a1f66507d926da55bf8e4177d3670a28b4ac263abd44a567b",
-    "Assets/Scripts/World/Underhearth.cs": "85f314b7d748916ccb02d8c42076ede555ada961ff4bb40dfa976dee8f2142b0",
+    "Assets/Scripts/World/Underhearth.cs": "db63c396a43472c78fe36af7d3c81647175bf2aec34378690e215c956850892b",
     "Assets/Scripts/World/Upgrades.cs": "660027b9dadbfead6198beef46ffe333418b944684c4aa2e1f6599987cef0e87",
-    "Assets/Scripts/World/Weather.cs": "a5698085800fa28b40d6fe027d65a9042d5454fc05ec84f7ef0f153c35560db2",
-    "Assets/Scripts/World/WorldBuilder.cs": "91715042783ff8467ba087036b994db663c0d073ad4ea7bf4d4137ccc08bc15e",
+    "Assets/Scripts/World/Weather.cs": "f58441483710775115c3776d14deb29bff16e43a8d1039f7a159c15e0839cfbd",
+    "Assets/Scripts/World/WorldBuilder.cs": "3dd58e4dddb414e104620082bea409ab7346de3f843a790b48839a3fd43a4384",
     "Assets/Scripts/World/WorldFrontier.cs": "9bbea65460e9e802e3b9f12e55ddc61b2bb5bbb28b1b089d65c3677dc95df297",
     "Assets/Scripts/World/WorldGen.cs": "6a4c5dc5feb9fd42f516e59335053879a20fb1c8b2be00534ee8ae9842b70626",
     "Assets/Scripts/World/WorldIsles.cs": "26050c6b414d92ae108b2edf1f28470219f92fa13aa9745b8662fb72ac7ed4c2",
@@ -123,7 +123,7 @@
     "Assets/Scripts/World/WorldStreamer.cs": "35d60a49ad7035c99ba082de9076fba0a0f6ad8a21c9be74030df4790e7d1aaf",
     "Assets/Scripts/World/WorldUpgrades.cs": "3d2f2bc5a5bfe3262921767474043e5c71b76fcaa00f5440a5736a0db91c272d",
     "Assets/Scripts/World/WorldWater.cs": "4bcc17eba22c53a0a98a99b390dbc9e80da360c56dac23f68896f8a045914ad9",
-    "CHANGELOG.md": "9e013ee59f537e97be5a1a4972b21e65fc0fecbe54c8f636986e2d58d81c76b9",
+    "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
     "Server/FFServer/GameServer.cs": "3b55466a7c4fc982e84e435b28c9f210c85ae8bbb0b2821c13ebd65e22bf0b6b",
     "Server/FFServer/Program.cs": "14d8134959ba2bdf0fd324c301fe9c02e792999e6f9eba5ffd4159228916b0a5",
     "Server/FFServer/ServerConfig.cs": "e5faf9a7a0230307766cfd31b8da96742f78f0af72f5e50f852332b8ea4610d5",
@@ -312,7 +312,10 @@
     "Screens/wiki/icons/KindledTrophy.png": "ea464bd11938777ba26ba6a6cabe6659e6fa73bbbb0e4441c15c6333719108d8",
     "Screens/wiki/icons/GlowcapBroth.png": "d8e20d23d3e29061852c949d4baf004137de4c29c7c8afa93cee54f6b9bdcdc1",
     "Screens/wiki/icons/FrostDraught.png": "2106b1bdfe0f3fe230852a9021d6cdd7d83f1f6cb9c7ea0c7c3cac75dce8bc22",
-    "Screens/wiki/icons/ArrowObsidian.png": "b795990fa67ab070713fededa3300dccf0dbcaed908a27b1b1b2850f8d57ba24"
+    "Screens/wiki/icons/ArrowObsidian.png": "b795990fa67ab070713fededa3300dccf0dbcaed908a27b1b1b2850f8d57ba24",
+    "Screens/wiki/v028/ashhound-v028.webp": "f4a77b8783287db2e32e9ab298522e9097af6c4d18d06e0aff2f7bdb43b14fbf",
+    "Screens/wiki/v028/kindled-v028.webp": "724fc9bb2d3b5b7721703d67cd1ac21658d5046fc7845df97dfe6d86237509e1",
+    "Screens/wiki/v028/ashhorn-v028.webp": "8471feab1879853cc062aa4a432a0973750d73a4b3c07d7b08c5f0bef1269edd"
   },
   "entities": [
     {
@@ -3801,6 +3804,176 @@
       ]
     },
     {
+      "id": "creature:Ashhound",
+      "key": "Ashhound",
+      "kind": "creature",
+      "name": "Ashhound",
+      "aliases": [
+        "Ashhound Alpha"
+      ],
+      "description": "A pack hunter of the Underhearth’s ash on the Stalker’s frame: it circles, then lunges, like a Stalker but tougher, harder hitting and faster. It does not burn (fire arrows and torches do nothing). The Strider’s footfalls make Ashhounds near it forget their prey for a while.",
+      "source": "Assets/Scripts/Enemies/DeepCreatures.cs",
+      "page": "creatures/ashhound",
+      "image": "/images/ashhound-v028.webp",
+      "thumbnail": "/images/creatures/ashhound-thumb.webp",
+      "stats": {
+        "health": 65.1,
+        "poise": 31.2,
+        "speed": 6.05
+      },
+      "attacks": [
+        [
+          "Lunge",
+          16.2
+        ]
+      ],
+      "drops": [
+        {
+          "item": "item:AshPelt",
+          "quantity": "1 (65%) or 2 (35%)",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:RawMeat",
+          "quantity": "1",
+          "chance": "70%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Brimstone",
+          "quantity": "1",
+          "chance": "25%",
+          "condition": "Every level"
+        }
+      ]
+    },
+    {
+      "id": "creature:Kindled",
+      "key": "Kindled",
+      "kind": "creature",
+      "name": "Kindled",
+      "aliases": [
+        "Kindled Thane"
+      ],
+      "description": "The barrow dead who fell into the deep and burn still. It fights like a Hollow (a raised shield, two blows in a row, a leap), but each blow that lands sets the hero **burning** for 2.5 seconds (5 health a second; a roll puts it out sooner) and, like a Hollow’s blade, carries grave rot (60% of hits: 12 seconds, 16 for a Thane), and it **bursts into flame** a moment after it falls: step out of the ring. It does not burn.",
+      "source": "Assets/Scripts/Enemies/DeepCreatures.cs",
+      "page": "creatures/kindled",
+      "image": "/images/kindled-v028.webp",
+      "thumbnail": "/images/creatures/kindled-thumb.webp",
+      "stats": {
+        "health": 107.3,
+        "poise": 42,
+        "speed": 2.8
+      },
+      "attacks": [
+        [
+          "First slash",
+          16.9
+        ],
+        [
+          "Second slash",
+          14.3
+        ],
+        [
+          "Leap",
+          26
+        ],
+        [
+          "Death burst",
+          20.8
+        ]
+      ],
+      "drops": [
+        {
+          "item": "item:Bone",
+          "quantity": "1 (50%) or 2 (50%)",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Brimstone",
+          "quantity": "1",
+          "chance": "60%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:EmberOre",
+          "quantity": "1",
+          "chance": "35%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Crystal",
+          "quantity": "1",
+          "chance": "25%",
+          "condition": "Level 3"
+        }
+      ]
+    },
+    {
+      "id": "creature:Ashhorn",
+      "key": "Ashhorn",
+      "kind": "creature",
+      "name": "Ashhorn",
+      "aliases": [
+        "Ashhorn Bull",
+        "Old Ashhorn Bull"
+      ],
+      "description": "The Underhearth’s great grazer, a Greyhorn half again as big. Herds crop the glowing moss of the Ashen Wilds and want nothing from you: cows flee, and a bull that is hurt turns to gore and charge. Level 1 has a 35% chance to be a bull; level 2+ is always a bull.",
+      "source": "Assets/Scripts/Enemies/DeepCreatures.cs",
+      "page": "creatures/ashhorn",
+      "image": "/images/ashhorn-v028.webp",
+      "thumbnail": "/images/creatures/ashhorn-thumb.webp",
+      "stats": {
+        "health": 211.2,
+        "poise": 104.4,
+        "speed": 2.72
+      },
+      "attacks": [
+        [
+          "Gore (bull)",
+          23.8
+        ],
+        [
+          "Charge (bull)",
+          29.4
+        ]
+      ],
+      "drops": [
+        {
+          "item": "item:Venison",
+          "quantity": "2 (cow) or 3 (bull)",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Hide",
+          "quantity": "2",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:AshPelt",
+          "quantity": "1",
+          "chance": "100%",
+          "condition": "Every level"
+        },
+        {
+          "item": "item:Antler",
+          "quantity": "2 (60%) or 3 (40%)",
+          "chance": "100%",
+          "condition": "Bull or elite"
+        },
+        {
+          "item": "item:Antler",
+          "quantity": "1",
+          "chance": "25%",
+          "condition": "Non-elite cow only"
+        }
+      ]
+    },
+    {
       "id": "creature:Spider",
       "key": "Spider",
       "kind": "creature",
@@ -3997,6 +4170,8 @@
   ],
   "generatedFiles": [
     "public/images/arrow-recovery-v0211.webp",
+    "public/images/ashhorn-v028.webp",
+    "public/images/ashhound-v028.webp",
     "public/images/birchwood-detail-v017.webp",
     "public/images/birchwood-v016.webp",
     "public/images/bow-full-v021.webp",
@@ -4014,10 +4189,13 @@
     "public/images/coracle-v025.webp",
     "public/images/courtyard-v016.webp",
     "public/images/crafting-v016.webp",
+    "public/images/creatures/ashhorn-thumb.webp",
+    "public/images/creatures/ashhound-thumb.webp",
     "public/images/creatures/charger-thumb.webp",
     "public/images/creatures/greyhorn-thumb.webp",
     "public/images/creatures/guardian-thumb.webp",
     "public/images/creatures/hollow-thumb.webp",
+    "public/images/creatures/kindled-thumb.webp",
     "public/images/creatures/spider-thumb.webp",
     "public/images/creatures/stalker-thumb.webp",
     "public/images/disconnected-rejoin-v023.webp",
@@ -4150,6 +4328,7 @@
     "public/images/join-recent-v023.webp",
     "public/images/keepers-light-v025.webp",
     "public/images/keepers-seal-v019.webp",
+    "public/images/kindled-v028.webp",
     "public/images/ladder-v019.webp",
     "public/images/map-mouse-v021.webp",
     "public/images/map-waypoints-v020.webp",
@@ -4257,9 +4436,12 @@
     "src/content/docs/crafting/stations/stonecutter.md",
     "src/content/docs/crafting/stations/tanning-rack.md",
     "src/content/docs/crafting/stations/workbench.md",
+    "src/content/docs/creatures/ashhorn.md",
+    "src/content/docs/creatures/ashhound.md",
     "src/content/docs/creatures/charger.md",
     "src/content/docs/creatures/greyhorn.md",
     "src/content/docs/creatures/hollow.md",
+    "src/content/docs/creatures/kindled.md",
     "src/content/docs/creatures/mire-spider.md",
     "src/content/docs/creatures/stalker.md",
     "src/content/docs/equipment/gear/axe-flint.md",

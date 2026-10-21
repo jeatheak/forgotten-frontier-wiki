@@ -39,7 +39,11 @@ follow behind its cliffs.
   axe), glowcaps, brimstone crust, ash pelts.
 - **Recipes**: Glowcap Broth (hearth: a meal that keeps the heat a step further off), Frostlichen Draught (herbalist's
   table: six minutes without the heat), Obsidian Arrows (workbench: the sharpest arrows), Brimstone Fire Arrows.
-- The map shows the Underhearth's own map while you are down there (no fog of war there yet).
+- **Keeper wards**, the havens below: inside a lit ward nothing hunts you, wounds close as at home, and you can build
+  (walls, a roof, a bed to wake in, chests, a campfire). The Landing's ward is lit; two ward stones in the Wilds wait to
+  be rekindled with 3 ember ore and an Echo crystal.
+- The map shows the Underhearth's own map while you are down there, with its own fog of war.
+- Down below the wind gives way to a low drone, and the lava bubbles.
 
 ### Changed
 - The Stoneteeth's north crests have a level hollow where the Throat stands. In an existing world, a site that stood

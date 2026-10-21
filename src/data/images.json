@@ -1293,5 +1293,47 @@
     "version": "0.28.0",
     "alt": "Obsidian Arrows inventory icon rendered from the game model.",
     "caption": "Obsidian Arrows — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/ashhound-v028.webp",
+    "source": "Screens/wiki/v028/ashhound-v028.webp",
+    "version": "0.28.0",
+    "alt": "Ashhound model in a staged in-game portrait.",
+    "caption": "Ashhound — staged in-game portrait, v0.28.0 source."
+  },
+  {
+    "path": "/images/creatures/ashhound-thumb.webp",
+    "source": "Screens/wiki/v028/ashhound-v028.webp",
+    "version": "0.28.0",
+    "alt": "Ashhound thumbnail cropped from its in-game portrait.",
+    "caption": "Ashhound thumbnail, v0.28.0 source."
+  },
+  {
+    "path": "/images/kindled-v028.webp",
+    "source": "Screens/wiki/v028/kindled-v028.webp",
+    "version": "0.28.0",
+    "alt": "Kindled model in a staged in-game portrait.",
+    "caption": "Kindled — staged in-game portrait, v0.28.0 source."
+  },
+  {
+    "path": "/images/creatures/kindled-thumb.webp",
+    "source": "Screens/wiki/v028/kindled-v028.webp",
+    "version": "0.28.0",
+    "alt": "Kindled thumbnail cropped from its in-game portrait.",
+    "caption": "Kindled thumbnail, v0.28.0 source."
+  },
+  {
+    "path": "/images/ashhorn-v028.webp",
+    "source": "Screens/wiki/v028/ashhorn-v028.webp",
+    "version": "0.28.0",
+    "alt": "Ashhorn model in a staged in-game portrait.",
+    "caption": "Ashhorn — staged in-game portrait, v0.28.0 source."
+  },
+  {
+    "path": "/images/creatures/ashhorn-thumb.webp",
+    "source": "Screens/wiki/v028/ashhorn-v028.webp",
+    "version": "0.28.0",
+    "alt": "Ashhorn thumbnail cropped from its in-game portrait.",
+    "caption": "Ashhorn thumbnail, v0.28.0 source."
   }
 ]
