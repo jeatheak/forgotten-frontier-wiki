@@ -13,6 +13,8 @@ The wanderer's journey is about making the world remember. Ruins hold Echoes of 
 
 Mira is an injured traveler who can become part of the homestead. She speaks everything she says aloud (Settings → Audio → Spoken dialogue turns her voice off), and tells her own story a chapter at a time as you see more of the Vale. The Ancient Guardian protects the courtyard on the approach to the Beacon; the Keepers sealed its gate, and the seal asks for proof (the outer lands walked, their trials passed, all companions recruited, a key forged from what each land gives) before it lets anyone in. Its defeat and the restoration of the Beacon complete the central journey, after which a hero may continue exploring or begin another saga.
 
+Since v0.25.0 the Keepers left marks out on the Skerries too: a cairn on Gullholm and a lore stone by the ruined lighthouse on Keeper's Light, whose fire once guided their ships home. Kindling it again is a story beat of its own.
+
 This archive describes implemented story beats. It does not invent backstories or turn development plans into canon. Full tablet transcriptions and every discovery are not yet catalogued.
 
 [Progression and ending choices](/progression/) · [Echoes](/runes/)

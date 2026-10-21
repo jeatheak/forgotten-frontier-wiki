@@ -2,7 +2,7 @@
 title: "Survival and combat"
 description: "The systems that keep a wanderer alive."
 verification: verified
-sources: ["Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/Core/Skills.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/World/DayNight.cs", "CHANGELOG.md", "Assets/Scripts/Enemies/Charger.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Player/ArrowShot.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/Greyhorn.cs", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/UI/HudView.cs", "Assets/Scripts/Player/StealthLight.cs", "Assets/Scripts/UI/UIRoot.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Settings.cs"]
+sources: ["Assets/Scripts/World/LightLod.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/Core/Skills.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/World/DayNight.cs", "CHANGELOG.md", "Assets/Scripts/Enemies/Charger.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Player/ArrowShot.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/Greyhorn.cs", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/UI/HudView.cs", "Assets/Scripts/Player/StealthLight.cs", "Assets/Scripts/UI/UIRoot.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Settings.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/torchlight-v016.webp" aria-label="Open full-size image: Carry a light when you head into the night."><img src="/images/torchlight-v016.webp" alt="Carry a light when you head into the night." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Carry a light when you head into the night.</figcaption></figure><figure><a href="/images/stalker-v016.webp" aria-label="Open full-size image: A Stalker, photographed in a staged in-game encounter."><img src="/images/stalker-v016.webp" alt="A Stalker, photographed in a staged in-game encounter." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>A Stalker, photographed in a staged in-game encounter.</figcaption></figure></div>
@@ -94,7 +94,8 @@ stamina and slow healing; its stamina fades as it wears off (still about three q
 meal can be eaten again, or a fourth dish take the place of the one nearest its end, once it is **half gone**. The
 status line lists each meal and its time left (dimmed once it may be replaced), and a meal's details in the inventory
 show its stamina, healing and how long it lasts. Each meal gives about 60% of what a single meal gave in v0.23.0, so
-three good meals reach about 180 stamina. Before v0.24.0 only one meal could be active at a time.
+three good meals reach about 180 stamina. Before v0.24.0 only one meal could be active at a time. From v0.25.0 the
+Skerries add two meals: **Egg Bannock** (much stamina for 11 minutes) and **Steamed Mussels** (light, but it heals well).
 
 Stamina recovers faster the emptier the bar: twice as fast from empty as when nearly full (v0.24.0).
 
@@ -135,7 +136,10 @@ The sun rises at 06:00 and sets at **20:00**; full dark comes a little after, an
 
 Now and then your hero **thinks out loud**: one quiet line at the bottom of the screen about what might come next, such as a tool, a bed before nightfall, the trader or a land not yet walked. Each thought comes once and never in a fight; Settings > Gameplay > Hero's thoughts turns them off. They are hints, not quests.
 
-Inventory, crafting and map screens leave the world running. The pause menu stops single player; online play keeps running. Creature health bars can be disabled under Settings > Gameplay. From v0.24.0 Settings > Video also has **Distance blur** (far scenery softly out of focus; nothing within 60 m) and **Colour fringe** (a faint chromatic edge towards the corners), both on by default.
+Inventory, crafting and map screens leave the world running. The pause menu stops single player; online play keeps running. Creature health bars can be disabled under Settings > Gameplay. From v0.24.0 Settings > Video also has **Distance blur** (far scenery softly out of focus; nothing within 60 m) and **Colour fringe** (a faint chromatic edge towards the corners), both on by default. From v0.25.0 the **Ultra** shadow setting also lets the nearest fire within 18 m cast soft shadows.
+
+Out on the sea and the Skerries the **sea wind** chills you at night, in rain and in storms, like the Highland cold;
+see [the sea wind](/world/skerries/#the-sea-wind).
 
 - [Controls and hotbar](/mechanics/controls/)
 - [Difficulty and death](/mechanics/difficulty/)

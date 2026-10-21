@@ -14,9 +14,9 @@ A recipe normally becomes known after you have held every ingredient at least on
 | Station | Typical work |
 | --- | --- |
 | By hand | Flint axe, club and torch |
-| Workbench | Early tools, weapons, armour, bows, arrows and the lute |
+| Workbench | Early tools, weapons, armour, bows, arrows, the lute, charms and (from v0.25.0) the coracle |
 | Herbalist's Table | Draughts, salves, tonics and protective preparations |
-| Hearth | Cooked food |
+| Hearth | Cooked food, including (from v0.25.0) the sea meals: Egg Bannock and Steamed Mussels |
 | Forge | Iron equipment, iron arrows, progression rites and the Keepers' Key |
 | Stonecutter | Stone-related work, including whetstones and bone meal |
 

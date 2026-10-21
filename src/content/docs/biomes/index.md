@@ -1,13 +1,13 @@
 ---
 title: "Biomes and preparation"
-description: "Eight regions, their danger ratings and environmental hazards."
+description: "Nine regions, their danger ratings, their air and environmental hazards."
 verification: verified
-sources: ["Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/EnemySpawner.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/WorldWater.cs"]
+sources: ["Assets/Scripts/World/WorldIsles.cs", "Assets/Scripts/World/BiomeAir.cs", "Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/EnemySpawner.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/WorldWater.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/birchwood-v016.webp" aria-label="Open full-size image: Birchwood: open grassland and pale trunks in the western hills."><img src="/images/birchwood-v016.webp" alt="Birchwood: open grassland and pale trunks in the western hills." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Birchwood: open grassland and pale trunks in the western hills.</figcaption></figure><figure><a href="/images/elderwood-v016.webp" aria-label="Open full-size image: Elderwood: dense southern forest."><img src="/images/elderwood-v016.webp" alt="Elderwood: dense southern forest." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Elderwood: dense southern forest.</figcaption></figure><figure><a href="/images/mire-v016.webp" aria-label="Open full-size image: The Mire: dark pools, reeds and low mist."><img src="/images/mire-v016.webp" alt="The Mire: dark pools, reeds and low mist." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The Mire: dark pools, reeds and low mist.</figcaption></figure><figure><a href="/images/highlands-v016.webp" aria-label="Open full-size image: Stoneteeth Highlands: bare slopes and distant snow."><img src="/images/highlands-v016.webp" alt="Stoneteeth Highlands: bare slopes and distant snow." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Stoneteeth Highlands: bare slopes and distant snow.</figcaption></figure></div>
 
-The displayed danger rating describes the region, not a promise that every encounter there is equally difficult. Creatures born in the **outer lands** (Birchwood, the Mire, the Highlands, Elderwood and the coast) are tougher than in the Vale: ×1.3 health, ×1.15 poise and ×1.2 damage; they notice you from 15% further, move 5% faster, are 60% more often elites, and packs of Stalkers and spiders hold one more.
+The displayed danger rating describes the region, not a promise that every encounter there is equally difficult. Creatures born in the **outer lands** (Birchwood, the Mire, the Highlands, Elderwood, the coast and the Skerries) are tougher than in the Vale: ×1.3 health, ×1.15 poise and ×1.2 damage; they notice you from 15% further, move 5% faster, are 60% more often elites, and packs of Stalkers and spiders hold one more.
 
 | Biome | Danger | Preparation |
 | --- | --- | --- |
@@ -19,6 +19,7 @@ The displayed danger rating describes the region, not a promise that every encou
 | The Mire | 3 | Bogwalker's Balm against spider venom and webs |
 | Stoneteeth Highlands | 3 | Warmth against cold and freezing |
 | The Coast | 2 | The island's edge: beaches, driftwood and the sea (since v0.19; before, the mountain ridge) |
+| The Skerries | 3 | A [coracle](/world/skerries/#the-coracle) to cross; warmth against the sea wind at night and in storms (since v0.25) |
 
 ## What each land gives
 
@@ -47,6 +48,20 @@ flax** in the meadows and the Frontier, or **lichen** in the Highlands, never wi
 the Elderwood and the Mire now grow in glades and thickets, as the Vale's forest already did, with about the same
 number of trees overall. No tree of the wilds stands on ground steeper than 34°, and nothing to forage grows on ground
 steeper than 30°. Felled trees and picked plants are still remembered by place.
+
+## The Skerries
+
+Four islands out in the sea (since v0.25.0): Gullholm, Wrecker's Holm, Selkie Strand and Keeper's Light. The water to
+them is too deep to wade: build a **coracle** at the workbench and wade out with it in your bag. Afloat, or on the
+islands, the **sea wind** chills you at night, in rain and in storms (and freezes you in a storm when you are afloat or
+soaked); a Fur Mantle, a Warming Draught or the Selkie's Pearl keeps it off. Their own finds are gull eggs, mussels and
+pearls. See [The Skerries, the coracle and treasure](/world/skerries/).
+
+## Each land's air
+
+Since v0.25.0 every land has its own light and air, after Valheim's environments, eased in over a few seconds as you
+cross from one into the next: a blue-teal mist under the Elderwood's canopy, the Mire's green haze, cold clear light on
+the Highlands, warm gold over the Birchwood, bright sea air on the coast and the Skerries. Weather comes on top.
 
 ## The Mire
 

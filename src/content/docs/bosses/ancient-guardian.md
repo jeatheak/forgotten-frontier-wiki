@@ -17,7 +17,7 @@ The boss of the Forgotten Courtyard. Since v0.19 the Courtyard gate is sealed un
 | --- | --- | --- | --- | --- | --- |
 | 1 | Ancient Guardian | 1450 | 1595 | 1885 | 260 |
 
-These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood and the coast) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **3.3 m/s**, before night, state, omen and elite modifiers. Guardian health also multiplies by **1 + 0.6 × (heroes − 1)** when it wakes; the solo Normal value is 1595.
+These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood, the coast and the Skerries) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **3.3 m/s**, before night, state, omen and elite modifiers. Guardian health also multiplies by **1 + 0.6 × (heroes − 1)** when it wakes; the solo Normal value is 1595.
 
 ## Attacks
 

@@ -1090,5 +1090,89 @@
     "version": "0.24.0",
     "alt": "The hero crouched low in a forest clearing with a mace, an eye marked SEEN under the compass, and the status line reading Rested 5:43, Comfort 1.",
     "caption": "Sneaking, with the stealth eye under the compass (autotest capture from the v0.24.0 development source; a bull it had just wounded was hunting the hero)."
+  },
+  {
+    "path": "/images/coracle-v025.webp",
+    "source": "Screens/wiki/v025/coracle.webp",
+    "version": "0.25.0",
+    "alt": "A hero sitting in a round hide coracle on dark blue water, paddle in hand, with the sun's reflection running across the sea.",
+    "caption": "Paddling a coracle out over the sea, v0.25.0 (autotest capture)."
+  },
+  {
+    "path": "/images/skerries-strand-v025.webp",
+    "source": "Screens/wiki/v025/skerries-strand.webp",
+    "version": "0.25.0",
+    "alt": "A hero on the pebbly beach of Selkie Strand, surf lines on the water, a sea stack and the wooded coast of the Vale in the distance.",
+    "caption": "Stepping ashore on Selkie Strand, v0.25.0 (autotest capture)."
+  },
+  {
+    "path": "/images/wreckers-holm-v025.webp",
+    "source": "Screens/wiki/v025/wreckers-holm.webp",
+    "version": "0.25.0",
+    "alt": "A hero on the grassy beach of Wrecker's Holm, the broken ribs of a longship at the waterline.",
+    "caption": "Wrecker's Holm and its wreck, v0.25.0 (autotest capture)."
+  },
+  {
+    "path": "/images/gullholm-v025.webp",
+    "source": "Screens/wiki/v025/gullholm.webp",
+    "version": "0.25.0",
+    "alt": "A hero at the foot of the steep, grassy rock of Gullholm, its summit high above and the sea on either side.",
+    "caption": "On Gullholm, v0.25.0 (autotest capture)."
+  },
+  {
+    "path": "/images/keepers-light-v025.webp",
+    "source": "Screens/wiki/v025/keepers-light.webp",
+    "version": "0.25.0",
+    "alt": "The Keepers' lighthouse on its island at dusk, a stair winding round the tower to the kindled fire at the top.",
+    "caption": "The kindled lighthouse on Keeper's Light at dusk, v0.25.0 (autotest capture)."
+  },
+  {
+    "path": "/images/icons/coracle.png",
+    "source": "Screens/wiki/icons/Coracle.png",
+    "version": "0.25.0",
+    "alt": "Coracle inventory icon rendered from the game model.",
+    "caption": "Coracle — in-game inventory icon, v0.25.0."
+  },
+  {
+    "path": "/images/icons/gullegg.png",
+    "source": "Screens/wiki/icons/GullEgg.png",
+    "version": "0.25.0",
+    "alt": "Gull Eggs inventory icon rendered from the game model.",
+    "caption": "Gull Eggs — in-game inventory icon, v0.25.0."
+  },
+  {
+    "path": "/images/icons/mussel.png",
+    "source": "Screens/wiki/icons/Mussel.png",
+    "version": "0.25.0",
+    "alt": "Mussels inventory icon rendered from the game model.",
+    "caption": "Mussels — in-game inventory icon, v0.25.0."
+  },
+  {
+    "path": "/images/icons/pearl.png",
+    "source": "Screens/wiki/icons/Pearl.png",
+    "version": "0.25.0",
+    "alt": "Pearl inventory icon rendered from the game model.",
+    "caption": "Pearl — in-game inventory icon, v0.25.0."
+  },
+  {
+    "path": "/images/icons/steamedmussels.png",
+    "source": "Screens/wiki/icons/SteamedMussels.png",
+    "version": "0.25.0",
+    "alt": "Steamed Mussels inventory icon rendered from the game model.",
+    "caption": "Steamed Mussels — in-game inventory icon, v0.25.0."
+  },
+  {
+    "path": "/images/icons/eggbannock.png",
+    "source": "Screens/wiki/icons/EggBannock.png",
+    "version": "0.25.0",
+    "alt": "Egg Bannock inventory icon rendered from the game model.",
+    "caption": "Egg Bannock — in-game inventory icon, v0.25.0."
+  },
+  {
+    "path": "/images/icons/gear-charm-pearl.png",
+    "source": "Screens/wiki/icons/gear_charm_pearl.png",
+    "version": "0.25.0",
+    "alt": "Selkie's Pearl equipment icon rendered from the game model.",
+    "caption": "Selkie's Pearl — in-game equipment icon, v0.25.0."
   }
 ]

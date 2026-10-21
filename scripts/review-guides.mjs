@@ -23,8 +23,10 @@ for (const file of await pages()) {
   const key = path.relative(docs, file).replaceAll('\\', '/');
   if (!check && !all && !selected.includes(key)) continue;
   const sources = metadata(content, file).sources;
-  const hash = bytes => createHash('sha256').update(bytes).digest('hex');
-  const snapshot = { contentHash: hash(content), sources: Object.fromEntries(await Promise.all(sources.map(async p => [p, hash(await readFile(path.join(game, p)))]))) };
+  // Line endings are normalised: a checkout with core.autocrlf writes CRLF where the reviewed copy had LF, and that is
+  // not a change of content (every unchanged guide was flagged after a branch switch).
+  const hash = bytes => createHash('sha256').update(Buffer.from(bytes.toString('utf8').replace(/\r\n/g, '\n'), 'utf8')).digest('hex');
+  const snapshot = { contentHash: hash(Buffer.from(content, 'utf8')), sources: Object.fromEntries(await Promise.all(sources.map(async p => [p, hash(await readFile(path.join(game, p)))]))) };
   if (check) {
     if (JSON.stringify(records[key]) !== JSON.stringify(snapshot)) { console.error(`Review guide: ${key}`); stale++; }
   } else { records[key] = snapshot; reviewed++; }

@@ -22,6 +22,11 @@ skills, map pins and progress earned on a server stay on that server's profile. 
 On the first visit after upgrading, an existing hero record from that server is restored; a new server starts with
 a one-time copy of the selected local hero. Later visits resume the separate server profile and position.
 
+**v0.25.0:** a server profile belongs to the server's **world**, not to the address you typed. Joining one server as
+`localhost` and as `127.0.0.1`, or by its name and by its IP address, now reaches the same profile (before, each address
+made its own copy of your hero there). The profile you already have moves over the first time you join. A world started
+anew on a server (a new world file) gives you a new profile.
+
 Local saves are stored in `Saves/Local`; client profiles for each server are under `Saves/Servers` in the game's save
 directory. Older local save files and their backup/recovery copies are copied into Local; the original files remain
 available for recovery. This prevents future mixing; it cannot reconstruct belongings or worlds already overwritten
@@ -29,7 +34,7 @@ by an older version. The older v0.20 release used the earlier shared hero slot b
 
 ## Shared world
 
-Buildings, beds, gardens, chests, station work, drops, fallen satchels, creatures, story progress, map exploration, time and weather are shared. Trees falling, rocks breaking and plants being picked are visible to everyone. From v0.23.0 the server also remembers them until they grow back, so players who join later (or after a server restart) see them felled, broken or picked too. Gathering rewards go to the player who did the work; creature loot goes to the killer. Each hero has their own satchel room, map pins and silver pouch. Pouched silver uses no satchel space and can be withdrawn into loose stacks, then stored in the shared stash or dropped for someone else. The chests' room is shared: it depends on how many chests the world has.
+Buildings, beds, gardens, chests, station work, drops, fallen satchels, creatures, story progress, map exploration, time and weather are shared. So are opened loot chests and washed-up crates, and the Keepers' light once someone kindles it (v0.25.0). A player out in a [coracle](/world/skerries/#the-coracle) is seen paddling it; each player needs their own boat. Trees falling, rocks breaking and plants being picked are visible to everyone. From v0.23.0 the server also remembers them until they grow back, so players who join later (or after a server restart) see them felled, broken or picked too. Gathering rewards go to the player who did the work; creature loot goes to the killer. Each hero has their own satchel room, map pins and silver pouch. Pouched silver uses no satchel space and can be withdrawn into loose stacks, then stored in the shared stash or dropped for someone else. The chests' room is shared: it depends on how many chests the world has.
 
 When two players reach for the same thing at the same moment (a piece of gear in the chests, the last of a stack, the bars in a bloomery or a station's load), the first hand gets it; the other is told someone was quicker and gets back what they paid. Your hero arrives wearing what they wore and with their hotbar as they left it. The hero's thoughts, the lands a hero has walked and the hints they have learned are each hero's own. Only moderators can change the server's clock.
 

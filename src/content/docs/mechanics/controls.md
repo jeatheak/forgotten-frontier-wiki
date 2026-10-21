@@ -2,7 +2,7 @@
 title: "Controls and hotbar"
 description: "Keyboard and mouse bindings and controller shortcuts."
 verification: verified
-sources: ["Assets/Scripts/Core/InputSource.cs", "Assets/Scripts/Core/DevTools.cs", "Assets/Scripts/UI/SettingsScreen.cs", "Assets/Scripts/UI/UIKit.cs", "CHANGELOG.md", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Ladder.cs", "Assets/Scripts/UI/GameMenu.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "Assets/Scripts/UI/StorageScreen.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Player/PlayerCombat.cs"]
+sources: ["Assets/Scripts/Player/Coracle.cs", "Assets/Scripts/Core/InputSource.cs", "Assets/Scripts/Core/DevTools.cs", "Assets/Scripts/UI/SettingsScreen.cs", "Assets/Scripts/UI/UIKit.cs", "CHANGELOG.md", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Ladder.cs", "Assets/Scripts/UI/GameMenu.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "Assets/Scripts/UI/StorageScreen.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Player/PlayerCombat.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/inventory-v016.webp" aria-label="Open full-size image: Historical inventory and hotbar layout in v0.16.0."><img src="/images/inventory-v016.webp" alt="Historical inventory and hotbar layout in v0.16.0." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Historical inventory and hotbar layout in v0.16.0.</figcaption></figure><figure><a href="/images/crafting-v016.webp" aria-label="Open full-size image: Keyboard prompts are shown along the bottom of the crafting screen."><img src="/images/crafting-v016.webp" alt="Keyboard prompts are shown along the bottom of the crafting screen." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Keyboard prompts are shown along the bottom of the crafting screen.</figcaption></figure></div>
@@ -30,6 +30,8 @@ sources: ["Assets/Scripts/Core/InputSource.cs", "Assets/Scripts/Core/DevTools.cs
 | Sort bag or stash | Z |
 | Hotbar | 1–5 |
 | Co-op chat | Enter (start a line with / for server commands) |
+
+In a **coracle** (v0.25.0) the movement keys or the left stick paddle and Sprint (Left Shift, or hold B) paddles hard for stamina; paddle into the shallows to step out. See [the coracle](/world/skerries/#the-coracle).
 
 Use the in-game Controls page for the complete context-sensitive controller reference. On a controller, tap B to roll and hold it to sprint. From v0.24.0 **L3 crouches to sneak**; it no
 longer toggles the sprint. In co-op, hold D-Up for quick chat; tap D-Up to drink. L3 sorts the bag or stash. RT is the light attack and Y the heavy attack; **hold LT to block** with a club, spear or blades (with fists, tools or the bow, LT is the heavy attack). LB is Dash Strike once learned.

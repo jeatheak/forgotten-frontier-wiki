@@ -5,11 +5,14 @@ verification: verified
 sources: ["CHANGELOG.md"]
 ---
 
-This is the player wiki for **The Forgotten Frontier**, a co-op survival and action RPG. It documents implemented game content. Stable release: **0.24.0 — hush and hearth**, which also brings **0.23.0 — steady fires** (never released on its own); pages mark the version each change arrived in. Earlier beta captures remain labeled with their original versions. A source version does not prove that a release has been published.
+This is the player wiki for **The Forgotten Frontier**, a co-op survival and action RPG. It documents implemented game content. Stable release: **0.25.0 — the Skerries** (islands, the coracle, chests by land, flotsam and each land's air); pages mark the version each change arrived in. Earlier beta captures remain labeled with their original versions. A source version does not prove that a release has been published.
 
 Item, equipment and recipe references and the update archive are generated from game definitions. Player guides are reviewed against the relevant implementations. The maintenance workflow records source hashes and flags changed sources for review. It requires an agent working in the game project; it is not a background service.
 
 ## Pictures
+
+New **v0.25.0** captures show the coracle at sea, Selkie Strand, Wrecker's Holm and the kindled lighthouse on Keeper's Light,
+with icons for the coracle, gull eggs, mussels, the pearl, the two sea meals and the Selkie's Pearl charm.
 
 New **v0.22.0** captures show Mire water, an equipment-slot highlight and the garden prompt measured in game days.
 
@@ -17,7 +20,7 @@ New **v0.21.0 beta** photographs show partial and full bow-draw circles, the cor
 roof with stacked gables. These are real game captures from an isolated test session.
 The **v0.21.1 beta** follow-up adds the intact-arrow recovery prompt and inventory hotbar focus with its visible pouch balance.
 
-The archive includes 97 real game icons (90 items and equipment, 7 stations), a collection of v0.16.0 photographs and v0.17.0 pictures of the new build panel, the trader, the guard, the fire paths and the outer lands' finds, v0.18.0 pictures of the ridge-roofed hut, the build pointer, the chat and Hallvard's Hearthstone, and v0.19.0 pictures of the coast and the sea, the ladders, the folded build menu and the Keepers' seal. The v0.20.0 pictures show the corrected build menu, full satchel, stash filters, map waypoints and continuous shoreline. Creature portraits and equipment demonstrations are staged using game tools, with their captions identifying that context. [Browse the image gallery](/gallery/). Historical captures are labeled with their versions.
+The archive includes 104 real game icons (97 items and equipment, 7 stations), a collection of v0.16.0 photographs and v0.17.0 pictures of the new build panel, the trader, the guard, the fire paths and the outer lands' finds, v0.18.0 pictures of the ridge-roofed hut, the build pointer, the chat and Hallvard's Hearthstone, and v0.19.0 pictures of the coast and the sea, the ladders, the folded build menu and the Keepers' seal. The v0.20.0 pictures show the corrected build menu, full satchel, stash filters, map waypoints and continuous shoreline. Creature portraits and equipment demonstrations are staged using game tools, with their captions identifying that context. [Browse the image gallery](/gallery/). Historical captures are labeled with their versions.
 
 ![Title screen with the painted Beacon logo and hero slots.](/images/title-v0.14.png)
 

@@ -447,7 +447,7 @@
       "kind": "gear",
       "key": "fur_mantle",
       "name": "Fur Mantle",
-      "description": "A shaggy mantle. Warm, and it turns a claw.",
+      "description": "A shaggy mantle. Warm against the Highland cold and the sea wind, and it turns a claw.",
       "gearKind": "Armor",
       "upgradable": true,
       "slot": "Shoulders",
@@ -779,6 +779,32 @@
       "source": "Assets/Scripts/Core/Gear.cs",
       "page": "equipment/gear/charm-amber",
       "image": "/images/icons/gear-charm-amber.png"
+    },
+    {
+      "id": "gear:charm_pearl",
+      "kind": "gear",
+      "key": "charm_pearl",
+      "name": "Selkie's Pearl",
+      "description": "A sea-pearl caged in silver wire. The sea knows its own: the sea wind cannot chill you, a coracle runs a quarter faster, and breath comes 5% quicker.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "Pearl",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-pearl",
+      "image": "/images/icons/gear-charm-pearl.png"
     }
   ],
   "items": [
@@ -1123,6 +1149,42 @@
       "name": "Keepers' Key",
       "image": "/images/icons/keeperskey.png",
       "page": "equipment/items/keepers-key"
+    },
+    {
+      "key": "Coracle",
+      "name": "Coracle",
+      "image": "/images/icons/coracle.png",
+      "page": "equipment/items/coracle"
+    },
+    {
+      "key": "GullEgg",
+      "name": "Gull Eggs",
+      "image": "/images/icons/gullegg.png",
+      "page": "equipment/items/gull-egg"
+    },
+    {
+      "key": "Mussel",
+      "name": "Mussels",
+      "image": "/images/icons/mussel.png",
+      "page": "equipment/items/mussel"
+    },
+    {
+      "key": "Pearl",
+      "name": "Pearl",
+      "image": "/images/icons/pearl.png",
+      "page": "equipment/items/pearl"
+    },
+    {
+      "key": "SteamedMussels",
+      "name": "Steamed Mussels",
+      "image": "/images/icons/steamedmussels.png",
+      "page": "equipment/items/steamed-mussels"
+    },
+    {
+      "key": "EggBannock",
+      "name": "Egg Bannock",
+      "image": "/images/icons/eggbannock.png",
+      "page": "equipment/items/egg-bannock"
     }
   ],
   "stations": [

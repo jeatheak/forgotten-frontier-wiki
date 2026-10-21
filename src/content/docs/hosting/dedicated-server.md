@@ -80,7 +80,10 @@ backups (`vale.json.1`, `.2`, ...) are kept on the backup interval. To move a wo
 and copy its world file and corresponding `<world>.heroes.json` to retain hero reconnect/recovery records. Bans are kept in `saves/bans.txt`, one per line.
 
 The world's clock only runs while someone is connected. In **v0.22.0**, each client keeps an independent hero
-profile for each server. The server also retains complete hero records in `<world>.heroes.json`, including the last
+profile for each server. Since **v0.25.0** every world file holds a `worldId` the server makes with it (the log shows it
+at start), and players' profiles are kept by that id: joining as `localhost`, `127.0.0.1`, a DNS name or its IP reaches
+the same profile. A new world (another world name, or a deleted world file) gets a new id, so players start a new
+profile there. A **copy** of a world file keeps the id: delete its `"worldId"` entry to give a copy an id of its own. The server also retains complete hero records in `<world>.heroes.json`, including the last
 position, for reconnecting and recovering an existing hero during migration. Local heroes and worlds remain separate.
 
 ## When things go wrong (v0.23.0)
