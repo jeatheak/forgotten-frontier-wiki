@@ -19,7 +19,7 @@ Circles its prey, then commits to a lunge. Dodge or parry the lunge and punish i
 | 2 | Frontier Stalker | 60.9 | 66.99 | 79.17 | 24 |
 | 3 | Courtyard Stalker | 79.8 | 87.78 | 103.74 | 24 |
 
-These are non-elite values before omens. Poise does not scale with creature level or difficulty. In the outer lands (Birchwood, the Mire, the Highlands, Elderwood, the coast and the Skerries) creatures have **×1.3 health**, **×1.15 poise** and **×1.2 damage**, notice heroes from 15% further, move 5% faster and are 60% more often elites; packs of Stalkers and spiders there hold one more. Base movement speed: **5.6 m/s**, before night, state, omen and elite modifiers.
+These are non-elite values before omens. Poise does not scale with creature level or difficulty. Creatures born in the outer lands are stronger by their land's danger tier (since v0.27.0): Birchwood and the coast **×1.35 health** and **×1.25 damage**, Elderwood and the Mire **×1.65** and **×1.45**, the Highlands and the Skerries **×1.9** and **×1.65**, with more poise, keener senses, a little more speed and elites more often; packs of Stalkers and spiders there hold one more. See [the lands' tiers](/biomes/). Base movement speed: **5.6 m/s**, before night, state, omen and elite modifiers.
 
 ## Attacks
 

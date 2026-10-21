@@ -1,25 +1,58 @@
 ---
 title: "Biomes and preparation"
-description: "Nine regions, their danger ratings, their air and environmental hazards."
+description: "Nine regions, their danger tiers, packs and hunts, their air and environmental hazards."
 verification: verified
-sources: ["Assets/Scripts/World/WorldIsles.cs", "Assets/Scripts/World/BiomeAir.cs", "Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/EnemySpawner.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/WorldWater.cs"]
+sources: ["Assets/Scripts/World/WorldIsles.cs", "Assets/Scripts/World/BiomeAir.cs", "Assets/Scripts/World/WorldGen.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/EnemySpawner.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/WorldWater.cs", "Assets/Scripts/World/Lands.cs", "Assets/Scripts/Enemies/Hunts.cs", "Assets/Scripts/World/WorldBuilder.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/birchwood-v016.webp" aria-label="Open full-size image: Birchwood: open grassland and pale trunks in the western hills."><img src="/images/birchwood-v016.webp" alt="Birchwood: open grassland and pale trunks in the western hills." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Birchwood: open grassland and pale trunks in the western hills.</figcaption></figure><figure><a href="/images/elderwood-v016.webp" aria-label="Open full-size image: Elderwood: dense southern forest."><img src="/images/elderwood-v016.webp" alt="Elderwood: dense southern forest." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Elderwood: dense southern forest.</figcaption></figure><figure><a href="/images/mire-v016.webp" aria-label="Open full-size image: The Mire: dark pools, reeds and low mist."><img src="/images/mire-v016.webp" alt="The Mire: dark pools, reeds and low mist." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The Mire: dark pools, reeds and low mist.</figcaption></figure><figure><a href="/images/highlands-v016.webp" aria-label="Open full-size image: Stoneteeth Highlands: bare slopes and distant snow."><img src="/images/highlands-v016.webp" alt="Stoneteeth Highlands: bare slopes and distant snow." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Stoneteeth Highlands: bare slopes and distant snow.</figcaption></figure></div>
 
-The displayed danger rating describes the region, not a promise that every encounter there is equally difficult. Creatures born in the **outer lands** (Birchwood, the Mire, the Highlands, Elderwood, the coast and the Skerries) are tougher than in the Vale: ×1.3 health, ×1.15 poise and ×1.2 damage; they notice you from 15% further, move 5% faster, are 60% more often elites, and packs of Stalkers and spiders hold one more.
+The skulls by the place name show the land's **danger tier**, from none (the homestead and the trader's camp) to four
+(since v0.27.0; before, there were at most three and the outer lands differed far less). Creatures born in the **outer lands** take their land's tier; the Vale's forest and the Frontier
+keep the base values (the Frontier's creatures are higher levels instead).
 
-| Biome | Danger | Preparation |
-| --- | --- | --- |
-| Homestead Meadows | 0 | Establish crafting, storage and a bed |
-| The Forest | 1 | Early weapons, food and healing supplies |
-| Birchwood | 1 | Prepare for gathering and wildlife west of the Vale |
-| The Frontier | 2 | Better gear before advancing north |
-| Elderwood | 2 | Supplies for the southern forest |
-| The Mire | 3 | Bogwalker's Balm against spider venom and webs |
-| Stoneteeth Highlands | 3 | Warmth against cold and freezing |
-| The Coast | 2 | The island's edge: beaches, driftwood and the sea (since v0.19; before, the mountain ridge) |
-| The Skerries | 3 | A [coracle](/world/skerries/#the-coracle) to cross; warmth against the sea wind at night and in storms (since v0.25) |
+| Biome | Tier | Creatures born there | Preparation |
+| --- | --- | --- | --- |
+| Homestead Meadows | 0 · Safe haven | Nothing hunts here | Crafting, storage and a bed |
+| The Forest | 1 · Wilds | Base values | Early weapons, food and healing supplies |
+| The Frontier | 2 · Dangerous | Base values (higher levels; the Courtyard approach is tier 3) | Better gear before advancing north |
+| Birchwood | 2 · Dangerous | ×1.35 health, ×1.25 damage | Leather armour and food; packs hunt here at night |
+| The Coast | 2 · Dangerous | ×1.35 health, ×1.25 damage | The island's edge: beaches, driftwood and the sea |
+| Elderwood | 3 · Deadly | ×1.65 health, ×1.45 damage | About 17 armour, three meals; hunting packs |
+| The Mire | 3 · Deadly | ×1.65 health, ×1.45 damage | Bogwalker's Balm against venom and webs; hunting packs |
+| Stoneteeth Highlands | 4 · Merciless | ×1.9 health, ×1.65 damage | About 27 armour (iron), warmth against freezing, food; hunting packs |
+| The Skerries | 4 · Merciless | ×1.9 health, ×1.65 damage | A [coracle](/world/skerries/#the-coracle); warmth against the sea wind |
+
+Outer-land creatures also have more poise (×1.15 / ×1.25 / ×1.35 by tier), notice you from further (×1.15 / ×1.25 /
+×1.3), move a little faster (×1.05 / ×1.08 / ×1.1), are elites more often (×1.6 / ×2.1 / ×2.5) and follow you further
+from their den (×1.35 / ×1.6 / ×1.8; every creature by the tier where it was born). Packs of Stalkers and spiders there
+hold one more, and in Elderwood, the Mire and the Highlands most packs keep one more at night. When your worn armour is
+below what the land asks for (8 in tier 2, 17 in tier 3, 27 in tier 4) the HUD says **your armour is thin here**.
+
+### Packs, hunts and pursuit
+
+*New in v0.27.0.*
+
+![A hero under a pine in the blue-green Elderwood. A message at the top reads: Something has your scent. Stalkers are coming from the north-east. Beside the place name, three skulls, Deadly, and in red: your armour is thin here.](/images/hunted-v027.webp)
+
+*A hunting pack picks up the hero's scent in the Elderwood (v0.27.0 development build, autotest capture).*
+
+- **Packs everywhere.** Besides the old haunts, packs stand about every 50-60 m deep inside Birchwood, Elderwood, the
+  Mire and the Highlands, with the land's own creatures: Stalkers and Chargers, the dead in the Elderwood (by day too)
+  and spiders in the Mire. About half of the Stalker packs **roam** a loop of 35-55 m.
+- **Hunting packs.** Linger in Elderwood, the Mire or the Highlands (or in Birchwood at night) and a pack picks up your
+  scent: two or three of the land's creatures come for you from 40-55 m away, out of sight, and a message says from
+  which direction. On Normal it takes about three to five minutes out there, less at night and in the Highlands;
+  Easy hunts less often, Hard more often, Builder never. Under a roof or by a fire the scent goes cold. A hunting pack
+  follows further and longer than a creature that only happened to see you.
+- **Shaking them off.** A creature after you keeps looking and listening for you. Once it can neither see nor hear you
+  it goes to where it last knew you were; after **5 seconds** in the Vale (7 in tier 2, 9 in tier 3, 11 in tier 4) it
+  gives up with a **?**, searches the spot and wanders home. Break its sight and go quietly: [sneak](/mechanics/#sneaking-and-damage-types),
+  or at least walk. A creature that notices you calls others of its kind from 9 m in the Vale, 12, 16 and 19 m in the
+  deeper tiers.
+- **Wounds hardly close out here.** Without food, health comes back at 1.2 a second in the forest, 0.6 in tier 2 lands,
+  0.3 in tier 3 and 0.2 in tier 4, and only after 10 seconds unhurt outside the Vale (6 in it). At home it is 10 a
+  second. Meals heal as before.
 
 ## What each land gives
 
@@ -69,7 +102,11 @@ Venom damages you over time and prevents healing; webs slow movement. **Bogwalke
 
 ## Cold lands
 
-Away from home, shelter and fire, Highland cold can hinder recovery. Night, storms, rain and being soaked can make it worse. A **Fur Mantle** or **Warming Draught** protects against cold; a leather cap and bone broth reduce its severity. The draught lasts six minutes.
+Away from home, shelter and fire, Highland cold slows your breath and stops healing. Night, storms, rain, being soaked
+and (since v0.27.0) the high crests of the Stoneteeth, above about 17 m, turn it to **freezing**, which costs 1.6 health
+a second and **can kill** (on Easy it still stops at 15; before v0.27.0 it stopped at 15 on every difficulty). A
+**Fur Mantle** or **Warming Draught** protects against cold; a leather cap and bone broth reduce its severity. The
+draught lasts six minutes.
 
 [Items and consumables](/equipment/items/) · [Crafting recipes](/crafting/recipes/)
 

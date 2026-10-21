@@ -2,7 +2,7 @@
 title: "Survival and combat"
 description: "The systems that keep a wanderer alive."
 verification: verified
-sources: ["Assets/Scripts/World/LightLod.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/Core/Skills.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/World/DayNight.cs", "CHANGELOG.md", "Assets/Scripts/Enemies/Charger.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Player/ArrowShot.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/Greyhorn.cs", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/UI/HudView.cs", "Assets/Scripts/Player/StealthLight.cs", "Assets/Scripts/UI/UIRoot.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Settings.cs"]
+sources: ["Assets/Scripts/World/LightLod.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/Spider.cs", "Assets/Scripts/Player/PlayerVisual.cs", "Assets/Scripts/Core/Skills.cs", "Assets/Scripts/Core/Guide.cs", "Assets/Scripts/World/DayNight.cs", "CHANGELOG.md", "Assets/Scripts/Enemies/Charger.cs", "Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/Player/ArrowShot.cs", "Assets/Scripts/Enemies/Enemy.cs", "Assets/Scripts/Enemies/Greyhorn.cs", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/UI/HudView.cs", "Assets/Scripts/Player/StealthLight.cs", "Assets/Scripts/UI/UIRoot.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Settings.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/torchlight-v016.webp" aria-label="Open full-size image: Carry a light when you head into the night."><img src="/images/torchlight-v016.webp" alt="Carry a light when you head into the night." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Carry a light when you head into the night.</figcaption></figure><figure><a href="/images/stalker-v016.webp" aria-label="Open full-size image: A Stalker, photographed in a staged in-game encounter."><img src="/images/stalker-v016.webp" alt="A Stalker, photographed in a staged in-game encounter." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>A Stalker, photographed in a staged in-game encounter.</figcaption></figure></div>
@@ -26,6 +26,14 @@ where the camera looks. It keeps turning after that creature through the wind-up
 the whole of the swing, so a creature that steps in a moment late is still hit. A blow reaches a creature's body, not
 only its middle: the flank of a big beast counts.
 
+**Rolling** costs **16 stamina** (less with Wolf's Stride) and needs all of it (since v0.27.0; it started on 8). A
+perfect roll, through a blow just as it lands, gives back 60% of that. A roll and a Dash Strike run out as usual while
+the satchel or the map is open (before v0.27.0 they kept you untouchable for as long as a menu stayed open).
+
+**Walls, doors and floors are cover** (since v0.27.0): a blow, yours or a creature's, does not reach through them, and
+neither does a Dash Strike or a spider's web (trees and rock stop a web too). Ground slams still carry through: a
+Charger's stomp, a Hollow's slam and the Guardian's slam.
+
 ## Sneaking and damage types
 
 *New in v0.24.0.*
@@ -35,7 +43,13 @@ range, but never through rock, trunks or walls. They hear all round, through wal
 standing still is nearly silent, walking carries about a third of their range, jogging about half and sprinting all of
 it. Swings, rolls and hard landings are louder for a moment; chopping and mining carry further than their sight. A
 creature right beside you always notices. One that notices you shows a **!** and calls the others of its kind within
-9 m. For 20 seconds after a fight, or after being hit, a creature looks all round.
+9 m (more in the deeper lands, see [biomes](/biomes/#packs-hunts-and-pursuit)). For 20 seconds after a fight, or after
+being hit, a creature looks all round.
+
+**Losing them** (since v0.27.0). A creature hunting you keeps looking and listening for you all round. Once it can
+neither see nor hear you it goes to where it last knew you were, and after **5 seconds** in the Vale (up to 11 in the
+Highlands) it gives up: a **?** over it, a search of that spot, and back to its den. Before, it followed anywhere
+within its leash. Break its sight (rock, trunks, walls) and go quietly to get away.
 
 Press **Left Ctrl** (**L3** on a controller) to **sneak**. You crouch, move at about 1.8 m/s and make almost no noise.
 How far creatures see a sneaking hero depends on the **light** on them: about three quarters of their range in open
@@ -137,7 +151,7 @@ sprints; use Left Alt or mouse button 4 to dodge. Controller bindings are unchan
 
 With a **club, spear or blades** in hand, hold **RMB or C** (LT on a controller) to guard. A blow from the front (within **70°** to either side of where you face) is mostly stopped; blows from the side or behind get through. In front a club stops **70%**, a spear **60%** and blades **50%** (less with a broken weapon). Each blocked blow costs stamina (4 plus 90% of the blow's damage, less with weapon skill); with too little stamina the guard breaks, more gets through and you are thrown off balance. While guarding you move at half speed and stamina does not recover. Fists, tools and the bow cannot block.
 
-Raise the guard **just as the blow lands** (within a quarter of a second) to **parry**: nothing gets through and the attacker reels, Staggered and Exposed. Raising it again straight after lowering it gives no parry window. Mira's lesson, the **Riposte**, adds a counter-blow to every parry.
+Raise the guard **just as the blow lands** (within a quarter of a second) to **parry**: nothing gets through and the attacker reels, Staggered and Exposed. Since v0.27.0 a parry costs a little stamina (3 plus 35% of the blow's damage, less with weapon practice) and wears the weapon; out of breath, or with a broken weapon, a guard raised in time only blocks. Raising it again straight after lowering it gives no parry window. Mira's lesson, the **Riposte**, adds a counter-blow to every parry.
 
 <div class="gallery-grid"><figure><a href="/images/guard-v017.webp" aria-label="Open full-size image: Guarding with a club (staged close-up, v0.17.0)."><img src="/images/guard-v017.webp" alt="Guarding with a club (staged close-up, v0.17.0)." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>Guarding with a club (staged close-up, v0.17.0).</figcaption></figure><figure><a href="/images/shimmer-v017.webp" aria-label="Open full-size image: A masterwork weapon's shimmer in the hand (staged close-up, v0.17.0)."><img src="/images/shimmer-v017.webp" alt="A masterwork weapon's shimmer in the hand (staged close-up, v0.17.0)." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>A masterwork weapon's shimmer in the hand (staged close-up, v0.17.0).</figcaption></figure></div>
 

@@ -2,13 +2,13 @@
 title: "The Skerries, the coracle and treasure"
 description: "Four islands out in the sea, the boat that reaches them, the sea wind, chests by land and flotsam."
 verification: verified
-sources: ["Assets/Scripts/World/WorldIsles.cs", "Assets/Scripts/World/Isles.cs", "Assets/Scripts/Player/Coracle.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/World/LootChest.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/World/WorldBuilder.cs", "CHANGELOG.md"]
+sources: ["Assets/Scripts/World/WorldIsles.cs", "Assets/Scripts/World/Isles.cs", "Assets/Scripts/Player/Coracle.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/World/LootChest.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/World/WorldBuilder.cs", "CHANGELOG.md", "Assets/Scripts/World/Lands.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/coracle-v025.webp" aria-label="Open full-size image: Paddling a coracle out over the sea (v0.25.0)."><img src="/images/coracle-v025.webp" alt="A hero sitting in a round hide coracle on dark blue water, paddle in hand, with the sun's reflection running across the sea." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Paddling a coracle out over the sea (v0.25.0).</figcaption></figure><figure><a href="/images/skerries-strand-v025.webp" aria-label="Open full-size image: Stepping ashore on Selkie Strand (v0.25.0)."><img src="/images/skerries-strand-v025.webp" alt="A hero on the pebbly beach of Selkie Strand, surf lines on the water, a sea stack and the wooded coast of the Vale in the distance." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Stepping ashore on Selkie Strand (v0.25.0).</figcaption></figure></div>
 
 Since **v0.25.0** four islands lie out in the corners of the sea, beyond wading depth, with eight bare sea stacks
-between them. Together they are **the Skerries**: a land of their own (danger 3) with their own finds, chests and
+between them. Together they are **the Skerries**: a land of their own (danger tier 4 since v0.27.0, the hardest with the Highlands; it was 3) with their own finds, chests and
 weather. The channels to them are several metres deep, so you need a boat.
 
 ## The islands
@@ -42,7 +42,7 @@ It is a round hide boat that you carry in your bag (you can only carry one).
 ## The sea wind
 
 Afloat, or anywhere on the Skerries, nights, rain and storms chill you (**Cold**: slower breath, no healing). In a storm
-you **freeze** when you are afloat or soaked. A **Fur Mantle**, a **Warming Draught** or the **Selkie's Pearl** keeps
+you **freeze** when you are afloat or soaked, and since v0.27.0 freezing can kill (except on Easy). A **Fur Mantle**, a **Warming Draught** or the **Selkie's Pearl** keeps
 the sea wind off; a bowl of bone broth makes it one step milder. By day in fair weather the crossing is safe.
 
 ## Finds of the islands

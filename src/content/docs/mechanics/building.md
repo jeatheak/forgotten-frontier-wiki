@@ -62,7 +62,7 @@ For a hut of a single square, the **Ridge Roof** is a whole steep roof in one pi
 
 The **tanning rack** may stand under a roof since v0.19, and needs one in bad weather: hides on a rack out in the rain do not cure until the rain stops.
 
-Building draws materials from **your satchel and household chests**. The panel shows the combined amount. Removing a piece refunds its material cost: into your satchel, then into the chests if the satchel is full, and whatever is left is set down beside you.
+Building draws materials from **your satchel and household chests**. The panel shows the combined amount. Removing a piece refunds its material cost: into your satchel, then into the chests if the satchel is full, and whatever is left is set down beside you. Since v0.27.0 a piece that saved you a material when you placed it (the Building skill's "Saved 1 ...") gives back one less of it, and placing a piece where one was taken down in the last two minutes teaches no Building or Smithing (placing and taking down again made materials and free practice). Pieces from before you loaded the game give back their whole cost.
 
 Since v0.20, the piece grid scrolls within the screen while the description and cost stay visible. On a controller,
 selecting a piece scrolls it into view. A **Chest** costs **10 Wood**, without flint. A **Woodpile** costs **100 Wood**;

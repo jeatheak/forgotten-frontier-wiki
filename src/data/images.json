@@ -1181,5 +1181,12 @@
     "version": "0.26.0",
     "alt": "A log hut without a roof: a see-through blue roof slope waits over it, and the front wall it is aimed at shows a pale blue support colour over its logs.",
     "caption": "Build mode in v0.26.0: the aimed wall in its support colour (blue: well carried) under a Roof Slope ready to place (headless editor capture)."
+  },
+  {
+    "path": "/images/hunted-v027.webp",
+    "source": "Screens/wiki/v027/hunted.webp",
+    "version": "0.27.0",
+    "alt": "A hero under a pine in the blue-green Elderwood. A message at the top reads: Something has your scent. Stalkers are coming from the north-east. Beside the place name, three skulls, Deadly, and in red: your armour is thin here.",
+    "caption": "A hunting pack picks up the hero's scent in the Elderwood (v0.27.0 development build, autotest capture)."
   }
 ]

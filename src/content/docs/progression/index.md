@@ -2,7 +2,7 @@
 title: "The journey and new sagas"
 description: "From the first home to the Beacon and beyond."
 verification: verified
-sources: ["Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/Core/Difficulty.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/World/KeepersSeal.cs", "Assets/Scripts/World/Echo.cs", "CHANGELOG.md"]
+sources: ["Assets/Scripts/Core/GameManager.cs", "Assets/Scripts/Core/Difficulty.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/World/KeepersSeal.cs", "Assets/Scripts/World/Echo.cs", "CHANGELOG.md", "Assets/Scripts/UI/HudView.cs", "Assets/Scripts/Player/PlayerController.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/homestead-v016.webp" aria-label="Open full-size image: From the first fire…"><img src="/images/homestead-v016.webp" alt="From the first fire…" width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>From the first fire…</figcaption></figure><figure><a href="/images/courtyard-v016.webp" aria-label="Open full-size image: …to the Forgotten Courtyard and the Guardian."><img src="/images/courtyard-v016.webp" alt="…to the Forgotten Courtyard and the Guardian." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>…to the Forgotten Courtyard and the Guardian.</figcaption></figure></div>
@@ -37,6 +37,6 @@ Defeat the Ancient Guardian in the Forgotten Courtyard and use the **Guardian's 
 
 Keep exploring your current Vale, or start a **new saga** in a fresh world. Restart at the same difficulty with a minor perk, or one step harder with a major perk. The Beacon offers this choice when revisited. In online co-op, begin new sagas in your hero's own Vale.
 
-Perks accumulate across sagas, each once. Examples include extra health or stamina, faster movement, increased skill gain, better crafting and Second Wind. A set of three unowned perks is offered from the relevant pool.
+Perks accumulate across sagas, each once. Examples include extra health or stamina, faster movement, increased skill gain, better crafting and Second Wind (since v0.27.0 each hero's own, with the status line showing whether it is ready or spent until dawn). A set of three unowned perks is offered from the relevant pool.
 
 [Difficulty and death](/mechanics/difficulty/) · [Lore](/lore/) · [Echoes](/runes/)

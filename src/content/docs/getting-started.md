@@ -2,7 +2,7 @@
 title: "Your first day"
 description: "Start a hero, gather supplies, craft tools and survive your first expedition."
 verification: verified
-sources: ["Assets/Scripts/World/Crafting.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/Core/Guide.cs", "CHANGELOG.md", "Assets/Scripts/World/WorldWater.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Player/BuildSystem.cs"]
+sources: ["Assets/Scripts/World/Crafting.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/Core/Guide.cs", "CHANGELOG.md", "Assets/Scripts/World/WorldWater.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Stations.cs", "Assets/Scripts/Player/BuildSystem.cs", "Assets/Scripts/World/Lands.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/homestead-v016.webp" aria-label="Open full-size image: Your journey begins beside the homestead campfire."><img src="/images/homestead-v016.webp" alt="Your journey begins beside the homestead campfire." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Your journey begins beside the homestead campfire.</figcaption></figure><figure><a href="/images/inventory-v016.webp" aria-label="Open full-size image: The satchel, equipment slots and hotbar in v0.16.0."><img src="/images/inventory-v016.webp" alt="The satchel, equipment slots and hotbar in v0.16.0." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The satchel, equipment slots and hotbar in v0.16.0.</figcaption></figure></div>
@@ -13,7 +13,7 @@ Choose a hero slot on the title screen and create your wanderer. Choose difficul
 2. Make a **Flint Axe** by hand (3 wood, 3 flint). It cuts birch and pine. A **Club** costs 5 wood.
 3. A **Torch** costs 2 wood and 1 pine resin by hand. It lights the dark while held, wears down as it burns, and can be repaired at a workbench.
 4. Build a workbench to craft a **Stone Pickaxe** (3 wood, 4 stone, 2 flint). Work towards better tools, weapons and protective gear.
-5. Cook meat at a fire and carry healing supplies. Food improves your stamina and recovery; a healing draught restores health.
+5. Cook meat at a fire and carry healing supplies. Food improves your stamina and recovery; a healing draught restores health. Out in the outer lands wounds hardly close on their own (since v0.27.0), so eat before you set out.
 6. Build and claim your own bed under shelter; sleeping through the night grants Rested (from v0.24.0, furniture near
    the bed adds [comfort](/mechanics/building/#comfort) and makes it last longer). A chest costs 10 wood and no flint. Watch a creature's wind-up (ground attack warnings are off by default; Settings > Gameplay turns them on), save stamina for evasion (or block with a weapon), and return to prepare before pushing into dangerous regions.
 7. When the satchel fills up, take what the land gives to **Orm the Peddler** by the Birchwood road, west of the old ruins. He pays in silver and sells a bigger satchel.
