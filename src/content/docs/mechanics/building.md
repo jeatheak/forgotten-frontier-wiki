@@ -48,7 +48,13 @@ Buildings use structural support. Floors, walls, roofs and stairs let you build 
 
 From v0.24.0 the built piece you aim at in build mode takes on its **support colour**, as in Valheim:
 blue-green when it is well carried, through green and yellow to red close to failing. Nothing can be placed where a hero
-is standing ("Someone is standing there").
+is standing ("Someone is standing there"). In v0.24.0 and v0.25.0 an aimed wall or roof could vanish from view while
+you aimed at it (for example a roof aimed at a wall that already had one); from v0.26.0 the support colour is a thin
+see-through layer over the piece.
+
+![A log hut without a roof: a see-through blue roof slope waits over it, and the front wall it is aimed at shows a pale blue support colour over its logs.](/images/build-tint-v026.webp)
+
+*Build mode in v0.26.0: the aimed wall in its support colour (blue: well carried) under a Roof Slope ready to place (headless editor capture).*
 
 ## Roofs
 

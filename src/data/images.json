@@ -1174,5 +1174,12 @@
     "version": "0.25.0",
     "alt": "Selkie's Pearl equipment icon rendered from the game model.",
     "caption": "Selkie's Pearl — in-game equipment icon, v0.25.0."
+  },
+  {
+    "path": "/images/build-tint-v026.webp",
+    "source": "Screens/wiki/v026/build-tint.webp",
+    "version": "0.26.0",
+    "alt": "A log hut without a roof: a see-through blue roof slope waits over it, and the front wall it is aimed at shows a pale blue support colour over its logs.",
+    "caption": "Build mode in v0.26.0: the aimed wall in its support colour (blue: well carried) under a Roof Slope ready to place (headless editor capture)."
   }
 ]

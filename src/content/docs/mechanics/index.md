@@ -11,6 +11,21 @@ Health keeps you alive; stamina pays for strenuous actions, attacks and evasions
 
 Watch a creature's windup, evade or block the committed attack, then use its recovery window. Stagger and Exposed states create openings. The spear and blades support weapon arts. Relics add further abilities.
 
+## Moving and swinging
+
+*Changed in v0.26.0, after a closer look at how Valheim moves its players.*
+
+You **jog at 4.8 m/s** and **sprint at 7 m/s**; Running practice adds up to 12% to the sprint, and sprinting drains
+10 stamina a second. Stalkers and spiders run faster than a jog but slower than a sprint. Movement has momentum: you
+take about a fifth of a second to reach a jog and a little longer to stop, and a run turns in a curve, wider the faster
+you go. Turning right round at a sprint brakes first. A **jump** rises about 1.45 m; out of breath you only hop. A
+drop of up to 4 m is free.
+
+A swing goes for the creature most in front of you: the way you push the stick or keys, or with no direction held,
+where the camera looks. It keeps turning after that creature through the wind-up and the blow, and it strikes through
+the whole of the swing, so a creature that steps in a moment late is still hit. A blow reaches a creature's body, not
+only its middle: the flank of a big beast counts.
+
 ## Sneaking and damage types
 
 *New in v0.24.0.*
@@ -126,7 +141,7 @@ Raise the guard **just as the blow lands** (within a quarter of a second) to **p
 
 <div class="gallery-grid"><figure><a href="/images/guard-v017.webp" aria-label="Open full-size image: Guarding with a club (staged close-up, v0.17.0)."><img src="/images/guard-v017.webp" alt="Guarding with a club (staged close-up, v0.17.0)." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>Guarding with a club (staged close-up, v0.17.0).</figcaption></figure><figure><a href="/images/shimmer-v017.webp" aria-label="Open full-size image: A masterwork weapon's shimmer in the hand (staged close-up, v0.17.0)."><img src="/images/shimmer-v017.webp" alt="A masterwork weapon's shimmer in the hand (staged close-up, v0.17.0)." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>A masterwork weapon's shimmer in the hand (staged close-up, v0.17.0).</figcaption></figure></div>
 
-**Dash Strike** is not known at the start: it is learned once any fighting skill (Unarmed, Clubs, Spears, Blades or Archery) reaches **10**. It then sits on **F** (LB) with a 4-second cooldown.
+**Dash Strike** is not known at the start: it is learned once any fighting skill (Unarmed, Clubs, Spears, Blades or Archery) reaches **10**. It then sits on **F** (LB) with a 4-second cooldown. From v0.26.0 it costs **20 stamina** (less with practice in the weapon in hand), is refused when you have less, and carries you about 4.5 m (it was free and went 7.5 m). The blades' **Shadow Step** costs 22 stamina (less with practice) and needs all of it to start; heavy attacks and weapon arts likewise need their whole stamina cost, while a light swing starts on less.
 
 Good, Fine and Masterwork **weapons** shimmer in the hand in their quality colour; tools and armour do not. Buffs show faintly on the hero: honed, rested, each tonic and the Gale and Ember relics.
 
