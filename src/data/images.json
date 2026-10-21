@@ -1188,5 +1188,110 @@
     "version": "0.27.0",
     "alt": "A hero under a pine in the blue-green Elderwood. A message at the top reads: Something has your scent. Stalkers are coming from the north-east. Beside the place name, three skulls, Deadly, and in red: your armour is thin here.",
     "caption": "A hunting pack picks up the hero's scent in the Elderwood (v0.27.0 development build, autotest capture)."
+  },
+  {
+    "path": "/images/underhearth-overlook-v028.webp",
+    "source": "Screens/wiki/v028/underhearth-overlook-v028.webp",
+    "version": "0.28.0",
+    "alt": "A hero on a dark ledge looks out over a forest of glowing blue and violet mushrooms; beyond black spires a huge red glow hangs low in a violet sky, and a keep hangs upside down from the dark above.",
+    "caption": "The first sight of the Underhearth from the Overlook, v0.28.0 source (editor camera capture)."
+  },
+  {
+    "path": "/images/underhearth-wilds-v028.webp",
+    "source": "Screens/wiki/v028/underhearth-wilds-v028.webp",
+    "version": "0.28.0",
+    "alt": "A hero among giant mushrooms with glowing undersides and twisted trees with turquoise and red leaves, under a violet sky.",
+    "caption": "Glowcaps and gloomtrees in the Ashen Wilds, v0.28.0 source (editor camera capture)."
+  },
+  {
+    "path": "/images/underhearth-tunnel-v028.webp",
+    "source": "Screens/wiki/v028/underhearth-tunnel-v028.webp",
+    "version": "0.28.0",
+    "alt": "A hero in a dark rock tunnel; a cold blue rune lamp glows on the left and faint lights hang deeper in.",
+    "caption": "The tunnel at the head of the descent, v0.28.0 source (editor camera capture)."
+  },
+  {
+    "path": "/images/underhearth-lava-v028.webp",
+    "source": "Screens/wiki/v028/underhearth-lava-v028.webp",
+    "version": "0.28.0",
+    "alt": "A river of lava cracked into black crust plates with orange seams, below a bank of glowing mushrooms.",
+    "caption": "A lava river with crusted plates, v0.28.0 source (editor camera capture)."
+  },
+  {
+    "path": "/images/icons/obsidian.png",
+    "source": "Screens/wiki/icons/Obsidian.png",
+    "version": "0.28.0",
+    "alt": "Obsidian inventory icon rendered from the game model.",
+    "caption": "Obsidian — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/emberore.png",
+    "source": "Screens/wiki/icons/EmberOre.png",
+    "version": "0.28.0",
+    "alt": "Ember Ore inventory icon rendered from the game model.",
+    "caption": "Ember Ore — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/brimstone.png",
+    "source": "Screens/wiki/icons/Brimstone.png",
+    "version": "0.28.0",
+    "alt": "Brimstone inventory icon rendered from the game model.",
+    "caption": "Brimstone — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/glowcap.png",
+    "source": "Screens/wiki/icons/Glowcap.png",
+    "version": "0.28.0",
+    "alt": "Glowcap inventory icon rendered from the game model.",
+    "caption": "Glowcap — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/emberwood.png",
+    "source": "Screens/wiki/icons/Emberwood.png",
+    "version": "0.28.0",
+    "alt": "Emberwood inventory icon rendered from the game model.",
+    "caption": "Emberwood — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/ashpelt.png",
+    "source": "Screens/wiki/icons/AshPelt.png",
+    "version": "0.28.0",
+    "alt": "Ash Pelt inventory icon rendered from the game model.",
+    "caption": "Ash Pelt — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/ashhoundtrophy.png",
+    "source": "Screens/wiki/icons/AshhoundTrophy.png",
+    "version": "0.28.0",
+    "alt": "Ashhound Trophy inventory icon rendered from the game model.",
+    "caption": "Ashhound Trophy — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/kindledtrophy.png",
+    "source": "Screens/wiki/icons/KindledTrophy.png",
+    "version": "0.28.0",
+    "alt": "Kindled Trophy inventory icon rendered from the game model.",
+    "caption": "Kindled Trophy — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/glowcapbroth.png",
+    "source": "Screens/wiki/icons/GlowcapBroth.png",
+    "version": "0.28.0",
+    "alt": "Glowcap Broth inventory icon rendered from the game model.",
+    "caption": "Glowcap Broth — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/frostdraught.png",
+    "source": "Screens/wiki/icons/FrostDraught.png",
+    "version": "0.28.0",
+    "alt": "Frostlichen Draught inventory icon rendered from the game model.",
+    "caption": "Frostlichen Draught — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/arrowobsidian.png",
+    "source": "Screens/wiki/icons/ArrowObsidian.png",
+    "version": "0.28.0",
+    "alt": "Obsidian Arrows inventory icon rendered from the game model.",
+    "caption": "Obsidian Arrows — in-game inventory icon, v0.28.0 source."
   }
 ]

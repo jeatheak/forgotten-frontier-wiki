@@ -1185,6 +1185,72 @@
       "name": "Egg Bannock",
       "image": "/images/icons/eggbannock.png",
       "page": "equipment/items/egg-bannock"
+    },
+    {
+      "key": "Obsidian",
+      "name": "Obsidian",
+      "image": "/images/icons/obsidian.png",
+      "page": "equipment/items/obsidian"
+    },
+    {
+      "key": "EmberOre",
+      "name": "Ember Ore",
+      "image": "/images/icons/emberore.png",
+      "page": "equipment/items/ember-ore"
+    },
+    {
+      "key": "Brimstone",
+      "name": "Brimstone",
+      "image": "/images/icons/brimstone.png",
+      "page": "equipment/items/brimstone"
+    },
+    {
+      "key": "Glowcap",
+      "name": "Glowcap",
+      "image": "/images/icons/glowcap.png",
+      "page": "equipment/items/glowcap"
+    },
+    {
+      "key": "Emberwood",
+      "name": "Emberwood",
+      "image": "/images/icons/emberwood.png",
+      "page": "equipment/items/emberwood"
+    },
+    {
+      "key": "AshPelt",
+      "name": "Ash Pelt",
+      "image": "/images/icons/ashpelt.png",
+      "page": "equipment/items/ash-pelt"
+    },
+    {
+      "key": "AshhoundTrophy",
+      "name": "Ashhound Trophy",
+      "image": "/images/icons/ashhoundtrophy.png",
+      "page": "equipment/items/ashhound-trophy"
+    },
+    {
+      "key": "KindledTrophy",
+      "name": "Kindled Trophy",
+      "image": "/images/icons/kindledtrophy.png",
+      "page": "equipment/items/kindled-trophy"
+    },
+    {
+      "key": "GlowcapBroth",
+      "name": "Glowcap Broth",
+      "image": "/images/icons/glowcapbroth.png",
+      "page": "equipment/items/glowcap-broth"
+    },
+    {
+      "key": "FrostDraught",
+      "name": "Frostlichen Draught",
+      "image": "/images/icons/frostdraught.png",
+      "page": "equipment/items/frost-draught"
+    },
+    {
+      "key": "ArrowObsidian",
+      "name": "Obsidian Arrows",
+      "image": "/images/icons/arrowobsidian.png",
+      "page": "equipment/items/arrow-obsidian"
     }
   ],
   "stations": [

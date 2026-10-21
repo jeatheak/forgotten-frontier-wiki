@@ -22,6 +22,7 @@ keep the base values (the Frontier's creatures are higher levels instead).
 | The Mire | 3 · Deadly | ×1.65 health, ×1.45 damage | Bogwalker's Balm against venom and webs; hunting packs |
 | Stoneteeth Highlands | 4 · Merciless | ×1.9 health, ×1.65 damage | About 27 armour (iron), warmth against freezing, food; hunting packs |
 | The Skerries | 4 · Merciless | ×1.9 health, ×1.65 damage | A [coracle](/world/skerries/#the-coracle); warmth against the sea wind |
+| The Ashen Wilds | 4 · Merciless | ×1.9 health, ×1.65 damage (its creatures are tougher kinds to begin with) | Current source, not released: the first land of [the Underhearth](/world/underhearth/), below the Vale. Something against the heat (Glowcap Broth, Frostlichen Draught), an iron pickaxe and axe for its finds |
 
 Outer-land creatures also have more poise (×1.15 / ×1.25 / ×1.35 by tier), notice you from further (×1.15 / ×1.25 /
 ×1.3), move a little faster (×1.05 / ×1.08 / ×1.1), are elites more often (×1.6 / ×2.1 / ×2.5) and follow you further
@@ -40,7 +41,7 @@ below what the land asks for (8 in tier 2, 17 in tier 3, 27 in tier 4) the HUD s
 - **Packs everywhere.** Besides the old haunts, packs stand about every 50-60 m deep inside Birchwood, Elderwood, the
   Mire and the Highlands, with the land's own creatures: Stalkers and Chargers, the dead in the Elderwood (by day too)
   and spiders in the Mire. About half of the Stalker packs **roam** a loop of 35-55 m.
-- **Hunting packs.** Linger in Elderwood, the Mire or the Highlands (or in Birchwood at night) and a pack picks up your
+- **Hunting packs.** Linger in Elderwood, the Mire or the Highlands (or in Birchwood at night; in the current source also the Ashen Wilds below) and a pack picks up your
   scent: two or three of the land's creatures come for you from 40-55 m away, out of sight, and a message says from
   which direction. On Normal it takes about three to five minutes out there, less at night and in the Highlands;
   Easy hunts less often, Hard more often, Builder never. Under a roof or by a fire the scent goes cold. A hunting pack

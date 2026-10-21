@@ -15,6 +15,11 @@ Each creature has its own reference page with health by level and difficulty, at
 | Mire Spider | Keeps distance, spits slowing webs and darts in to bite. Higher-level spiders are Bog Weavers. Carry Bogwalker's Balm. Every spider carries spider silk. |
 | Greyhorn | Grazing herd animal with bull variants. Hunt with care; an old bull is more dangerous than ordinary prey. |
 
+In the current source (v0.28.0, not released yet) the Underhearth's Ashen Wilds have three creatures of their own: the
+**Ashhound** (a fireproof pack hunter of the ash), **the Kindled** (burning dead who set you alight and burst into flame
+when they fall) and the **Ashhorn** (a great grazer that leaves you alone unless hurt). They have no reference pages
+yet; see [the Underhearth](/world/underhearth/#creatures).
+
 Creatures in the outer lands (the four outer regions, the coast and, since v0.25.0, the Skerries) are tougher than in the Vale, by their land's [danger tier](/biomes/) (since v0.27.0: from ×1.35 health and ×1.25 damage in Birchwood to ×1.9 and ×1.65 in the Highlands and the Skerries; more elites, bigger packs, and they follow further). The deep lands also send [hunting packs](/biomes/#packs-hunts-and-pursuit) after a hero who lingers. At night the drowned (Hollows) rise on the beach of Wrecker's Holm. Barrow Hollows and Hollow Thanes are stronger Hollow variants. Crypts have their own defenders, including wardens. Elite creatures carry additional modifiers; read their names and warnings rather than treating them as ordinary encounters.
 
 From v0.24.0 creatures see ahead and hear all round, so a hero who sneaks can strike first for triple
