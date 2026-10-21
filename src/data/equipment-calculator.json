@@ -781,6 +781,58 @@
       "image": "/images/icons/gear-charm-amber.png"
     },
     {
+      "id": "gear:charm_opal",
+      "kind": "gear",
+      "key": "charm_opal",
+      "name": "Fire Opal Charm",
+      "description": "A fire opal in a cage of blackened iron. The Underhearth's heat sits a step further off, burning goes out twice as fast, and breath comes 5% quicker.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "FireOpal",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 3,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-opal",
+      "image": "/images/icons/gear-charm-opal.png"
+    },
+    {
+      "id": "gear:charm_slag",
+      "kind": "gear",
+      "key": "charm_slag",
+      "name": "Slag Charm",
+      "description": "A knuckle of a Slagback's slag hide on an iron ring. Your blows land like its charge: +35% stagger, +6% damage.",
+      "gearKind": "Charm",
+      "upgradable": false,
+      "slot": "Charm",
+      "material": "SlagbackTrophy",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 3,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 1
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/charm-slag",
+      "image": "/images/icons/gear-charm-slag.png"
+    },
+    {
       "id": "gear:charm_pearl",
       "kind": "gear",
       "key": "charm_pearl",
@@ -1251,6 +1303,24 @@
       "name": "Obsidian Arrows",
       "image": "/images/icons/arrowobsidian.png",
       "page": "equipment/items/arrow-obsidian"
+    },
+    {
+      "key": "FireOpal",
+      "name": "Fire Opal",
+      "image": "/images/icons/fireopal.png",
+      "page": "equipment/items/fire-opal"
+    },
+    {
+      "key": "SlagbackTrophy",
+      "name": "Slagback Trophy",
+      "image": "/images/icons/slagbacktrophy.png",
+      "page": "equipment/items/slagback-trophy"
+    },
+    {
+      "key": "CrawlerTrophy",
+      "name": "Cinder Crawler Trophy",
+      "image": "/images/icons/crawlertrophy.png",
+      "page": "equipment/items/crawler-trophy"
     }
   ],
   "stations": [

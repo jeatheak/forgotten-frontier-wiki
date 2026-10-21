@@ -2,25 +2,25 @@
   "about.md": {
     "contentHash": "c2277decb5b9e648ac5fdf28209a4c1228879f185da082a25a149c6ae66a86ba",
     "sources": {
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011"
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45"
     }
   },
   "biomes/index.md": {
-    "contentHash": "304f043f1b345e1da04adf5eb1cd86e4ae7a71ddceebfdf13664f644f7cd5ef9",
+    "contentHash": "25fee3d61f37e075f89f50a00667efeced794a0431e3d3ae40bf42731fb640a3",
     "sources": {
       "Assets/Scripts/World/WorldIsles.cs": "4aead2970ff234156dd7563d48b9fa37b16d5d9b2c9d8d02e3b61df2383fc0d5",
-      "Assets/Scripts/World/BiomeAir.cs": "3cd4a22bb630aae6f9208b64dd27f38e68b004cfe089b273b113cfc9a74b717c",
-      "Assets/Scripts/World/WorldGen.cs": "6a4c5dc5feb9fd42f516e59335053879a20fb1c8b2be00534ee8ae9842b70626",
-      "Assets/Scripts/World/WorldStreamer.cs": "35d60a49ad7035c99ba082de9076fba0a0f6ad8a21c9be74030df4790e7d1aaf",
-      "Assets/Scripts/World/Gathering.cs": "36ba4590bdd702a305f317fea8d41d417f4de4a5df54efddd0912a929e618a40",
-      "Assets/Scripts/Enemies/Enemy.cs": "fc84c6a22e158a5607cbf088845a5028304ab541ec407ce1d7ece3efe3dc4afe",
+      "Assets/Scripts/World/BiomeAir.cs": "9c97b7dc50fca17958f3e7b04d859e973060fa787628c34b5e2a33368ca78928",
+      "Assets/Scripts/World/WorldGen.cs": "6165f900cfeb0d74dd9804663087762f75253cd61969533f1f94b87e8e39ac16",
+      "Assets/Scripts/World/WorldStreamer.cs": "12fc58b1d072e1e30163e85a8d68cd2165c79e0e42de8cbfde825cc496d11ce3",
+      "Assets/Scripts/World/Gathering.cs": "8c1e73d72816bb366af6dae76a94a91fc400b0b03f60cd1015e06ce49a720051",
+      "Assets/Scripts/Enemies/Enemy.cs": "1ad84fb4ff41b70f7b87b9d994d1ff0e732d8d8aae00611b4b2446df9a9955bd",
       "Assets/Scripts/Enemies/EnemySpawner.cs": "9de199170810304428a2675b7c4cb53e0fe482cfa0e4f264059ec2e21d5cc13b",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
-      "Assets/Scripts/Core/Items.cs": "995627a18d3d699c099d3dc9ce80fe9ec94c2c012e893b590e859ac35ebe23eb",
-      "Assets/Scripts/Core/Gear.cs": "2168910430e485fb398ed2e3280b379c6c58b75d3ead42a706bc464a6aa0c17f",
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e",
+      "Assets/Scripts/Core/Items.cs": "0032323a3399ee6ca074523c0138f2b5c6353b8643d36d56827afb6ef143839c",
+      "Assets/Scripts/Core/Gear.cs": "76807a6c5e2b48c9f3d114bd4798c9dab5ad7f3470fae00c43a420220dff384c",
       "Assets/Scripts/World/WorldWater.cs": "e6e1361a88ba442ae288b91622bdb1cc330ad28e6a12d93bc0a257a0a14ab6f4",
-      "Assets/Scripts/World/Lands.cs": "4a7bcf8b61745d591daab1b4e0e9338423992a17866c2e44dc4a4ac8cccb2bda",
-      "Assets/Scripts/Enemies/Hunts.cs": "922de7fe25607f506171f51b69be8ec6572383ed86cd66bfb5c51cf09871ded7",
+      "Assets/Scripts/World/Lands.cs": "5461a3365f6d03bd79e91e2d97a2a18c1c1f6ae6b0c6ea2dc2364136dde50e0b",
+      "Assets/Scripts/Enemies/Hunts.cs": "43a1754dca38b023b7d8b0e5a6bdd04f491e2c954324f889f8106186b5edbe40",
       "Assets/Scripts/World/WorldBuilder.cs": "67c1af03f76130b697dd5dfc4284fe5205c5148c1bedad02d3f8dedbbeb91269"
     }
   },
@@ -34,32 +34,32 @@
   "crafting/index.md": {
     "contentHash": "8affe98d369239622e4b15e44c715467467f6df6d2c95b2c54fb4743e2c5fec6",
     "sources": {
-      "Assets/Scripts/World/Crafting.cs": "e16a5b0d01a109007be5e93840f6c08be2417f6ba2d1008177919f6f9e0da028",
+      "Assets/Scripts/World/Crafting.cs": "6a92cabc0bf10453da0f9408bd9b17a8ade1381417ac7100355a6eec032fa0f1",
       "Assets/Scripts/World/Upgrades.cs": "660027b9dadbfead6198beef46ffe333418b944684c4aa2e1f6599987cef0e87",
       "Assets/Scripts/World/Stations.cs": "46170cc588c2d9c58bff0dc6c1c210fdfc46b21a8cecb51cec89172b0e1d17b2",
-      "Assets/Scripts/UI/GameMenuTabs.cs": "f77a198205505f6eced37fc0331ae1a8ba9c49eaf4337474aae455968925a476",
+      "Assets/Scripts/UI/GameMenuTabs.cs": "96defa72c0b4ae00f28f02d2bcdcf73633330cc3f0776dc51931ff7c2d7ee693",
       "Assets/Scripts/Player/PlayerCombat.cs": "62dc3f9fcf175b77af2787b85758d3a30f7554044c8c087ce4acf07dbde5e923",
       "Assets/Scripts/Player/ArrowShot.cs": "7cb08e7b9c8f9b18f94943b6557e60ca1c8304b159100a795985ca145ee17713"
     }
   },
   "creatures/index.md": {
-    "contentHash": "756a8c2ff55e3dc0be367df5bfc48c3344f1c605d32cdd44cfc62a00650dbf8f",
+    "contentHash": "9d740004e465b3f8512c93d6d1403c5a635cec4f15c70c27004e00826c85d4ed",
     "sources": {
       "Assets/Scripts/Enemies/Stalker.cs": "3c2b0693b905f4a5a305a78ae915484658b6060f03d6a13fdd8ec23d627b0d57",
       "Assets/Scripts/Enemies/Charger.cs": "1834124365439e170b5a23c183b4fde8cda5174d3b147f11924a43cdd7e08e5a",
       "Assets/Scripts/Enemies/Hollow.cs": "eafacf7f060c0577a4ee941bf2024304afe291dfd45ed017917e00c868c575d6",
       "Assets/Scripts/Enemies/Spider.cs": "6638f7001368045e4d10a7f2adaea281231c1f7b525d0962ed386d714467f42b",
       "Assets/Scripts/Enemies/Greyhorn.cs": "67f0d8ab4ce99364e1ff720d534022d31fb05c3d96f3f8893919e41c2f696eac",
-      "Assets/Scripts/Enemies/Enemy.cs": "fc84c6a22e158a5607cbf088845a5028304ab541ec407ce1d7ece3efe3dc4afe",
+      "Assets/Scripts/Enemies/Enemy.cs": "1ad84fb4ff41b70f7b87b9d994d1ff0e732d8d8aae00611b4b2446df9a9955bd",
       "Assets/Scripts/Enemies/EnemySpawner.cs": "9de199170810304428a2675b7c4cb53e0fe482cfa0e4f264059ec2e21d5cc13b",
       "Assets/Scripts/World/WorldBuilder.cs": "67c1af03f76130b697dd5dfc4284fe5205c5148c1bedad02d3f8dedbbeb91269",
-      "Assets/Scripts/World/Lands.cs": "4a7bcf8b61745d591daab1b4e0e9338423992a17866c2e44dc4a4ac8cccb2bda"
+      "Assets/Scripts/World/Lands.cs": "5461a3365f6d03bd79e91e2d97a2a18c1c1f6ae6b0c6ea2dc2364136dde50e0b"
     }
   },
   "equipment/index.md": {
     "contentHash": "e981a7da04a937b2a36cde4e252e054bfc3a04462a9450241c46b550b7fe0f01",
     "sources": {
-      "Assets/Scripts/Core/Gear.cs": "2168910430e485fb398ed2e3280b379c6c58b75d3ead42a706bc464a6aa0c17f",
+      "Assets/Scripts/Core/Gear.cs": "76807a6c5e2b48c9f3d114bd4798c9dab5ad7f3470fae00c43a420220dff384c",
       "Assets/Scripts/World/Upgrades.cs": "660027b9dadbfead6198beef46ffe333418b944684c4aa2e1f6599987cef0e87",
       "Assets/Scripts/Player/PlayerCombat.cs": "62dc3f9fcf175b77af2787b85758d3a30f7554044c8c087ce4acf07dbde5e923",
       "Assets/Scripts/Player/PlayerVisual.cs": "3e63240084ed1710f4d91e47344a9aa20741248f1bda8345f92b0ff23f4df9be",
@@ -70,36 +70,36 @@
   "getting-started.md": {
     "contentHash": "71d2ba616943b43eb2834c592a2a8eeff00f97bb9739777ca49caf6a11f71be5",
     "sources": {
-      "Assets/Scripts/World/Crafting.cs": "e16a5b0d01a109007be5e93840f6c08be2417f6ba2d1008177919f6f9e0da028",
-      "Assets/Scripts/World/Gathering.cs": "36ba4590bdd702a305f317fea8d41d417f4de4a5df54efddd0912a929e618a40",
-      "Assets/Scripts/Core/Items.cs": "995627a18d3d699c099d3dc9ce80fe9ec94c2c012e893b590e859ac35ebe23eb",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
+      "Assets/Scripts/World/Crafting.cs": "6a92cabc0bf10453da0f9408bd9b17a8ade1381417ac7100355a6eec032fa0f1",
+      "Assets/Scripts/World/Gathering.cs": "8c1e73d72816bb366af6dae76a94a91fc400b0b03f60cd1015e06ce49a720051",
+      "Assets/Scripts/Core/Items.cs": "0032323a3399ee6ca074523c0138f2b5c6353b8643d36d56827afb6ef143839c",
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e",
       "Assets/Scripts/World/Trader.cs": "d90d21ba855e5289ee8159f1656d4e9f25c6c2566a4ce8f2044478b1e4349e6a",
       "Assets/Scripts/Core/Guide.cs": "1d9fe3ea490e7aa5644cf7923ce5912db6caa4fe7275a1809c21f463c2849d85",
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
       "Assets/Scripts/World/WorldWater.cs": "e6e1361a88ba442ae288b91622bdb1cc330ad28e6a12d93bc0a257a0a14ab6f4",
-      "Assets/Scripts/World/WorldStreamer.cs": "35d60a49ad7035c99ba082de9076fba0a0f6ad8a21c9be74030df4790e7d1aaf",
+      "Assets/Scripts/World/WorldStreamer.cs": "12fc58b1d072e1e30163e85a8d68cd2165c79e0e42de8cbfde825cc496d11ce3",
       "Assets/Scripts/World/Stations.cs": "46170cc588c2d9c58bff0dc6c1c210fdfc46b21a8cecb51cec89172b0e1d17b2",
       "Assets/Scripts/Player/BuildSystem.cs": "652c762c66b028b60ac7046b0aae3372a612b98f502011381ee93054602f4969",
-      "Assets/Scripts/World/Lands.cs": "4a7bcf8b61745d591daab1b4e0e9338423992a17866c2e44dc4a4ac8cccb2bda"
+      "Assets/Scripts/World/Lands.cs": "5461a3365f6d03bd79e91e2d97a2a18c1c1f6ae6b0c6ea2dc2364136dde50e0b"
     }
   },
   "index.mdx": {
     "contentHash": "102ef819b5d528a634a4a708a861471c2ff08cb6a765399bbfda37c2f6170cf8",
     "sources": {
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
-      "Assets/Scripts/Core/GameManager.cs": "b69c1ddf27817b3a16dc235f24e0f0a9be37fbf0709e7381eee6113dda6e475e"
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
+      "Assets/Scripts/Core/GameManager.cs": "77b281c4796236e427eda2a3fbf05debd30e522d0e792a65dda5360a65e189f1"
     }
   },
   "lore/index.md": {
     "contentHash": "b258ddaa45bf332e563fd2a39b2884d80340a0ea6d5be4f2b53804399490cb86",
     "sources": {
-      "Assets/Scripts/Core/GameManager.cs": "b69c1ddf27817b3a16dc235f24e0f0a9be37fbf0709e7381eee6113dda6e475e",
+      "Assets/Scripts/Core/GameManager.cs": "77b281c4796236e427eda2a3fbf05debd30e522d0e792a65dda5360a65e189f1",
       "Assets/Scripts/World/Echo.cs": "a0327cdbe0fe6520c610190c4e09fe32ccfa34fde3d7b48bf61ad8a1d8426fcd",
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
-      "Assets/Scripts/World/Crafting.cs": "e16a5b0d01a109007be5e93840f6c08be2417f6ba2d1008177919f6f9e0da028",
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
+      "Assets/Scripts/World/Crafting.cs": "6a92cabc0bf10453da0f9408bd9b17a8ade1381417ac7100355a6eec032fa0f1",
       "Assets/Scripts/Core/Voice.cs": "6c71c12efa8d92adf3a331db91f70e1627ae18f515c642d12d469f08c0252a75",
-      "Assets/Scripts/UI/SettingsScreen.cs": "6c4a9617f78172a2444ebbacf47b4b5d3cbc8f790bd008f42a6c8e7e0d8088f3",
+      "Assets/Scripts/UI/SettingsScreen.cs": "b591a81af3ca111e7bdd4241b230e126a8f0f03af626ecb78b01f97250c2edca",
       "Assets/Scripts/World/KeepersSeal.cs": "4f335d55820ab8bff3e2561493c8571b0001ad76a7a3c0fdbc8fcfcc27c9963a"
     }
   },
@@ -109,18 +109,18 @@
       "Assets/Scripts/Player/BuildSystem.cs": "652c762c66b028b60ac7046b0aae3372a612b98f502011381ee93054602f4969",
       "Assets/Scripts/UI/HudView.cs": "0776f2220c8fbe5625f2b1c13b8b8e40b2058b1d7c9cfee9de89ab966fd3b5ef",
       "Assets/Scripts/UI/StorageScreen.cs": "49dcf039fd8d4f0d17524993c510df72bc303674231df67ffc77d4be73186c18",
-      "Assets/Scripts/Core/GameManager.cs": "b69c1ddf27817b3a16dc235f24e0f0a9be37fbf0709e7381eee6113dda6e475e",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
+      "Assets/Scripts/Core/GameManager.cs": "77b281c4796236e427eda2a3fbf05debd30e522d0e792a65dda5360a65e189f1",
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e",
       "Assets/Scripts/World/Ladder.cs": "41d74525bc3c625dd6e8da16eab1c4d5a3ecfc0508525848ee6b31835ddb9817",
       "Assets/Scripts/World/Stations.cs": "46170cc588c2d9c58bff0dc6c1c210fdfc46b21a8cecb51cec89172b0e1d17b2",
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
-      "Assets/Scripts/Core/Items.cs": "995627a18d3d699c099d3dc9ce80fe9ec94c2c012e893b590e859ac35ebe23eb",
-      "Assets/Scripts/Core/Gear.cs": "2168910430e485fb398ed2e3280b379c6c58b75d3ead42a706bc464a6aa0c17f",
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
+      "Assets/Scripts/Core/Items.cs": "0032323a3399ee6ca074523c0138f2b5c6353b8643d36d56827afb6ef143839c",
+      "Assets/Scripts/Core/Gear.cs": "76807a6c5e2b48c9f3d114bd4798c9dab5ad7f3470fae00c43a420220dff384c",
       "Assets/Scripts/Core/SaveSystem.cs": "17a4a37f4eb170a2da56450986a842f482de0d1b47f4dfe7d5cdfcacd87a3cd0"
     }
   },
   "mechanics/co-op.md": {
-    "contentHash": "8d87f365cb0342749a9a87316c0e2be33c7efe3598688537055149a5cf45be99",
+    "contentHash": "6f04fd76dde74687110e55004383c7d23573f8c3fcf70cc61fcbf07af978e974",
     "sources": {
       "Assets/Scripts/Net/NetSession.cs": "1681261e8e7281e1c1accda33c311f7363836839d30fcc3912bddc038b6b241f",
       "Assets/Scripts/Net/NetSession.World.cs": "d37a5c23bc08fc1ce9fb36a0898833b0b73fe033c019296db179949467aac0f8",
@@ -130,19 +130,19 @@
       "Assets/Scripts/Net/NetHud.cs": "d77a553a46f7c19f4a19db9198d233617791352e354ee14c6b8c1611bbd2bbfb",
       "Server/FFServer/GameServer.cs": "b7fd21d535dfbe5c76e2bafcafedc6e348e4c47e88417ad6808d3a06d5480f79",
       "Server/SERVER.md": "5b4f2e9b23e1aacdb341922b80dbe725028121126ae46aae581f4c6e35f7f2ca",
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
       "Assets/Scripts/UI/Screens.cs": "f1d073a12d32c304d019f1c4dfefcbb7725c0346e210f696e5f7c00ae872f720",
-      "Assets/Scripts/Core/Items.cs": "995627a18d3d699c099d3dc9ce80fe9ec94c2c012e893b590e859ac35ebe23eb",
-      "Assets/Scripts/Core/GameManager.cs": "b69c1ddf27817b3a16dc235f24e0f0a9be37fbf0709e7381eee6113dda6e475e",
+      "Assets/Scripts/Core/Items.cs": "0032323a3399ee6ca074523c0138f2b5c6353b8643d36d56827afb6ef143839c",
+      "Assets/Scripts/Core/GameManager.cs": "77b281c4796236e427eda2a3fbf05debd30e522d0e792a65dda5360a65e189f1",
       "Assets/Scripts/World/Crypt.cs": "084bb5b784e90aa1466630929ee1f904d0cae3a0916919643abb9b2bfd6ed9d0",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e",
       "Assets/Scripts/UI/JoinScreen.cs": "3841ca37cafb2d8e63e23385b2905ca8b1453be9daf97c8fbac87fa1202def37",
       "Assets/Scripts/Net/Shared/SaveTypes.cs": "fee2cea7baf5c916aed14102a078655ec28264b5cecf3555514b1557a852464f",
-      "Assets/Scripts/World/Crafting.cs": "e16a5b0d01a109007be5e93840f6c08be2417f6ba2d1008177919f6f9e0da028",
+      "Assets/Scripts/World/Crafting.cs": "6a92cabc0bf10453da0f9408bd9b17a8ade1381417ac7100355a6eec032fa0f1",
       "Assets/Scripts/World/Farming.cs": "c5fa025999374e315bf0c70ff90dcf4fdff6333187e5a4de94c57be1bceba29f",
       "Assets/Scripts/Player/BuildSystem.cs": "652c762c66b028b60ac7046b0aae3372a612b98f502011381ee93054602f4969",
       "Assets/Scripts/Net/NetSession.Enemies.cs": "65e8b5f7b3ec6cffe59c7a094b3922f191a8691d6053de3c75bf2b6f1ca35c8b",
-      "Assets/Scripts/Enemies/Hunts.cs": "922de7fe25607f506171f51b69be8ec6572383ed86cd66bfb5c51cf09871ded7"
+      "Assets/Scripts/Enemies/Hunts.cs": "43a1754dca38b023b7d8b0e5a6bdd04f491e2c954324f889f8106186b5edbe40"
     }
   },
   "mechanics/controls.md": {
@@ -150,18 +150,18 @@
     "sources": {
       "Assets/Scripts/Player/Coracle.cs": "37e4752381d5b843596b81cc59bcfe77b2b329ff89431b02e9e24ce56712aba6",
       "Assets/Scripts/Core/InputSource.cs": "057fb5f545a72b7df21672de103edf9c55c999c5e7c93e2c6e82bbd6e4784353",
-      "Assets/Scripts/Core/DevTools.cs": "4b79b391b822d948d839f7b0d64e3138da8fb7af852b06be9b2b47a4db6a7958",
-      "Assets/Scripts/UI/SettingsScreen.cs": "6c4a9617f78172a2444ebbacf47b4b5d3cbc8f790bd008f42a6c8e7e0d8088f3",
+      "Assets/Scripts/Core/DevTools.cs": "9149698a3dbdb6632eb55bcc1f744031fc58e01988ad9d4dcf4a376b6b2bc757",
+      "Assets/Scripts/UI/SettingsScreen.cs": "b591a81af3ca111e7bdd4241b230e126a8f0f03af626ecb78b01f97250c2edca",
       "Assets/Scripts/UI/UIKit.cs": "bbece9af9d5fc3dd606a663c87b0a776428064d062a5c9b9cf483ab992259bcc",
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
       "Assets/Scripts/Player/BuildSystem.cs": "652c762c66b028b60ac7046b0aae3372a612b98f502011381ee93054602f4969",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
-      "Assets/Scripts/Core/GameManager.cs": "b69c1ddf27817b3a16dc235f24e0f0a9be37fbf0709e7381eee6113dda6e475e",
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e",
+      "Assets/Scripts/Core/GameManager.cs": "77b281c4796236e427eda2a3fbf05debd30e522d0e792a65dda5360a65e189f1",
       "Assets/Scripts/World/Ladder.cs": "41d74525bc3c625dd6e8da16eab1c4d5a3ecfc0508525848ee6b31835ddb9817",
       "Assets/Scripts/UI/GameMenu.cs": "3d4c2471688ff3a5a73d7c1bff7be3a5b344f6d4ae053f780d87f7517813a126",
-      "Assets/Scripts/UI/GameMenuTabs.cs": "f77a198205505f6eced37fc0331ae1a8ba9c49eaf4337474aae455968925a476",
+      "Assets/Scripts/UI/GameMenuTabs.cs": "96defa72c0b4ae00f28f02d2bcdcf73633330cc3f0776dc51931ff7c2d7ee693",
       "Assets/Scripts/UI/StorageScreen.cs": "49dcf039fd8d4f0d17524993c510df72bc303674231df67ffc77d4be73186c18",
-      "Assets/Scripts/Core/Gear.cs": "2168910430e485fb398ed2e3280b379c6c58b75d3ead42a706bc464a6aa0c17f",
+      "Assets/Scripts/Core/Gear.cs": "76807a6c5e2b48c9f3d114bd4798c9dab5ad7f3470fae00c43a420220dff384c",
       "Assets/Scripts/Player/PlayerCombat.cs": "62dc3f9fcf175b77af2787b85758d3a30f7554044c8c087ce4acf07dbde5e923"
     }
   },
@@ -169,23 +169,23 @@
     "contentHash": "3569b25ff173bf94dc680aa8f40df9311e4c2ebf93fff5d3666d7edfe810228f",
     "sources": {
       "Assets/Scripts/Core/Difficulty.cs": "4b875dbeb95a6b6633d2c48d184eb20385bbe773650498704cdfeb6886240a6c",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
-      "Assets/Scripts/Enemies/Enemy.cs": "fc84c6a22e158a5607cbf088845a5028304ab541ec407ce1d7ece3efe3dc4afe",
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e",
+      "Assets/Scripts/Enemies/Enemy.cs": "1ad84fb4ff41b70f7b87b9d994d1ff0e732d8d8aae00611b4b2446df9a9955bd",
       "Server/SERVER.md": "5b4f2e9b23e1aacdb341922b80dbe725028121126ae46aae581f4c6e35f7f2ca",
       "Assets/Scripts/World/Interactables.cs": "a76109a0d4e2f43fb8047089ece600dc82c3ddebeb7a044fec36f32918654b76",
-      "Assets/Scripts/UI/GameMenuTabs.cs": "f77a198205505f6eced37fc0331ae1a8ba9c49eaf4337474aae455968925a476",
+      "Assets/Scripts/UI/GameMenuTabs.cs": "96defa72c0b4ae00f28f02d2bcdcf73633330cc3f0776dc51931ff7c2d7ee693",
       "Assets/Scripts/UI/HudView.cs": "0776f2220c8fbe5625f2b1c13b8b8e40b2058b1d7c9cfee9de89ab966fd3b5ef",
       "Assets/Scripts/Core/SaveSystem.cs": "17a4a37f4eb170a2da56450986a842f482de0d1b47f4dfe7d5cdfcacd87a3cd0",
-      "Assets/Scripts/World/Lands.cs": "4a7bcf8b61745d591daab1b4e0e9338423992a17866c2e44dc4a4ac8cccb2bda",
-      "Assets/Scripts/Enemies/Hunts.cs": "922de7fe25607f506171f51b69be8ec6572383ed86cd66bfb5c51cf09871ded7"
+      "Assets/Scripts/World/Lands.cs": "5461a3365f6d03bd79e91e2d97a2a18c1c1f6ae6b0c6ea2dc2364136dde50e0b",
+      "Assets/Scripts/Enemies/Hunts.cs": "43a1754dca38b023b7d8b0e5a6bdd04f491e2c954324f889f8106186b5edbe40"
     }
   },
   "mechanics/farming.md": {
     "contentHash": "2290ec8da07f112807af859eff72dcb0291bdb89a5b0bb355c354c8d618fc05b",
     "sources": {
       "Assets/Scripts/World/Farming.cs": "c5fa025999374e315bf0c70ff90dcf4fdff6333187e5a4de94c57be1bceba29f",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
-      "Assets/Scripts/World/DayNight.cs": "aecd50ad768ba9f0178d52b2f5599af15650bbd5c4216b52056bc409de495c79",
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e",
+      "Assets/Scripts/World/DayNight.cs": "67e588fd0bd9565d040bae388b9bf5c6247c724bfc5fd4c36bb7100c3178c114",
       "Assets/Scripts/Net/NetSession.World.cs": "d37a5c23bc08fc1ce9fb36a0898833b0b73fe033c019296db179949467aac0f8"
     }
   },
@@ -193,68 +193,68 @@
     "contentHash": "1300b26484480d700c7e99da0e565232cac9b0fe49ce1c6de5b5207a53db59fb",
     "sources": {
       "Assets/Scripts/World/LightLod.cs": "540bd0546343b2210b6360b73087228244691a82c9a0a86181a7187cb8d383ea",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e",
       "Assets/Scripts/Player/PlayerCombat.cs": "62dc3f9fcf175b77af2787b85758d3a30f7554044c8c087ce4acf07dbde5e923",
-      "Assets/Scripts/Enemies/Enemy.cs": "fc84c6a22e158a5607cbf088845a5028304ab541ec407ce1d7ece3efe3dc4afe",
+      "Assets/Scripts/Enemies/Enemy.cs": "1ad84fb4ff41b70f7b87b9d994d1ff0e732d8d8aae00611b4b2446df9a9955bd",
       "Assets/Scripts/Enemies/Spider.cs": "6638f7001368045e4d10a7f2adaea281231c1f7b525d0962ed386d714467f42b",
       "Assets/Scripts/Player/PlayerVisual.cs": "3e63240084ed1710f4d91e47344a9aa20741248f1bda8345f92b0ff23f4df9be",
       "Assets/Scripts/Core/Skills.cs": "147fde994ff14f0d402b29bdd93b78da7510606b3d8343359474a253bf15d6aa",
       "Assets/Scripts/Core/Guide.cs": "1d9fe3ea490e7aa5644cf7923ce5912db6caa4fe7275a1809c21f463c2849d85",
-      "Assets/Scripts/World/DayNight.cs": "aecd50ad768ba9f0178d52b2f5599af15650bbd5c4216b52056bc409de495c79",
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
+      "Assets/Scripts/World/DayNight.cs": "67e588fd0bd9565d040bae388b9bf5c6247c724bfc5fd4c36bb7100c3178c114",
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
       "Assets/Scripts/Enemies/Charger.cs": "1834124365439e170b5a23c183b4fde8cda5174d3b147f11924a43cdd7e08e5a",
-      "Assets/Scripts/Core/GameManager.cs": "b69c1ddf27817b3a16dc235f24e0f0a9be37fbf0709e7381eee6113dda6e475e",
+      "Assets/Scripts/Core/GameManager.cs": "77b281c4796236e427eda2a3fbf05debd30e522d0e792a65dda5360a65e189f1",
       "Assets/Scripts/World/Stations.cs": "46170cc588c2d9c58bff0dc6c1c210fdfc46b21a8cecb51cec89172b0e1d17b2",
-      "Assets/Scripts/Core/Gear.cs": "2168910430e485fb398ed2e3280b379c6c58b75d3ead42a706bc464a6aa0c17f",
+      "Assets/Scripts/Core/Gear.cs": "76807a6c5e2b48c9f3d114bd4798c9dab5ad7f3470fae00c43a420220dff384c",
       "Assets/Scripts/Player/ArrowShot.cs": "7cb08e7b9c8f9b18f94943b6557e60ca1c8304b159100a795985ca145ee17713",
       "Assets/Scripts/Enemies/Greyhorn.cs": "67f0d8ab4ce99364e1ff720d534022d31fb05c3d96f3f8893919e41c2f696eac",
       "Assets/Scripts/Player/BuildSystem.cs": "652c762c66b028b60ac7046b0aae3372a612b98f502011381ee93054602f4969",
       "Assets/Scripts/UI/HudView.cs": "0776f2220c8fbe5625f2b1c13b8b8e40b2058b1d7c9cfee9de89ab966fd3b5ef",
       "Assets/Scripts/Player/StealthLight.cs": "0f77b73a4f11ec2ffaa3865f5a63c623b50d3ceb7fe6968b69a1f135fa0b2f86",
       "Assets/Scripts/UI/UIRoot.cs": "d6f775ac963094ebd72bb4d596342e4ae2d2b39db5220a115a828d00788a33cc",
-      "Assets/Scripts/Core/Items.cs": "995627a18d3d699c099d3dc9ce80fe9ec94c2c012e893b590e859ac35ebe23eb",
+      "Assets/Scripts/Core/Items.cs": "0032323a3399ee6ca074523c0138f2b5c6353b8643d36d56827afb6ef143839c",
       "Assets/Scripts/Core/Settings.cs": "2f3a46ed4380d0e7bcbc98c9cef403948b26e0836890805f9ea6f2fd1e741b6d"
     }
   },
   "progression/index.md": {
-    "contentHash": "8af52fff8ac00549ebe7a24edfb3fed77c3cb271c967936bb6b4521816ce86c5",
+    "contentHash": "d46e59c8bd4e949510c11aa5284287b579121436b9497c081b523cfcc53c4b15",
     "sources": {
-      "Assets/Scripts/Core/GameManager.cs": "b69c1ddf27817b3a16dc235f24e0f0a9be37fbf0709e7381eee6113dda6e475e",
+      "Assets/Scripts/Core/GameManager.cs": "77b281c4796236e427eda2a3fbf05debd30e522d0e792a65dda5360a65e189f1",
       "Assets/Scripts/Core/Difficulty.cs": "4b875dbeb95a6b6633d2c48d184eb20385bbe773650498704cdfeb6886240a6c",
-      "Assets/Scripts/World/Crafting.cs": "e16a5b0d01a109007be5e93840f6c08be2417f6ba2d1008177919f6f9e0da028",
+      "Assets/Scripts/World/Crafting.cs": "6a92cabc0bf10453da0f9408bd9b17a8ade1381417ac7100355a6eec032fa0f1",
       "Assets/Scripts/Player/PlayerCombat.cs": "62dc3f9fcf175b77af2787b85758d3a30f7554044c8c087ce4acf07dbde5e923",
       "Assets/Scripts/World/Trader.cs": "d90d21ba855e5289ee8159f1656d4e9f25c6c2566a4ce8f2044478b1e4349e6a",
       "Assets/Scripts/World/KeepersSeal.cs": "4f335d55820ab8bff3e2561493c8571b0001ad76a7a3c0fdbc8fcfcc27c9963a",
       "Assets/Scripts/World/Echo.cs": "a0327cdbe0fe6520c610190c4e09fe32ccfa34fde3d7b48bf61ad8a1d8426fcd",
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
       "Assets/Scripts/UI/HudView.cs": "0776f2220c8fbe5625f2b1c13b8b8e40b2058b1d7c9cfee9de89ab966fd3b5ef",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f"
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e"
     }
   },
   "runes/index.md": {
     "contentHash": "c8eac74d17fc08107d7b62362141ad5b9fbdde9751109f2e8ea627fb7d3dab72",
     "sources": {
       "Assets/Scripts/World/Echo.cs": "a0327cdbe0fe6520c610190c4e09fe32ccfa34fde3d7b48bf61ad8a1d8426fcd",
-      "Assets/Scripts/World/Crafting.cs": "e16a5b0d01a109007be5e93840f6c08be2417f6ba2d1008177919f6f9e0da028",
+      "Assets/Scripts/World/Crafting.cs": "6a92cabc0bf10453da0f9408bd9b17a8ade1381417ac7100355a6eec032fa0f1",
       "Assets/Scripts/Player/PlayerCombat.cs": "62dc3f9fcf175b77af2787b85758d3a30f7554044c8c087ce4acf07dbde5e923",
       "Assets/Scripts/World/KeepersSeal.cs": "4f335d55820ab8bff3e2561493c8571b0001ad76a7a3c0fdbc8fcfcc27c9963a"
     }
   },
   "world/index.md": {
-    "contentHash": "c1c67da602fa2bdb1ac31f8da13f9aef92833cfdb23cce2af8a450c458b33f80",
+    "contentHash": "5a1fd844d2ea2817331760488e50ad1ea5a7dfdb8de15e6ab3d5c23908ef2526",
     "sources": {
       "Assets/Scripts/World/WorldIsles.cs": "4aead2970ff234156dd7563d48b9fa37b16d5d9b2c9d8d02e3b61df2383fc0d5",
-      "Assets/Scripts/World/LootChest.cs": "5bea16c9367bdf6894c59d86be7af545e3ee75beecd8bf5c3c7a9e292b9307b4",
-      "Assets/Scripts/World/WorldGen.cs": "6a4c5dc5feb9fd42f516e59335053879a20fb1c8b2be00534ee8ae9842b70626",
+      "Assets/Scripts/World/LootChest.cs": "af9260ecf481c55fea5ab6a3d0b5b1c5ac715bb76a17ceaefdcda759fbb62332",
+      "Assets/Scripts/World/WorldGen.cs": "6165f900cfeb0d74dd9804663087762f75253cd61969533f1f94b87e8e39ac16",
       "Assets/Scripts/World/WorldBuilder.cs": "67c1af03f76130b697dd5dfc4284fe5205c5148c1bedad02d3f8dedbbeb91269",
       "Assets/Scripts/World/WorldWater.cs": "e6e1361a88ba442ae288b91622bdb1cc330ad28e6a12d93bc0a257a0a14ab6f4",
-      "Assets/Scripts/World/WorldStreamer.cs": "35d60a49ad7035c99ba082de9076fba0a0f6ad8a21c9be74030df4790e7d1aaf",
+      "Assets/Scripts/World/WorldStreamer.cs": "12fc58b1d072e1e30163e85a8d68cd2165c79e0e42de8cbfde825cc496d11ce3",
       "Assets/Scripts/World/WorldPOI.cs": "882c88a1b57e42cce458d927dddefabb075adc0ff7676af4b4cd8e19b04b5828",
       "Assets/Scripts/World/Trader.cs": "d90d21ba855e5289ee8159f1656d4e9f25c6c2566a4ce8f2044478b1e4349e6a",
       "Assets/Scripts/World/Puzzles.cs": "e7caab288dabcbe22dc343df9d61b763d74089f65064aa6659265c9e468495e8",
       "Assets/Scripts/World/Exploration.cs": "cf700cf31127d6d59db794b000846d64df9bca35454d39c36b720c2aedab79f5",
       "Assets/Scripts/World/Crypt.cs": "084bb5b784e90aa1466630929ee1f904d0cae3a0916919643abb9b2bfd6ed9d0",
-      "Assets/Scripts/UI/GameMenuTabs.cs": "f77a198205505f6eced37fc0331ae1a8ba9c49eaf4337474aae455968925a476",
+      "Assets/Scripts/UI/GameMenuTabs.cs": "96defa72c0b4ae00f28f02d2bcdcf73633330cc3f0776dc51931ff7c2d7ee693",
       "Assets/Scripts/UI/HudView.cs": "0776f2220c8fbe5625f2b1c13b8b8e40b2058b1d7c9cfee9de89ab966fd3b5ef",
       "Assets/Scripts/Core/SaveSystem.cs": "17a4a37f4eb170a2da56450986a842f482de0d1b47f4dfe7d5cdfcacd87a3cd0"
     }
@@ -263,11 +263,11 @@
     "contentHash": "11f3cc08b58abf86e342ab4e2f3a8d9ed59171a1b5aeb7eeb7d1d3e2fa12ca1a",
     "sources": {
       "Assets/Scripts/World/WorldBuilder.cs": "67c1af03f76130b697dd5dfc4284fe5205c5148c1bedad02d3f8dedbbeb91269",
-      "Assets/Scripts/World/WorldGen.cs": "6a4c5dc5feb9fd42f516e59335053879a20fb1c8b2be00534ee8ae9842b70626",
-      "Assets/Scripts/UI/Stage3D.cs": "f117ff9b06af74b92e73626649da52180d1aa82b7dc4ae06aca4f8b0234e9af3",
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
+      "Assets/Scripts/World/WorldGen.cs": "6165f900cfeb0d74dd9804663087762f75253cd61969533f1f94b87e8e39ac16",
+      "Assets/Scripts/UI/Stage3D.cs": "a327368a1a86fc45d5fab279ce85f537c58bfca1494f68c24f1256390f65f58d",
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
       "Assets/Scripts/UI/GameMenu.cs": "3d4c2471688ff3a5a73d7c1bff7be3a5b344f6d4ae053f780d87f7517813a126",
-      "Assets/Scripts/UI/GameMenuTabs.cs": "f77a198205505f6eced37fc0331ae1a8ba9c49eaf4337474aae455968925a476",
+      "Assets/Scripts/UI/GameMenuTabs.cs": "96defa72c0b4ae00f28f02d2bcdcf73633330cc3f0776dc51931ff7c2d7ee693",
       "Assets/Scripts/UI/StorageScreen.cs": "49dcf039fd8d4f0d17524993c510df72bc303674231df67ffc77d4be73186c18",
       "Assets/Scripts/UI/HudView.cs": "0776f2220c8fbe5625f2b1c13b8b8e40b2058b1d7c9cfee9de89ab966fd3b5ef"
     }
@@ -275,7 +275,7 @@
   "equipment/calculator.mdx": {
     "contentHash": "a14567b43a8563cbcd8b0fa0529c83fe89f55dc0cc430e70c6c7a7bfbbf2497b",
     "sources": {
-      "Assets/Scripts/Core/Gear.cs": "2168910430e485fb398ed2e3280b379c6c58b75d3ead42a706bc464a6aa0c17f",
+      "Assets/Scripts/Core/Gear.cs": "76807a6c5e2b48c9f3d114bd4798c9dab5ad7f3470fae00c43a420220dff384c",
       "Assets/Scripts/World/Upgrades.cs": "660027b9dadbfead6198beef46ffe333418b944684c4aa2e1f6599987cef0e87"
     }
   },
@@ -302,48 +302,52 @@
       "Assets/Scripts/Net/Shared/NetProto.cs": "a2223097c8d269c6586c2d5a169488015ce409211d23d39be6c618351d5e5cd8",
       "UPDATES.md": "705ca61b47c42b62228ba160074e8edb47159666485b59523313733aa7e135a3",
       "Assets/Scripts/Core/SaveSystem.cs": "17a4a37f4eb170a2da56450986a842f482de0d1b47f4dfe7d5cdfcacd87a3cd0",
-      "Assets/Scripts/Core/GameManager.cs": "b69c1ddf27817b3a16dc235f24e0f0a9be37fbf0709e7381eee6113dda6e475e"
+      "Assets/Scripts/Core/GameManager.cs": "77b281c4796236e427eda2a3fbf05debd30e522d0e792a65dda5360a65e189f1"
     }
   },
   "world/skerries.md": {
-    "contentHash": "283cf2112d3c989be81d21aca908d055e2c38a8e31da6223588814544ffd5c90",
+    "contentHash": "75bb857a762b27f5a3068b44256f6c020cf0a6ba22408f4d78300bc64c6cd831",
     "sources": {
       "Assets/Scripts/World/WorldIsles.cs": "4aead2970ff234156dd7563d48b9fa37b16d5d9b2c9d8d02e3b61df2383fc0d5",
       "Assets/Scripts/World/Isles.cs": "5f46949057832fcf129de78907d2ada9ff6d31a5ee1785e2b53a8d0229f36d56",
       "Assets/Scripts/Player/Coracle.cs": "37e4752381d5b843596b81cc59bcfe77b2b329ff89431b02e9e24ce56712aba6",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
-      "Assets/Scripts/World/LootChest.cs": "5bea16c9367bdf6894c59d86be7af545e3ee75beecd8bf5c3c7a9e292b9307b4",
-      "Assets/Scripts/World/WorldStreamer.cs": "35d60a49ad7035c99ba082de9076fba0a0f6ad8a21c9be74030df4790e7d1aaf",
-      "Assets/Scripts/World/Gathering.cs": "36ba4590bdd702a305f317fea8d41d417f4de4a5df54efddd0912a929e618a40",
-      "Assets/Scripts/World/Crafting.cs": "e16a5b0d01a109007be5e93840f6c08be2417f6ba2d1008177919f6f9e0da028",
-      "Assets/Scripts/Core/Items.cs": "995627a18d3d699c099d3dc9ce80fe9ec94c2c012e893b590e859ac35ebe23eb",
-      "Assets/Scripts/Core/Gear.cs": "2168910430e485fb398ed2e3280b379c6c58b75d3ead42a706bc464a6aa0c17f",
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e",
+      "Assets/Scripts/World/LootChest.cs": "af9260ecf481c55fea5ab6a3d0b5b1c5ac715bb76a17ceaefdcda759fbb62332",
+      "Assets/Scripts/World/WorldStreamer.cs": "12fc58b1d072e1e30163e85a8d68cd2165c79e0e42de8cbfde825cc496d11ce3",
+      "Assets/Scripts/World/Gathering.cs": "8c1e73d72816bb366af6dae76a94a91fc400b0b03f60cd1015e06ce49a720051",
+      "Assets/Scripts/World/Crafting.cs": "6a92cabc0bf10453da0f9408bd9b17a8ade1381417ac7100355a6eec032fa0f1",
+      "Assets/Scripts/Core/Items.cs": "0032323a3399ee6ca074523c0138f2b5c6353b8643d36d56827afb6ef143839c",
+      "Assets/Scripts/Core/Gear.cs": "76807a6c5e2b48c9f3d114bd4798c9dab5ad7f3470fae00c43a420220dff384c",
       "Assets/Scripts/World/Trader.cs": "d90d21ba855e5289ee8159f1656d4e9f25c6c2566a4ce8f2044478b1e4349e6a",
       "Assets/Scripts/World/WorldBuilder.cs": "67c1af03f76130b697dd5dfc4284fe5205c5148c1bedad02d3f8dedbbeb91269",
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011",
-      "Assets/Scripts/World/Lands.cs": "4a7bcf8b61745d591daab1b4e0e9338423992a17866c2e44dc4a4ac8cccb2bda"
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
+      "Assets/Scripts/World/Lands.cs": "5461a3365f6d03bd79e91e2d97a2a18c1c1f6ae6b0c6ea2dc2364136dde50e0b"
     }
   },
   "world/underhearth.md": {
-    "contentHash": "50b62081722dd24f9ff5934aa3028dd686f0c333703675be1ec75e4d6624d796",
+    "contentHash": "1dd1e00dba24665bbf34b31f00ce1fb721a657fcfa890529f306f93a1af5ecc6",
     "sources": {
-      "Assets/Scripts/World/Underhearth.cs": "db63c396a43472c78fe36af7d3c81647175bf2aec34378690e215c956850892b",
+      "Assets/Scripts/World/Underhearth.cs": "1485c8dbcbd0e87a3a27172fe919206cf39d4740be7a4a16205f693296b8b1df",
       "Assets/Scripts/World/DeepPassage.cs": "b59e7a8c6b865d8fd0c7b8f04bb3f973d6f5368260890876c27810c8d585ddc9",
       "Assets/Scripts/World/KeeperLift.cs": "868195f2ac93975ab8ec669a4fbc63a1b4ac0b8fc6e59d5def20b20d08cb9710",
       "Assets/Scripts/World/Colossus.cs": "3b19ad4951a168503c3f794f230b6932cb2add642fbef98354dce843eed5f11e",
-      "Assets/Scripts/World/DayNight.cs": "aecd50ad768ba9f0178d52b2f5599af15650bbd5c4216b52056bc409de495c79",
-      "Assets/Scripts/World/Weather.cs": "f58441483710775115c3776d14deb29bff16e43a8d1039f7a159c15e0839cfbd",
-      "Assets/Scripts/World/WorldStreamer.cs": "35d60a49ad7035c99ba082de9076fba0a0f6ad8a21c9be74030df4790e7d1aaf",
-      "Assets/Scripts/World/Gathering.cs": "36ba4590bdd702a305f317fea8d41d417f4de4a5df54efddd0912a929e618a40",
-      "Assets/Scripts/World/Lands.cs": "4a7bcf8b61745d591daab1b4e0e9338423992a17866c2e44dc4a4ac8cccb2bda",
-      "Assets/Scripts/Enemies/DeepCreatures.cs": "6e0026033db7f4dc8211a9d27d759095ee4fa1f25f2b4942cbe5aa06a94d6142",
-      "Assets/Scripts/Enemies/Elites.cs": "69a2fa734b9c33cf3f4f6fa3d89ce364af68a375f835a565a17176c9f58338d3",
-      "Assets/Scripts/Enemies/Hunts.cs": "922de7fe25607f506171f51b69be8ec6572383ed86cd66bfb5c51cf09871ded7",
-      "Assets/Scripts/Player/PlayerController.cs": "3e165da5ab1256dbb549ae25888d9b51fdce4d993cf487ff1eb88c603b30eb4f",
-      "Assets/Scripts/Core/Items.cs": "995627a18d3d699c099d3dc9ce80fe9ec94c2c012e893b590e859ac35ebe23eb",
-      "Assets/Scripts/World/Crafting.cs": "e16a5b0d01a109007be5e93840f6c08be2417f6ba2d1008177919f6f9e0da028",
-      "Assets/Scripts/UI/GameMenuTabs.cs": "f77a198205505f6eced37fc0331ae1a8ba9c49eaf4337474aae455968925a476",
-      "CHANGELOG.md": "542ba988397f22cdb066f483a27619ebb7bf496271bfdd30d7876ee9dc405011"
+      "Assets/Scripts/World/CinderVents.cs": "b5257bbde7475c4af05f2b98b401918b4bef035d441e7b8e91073f9232d75341",
+      "Assets/Scripts/World/LootChest.cs": "af9260ecf481c55fea5ab6a3d0b5b1c5ac715bb76a17ceaefdcda759fbb62332",
+      "Assets/Scripts/World/BiomeAir.cs": "9c97b7dc50fca17958f3e7b04d859e973060fa787628c34b5e2a33368ca78928",
+      "Assets/Scripts/Core/Gear.cs": "76807a6c5e2b48c9f3d114bd4798c9dab5ad7f3470fae00c43a420220dff384c",
+      "Assets/Scripts/World/DayNight.cs": "67e588fd0bd9565d040bae388b9bf5c6247c724bfc5fd4c36bb7100c3178c114",
+      "Assets/Scripts/World/Weather.cs": "6d3dd60c65fa3bf71db9c140c1f5234ea3673c19b296e733d91fa50a571bfe2d",
+      "Assets/Scripts/World/WorldStreamer.cs": "12fc58b1d072e1e30163e85a8d68cd2165c79e0e42de8cbfde825cc496d11ce3",
+      "Assets/Scripts/World/Gathering.cs": "8c1e73d72816bb366af6dae76a94a91fc400b0b03f60cd1015e06ce49a720051",
+      "Assets/Scripts/World/Lands.cs": "5461a3365f6d03bd79e91e2d97a2a18c1c1f6ae6b0c6ea2dc2364136dde50e0b",
+      "Assets/Scripts/Enemies/DeepCreatures.cs": "bdf00568560565542a4857336b06a9b289a9dacf514ff676ba4dac913bdccb36",
+      "Assets/Scripts/Enemies/Elites.cs": "92596dac400c0767310e97c96c8245534a5fc9244a6cbd87d0f977111a879fe2",
+      "Assets/Scripts/Enemies/Hunts.cs": "43a1754dca38b023b7d8b0e5a6bdd04f491e2c954324f889f8106186b5edbe40",
+      "Assets/Scripts/Player/PlayerController.cs": "f0866c64b6e98fb551390c11d9df92f38a732839c1a16adb9829e4363b15921e",
+      "Assets/Scripts/Core/Items.cs": "0032323a3399ee6ca074523c0138f2b5c6353b8643d36d56827afb6ef143839c",
+      "Assets/Scripts/World/Crafting.cs": "6a92cabc0bf10453da0f9408bd9b17a8ade1381417ac7100355a6eec032fa0f1",
+      "Assets/Scripts/UI/GameMenuTabs.cs": "96defa72c0b4ae00f28f02d2bcdcf73633330cc3f0776dc51931ff7c2d7ee693",
+      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45"
     }
   }
 }

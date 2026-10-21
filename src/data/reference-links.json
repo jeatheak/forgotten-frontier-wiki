@@ -385,6 +385,116 @@
     ]
   },
   {
+    "id": "creature:Slagback",
+    "key": "Slagback",
+    "kind": "creature",
+    "name": "Slagback",
+    "aliases": [
+      "Slagback Elder"
+    ],
+    "description": "A Charger of the Cinder Wastes grown over with slag. It headbutts, stomps and charges like a Charger, but faster and harder, and the ground it tears up during a charge is left **burning** for 5 seconds (standing in it sets the hero alight). Bait the charge into an obstacle to stun it, and stay out of its trail. It does not burn.",
+    "source": "Assets/Scripts/Enemies/DeepCreatures.cs",
+    "page": "creatures/slagback",
+    "image": "/images/slagback-v028.webp",
+    "thumbnail": "/images/creatures/slagback-thumb.webp",
+    "stats": {
+      "health": 195.5,
+      "poise": 104,
+      "speed": 4.14
+    },
+    "attacks": [
+      [
+        "Headbutt",
+        22.4
+      ],
+      [
+        "Charge",
+        33.6
+      ],
+      [
+        "Stomp",
+        19.6
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Obsidian",
+        "quantity": "2 (50%) or 3 (50%)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:RawMeat",
+        "quantity": "2",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Brimstone",
+        "quantity": "1",
+        "chance": "60%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Tusk",
+        "quantity": "1",
+        "chance": "50%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:FireOpal",
+        "quantity": "1",
+        "chance": "15% / 25%",
+        "condition": "Level 1-2 / Level 3"
+      }
+    ]
+  },
+  {
+    "id": "creature:Crawler",
+    "key": "Crawler",
+    "kind": "creature",
+    "name": "Cinder Crawler",
+    "aliases": [
+      "Cinder Matriarch"
+    ],
+    "description": "A spider of cinder and black glass. Unlike a Mire spider it neither keeps its distance nor spits: it runs straight in, fast, and **leaps** along a marked line, and a bite that lands sets the hero **burning** for 2 seconds. They hunt in swarms. It does not burn.",
+    "source": "Assets/Scripts/Enemies/DeepCreatures.cs",
+    "page": "creatures/cinder-crawler",
+    "image": "/images/crawler-v028.webp",
+    "thumbnail": "/images/creatures/crawler-thumb.webp",
+    "stats": {
+      "health": 87.4,
+      "poise": 22,
+      "speed": 7
+    },
+    "attacks": [
+      [
+        "Leap",
+        16.8
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Brimstone",
+        "quantity": "1 (60%) or 2 (40%)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Obsidian",
+        "quantity": "1",
+        "chance": "40%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:FireOpal",
+        "quantity": "1",
+        "chance": "12%",
+        "condition": "Level 3"
+      }
+    ]
+  },
+  {
     "id": "creature:Spider",
     "key": "Spider",
     "kind": "creature",

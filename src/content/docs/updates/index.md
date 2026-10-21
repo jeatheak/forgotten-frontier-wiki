@@ -9,8 +9,8 @@ sources: ["CHANGELOG.md"]
 
 ## 0.28.0 — the world beneath (in progress, not released)
 
-The first part of a second world under the Vale: the Underhearth, and its first land, the Ashen Wilds. More lands will
-follow behind its cliffs.
+The first part of a second world under the Vale: the Underhearth, and its first two lands, the Ashen Wilds and the
+Cinder Wastes behind them. More lands will follow behind their cliffs.
 
 ### New
 - **The Throat and the fracture.** In a hollow under the Stoneteeth's north crests stands a ring of Keeper stone round a
@@ -24,8 +24,7 @@ follow behind its cliffs.
 - **The Ashen Wilds**: woods of giant glowcaps and twisted gloomtrees with turquoise or red leaves, grey ash fields,
   black basalt, two slow rivers of lava with crusted bridges, a pool of fire in the middle, the bones of something
   huge, black spires, and a keep hanging upside down from the sky with four chains running down from it to the Landing.
-  Far off on the northern heights stands a ruined fortress, and a sealed Keeper door blocks the north. Both are out of
-  reach for now.
+  A sealed Keeper door stands in the north wall.
 - **The Strider**, a creature taller than the Courtyard's walls, walks the far north of the Wilds. It ignores you, the
   ground shakes where it steps, and Ashhounds near its feet lose interest in their prey.
 - **Creatures**: *Ashhounds* (pack hunters of the ash; fireproof, weak to cutting blows), *the Kindled* (burning dead
@@ -42,6 +41,23 @@ follow behind its cliffs.
 - **Keeper wards**, the havens below: inside a lit ward nothing hunts you, wounds close as at home, and you can build
   (walls, a roof, a bed to wake in, chests, a campfire). The Landing's ward is lit; two ward stones in the Wilds wait to
   be rekindled with 3 ember ore and an Echo crystal.
+- **The Sealed Door** answers once both wards of the Ashen Wilds burn: put a hand to it and it sinks into the floor.
+  Behind it a canyon runs north through the wall.
+- **The Cinder Wastes**, the Underhearth's second land: a plain of ash and slag under a redder sky, cracked with narrow
+  fissures of lava, strewn with skeletons. It is a tier 5 land ("Infernal": creatures ×2.15 health and ×1.85 damage; the
+  HUD wants 30 armour), and the whole plain is hot. In a Bloodstorm it scorches unless you shelter under a roof or in a
+  ward. Far off on its northern rim stands a ruined fortress, still out of reach.
+- **Vents.** The Breathing Flats and the plain round them are full of vents that rumble, glow, then roar a column of fire
+  that throws you up and sets you alight. A ring on the ground warns you; roll through or wait.
+- **The Fallen Titan**, a skull and spine larger than the Strider, lies in the west of the Wastes; the Kindled keep it.
+  Three Keeper coffers lie with dead wardens out on the Wastes, and a third ward stone, the Cinder Ward, waits to be
+  rekindled.
+- **New creatures**: *Slagbacks* (Chargers grown over with slag: they charge faster and leave the ground burning
+  behind them; blades and arrows turn on the slag, a mace breaks it) and *Cinder Crawlers* (spiders of cinder and
+  glass that run straight in, leap, and set you alight; they hunt in swarms and an arrow finds their gaps).
+- **Fire opals**, from the opal seams beside the vents (iron pick), Slagbacks and Cinder Matriarchs. New charms at the
+  workbench: the *Fire Opal Charm* (the heat a step lower, burning goes out twice as fast) and the *Slag Charm* (from an
+  elite Slagback's trophy: +35% stagger, +6% damage).
 - The map shows the Underhearth's own map while you are down there, with its own fog of war.
 - Down below the wind gives way to a low drone, and the lava bubbles.
 

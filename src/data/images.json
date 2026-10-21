@@ -1335,5 +1335,82 @@
     "version": "0.28.0",
     "alt": "Ashhorn thumbnail cropped from its in-game portrait.",
     "caption": "Ashhorn thumbnail, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/fireopal.png",
+    "source": "Screens/wiki/icons/FireOpal.png",
+    "version": "0.28.0",
+    "alt": "Fire Opal inventory icon rendered from the game model.",
+    "caption": "Fire Opal — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/slagbacktrophy.png",
+    "source": "Screens/wiki/icons/SlagbackTrophy.png",
+    "version": "0.28.0",
+    "alt": "Slagback Trophy inventory icon rendered from the game model.",
+    "caption": "Slagback Trophy — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/crawlertrophy.png",
+    "source": "Screens/wiki/icons/CrawlerTrophy.png",
+    "version": "0.28.0",
+    "alt": "Cinder Crawler Trophy inventory icon rendered from the game model.",
+    "caption": "Cinder Crawler Trophy — in-game inventory icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/gear-charm-opal.png",
+    "source": "Screens/wiki/icons/gear_charm_opal.png",
+    "version": "0.28.0",
+    "alt": "Fire Opal Charm equipment icon rendered from the game model.",
+    "caption": "Fire Opal Charm — in-game equipment icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/icons/gear-charm-slag.png",
+    "source": "Screens/wiki/icons/gear_charm_slag.png",
+    "version": "0.28.0",
+    "alt": "Slag Charm equipment icon rendered from the game model.",
+    "caption": "Slag Charm — in-game equipment icon, v0.28.0 source."
+  },
+  {
+    "path": "/images/underhearth-titan-v028.webp",
+    "source": "Screens/wiki/v028/underhearth-titan-v028.webp",
+    "version": "0.28.0",
+    "alt": "A hero on dark cinder ground; beyond, the huge horned skull and ribs of the Fallen Titan lie in the ash, and a crack of lava glows on the right.",
+    "caption": "The Fallen Titan on the Cinder Wastes, v0.28.0 source (editor camera capture)."
+  },
+  {
+    "path": "/images/underhearth-vent-v028.webp",
+    "source": "Screens/wiki/v028/underhearth-vent-v028.webp",
+    "version": "0.28.0",
+    "alt": "A vent on the Breathing Flats roars a column of fire beside the hero; the HUD shows five red skulls, Infernal, the hero at 73 of 100 health and BURNING.",
+    "caption": "A vent roars on the Breathing Flats, v0.28.0 source (autotest capture)."
+  },
+  {
+    "path": "/images/slagback-v028.webp",
+    "source": "Screens/wiki/v028/slagback-v028.webp",
+    "version": "0.28.0",
+    "alt": "Slagback model in a staged in-game portrait.",
+    "caption": "Slagback — staged in-game portrait, v0.28.0 source."
+  },
+  {
+    "path": "/images/creatures/slagback-thumb.webp",
+    "source": "Screens/wiki/v028/slagback-v028.webp",
+    "version": "0.28.0",
+    "alt": "Slagback thumbnail cropped from its in-game portrait.",
+    "caption": "Slagback thumbnail, v0.28.0 source."
+  },
+  {
+    "path": "/images/crawler-v028.webp",
+    "source": "Screens/wiki/v028/crawler-v028.webp",
+    "version": "0.28.0",
+    "alt": "Cinder Crawler model in a staged in-game portrait.",
+    "caption": "Cinder Crawler — staged in-game portrait, v0.28.0 source."
+  },
+  {
+    "path": "/images/creatures/crawler-thumb.webp",
+    "source": "Screens/wiki/v028/crawler-v028.webp",
+    "version": "0.28.0",
+    "alt": "Cinder Crawler thumbnail cropped from its in-game portrait.",
+    "caption": "Cinder Crawler thumbnail, v0.28.0 source."
   }
 ]

@@ -8,7 +8,7 @@ sources: ["Assets/Scripts/World/WorldIsles.cs", "Assets/Scripts/World/Isles.cs",
 <div class="gallery-grid"><figure><a href="/images/coracle-v025.webp" aria-label="Open full-size image: Paddling a coracle out over the sea (v0.25.0)."><img src="/images/coracle-v025.webp" alt="A hero sitting in a round hide coracle on dark blue water, paddle in hand, with the sun's reflection running across the sea." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Paddling a coracle out over the sea (v0.25.0).</figcaption></figure><figure><a href="/images/skerries-strand-v025.webp" aria-label="Open full-size image: Stepping ashore on Selkie Strand (v0.25.0)."><img src="/images/skerries-strand-v025.webp" alt="A hero on the pebbly beach of Selkie Strand, surf lines on the water, a sea stack and the wooded coast of the Vale in the distance." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Stepping ashore on Selkie Strand (v0.25.0).</figcaption></figure></div>
 
 Since **v0.25.0** four islands lie out in the corners of the sea, beyond wading depth, with eight bare sea stacks
-between them. Together they are **the Skerries**: a land of their own (danger tier 4 since v0.27.0, the hardest with the Highlands; it was 3) with their own finds, chests and
+between them. Together they are **the Skerries**: a land of their own (danger tier 4 since v0.27.0, the hardest of the surface lands with the Highlands; it was 3) with their own finds, chests and
 weather. The channels to them are several metres deep, so you need a boat.
 
 ## The islands

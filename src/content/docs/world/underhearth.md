@@ -1,15 +1,15 @@
 ---
 title: "The Underhearth and the Ashen Wilds"
-description: "The world beneath the Vale: the fracture and the way down, the sky's states, the Ashen Wilds, heat, creatures and the Keepers' lift."
+description: "The world beneath the Vale: the fracture and the way down, the sky's states, the Ashen Wilds and the Cinder Wastes, heat, vents, creatures and the Keepers' lift."
 verification: verified
-sources: ["Assets/Scripts/World/Underhearth.cs", "Assets/Scripts/World/DeepPassage.cs", "Assets/Scripts/World/KeeperLift.cs", "Assets/Scripts/World/Colossus.cs", "Assets/Scripts/World/DayNight.cs", "Assets/Scripts/World/Weather.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/World/Lands.cs", "Assets/Scripts/Enemies/DeepCreatures.cs", "Assets/Scripts/Enemies/Elites.cs", "Assets/Scripts/Enemies/Hunts.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "CHANGELOG.md"]
+sources: ["Assets/Scripts/World/Underhearth.cs", "Assets/Scripts/World/DeepPassage.cs", "Assets/Scripts/World/KeeperLift.cs", "Assets/Scripts/World/Colossus.cs", "Assets/Scripts/World/CinderVents.cs", "Assets/Scripts/World/LootChest.cs", "Assets/Scripts/World/BiomeAir.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/DayNight.cs", "Assets/Scripts/World/Weather.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/World/Lands.cs", "Assets/Scripts/Enemies/DeepCreatures.cs", "Assets/Scripts/Enemies/Elites.cs", "Assets/Scripts/Enemies/Hunts.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "CHANGELOG.md"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/underhearth-overlook-v028.webp" aria-label="Open full-size image: The first sight of the Underhearth from the Overlook (v0.28.0 source)."><img src="/images/underhearth-overlook-v028.webp" alt="A hero on a dark ledge looks out over a forest of glowing blue and violet mushrooms; beyond black spires a huge red glow hangs low in a violet sky, and a keep hangs upside down from the dark above." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The first sight of the Underhearth from the Overlook (v0.28.0 source).</figcaption></figure><figure><a href="/images/underhearth-wilds-v028.webp" aria-label="Open full-size image: Glowcaps and gloomtrees in the Ashen Wilds (v0.28.0 source)."><img src="/images/underhearth-wilds-v028.webp" alt="A hero among giant mushrooms with glowing undersides and twisted trees with turquoise and red leaves, under a violet sky." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>Glowcaps and gloomtrees in the Ashen Wilds (v0.28.0 source).</figcaption></figure></div>
 
 **In the current source (v0.28.0, not released yet).** Far below the Vale lies a whole world with its own horizon and
-its own sky: **the Underhearth**. Its first land, **the Ashen Wilds**, can be explored now; the lands beyond its black
-cliffs come in later versions.
+its own sky: **the Underhearth**. Two of its lands can be explored now: **the Ashen Wilds**, where the way down comes
+out, and **the Cinder Wastes** behind them. The lands beyond come in later versions.
 
 ## Getting there: the fracture
 
@@ -46,9 +46,10 @@ Rings of Keeper ward-light are the rare safe places of the Underhearth. Inside a
 - you can **build**: walls, a roof, a bed to wake in (you respawn at the nearest bed), chests and a campfire. The
   stations stay one of each.
 
-The **Landing**'s ward has never gone out (28 m round the lift). Two more **ward stones** stand dark in the Wilds:
-**the Hollow Ward** by the Glowcap Hollow and **the Ward under the Ribs** on the east side. Rekindle one with
-**3 ember ore and an Echo crystal** to light a ring of 18 m round it, for everyone in the world.
+The **Landing**'s ward has never gone out (28 m round the lift). Three more **ward stones** stand dark: **the Hollow
+Ward** by the Glowcap Hollow and **the Ward under the Ribs** on the east side of the Wilds, and **the Cinder Ward** out
+on the Cinder Wastes. Rekindle one with **3 ember ore and an Echo crystal** to light a ring of 18 m round it, for
+everyone in the world. Lighting both wards of the Wilds also opens [the Sealed Door](#the-sealed-door).
 
 ## The sky
 
@@ -74,21 +75,56 @@ A tier 4 land ("Merciless"), walled in by black cliffs:
 - **Ash fields** with black **emberbark** trees, cinderweed and basalt boulders.
 - **Two lava rivers** running north to south either side of the Landing, with **crusted bridges** where the lava runs
   under a skin of rock, and **the Ember Pool** in the middle. The **Glowcap Hollow** lies right below the Overlook.
-- The ribs of something huge, black spires, and two places out of reach for now: a ruined **fortress** far off on the
-  northern heights, and **the Sealed Door**, a Keeper door in the north wall that does not move.
+- The ribs of something huge, black spires, and **the Sealed Door**, a Keeper door in the north wall.
 - **The Strider**, a creature taller than the Courtyard's walls, walks the far north of the Wilds, there and back. It
   pays no attention to heroes. The ground shakes where it steps, and Ashhounds near its feet forget their prey for a
   while. Every player in a shared world sees it in the same place.
+
+## The Sealed Door
+
+A Keeper door the height of ten men stands in a sheer bastion of the Wilds' north wall. Two runes on its face are the
+runes of the ward stones: while **both the Hollow Ward and the Ward under the Ribs burn**, put a hand to the door and it
+wakes and sinks into the floor. It stays open for everyone in the world. Behind it **the Cinder Pass**, a canyon cut
+through the wall, climbs north to the Cinder Wastes.
+
+## The Cinder Wastes
+
+<div class="gallery-grid"><figure><a href="/images/underhearth-titan-v028.webp" aria-label="Open full-size image: The Fallen Titan on the Cinder Wastes (v0.28.0 source)."><img src="/images/underhearth-titan-v028.webp" alt="A hero on dark cinder ground; beyond, the huge horned skull and ribs of the Fallen Titan lie in the ash, and a crack of lava glows on the right." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The Fallen Titan on the Cinder Wastes (v0.28.0 source).</figcaption></figure><figure><a href="/images/underhearth-vent-v028.webp" aria-label="Open full-size image: A vent roars on the Breathing Flats (v0.28.0 source)."><img src="/images/underhearth-vent-v028.webp" alt="A vent on the Breathing Flats roars a column of fire beside the hero; the HUD shows five red skulls, Infernal, and the hero burning." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>A vent roars on the Breathing Flats (v0.28.0 source).</figcaption></figure></div>
+
+The Underhearth's second land: a plain of ash and slag under a redder sky, beyond the wall. It is a **tier 5 land
+("Infernal")**: creatures born there have ×2.15 health, ×1.85 damage, ×1.45 poise, keener senses and a little more
+speed, elites are more common still, and the HUD calls your armour thin below **30**. Wounds hardly close out there.
+
+- **The whole plain is hot**, and in a **Bloodstorm** out in the open it **scorches**: shelter under a roof or in a lit
+  ward.
+- **Lava fissures**: narrow cracks of lava across the plain, a stride or two wide, each with a crust bridge.
+- **Vents** (see below), most of them on **the Breathing Flats** east of the canyon.
+- **The Fallen Titan**: a skull and spine larger than the Strider, lying in the west. The Kindled keep its bones.
+- **The Glass Field**: a flat of black volcanic glass in the north-east, heaped with obsidian.
+- Keeper wardens who died out here, three of them with a **Keeper coffer** (at the Titan, on the Glass Field and on the
+  Breathing Flats): Keeper finds, and the Wastes' own (fire opal, obsidian, ember ore, brimstone).
+- **The Cinder Ward**, a ward stone waiting to be rekindled, and a ruined **fortress** far off on the northern rim, out of
+  reach for now.
+
+### Vents
+
+Each vent breathes on its own rhythm, every 10 to 16 seconds. When it draws breath the ground round its mouth glows, it
+rumbles and a warning ring appears; about 2.4 seconds later it roars a column of fire for nearly 2 seconds. Whoever
+stands over its mouth (within about 2.8 m) takes **26 damage**, is thrown back and is set **burning** for 3 seconds. A
+well-timed roll goes through it like any other blow. Every player in a shared world sees the same vent roar at the
+same moment. Brimstone crusts and **opal seams** gather round the vents.
 
 ## Heat
 
 - **Lava** burns fast (34 health a second) and throws you back towards the bank; it also sets you **burning**.
 - **Scorching**: within about 3.5 m of the lava the air itself burns (2 health a second).
-- **Hot**: within about 10 m of the lava, and out in the open during a Bloodstorm. A hot hero breathes 30% slower and
-  wounds do not close on their own. In the glowcap woods only scorching counts.
+- **Hot**: within about 10 m of the lava, out in the open during a Bloodstorm, and anywhere on the Cinder Wastes. A hot
+  hero breathes 30% slower and wounds do not close on their own. In the glowcap woods only scorching counts.
+- On the Cinder Wastes a **Bloodstorm** in the open is **scorching**. Inside a lit ward there is no heat at all.
 - **Burning** (from lava or a Kindled's blow) takes 5 health a second; every roll puts it out sooner.
 - **Glowcap Broth** keeps the heat one step further off; a **Frostlichen Draught** keeps it off entirely for six
-  minutes (lava still burns).
+  minutes (lava still burns). The **Fire Opal Charm** keeps it another step off and makes burning go out twice as
+  fast.
 
 The HUD shows HOT, SCORCHING or BURNING beside your other conditions.
 
@@ -99,8 +135,11 @@ The HUD shows HOT, SCORCHING or BURNING beside your other conditions.
 | **Ashhound** | Pack hunters of the ash on the Stalker's frame: about half as tough again as a Stalker, harder hitting, a little faster. Fireproof; cutting blows (blades, axes) hurt them most, crushing blows least. Drop **ash pelts**, now and then meat and brimstone. |
 | **The Kindled** | Barrow dead who fell into the deep and burn still. They fight like Hollows, but their blows set you alight (and, like a Hollow's, can carry grave rot), and each one **bursts into flame** a moment after it falls: step away. Fireproof; crushing blows serve best, cutting blows least. Drop bones, brimstone and ember ore. |
 | **Ashhorn** | Great grazers, a Greyhorn's kind but half as big again and more than twice as tough. They want nothing from you and bolt when they notice you; a bull that is hurt turns. Piercing blows hurt them most. Drop venison, hide, an ash pelt and, from bulls, antlers. |
+| **Slagback** | A Charger of the Cinder Wastes grown over with slag (×1.7 health, ×1.6 poise, ×1.4 damage, ×1.15 speed of a Charger; the strongest are Slagback Elders). It charges like a Charger and **leaves the ground burning** behind the charge for 5 seconds. Fireproof; crushing blows break the slag, cutting and piercing blows turn on it. Drops obsidian, meat, brimstone, now and then a tusk or a **fire opal**. |
+| **Cinder Crawler** | Spiders of cinder and black glass (×1.9 health, ×1.4 damage, ×1.25 speed of a Mire spider; the largest are Cinder Matriarchs). They do not spit or keep their distance: they run straight in and **leap**, and a bite sets you **burning**. They hunt the Wastes in swarms. Fireproof; piercing blows (arrows, a spear) find the gaps, crushing blows glance off. Drop brimstone and obsidian; a Matriarch now and then a fire opal. |
 
-Hunting packs come here too (Ashhounds, with one of the Kindled at night).
+Hunting packs come here too: Ashhounds in the Wilds (with one of the Kindled at night), swarms of Cinder Crawlers or
+Ashhounds with Crawlers on the Cinder Wastes.
 
 ## Finds and recipes
 
@@ -111,7 +150,8 @@ Hunting packs come here too (Ashhounds, with one of the Kindled at night).
 | **Basalt** boulders | Everywhere | Any pickaxe (stone) |
 | **Emberwood** | Emberbark and gloomtrees | Iron axe |
 | **Glowcaps** | Picked in the woods | By hand |
-| **Brimstone** | Crusts on the lava banks | By hand |
+| **Brimstone** | Crusts on the lava banks, round the vents and along the fissures | By hand |
+| **Opal seams** (fire opal, obsidian, brimstone) | Beside the vents of the Cinder Wastes | Iron pickaxe |
 
 | Recipe | Station | Cost | Makes |
 | --- | --- | --- | --- |
@@ -119,6 +159,8 @@ Hunting packs come here too (Ashhounds, with one of the Kindled at night).
 | **Frostlichen Draught** | Herbalist's table | 2 frost lichen, 2 glowcaps, 1 moonpetal | Six minutes without the heat |
 | **Obsidian Arrows** | Workbench | 2 wood, 1 obsidian, 1 resin | 10 arrows, the sharpest there are |
 | **Brimstone Fire Arrows** | Workbench | 2 wood, 1 brimstone, 1 flax | 10 fire arrows |
+| **Fire Opal Charm** | Workbench | 1 fire opal, 2 iron bars, 1 ash pelt | Heat a step lower, burning half as long, breath 5% quicker |
+| **Slag Charm** | Workbench | 1 Slagback trophy, 1 iron bar, 2 obsidian | +35% stagger, +6% damage |
 
 Ember ore cannot be smelted yet (no forge of the Vale burns hot enough), but it feeds the Keeper wards.
 
