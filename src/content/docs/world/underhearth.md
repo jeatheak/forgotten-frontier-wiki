@@ -1,15 +1,16 @@
 ---
 title: "The Underhearth and the Ashen Wilds"
-description: "The world beneath the Vale: the fracture and the way down, the sky's states, the Ashen Wilds and the Cinder Wastes, heat, vents, creatures and the Keepers' lift."
+description: "The world beneath the Vale: the fracture and the way down, the sky's states, the Ashen Wilds, the Cinder Wastes and the Fallen Dominion, heat, vents, creatures, the Last Forge and the Keepers' lift."
 verification: verified
-sources: ["Assets/Scripts/World/Underhearth.cs", "Assets/Scripts/World/DeepPassage.cs", "Assets/Scripts/World/KeeperLift.cs", "Assets/Scripts/World/Colossus.cs", "Assets/Scripts/World/CinderVents.cs", "Assets/Scripts/World/LootChest.cs", "Assets/Scripts/World/BiomeAir.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/DayNight.cs", "Assets/Scripts/World/Weather.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/World/Lands.cs", "Assets/Scripts/Enemies/DeepCreatures.cs", "Assets/Scripts/Enemies/Elites.cs", "Assets/Scripts/Enemies/Hunts.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "CHANGELOG.md"]
+sources: ["Assets/Scripts/World/Underhearth.cs", "Assets/Scripts/World/DeepPassage.cs", "Assets/Scripts/World/KeeperLift.cs", "Assets/Scripts/World/Colossus.cs", "Assets/Scripts/World/CinderVents.cs", "Assets/Scripts/World/Dominion.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/World/LootChest.cs", "Assets/Scripts/World/BiomeAir.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/DayNight.cs", "Assets/Scripts/World/Weather.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/World/Lands.cs", "Assets/Scripts/Enemies/DeepCreatures.cs", "Assets/Scripts/Enemies/Elites.cs", "Assets/Scripts/Enemies/Hunts.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "CHANGELOG.md"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/underhearth-overlook-v028.webp" aria-label="Open full-size image: The first sight of the Underhearth from the Overlook (v0.28.0)."><img src="/images/underhearth-overlook-v028.webp" alt="A hero on a dark ledge looks out over a forest of glowing blue and violet mushrooms; beyond black spires a huge red glow hangs low in a violet sky, and a keep hangs upside down from the dark above." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The first sight of the Underhearth from the Overlook (v0.28.0).</figcaption></figure><figure><a href="/images/underhearth-wilds-v028.webp" aria-label="Open full-size image: Glowcaps and gloomtrees in the Ashen Wilds (v0.28.0)."><img src="/images/underhearth-wilds-v028.webp" alt="A hero among giant mushrooms with glowing undersides and twisted trees with turquoise and red leaves, under a violet sky." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>Glowcaps and gloomtrees in the Ashen Wilds (v0.28.0).</figcaption></figure></div>
 
 **New in v0.28.0.** Far below the Vale lies a whole world with its own horizon and
 its own sky: **the Underhearth**. Two of its lands can be explored now: **the Ashen Wilds**, where the way down comes
-out, and **the Cinder Wastes** behind them. The lands beyond come in later versions.
+out, **the Cinder Wastes** behind them and, in the current source (v0.29.0, not released yet), **the Fallen
+Dominion** east of the Wastes. The Heart of the Below comes later.
 
 ## Getting there: the fracture
 
@@ -114,6 +115,35 @@ stands over its mouth (within about 2.8 m) takes **26 damage**, is thrown back a
 well-timed roll goes through it like any other blow. Every player in a shared world sees the same vent roar at the
 same moment. Brimstone crusts and **opal seams** gather round the vents.
 
+## The Fallen Dominion
+
+*In the current source (v0.29.0, not released yet).*
+
+<div class="gallery-grid"><figure><a href="/images/dominion-shore-v029.webp" aria-label="Open full-size image: The shore of the Lake of Fire, v0.29.0 source (editor camera capture)."><img src="/images/dominion-shore-v029.webp" alt="A hero on the red shore of the Fallen Dominion beside a lore tablet, the lake of fire glowing behind and black mountains under a red sky." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The shore of the Lake of Fire, v0.29.0 source (editor camera capture).</figcaption></figure><figure><a href="/images/dominion-span-v029.webp" aria-label="Open full-size image: The Echo span over the Broken Causeway, v0.29.0 source (editor camera capture)."><img src="/images/dominion-span-v029.webp" alt="A hero on a flagstone causeway between seas of fire; ahead a pale Echo span with rails bridges the gap beside a small Keeper pedestal, and black towers with lit windows rise beyond." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The Echo span over the Broken Causeway, v0.29.0 source (editor camera capture).</figcaption></figure><figure><a href="/images/dominion-city-v029.webp" aria-label="Open full-size image: Sentinels wake in the Black City, v0.29.0 source (editor camera capture)."><img src="/images/dominion-city-v029.webp" alt="A hero in the Black City between two Sentinels in dark armour with shields, beneath black towers with fire in their windows." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>Sentinels wake in the Black City, v0.29.0 source (editor camera capture).</figcaption></figure></div>
+
+East of the Cinder Wastes lies the city of the people who lived down here before the Keepers came. It is a **tier 5
+land ("Infernal")**, like the Wastes.
+
+- **The Ash Road** leaves the east side of the Wastes through a canyon lit by old lamps, under the ruined **Ash Gate**
+  (two Sentinels stand either side of it as statues), and comes out on the Dominion's west shore beside **the Ward of the
+  Ash Road**, a fifth ward stone.
+- **The Lake of Fire** fills the middle of the basin, and on an island in it stands **the Black City**: black towers with
+  fire in their windows, broken walls and a stepped temple with a core of fire. The island and the causeways are hot
+  underfoot but not scorching.
+- **The Broken Causeway** runs from the west shore towards the city and breaks off over the fire. A Keeper pedestal at the
+  break takes **3 Echo crystals** and raises an Echo of the span, solid underfoot, for everyone in the world.
+- The long way round is **the south causeway**, through **the Fallen Gate**, the Dominion's fortress on the south shore,
+  whose garrison never left.
+- **Four lore tablets** (the Ash Gate, the Fallen Gate and two by the temple) tell the Dominion's story.
+- Three **Keeper coffers** (by the temple, in the Fallen Gate and by the Last Forge) hold Keeper finds and the Dominion's
+  own: relics, ashsteel, fire opal and ember ore.
+
+### The Last Forge
+
+A forge in the Black City that burns from below. Take a weapon or tool **already worked to +3** in hand and it tempers it
+to **+4** (another +10% to its numbers and +25% durability), once, for **2 ashsteel, 3 ember ore and a fire opal**. No
+station goes past +3.
+
 ## Heat
 
 - **Lava** burns fast (34 health a second) and throws you back towards the bank; it also sets you **burning**.
@@ -138,8 +168,12 @@ The HUD shows HOT, SCORCHING or BURNING beside your other conditions.
 | **Slagback** | A Charger of the Cinder Wastes grown over with slag (×1.7 health, ×1.6 poise, ×1.4 damage, ×1.15 speed of a Charger; the strongest are Slagback Elders). It charges like a Charger and **leaves the ground burning** behind the charge for 5 seconds. Fireproof; crushing blows break the slag, cutting and piercing blows turn on it. Drops obsidian, meat, brimstone, now and then a tusk or a **fire opal**. |
 | **Cinder Crawler** | Spiders of cinder and black glass (×1.9 health, ×1.4 damage, ×1.25 speed of a Mire spider; the largest are Cinder Matriarchs). They do not spit or keep their distance: they run straight in and **leap**, and a bite sets you **burning**. They hunt the Wastes in swarms. Fireproof; piercing blows (arrows, a spear) find the gaps, crushing blows glance off. Drop brimstone and obsidian; a Matriarch now and then a fire opal. |
 
+| **Dominion Sentinel** | A soldier of the Dominion in black plate (×2.4 health, ×2 poise, ×1.5 damage of a Hollow; slower). It fights like a Hollow. Those on the old posts are **statues until you come within a few steps or strike one**. Crushing blows dent the plate; cutting and piercing blows skid. Drops ashsteel, bones, now and then a Dominion relic. |
+| **Dominion Acolyte** | A robed fire-priest that keeps its distance and throws **gobs of fire** that set you burning (a roll or parry keeps them off), and swipes up close. Frail: cuts and points hurt it most. Fireproof. Drops brimstone, Dominion relics, now and then a fire opal. |
+
 Hunting packs come here too: Ashhounds in the Wilds (with one of the Kindled at night), swarms of Cinder Crawlers or
-Ashhounds with Crawlers on the Cinder Wastes.
+Ashhounds with Crawlers on the Cinder Wastes, and a Sentinel with an Acolyte (or Ashhounds with an Acolyte) in the
+Dominion.
 
 ## Finds and recipes
 
@@ -152,6 +186,8 @@ Ashhounds with Crawlers on the Cinder Wastes.
 | **Glowcaps** | Picked in the woods | By hand |
 | **Brimstone** | Crusts on the lava banks, round the vents and along the fissures | By hand |
 | **Opal seams** (fire opal, obsidian, brimstone) | Beside the vents of the Cinder Wastes | Iron pickaxe |
+| **Ashsteel** | From the Dominion's Sentinels and its coffers | |
+| **Dominion relics** | From Acolytes, Sentinels and the Dominion's coffers; Orm pays 22 silver each (and 12 for a fire opal) | |
 
 | Recipe | Station | Cost | Makes |
 | --- | --- | --- | --- |
@@ -162,9 +198,10 @@ Ashhounds with Crawlers on the Cinder Wastes.
 | **Fire Opal Charm** | Workbench | 1 fire opal, 2 iron bars, 1 ash pelt | Heat a step lower, burning half as long, breath 5% quicker |
 | **Slag Charm** | Workbench | 1 Slagback trophy, 1 iron bar, 2 obsidian | +35% stagger, +6% damage |
 
-Ember ore cannot be smelted yet (no forge of the Vale burns hot enough), but it feeds the Keeper wards.
+Ember ore cannot be smelted (no forge of the Vale burns hot enough), but it feeds the Keeper wards and the Last Forge.
 
 ## The map below
 
 While you are in the Underhearth the map shows the Underhearth's own map, places and pins, with its own fog of war
-that clears as you walk (shared in co-op like the Vale's). Back on the surface it shows the Vale again.
+that clears as you walk (shared in co-op like the Vale's). Back on the surface it shows the Vale again. In the current
+source the Underhearth's map shows the part you are in: the Wilds and the Wastes, or the Fallen Dominion.

@@ -17,6 +17,8 @@ Since v0.25.0 the Keepers left marks out on the Skerries too: a cairn on Gullhol
 
 Since v0.28.0 the story reaches below the Vale. The Beacon's first fire was drawn up from **the Underhearth**, a world under the island with its own sky, and the Keepers built there too: the lift that hangs from an upside-down keep, the ward stones whose light no creature hunts in, and a great door sealed in the cliff between the Ashen Wilds and the Cinder Wastes. What the Keepers found down there, a light without a sun, is a mystery for later. See [the Underhearth](/world/underhearth/).
 
+In the current source (v0.29.0, not released yet) four tablets in the Fallen Dominion tell the rest from the other side: the people of the Dominion came down from the cold and the deep gave them fire; they bound a light in the sky over their city; the Keepers came as guests, learned the fire, and carried the first fire up to their Beacon over the Dominion's answer, sealing the doors behind them.
+
 This archive describes implemented story beats. It does not invent backstories or turn development plans into canon. Full tablet transcriptions and every discovery are not yet catalogued.
 
 [Progression and ending choices](/progression/) · [Echoes](/runes/)

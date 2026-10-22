@@ -23,6 +23,7 @@ keep the base values (the Frontier's creatures are higher levels instead).
 | Stoneteeth Highlands | 4 · Merciless | ×1.9 health, ×1.65 damage | About 27 armour (iron), warmth against freezing, food; hunting packs |
 | The Skerries | 4 · Merciless | ×1.9 health, ×1.65 damage | A [coracle](/world/skerries/#the-coracle); warmth against the sea wind |
 | The Ashen Wilds | 4 · Merciless | ×1.9 health, ×1.65 damage (its creatures are tougher kinds to begin with) | Since v0.28.0: the first land of [the Underhearth](/world/underhearth/), below the Vale. Something against the heat (Glowcap Broth, Frostlichen Draught), an iron pickaxe and axe for its finds |
+| The Fallen Dominion | 5 · Infernal | ×2.15 health, ×1.85 damage | Current source, not released (v0.29.0): the Underhearth's third land, east of the Wastes along the Ash Road. Echo crystals for the broken causeway, armour against Sentinels' blows, something against fire |
 | The Cinder Wastes | 5 · Infernal | ×2.15 health, ×1.85 damage | Since v0.28.0: the Underhearth's second land, behind the Sealed Door (light both wards of the Ashen Wilds). About 30 armour, something against the heat (the whole plain is hot) and shelter from Bloodstorms |
 
 Outer-land creatures also have more poise (×1.15 / ×1.25 / ×1.35 by tier; ×1.45 in tier 5), notice you from further

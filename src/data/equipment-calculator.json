@@ -1321,6 +1321,30 @@
       "name": "Cinder Crawler Trophy",
       "image": "/images/icons/crawlertrophy.png",
       "page": "equipment/items/crawler-trophy"
+    },
+    {
+      "key": "Ashsteel",
+      "name": "Ashsteel",
+      "image": "/images/icons/ashsteel.png",
+      "page": "equipment/items/ashsteel"
+    },
+    {
+      "key": "DominionRelic",
+      "name": "Dominion Relic",
+      "image": "/images/icons/dominionrelic.png",
+      "page": "equipment/items/dominion-relic"
+    },
+    {
+      "key": "SentinelTrophy",
+      "name": "Sentinel Trophy",
+      "image": "/images/icons/sentineltrophy.png",
+      "page": "equipment/items/sentinel-trophy"
+    },
+    {
+      "key": "AcolyteTrophy",
+      "name": "Acolyte Trophy",
+      "image": "/images/icons/acolytetrophy.png",
+      "page": "equipment/items/acolyte-trophy"
     }
   ],
   "stations": [

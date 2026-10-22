@@ -495,6 +495,108 @@
     ]
   },
   {
+    "id": "creature:Sentinel",
+    "key": "Sentinel",
+    "kind": "creature",
+    "name": "Dominion Sentinel",
+    "aliases": [
+      "Sentinel Captain"
+    ],
+    "description": "A soldier of the Fallen Dominion in black plate, still at its post. It fights like a Hollow (a raised shield, two blows in a row, a leap) but slower, harder hitting and far harder to stagger. Sentinels standing on the old posts (either side of the Ash Gate, on the temple steps) are **statues** until a hero comes within about 4.5 m or strikes one. Its blade carries grave rot like a Hollow’s.",
+    "source": "Assets/Scripts/Enemies/DeepCreatures.cs",
+    "page": "creatures/dominion-sentinel",
+    "image": "/images/sentinel-v029.webp",
+    "thumbnail": "/images/creatures/sentinel-thumb.webp",
+    "stats": {
+      "health": 177.6,
+      "poise": 84,
+      "speed": 2.25
+    },
+    "attacks": [
+      [
+        "First slash",
+        19.5
+      ],
+      [
+        "Second slash",
+        16.5
+      ],
+      [
+        "Leap",
+        30
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Ashsteel",
+        "quantity": "1 (60%) or 2 (40%)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:Bone",
+        "quantity": "1",
+        "chance": "50%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:DominionRelic",
+        "quantity": "1",
+        "chance": "15%",
+        "condition": "Every level"
+      }
+    ]
+  },
+  {
+    "id": "creature:Acolyte",
+    "key": "Acolyte",
+    "kind": "creature",
+    "name": "Dominion Acolyte",
+    "aliases": [
+      "Ember Hierophant"
+    ],
+    "description": "A robed fire-priest of the Fallen Dominion. It keeps a throwing distance (backing off when pressed) and throws a **gob of fire** every three or four seconds; a gob that hits sets the hero **burning** for 3 seconds (a roll or a parry keeps it off). Up close it swipes, and a swipe also burns. Frail up close: cuts and points hurt it most. It does not burn.",
+    "source": "Assets/Scripts/Enemies/DeepCreatures.cs",
+    "page": "creatures/dominion-acolyte",
+    "image": "/images/acolyte-v029.webp",
+    "thumbnail": "/images/creatures/acolyte-thumb.webp",
+    "stats": {
+      "health": 81.4,
+      "poise": 33.6,
+      "speed": 2.5
+    },
+    "attacks": [
+      [
+        "Fire gob",
+        11.2
+      ],
+      [
+        "Swipe",
+        12.6
+      ]
+    ],
+    "drops": [
+      {
+        "item": "item:Brimstone",
+        "quantity": "1 (50%) or 2 (50%)",
+        "chance": "100%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:DominionRelic",
+        "quantity": "1",
+        "chance": "30%",
+        "condition": "Every level"
+      },
+      {
+        "item": "item:FireOpal",
+        "quantity": "1",
+        "chance": "15%",
+        "condition": "Every level"
+      }
+    ]
+  },
+  {
     "id": "creature:Spider",
     "key": "Spider",
     "kind": "creature",
