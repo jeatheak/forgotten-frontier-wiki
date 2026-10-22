@@ -167,7 +167,7 @@ Now and then your hero **thinks out loud**: one quiet line at the bottom of the 
 
 Inventory, crafting and map screens leave the world running. The pause menu stops single player; online play keeps running. Creature health bars can be disabled under Settings > Gameplay. From v0.24.0 Settings > Video also has **Distance blur** (far scenery softly out of focus; nothing within 60 m) and **Colour fringe** (a faint chromatic edge towards the corners), both on by default. From v0.25.0 the **Ultra** shadow setting also lets the nearest fire within 18 m cast soft shadows.
 
-In the current source (v0.28.0, not released yet) the Underhearth has the opposite hazard, **heat**: lava burns and the
+Since v0.28.0 the Underhearth has the opposite hazard, **heat**: lava burns and the
 air beside it scorches; see [the Underhearth](/world/underhearth/#heat).
 
 Out on the sea and the Skerries the **sea wind** chills you at night, in rain and in storms, like the Highland cold;

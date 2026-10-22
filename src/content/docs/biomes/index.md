@@ -8,8 +8,7 @@ sources: ["Assets/Scripts/World/WorldIsles.cs", "Assets/Scripts/World/BiomeAir.c
 <div class="gallery-grid"><figure><a href="/images/birchwood-v016.webp" aria-label="Open full-size image: Birchwood: open grassland and pale trunks in the western hills."><img src="/images/birchwood-v016.webp" alt="Birchwood: open grassland and pale trunks in the western hills." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Birchwood: open grassland and pale trunks in the western hills.</figcaption></figure><figure><a href="/images/elderwood-v016.webp" aria-label="Open full-size image: Elderwood: dense southern forest."><img src="/images/elderwood-v016.webp" alt="Elderwood: dense southern forest." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Elderwood: dense southern forest.</figcaption></figure><figure><a href="/images/mire-v016.webp" aria-label="Open full-size image: The Mire: dark pools, reeds and low mist."><img src="/images/mire-v016.webp" alt="The Mire: dark pools, reeds and low mist." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The Mire: dark pools, reeds and low mist.</figcaption></figure><figure><a href="/images/highlands-v016.webp" aria-label="Open full-size image: Stoneteeth Highlands: bare slopes and distant snow."><img src="/images/highlands-v016.webp" alt="Stoneteeth Highlands: bare slopes and distant snow." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Stoneteeth Highlands: bare slopes and distant snow.</figcaption></figure></div>
 
 The skulls by the place name show the land's **danger tier**, from none (the homestead and the trader's camp) to four
-(since v0.27.0; before, there were at most three and the outer lands differed far less), and five in the current
-source's Cinder Wastes. Creatures born in the **outer lands** take their land's tier; the Vale's forest and the Frontier
+(since v0.27.0; before, there were at most three and the outer lands differed far less), and five in the Cinder Wastes (since v0.28.0). Creatures born in the **outer lands** take their land's tier; the Vale's forest and the Frontier
 keep the base values (the Frontier's creatures are higher levels instead).
 
 | Biome | Tier | Creatures born there | Preparation |
@@ -23,8 +22,8 @@ keep the base values (the Frontier's creatures are higher levels instead).
 | The Mire | 3 · Deadly | ×1.65 health, ×1.45 damage | Bogwalker's Balm against venom and webs; hunting packs |
 | Stoneteeth Highlands | 4 · Merciless | ×1.9 health, ×1.65 damage | About 27 armour (iron), warmth against freezing, food; hunting packs |
 | The Skerries | 4 · Merciless | ×1.9 health, ×1.65 damage | A [coracle](/world/skerries/#the-coracle); warmth against the sea wind |
-| The Ashen Wilds | 4 · Merciless | ×1.9 health, ×1.65 damage (its creatures are tougher kinds to begin with) | Current source, not released: the first land of [the Underhearth](/world/underhearth/), below the Vale. Something against the heat (Glowcap Broth, Frostlichen Draught), an iron pickaxe and axe for its finds |
-| The Cinder Wastes | 5 · Infernal | ×2.15 health, ×1.85 damage | Current source, not released: the Underhearth's second land, behind the Sealed Door (light both wards of the Ashen Wilds). About 30 armour, something against the heat (the whole plain is hot) and shelter from Bloodstorms |
+| The Ashen Wilds | 4 · Merciless | ×1.9 health, ×1.65 damage (its creatures are tougher kinds to begin with) | Since v0.28.0: the first land of [the Underhearth](/world/underhearth/), below the Vale. Something against the heat (Glowcap Broth, Frostlichen Draught), an iron pickaxe and axe for its finds |
+| The Cinder Wastes | 5 · Infernal | ×2.15 health, ×1.85 damage | Since v0.28.0: the Underhearth's second land, behind the Sealed Door (light both wards of the Ashen Wilds). About 30 armour, something against the heat (the whole plain is hot) and shelter from Bloodstorms |
 
 Outer-land creatures also have more poise (×1.15 / ×1.25 / ×1.35 by tier; ×1.45 in tier 5), notice you from further
 (×1.15 / ×1.25 / ×1.3; ×1.35), move a little faster (×1.05 / ×1.08 / ×1.1; ×1.12), are elites more often (×1.6 / ×2.1 /
@@ -44,7 +43,7 @@ tier 4, 30 in tier 5) the HUD says **your armour is thin here**.
 - **Packs everywhere.** Besides the old haunts, packs stand about every 50-60 m deep inside Birchwood, Elderwood, the
   Mire and the Highlands, with the land's own creatures: Stalkers and Chargers, the dead in the Elderwood (by day too)
   and spiders in the Mire. About half of the Stalker packs **roam** a loop of 35-55 m.
-- **Hunting packs.** Linger in Elderwood, the Mire or the Highlands (or in Birchwood at night; in the current source also the Ashen Wilds and the Cinder Wastes below) and a pack picks up your
+- **Hunting packs.** Linger in Elderwood, the Mire or the Highlands (or in Birchwood at night; since v0.28.0 also the Ashen Wilds and the Cinder Wastes below) and a pack picks up your
   scent: two or three of the land's creatures come for you from 40-55 m away, out of sight, and a message says from
   which direction. On Normal it takes about three to five minutes out there, less at night and in the Highlands;
   Easy hunts less often, Hard more often, Builder never. Under a roof or by a fire the scent goes cold. A hunting pack

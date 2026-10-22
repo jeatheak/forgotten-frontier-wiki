@@ -15,7 +15,7 @@ Each creature has its own reference page with health by level and difficulty, at
 | Mire Spider | Keeps distance, spits slowing webs and darts in to bite. Higher-level spiders are Bog Weavers. Carry Bogwalker's Balm. Every spider carries spider silk. |
 | Greyhorn | Grazing herd animal with bull variants. Hunt with care; an old bull is more dangerous than ordinary prey. |
 
-In the current source (v0.28.0, not released yet) the Underhearth's Ashen Wilds have three creatures of their own: the
+Since v0.28.0 the Underhearth's Ashen Wilds have three creatures of their own: the
 **Ashhound** (a fireproof pack hunter of the ash), **the Kindled** (burning dead who set you alight and burst into flame
 when they fall) and the **Ashhorn** (a great grazer that leaves you alone unless hurt). See [Ashhound](/creatures/ashhound/),
 [Kindled](/creatures/kindled/), [Ashhorn](/creatures/ashhorn/) and [the Underhearth](/world/underhearth/#creatures).

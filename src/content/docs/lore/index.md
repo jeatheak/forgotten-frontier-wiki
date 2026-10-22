@@ -15,6 +15,8 @@ Mira is an injured traveler who can become part of the homestead. She speaks eve
 
 Since v0.25.0 the Keepers left marks out on the Skerries too: a cairn on Gullholm and a lore stone by the ruined lighthouse on Keeper's Light, whose fire once guided their ships home. Kindling it again is a story beat of its own.
 
+Since v0.28.0 the story reaches below the Vale. The Beacon's first fire was drawn up from **the Underhearth**, a world under the island with its own sky, and the Keepers built there too: the lift that hangs from an upside-down keep, the ward stones whose light no creature hunts in, and a great door sealed in the cliff between the Ashen Wilds and the Cinder Wastes. What the Keepers found down there, a light without a sun, is a mystery for later. See [the Underhearth](/world/underhearth/).
+
 This archive describes implemented story beats. It does not invent backstories or turn development plans into canon. Full tablet transcriptions and every discovery are not yet catalogued.
 
 [Progression and ending choices](/progression/) · [Echoes](/runes/)

@@ -1194,223 +1194,223 @@
     "source": "Screens/wiki/v028/underhearth-overlook-v028.webp",
     "version": "0.28.0",
     "alt": "A hero on a dark ledge looks out over a forest of glowing blue and violet mushrooms; beyond black spires a huge red glow hangs low in a violet sky, and a keep hangs upside down from the dark above.",
-    "caption": "The first sight of the Underhearth from the Overlook, v0.28.0 source (editor camera capture)."
+    "caption": "The first sight of the Underhearth from the Overlook, v0.28.0 (editor camera capture)."
   },
   {
     "path": "/images/underhearth-wilds-v028.webp",
     "source": "Screens/wiki/v028/underhearth-wilds-v028.webp",
     "version": "0.28.0",
     "alt": "A hero among giant mushrooms with glowing undersides and twisted trees with turquoise and red leaves, under a violet sky.",
-    "caption": "Glowcaps and gloomtrees in the Ashen Wilds, v0.28.0 source (editor camera capture)."
+    "caption": "Glowcaps and gloomtrees in the Ashen Wilds, v0.28.0 (editor camera capture)."
   },
   {
     "path": "/images/underhearth-tunnel-v028.webp",
     "source": "Screens/wiki/v028/underhearth-tunnel-v028.webp",
     "version": "0.28.0",
     "alt": "A hero in a dark rock tunnel; a cold blue rune lamp glows on the left and faint lights hang deeper in.",
-    "caption": "The tunnel at the head of the descent, v0.28.0 source (editor camera capture)."
+    "caption": "The tunnel at the head of the descent, v0.28.0 (editor camera capture)."
   },
   {
     "path": "/images/underhearth-lava-v028.webp",
     "source": "Screens/wiki/v028/underhearth-lava-v028.webp",
     "version": "0.28.0",
     "alt": "A river of lava cracked into black crust plates with orange seams, below a bank of glowing mushrooms.",
-    "caption": "A lava river with crusted plates, v0.28.0 source (editor camera capture)."
+    "caption": "A lava river with crusted plates, v0.28.0 (editor camera capture)."
   },
   {
     "path": "/images/icons/obsidian.png",
     "source": "Screens/wiki/icons/Obsidian.png",
     "version": "0.28.0",
     "alt": "Obsidian inventory icon rendered from the game model.",
-    "caption": "Obsidian — in-game inventory icon, v0.28.0 source."
+    "caption": "Obsidian — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/emberore.png",
     "source": "Screens/wiki/icons/EmberOre.png",
     "version": "0.28.0",
     "alt": "Ember Ore inventory icon rendered from the game model.",
-    "caption": "Ember Ore — in-game inventory icon, v0.28.0 source."
+    "caption": "Ember Ore — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/brimstone.png",
     "source": "Screens/wiki/icons/Brimstone.png",
     "version": "0.28.0",
     "alt": "Brimstone inventory icon rendered from the game model.",
-    "caption": "Brimstone — in-game inventory icon, v0.28.0 source."
+    "caption": "Brimstone — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/glowcap.png",
     "source": "Screens/wiki/icons/Glowcap.png",
     "version": "0.28.0",
     "alt": "Glowcap inventory icon rendered from the game model.",
-    "caption": "Glowcap — in-game inventory icon, v0.28.0 source."
+    "caption": "Glowcap — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/emberwood.png",
     "source": "Screens/wiki/icons/Emberwood.png",
     "version": "0.28.0",
     "alt": "Emberwood inventory icon rendered from the game model.",
-    "caption": "Emberwood — in-game inventory icon, v0.28.0 source."
+    "caption": "Emberwood — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/ashpelt.png",
     "source": "Screens/wiki/icons/AshPelt.png",
     "version": "0.28.0",
     "alt": "Ash Pelt inventory icon rendered from the game model.",
-    "caption": "Ash Pelt — in-game inventory icon, v0.28.0 source."
+    "caption": "Ash Pelt — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/ashhoundtrophy.png",
     "source": "Screens/wiki/icons/AshhoundTrophy.png",
     "version": "0.28.0",
     "alt": "Ashhound Trophy inventory icon rendered from the game model.",
-    "caption": "Ashhound Trophy — in-game inventory icon, v0.28.0 source."
+    "caption": "Ashhound Trophy — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/kindledtrophy.png",
     "source": "Screens/wiki/icons/KindledTrophy.png",
     "version": "0.28.0",
     "alt": "Kindled Trophy inventory icon rendered from the game model.",
-    "caption": "Kindled Trophy — in-game inventory icon, v0.28.0 source."
+    "caption": "Kindled Trophy — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/glowcapbroth.png",
     "source": "Screens/wiki/icons/GlowcapBroth.png",
     "version": "0.28.0",
     "alt": "Glowcap Broth inventory icon rendered from the game model.",
-    "caption": "Glowcap Broth — in-game inventory icon, v0.28.0 source."
+    "caption": "Glowcap Broth — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/frostdraught.png",
     "source": "Screens/wiki/icons/FrostDraught.png",
     "version": "0.28.0",
     "alt": "Frostlichen Draught inventory icon rendered from the game model.",
-    "caption": "Frostlichen Draught — in-game inventory icon, v0.28.0 source."
+    "caption": "Frostlichen Draught — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/arrowobsidian.png",
     "source": "Screens/wiki/icons/ArrowObsidian.png",
     "version": "0.28.0",
     "alt": "Obsidian Arrows inventory icon rendered from the game model.",
-    "caption": "Obsidian Arrows — in-game inventory icon, v0.28.0 source."
+    "caption": "Obsidian Arrows — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/ashhound-v028.webp",
     "source": "Screens/wiki/v028/ashhound-v028.webp",
     "version": "0.28.0",
     "alt": "Ashhound model in a staged in-game portrait.",
-    "caption": "Ashhound — staged in-game portrait, v0.28.0 source."
+    "caption": "Ashhound — staged in-game portrait, v0.28.0."
   },
   {
     "path": "/images/creatures/ashhound-thumb.webp",
     "source": "Screens/wiki/v028/ashhound-v028.webp",
     "version": "0.28.0",
     "alt": "Ashhound thumbnail cropped from its in-game portrait.",
-    "caption": "Ashhound thumbnail, v0.28.0 source."
+    "caption": "Ashhound thumbnail, v0.28.0."
   },
   {
     "path": "/images/kindled-v028.webp",
     "source": "Screens/wiki/v028/kindled-v028.webp",
     "version": "0.28.0",
     "alt": "Kindled model in a staged in-game portrait.",
-    "caption": "Kindled — staged in-game portrait, v0.28.0 source."
+    "caption": "Kindled — staged in-game portrait, v0.28.0."
   },
   {
     "path": "/images/creatures/kindled-thumb.webp",
     "source": "Screens/wiki/v028/kindled-v028.webp",
     "version": "0.28.0",
     "alt": "Kindled thumbnail cropped from its in-game portrait.",
-    "caption": "Kindled thumbnail, v0.28.0 source."
+    "caption": "Kindled thumbnail, v0.28.0."
   },
   {
     "path": "/images/ashhorn-v028.webp",
     "source": "Screens/wiki/v028/ashhorn-v028.webp",
     "version": "0.28.0",
     "alt": "Ashhorn model in a staged in-game portrait.",
-    "caption": "Ashhorn — staged in-game portrait, v0.28.0 source."
+    "caption": "Ashhorn — staged in-game portrait, v0.28.0."
   },
   {
     "path": "/images/creatures/ashhorn-thumb.webp",
     "source": "Screens/wiki/v028/ashhorn-v028.webp",
     "version": "0.28.0",
     "alt": "Ashhorn thumbnail cropped from its in-game portrait.",
-    "caption": "Ashhorn thumbnail, v0.28.0 source."
+    "caption": "Ashhorn thumbnail, v0.28.0."
   },
   {
     "path": "/images/icons/fireopal.png",
     "source": "Screens/wiki/icons/FireOpal.png",
     "version": "0.28.0",
     "alt": "Fire Opal inventory icon rendered from the game model.",
-    "caption": "Fire Opal — in-game inventory icon, v0.28.0 source."
+    "caption": "Fire Opal — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/slagbacktrophy.png",
     "source": "Screens/wiki/icons/SlagbackTrophy.png",
     "version": "0.28.0",
     "alt": "Slagback Trophy inventory icon rendered from the game model.",
-    "caption": "Slagback Trophy — in-game inventory icon, v0.28.0 source."
+    "caption": "Slagback Trophy — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/crawlertrophy.png",
     "source": "Screens/wiki/icons/CrawlerTrophy.png",
     "version": "0.28.0",
     "alt": "Cinder Crawler Trophy inventory icon rendered from the game model.",
-    "caption": "Cinder Crawler Trophy — in-game inventory icon, v0.28.0 source."
+    "caption": "Cinder Crawler Trophy — in-game inventory icon, v0.28.0."
   },
   {
     "path": "/images/icons/gear-charm-opal.png",
     "source": "Screens/wiki/icons/gear_charm_opal.png",
     "version": "0.28.0",
     "alt": "Fire Opal Charm equipment icon rendered from the game model.",
-    "caption": "Fire Opal Charm — in-game equipment icon, v0.28.0 source."
+    "caption": "Fire Opal Charm — in-game equipment icon, v0.28.0."
   },
   {
     "path": "/images/icons/gear-charm-slag.png",
     "source": "Screens/wiki/icons/gear_charm_slag.png",
     "version": "0.28.0",
     "alt": "Slag Charm equipment icon rendered from the game model.",
-    "caption": "Slag Charm — in-game equipment icon, v0.28.0 source."
+    "caption": "Slag Charm — in-game equipment icon, v0.28.0."
   },
   {
     "path": "/images/underhearth-titan-v028.webp",
     "source": "Screens/wiki/v028/underhearth-titan-v028.webp",
     "version": "0.28.0",
     "alt": "A hero on dark cinder ground; beyond, the huge horned skull and ribs of the Fallen Titan lie in the ash, and a crack of lava glows on the right.",
-    "caption": "The Fallen Titan on the Cinder Wastes, v0.28.0 source (editor camera capture)."
+    "caption": "The Fallen Titan on the Cinder Wastes, v0.28.0 (editor camera capture)."
   },
   {
     "path": "/images/underhearth-vent-v028.webp",
     "source": "Screens/wiki/v028/underhearth-vent-v028.webp",
     "version": "0.28.0",
     "alt": "A vent on the Breathing Flats roars a column of fire beside the hero; the HUD shows five red skulls, Infernal, the hero at 73 of 100 health and BURNING.",
-    "caption": "A vent roars on the Breathing Flats, v0.28.0 source (autotest capture)."
+    "caption": "A vent roars on the Breathing Flats, v0.28.0 (autotest capture)."
   },
   {
     "path": "/images/slagback-v028.webp",
     "source": "Screens/wiki/v028/slagback-v028.webp",
     "version": "0.28.0",
     "alt": "Slagback model in a staged in-game portrait.",
-    "caption": "Slagback — staged in-game portrait, v0.28.0 source."
+    "caption": "Slagback — staged in-game portrait, v0.28.0."
   },
   {
     "path": "/images/creatures/slagback-thumb.webp",
     "source": "Screens/wiki/v028/slagback-v028.webp",
     "version": "0.28.0",
     "alt": "Slagback thumbnail cropped from its in-game portrait.",
-    "caption": "Slagback thumbnail, v0.28.0 source."
+    "caption": "Slagback thumbnail, v0.28.0."
   },
   {
     "path": "/images/crawler-v028.webp",
     "source": "Screens/wiki/v028/crawler-v028.webp",
     "version": "0.28.0",
     "alt": "Cinder Crawler model in a staged in-game portrait.",
-    "caption": "Cinder Crawler — staged in-game portrait, v0.28.0 source."
+    "caption": "Cinder Crawler — staged in-game portrait, v0.28.0."
   },
   {
     "path": "/images/creatures/crawler-thumb.webp",
     "source": "Screens/wiki/v028/crawler-v028.webp",
     "version": "0.28.0",
     "alt": "Cinder Crawler thumbnail cropped from its in-game portrait.",
-    "caption": "Cinder Crawler thumbnail, v0.28.0 source."
+    "caption": "Cinder Crawler thumbnail, v0.28.0."
   }
 ]

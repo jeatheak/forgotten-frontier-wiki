@@ -17,7 +17,7 @@ The homestead is your base for crafting, storage and building. Follow paths into
 
 <div class="gallery-grid"><figure><a href="/images/trader-v017.webp" aria-label="Open full-size image: Orm the Peddler by his cart at dusk (v0.17.0)."><img src="/images/trader-v017.webp" alt="Orm the Peddler by his cart at dusk (v0.17.0)." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Orm the Peddler by his cart at dusk (v0.17.0).</figcaption></figure></div>
 
-In the current source (v0.28.0, not released yet) a fracture beside **the Throat** on the Highlands leads down into a second world: [the Underhearth](/world/underhearth/), with the Ashen Wilds and, behind a sealed
+Since v0.28.0 a fracture beside **the Throat** on the Highlands leads down into a second world: [the Underhearth](/world/underhearth/), with the Ashen Wilds and, behind a sealed
 Keeper door, the Cinder Wastes.
 
 Chests at sites, in crypts and on the islands hold what their land gives (since v0.25: weighted picks, never the same thing twice), and every three days the sea washes **crates** up on the beaches. See [chests and flotsam](/world/skerries/#chests-and-flotsam).
