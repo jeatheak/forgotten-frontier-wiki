@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Enemies/DeepCreatures.cs","Assets/Scripts/Enemies/Enem
 
 <figure class="reference-portrait"><a href="/images/acolyte-v029.webp"><img src="/images/acolyte-v029.webp" alt="Dominion Acolyte — staged in-game portrait" width="1600" height="900" /></a><figcaption>Actual game model, staged for this portrait in v0.29.0.</figcaption></figure>
 
-*In the current source (v0.29.0, not released yet): a creature of [the Underhearth](/world/underhearth/#creatures)’s Fallen Dominion, a tier 5 land.*
+*New in v0.29.0: a creature of [the Underhearth](/world/underhearth/#creatures)’s Fallen Dominion, a tier 5 land.*
 
 A robed fire-priest of the Fallen Dominion. It keeps a throwing distance (backing off when pressed) and throws a **gob of fire** every three or four seconds; a gob that hits sets the hero **burning** for 3 seconds (a roll or a parry keeps it off). Up close it swipes, and a swipe also burns. Frail up close: cuts and points hurt it most. It does not burn.
 

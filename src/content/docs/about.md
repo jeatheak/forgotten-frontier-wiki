@@ -11,6 +11,9 @@ Item, equipment and recipe references and the update archive are generated from 
 
 ## Pictures
 
+New **v0.29.0** captures show the Fallen Dominion: its shore, the Echo span over the Broken Causeway and Sentinels
+waking in the Black City, with portraits of the Sentinel and the Acolyte and icons for ashsteel, relics and trophies.
+
 New **v0.28.0** captures show the Underhearth: the tunnel, the Overlook, the glowcap woods, a lava river, the Fallen
 Titan and a vent on the Cinder Wastes, with portraits of its five creatures and icons for its finds, meals and charms.
 

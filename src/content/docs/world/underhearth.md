@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/World/Underhearth.cs", "Assets/Scripts/World/DeepPassa
 
 **New in v0.28.0.** Far below the Vale lies a whole world with its own horizon and
 its own sky: **the Underhearth**. Two of its lands can be explored now: **the Ashen Wilds**, where the way down comes
-out, **the Cinder Wastes** behind them and, in the current source (v0.29.0, not released yet), **the Fallen
+out, **the Cinder Wastes** behind them and, since v0.29.0, **the Fallen
 Dominion** east of the Wastes. The Heart of the Below comes later.
 
 ## Getting there: the fracture
@@ -117,9 +117,9 @@ same moment. Brimstone crusts and **opal seams** gather round the vents.
 
 ## The Fallen Dominion
 
-*In the current source (v0.29.0, not released yet).*
+*New in v0.29.0.*
 
-<div class="gallery-grid"><figure><a href="/images/dominion-shore-v029.webp" aria-label="Open full-size image: The shore of the Lake of Fire, v0.29.0 source (editor camera capture)."><img src="/images/dominion-shore-v029.webp" alt="A hero on the red shore of the Fallen Dominion beside a lore tablet, the lake of fire glowing behind and black mountains under a red sky." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The shore of the Lake of Fire, v0.29.0 source (editor camera capture).</figcaption></figure><figure><a href="/images/dominion-span-v029.webp" aria-label="Open full-size image: The Echo span over the Broken Causeway, v0.29.0 source (editor camera capture)."><img src="/images/dominion-span-v029.webp" alt="A hero on a flagstone causeway between seas of fire; ahead a pale Echo span with rails bridges the gap beside a small Keeper pedestal, and black towers with lit windows rise beyond." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The Echo span over the Broken Causeway, v0.29.0 source (editor camera capture).</figcaption></figure><figure><a href="/images/dominion-city-v029.webp" aria-label="Open full-size image: Sentinels wake in the Black City, v0.29.0 source (editor camera capture)."><img src="/images/dominion-city-v029.webp" alt="A hero in the Black City between two Sentinels in dark armour with shields, beneath black towers with fire in their windows." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>Sentinels wake in the Black City, v0.29.0 source (editor camera capture).</figcaption></figure></div>
+<div class="gallery-grid"><figure><a href="/images/dominion-shore-v029.webp" aria-label="Open full-size image: The shore of the Lake of Fire, v0.29.0 (editor camera capture)."><img src="/images/dominion-shore-v029.webp" alt="A hero on the red shore of the Fallen Dominion beside a lore tablet, the lake of fire glowing behind and black mountains under a red sky." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The shore of the Lake of Fire, v0.29.0 (editor camera capture).</figcaption></figure><figure><a href="/images/dominion-span-v029.webp" aria-label="Open full-size image: The Echo span over the Broken Causeway, v0.29.0 (editor camera capture)."><img src="/images/dominion-span-v029.webp" alt="A hero on a flagstone causeway between seas of fire; ahead a pale Echo span with rails bridges the gap beside a small Keeper pedestal, and black towers with lit windows rise beyond." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The Echo span over the Broken Causeway, v0.29.0 (editor camera capture).</figcaption></figure><figure><a href="/images/dominion-city-v029.webp" aria-label="Open full-size image: Sentinels wake in the Black City, v0.29.0 (editor camera capture)."><img src="/images/dominion-city-v029.webp" alt="A hero in the Black City between two Sentinels in dark armour with shields, beneath black towers with fire in their windows." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>Sentinels wake in the Black City, v0.29.0 (editor camera capture).</figcaption></figure></div>
 
 East of the Cinder Wastes lies the city of the people who lived down here before the Keepers came. It is a **tier 5
 land ("Infernal")**, like the Wastes.
@@ -203,5 +203,4 @@ Ember ore cannot be smelted (no forge of the Vale burns hot enough), but it feed
 ## The map below
 
 While you are in the Underhearth the map shows the Underhearth's own map, places and pins, with its own fog of war
-that clears as you walk (shared in co-op like the Vale's). Back on the surface it shows the Vale again. In the current
-source the Underhearth's map shows the part you are in: the Wilds and the Wastes, or the Fallen Dominion.
+that clears as you walk (shared in co-op like the Vale's). Back on the surface it shows the Vale again. Since v0.29.0 the Underhearth's map shows the part you are in: the Wilds and the Wastes, or the Fallen Dominion.

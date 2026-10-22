@@ -21,8 +21,7 @@ when they fall) and the **Ashhorn** (a great grazer that leaves you alone unless
 [Kindled](/creatures/kindled/), [Ashhorn](/creatures/ashhorn/) and [the Underhearth](/world/underhearth/#creatures).
 Behind them the Cinder Wastes add the **Slagback** (a Charger grown over with slag that leaves burning ground behind its
 charge) and the **Cinder Crawler** (a fast spider of cinder and glass that leaps and sets you alight, in swarms). See
-[Slagback](/creatures/slagback/) and [Cinder Crawler](/creatures/cinder-crawler/). In the current source (v0.29.0, not
-released yet) the Fallen Dominion adds its humanoid dead: the [Dominion Sentinel](/creatures/dominion-sentinel/) (black
+[Slagback](/creatures/slagback/) and [Cinder Crawler](/creatures/cinder-crawler/). Since v0.29.0 the Fallen Dominion adds its humanoid dead: the [Dominion Sentinel](/creatures/dominion-sentinel/) (black
 plate; some stand as statues until you come close) and the [Dominion Acolyte](/creatures/dominion-acolyte/) (throws fire).
 
 Creatures in the outer lands (the four outer regions, the coast and, since v0.25.0, the Skerries) are tougher than in the Vale, by their land's [danger tier](/biomes/) (since v0.27.0: from ×1.35 health and ×1.25 damage in Birchwood to ×1.9 and ×1.65 in the Highlands and the Skerries; more elites, bigger packs, and they follow further). The deep lands also send [hunting packs](/biomes/#packs-hunts-and-pursuit) after a hero who lingers. At night the drowned (Hollows) rise on the beach of Wrecker's Holm. Barrow Hollows and Hollow Thanes are stronger Hollow variants. Crypts have their own defenders, including wardens. Elite creatures carry additional modifiers; read their names and warnings rather than treating them as ordinary encounters.

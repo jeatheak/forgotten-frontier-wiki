@@ -9,7 +9,7 @@ sources: ["Assets/Scripts/Enemies/DeepCreatures.cs","Assets/Scripts/Enemies/Enem
 
 <figure class="reference-portrait"><a href="/images/sentinel-v029.webp"><img src="/images/sentinel-v029.webp" alt="Dominion Sentinel — staged in-game portrait" width="1600" height="900" /></a><figcaption>Actual game model, staged for this portrait in v0.29.0.</figcaption></figure>
 
-*In the current source (v0.29.0, not released yet): a creature of [the Underhearth](/world/underhearth/#creatures)’s Fallen Dominion, a tier 5 land.*
+*New in v0.29.0: a creature of [the Underhearth](/world/underhearth/#creatures)’s Fallen Dominion, a tier 5 land.*
 
 A soldier of the Fallen Dominion in black plate, still at its post. It fights like a Hollow (a raised shield, two blows in a row, a leap) but slower, harder hitting and far harder to stagger. Sentinels standing on the old posts (either side of the Ash Gate, on the temple steps) are **statues** until a hero comes within about 4.5 m or strikes one. Its blade carries grave rot like a Hollow’s.
 
