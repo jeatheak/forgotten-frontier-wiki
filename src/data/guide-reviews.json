@@ -1,8 +1,8 @@
 {
   "about.md": {
-    "contentHash": "c2277decb5b9e648ac5fdf28209a4c1228879f185da082a25a149c6ae66a86ba",
+    "contentHash": "cd81ebdd081397129f0c4a405a9f0aac4412a38564c1310cd5a7f44f19853c9d",
     "sources": {
-      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45"
+      "CHANGELOG.md": "eb858797a55f9b7e44f69ecc2cc29937b0b54daa88feccc381287d55c0ea793d"
     }
   },
   "biomes/index.md": {
@@ -260,12 +260,12 @@
     }
   },
   "gallery.md": {
-    "contentHash": "11f3cc08b58abf86e342ab4e2f3a8d9ed59171a1b5aeb7eeb7d1d3e2fa12ca1a",
+    "contentHash": "1879ea91da4ec3bec746ece03fbcde400b69a84f24001d6b3c54d9d7bde96918",
     "sources": {
       "Assets/Scripts/World/WorldBuilder.cs": "67c1af03f76130b697dd5dfc4284fe5205c5148c1bedad02d3f8dedbbeb91269",
       "Assets/Scripts/World/WorldGen.cs": "6165f900cfeb0d74dd9804663087762f75253cd61969533f1f94b87e8e39ac16",
       "Assets/Scripts/UI/Stage3D.cs": "a327368a1a86fc45d5fab279ce85f537c58bfca1494f68c24f1256390f65f58d",
-      "CHANGELOG.md": "6ffbfff17ce7eb01a2d29d71d1d369f9a907bd2476aec0e6922f589c750d4f45",
+      "CHANGELOG.md": "eb858797a55f9b7e44f69ecc2cc29937b0b54daa88feccc381287d55c0ea793d",
       "Assets/Scripts/UI/GameMenu.cs": "3d4c2471688ff3a5a73d7c1bff7be3a5b344f6d4ae053f780d87f7517813a126",
       "Assets/Scripts/UI/GameMenuTabs.cs": "96defa72c0b4ae00f28f02d2bcdcf73633330cc3f0776dc51931ff7c2d7ee693",
       "Assets/Scripts/UI/StorageScreen.cs": "49dcf039fd8d4f0d17524993c510df72bc303674231df67ffc77d4be73186c18",

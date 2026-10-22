@@ -11,6 +11,9 @@ Item, equipment and recipe references and the update archive are generated from 
 
 ## Pictures
 
+New **v0.28.0** captures show the Underhearth: the tunnel, the Overlook, the glowcap woods, a lava river, the Fallen
+Titan and a vent on the Cinder Wastes, with portraits of its five creatures and icons for its finds, meals and charms.
+
 New **v0.25.0** captures show the coracle at sea, Selkie Strand, Wrecker's Holm and the kindled lighthouse on Keeper's Light,
 with icons for the coracle, gull eggs, mussels, the pearl, the two sea meals and the Selkie's Pearl charm.
 
