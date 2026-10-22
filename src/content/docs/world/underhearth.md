@@ -1,8 +1,8 @@
 ---
 title: "The Underhearth and the Ashen Wilds"
-description: "The world beneath the Vale: the fracture and the way down, the sky's states, the Ashen Wilds, the Cinder Wastes and the Fallen Dominion, heat, vents, creatures, the Last Forge and the Keepers' lift."
+description: "The world beneath the Vale: the fracture and the way down, the sky's states, the Ashen Wilds, the Cinder Wastes and the Fallen Dominion, light to wear, heat, vents, creatures, the Last Forge and the Keepers' lift."
 verification: verified
-sources: ["Assets/Scripts/World/Underhearth.cs", "Assets/Scripts/World/DeepPassage.cs", "Assets/Scripts/World/KeeperLift.cs", "Assets/Scripts/World/Colossus.cs", "Assets/Scripts/World/CinderVents.cs", "Assets/Scripts/World/Dominion.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/World/LootChest.cs", "Assets/Scripts/World/BiomeAir.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/DayNight.cs", "Assets/Scripts/World/Weather.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/World/Lands.cs", "Assets/Scripts/Enemies/DeepCreatures.cs", "Assets/Scripts/Enemies/Elites.cs", "Assets/Scripts/Enemies/Hunts.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "CHANGELOG.md"]
+sources: ["Assets/Scripts/World/Underhearth.cs", "Assets/Scripts/World/DeepPassage.cs", "Assets/Scripts/World/KeeperLift.cs", "Assets/Scripts/World/Colossus.cs", "Assets/Scripts/World/CinderVents.cs", "Assets/Scripts/World/Dominion.cs", "Assets/Scripts/World/Trader.cs", "Assets/Scripts/World/LootChest.cs", "Assets/Scripts/World/BiomeAir.cs", "Assets/Scripts/Core/Gear.cs", "Assets/Scripts/World/DayNight.cs", "Assets/Scripts/World/Weather.cs", "Assets/Scripts/World/WorldStreamer.cs", "Assets/Scripts/World/Gathering.cs", "Assets/Scripts/World/Lands.cs", "Assets/Scripts/Enemies/DeepCreatures.cs", "Assets/Scripts/Enemies/Elites.cs", "Assets/Scripts/Enemies/Hunts.cs", "Assets/Scripts/Player/PlayerController.cs", "Assets/Scripts/Core/Items.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/UI/GameMenuTabs.cs", "Assets/Scripts/Player/HeroLight.cs", "Assets/Scripts/World/DeepCover.cs", "Assets/Scripts/World/AmbientLife.cs", "CHANGELOG.md"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/underhearth-overlook-v028.webp" aria-label="Open full-size image: The first sight of the Underhearth from the Overlook (v0.28.0)."><img src="/images/underhearth-overlook-v028.webp" alt="A hero on a dark ledge looks out over a forest of glowing blue and violet mushrooms; beyond black spires a huge red glow hangs low in a violet sky, and a keep hangs upside down from the dark above." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The first sight of the Underhearth from the Overlook (v0.28.0).</figcaption></figure><figure><a href="/images/underhearth-wilds-v028.webp" aria-label="Open full-size image: Glowcaps and gloomtrees in the Ashen Wilds (v0.28.0)."><img src="/images/underhearth-wilds-v028.webp" alt="A hero among giant mushrooms with glowing undersides and twisted trees with turquoise and red leaves, under a violet sky." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>Glowcaps and gloomtrees in the Ashen Wilds (v0.28.0).</figcaption></figure></div>
@@ -10,7 +10,8 @@ sources: ["Assets/Scripts/World/Underhearth.cs", "Assets/Scripts/World/DeepPassa
 **New in v0.28.0.** Far below the Vale lies a whole world with its own horizon and
 its own sky: **the Underhearth**. Two of its lands can be explored now: **the Ashen Wilds**, where the way down comes
 out, **the Cinder Wastes** behind them and, since v0.29.0, **the Fallen
-Dominion** east of the Wastes. The Heart of the Below comes later.
+Dominion** east of the Wastes. The Heart of the Below comes later. Since v0.30.0 you can
+[wear light](#light-below) down here, and the ground grows its own cover.
 
 ## Getting there: the fracture
 
@@ -72,8 +73,11 @@ surface's.
 A tier 4 land ("Merciless"), walled in by black cliffs:
 
 - **Woods** of giant glowcaps and twisted **gloomtrees** with turquoise or red leaves, and glowing pods and shrooms
-  underfoot. The woods are cool.
-- **Ash fields** with black **emberbark** trees, cinderweed and basalt boulders.
+  underfoot. The woods are cool. Since v0.30.0 the floor under them is a carpet of **glow-threads**, fungal filaments
+  whose bulbs pulse blue, violet and teal and sway in the air, and glowcap spores drift between the trunks.
+- **Ash fields** with black **emberbark** trees, cinderweed and basalt boulders, and (since v0.30.0) stiff grey **ash
+  reeds** with ember-lit tips. Basalt pebbles and small sprigs of glowing violet crystal lie about everywhere. Nothing
+  grows in the lava.
 - **Two lava rivers** running north to south either side of the Landing, with **crusted bridges** where the lava runs
   under a skin of rock, and **the Ember Pool** in the middle. The **Glowcap Hollow** lies right below the Overlook.
 - The ribs of something huge, black spires, and **the Sealed Door**, a Keeper door in the north wall.
@@ -90,7 +94,7 @@ through the wall, climbs north to the Cinder Wastes.
 
 ## The Cinder Wastes
 
-<div class="gallery-grid"><figure><a href="/images/underhearth-titan-v028.webp" aria-label="Open full-size image: The Fallen Titan on the Cinder Wastes (v0.28.0)."><img src="/images/underhearth-titan-v028.webp" alt="A hero on dark cinder ground; beyond, the huge horned skull and ribs of the Fallen Titan lie in the ash, and a crack of lava glows on the right." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The Fallen Titan on the Cinder Wastes (v0.28.0).</figcaption></figure><figure><a href="/images/underhearth-vent-v028.webp" aria-label="Open full-size image: A vent roars on the Breathing Flats (v0.28.0)."><img src="/images/underhearth-vent-v028.webp" alt="A vent on the Breathing Flats roars a column of fire beside the hero; the HUD shows five red skulls, Infernal, and the hero burning." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>A vent roars on the Breathing Flats (v0.28.0).</figcaption></figure></div>
+<div class="gallery-grid"><figure><a href="/images/underhearth-titan-v028.webp" aria-label="Open full-size image: The Fallen Titan on the Cinder Wastes (v0.28.0)."><img src="/images/underhearth-titan-v028.webp" alt="A hero on dark cinder ground; beyond, the huge horned skull and ribs of the Fallen Titan lie in the ash, and a crack of lava glows on the right." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The Fallen Titan on the Cinder Wastes (v0.28.0).</figcaption></figure><figure><a href="/images/underhearth-vent-v028.webp" aria-label="Open full-size image: A vent roars on the Breathing Flats (v0.28.0)."><img src="/images/underhearth-vent-v028.webp" alt="A vent on the Breathing Flats roars a column of fire beside the hero; the HUD shows five red skulls, Infernal, and the hero burning." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>A vent roars on the Breathing Flats (v0.28.0).</figcaption></figure><figure><a href="/images/underhearth-reeds-v030.webp" aria-label="Open full-size image: Cinder reeds and rising embers on the Cinder Wastes (v0.30.0 game capture, HUD cropped)."><img src="/images/underhearth-reeds-v030.webp" alt="A hero on dark cinder ground among sparse clumps of grey reeds with glowing orange tips; embers drift in the air and burnt trees with glowing seams stand behind." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>Cinder reeds and rising embers on the Cinder Wastes (v0.30.0 game capture, HUD cropped).</figcaption></figure></div>
 
 The Underhearth's second land: a plain of ash and slag under a redder sky, beyond the wall. It is a **tier 5 land
 ("Infernal")**: creatures born there have ×2.15 health, ×1.85 damage, ×1.45 poise, keener senses and a little more
@@ -106,6 +110,8 @@ speed, elites are more common still, and the HUD calls your armour thin below **
   Breathing Flats): Keeper finds, and the Wastes' own (fire opal, obsidian, ember ore, brimstone).
 - **The Cinder Ward**, a ward stone waiting to be rekindled, and a ruined **fortress** far off on the northern rim, out of
   reach for now.
+- Since v0.30.0 sparse **cinder reeds** with glowing tips grow in patches away from the vents, sprigs of fire crystal
+  stand on the Glass Field, and embers drift up through the air.
 
 ### Vents
 
@@ -137,12 +143,32 @@ land ("Infernal")**, like the Wastes.
 - **Four lore tablets** (the Ash Gate, the Fallen Gate and two by the temple) tell the Dominion's story.
 - Three **Keeper coffers** (by the temple, in the Fallen Gate and by the Last Forge) hold Keeper finds and the Dominion's
   own: relics, ashsteel, fire opal and ember ore.
+- Since v0.30.0 dark reeds tipped with red glow grow here and there on the shore, and embers rise over the lake.
 
 ### The Last Forge
 
 A forge in the Black City that burns from below. Take a weapon or tool **already worked to +3** in hand and it tempers it
 to **+4** (another +10% to its numbers and +25% durability), once, for **2 ashsteel, 3 ember ore and a fire opal**. No
 station goes past +3.
+
+## Light below
+
+<div class="gallery-grid"><figure><a href="/images/underhearth-light-v030.webp" aria-label="Open full-size image: The Glowcap Circlet, the Emberlit Lamellar and the Wisp Rune, worn in the Ashen Wilds (v0.30.0 game capture, HUD cropped)."><img src="/images/underhearth-light-v030.webp" alt="A hero faces the camera in a field of glowing blue and violet threads under giant glowcaps, wearing a circlet with blue stones, dark lamellar with two glowing ember seams and a diamond rune plate, and a pale rune ring floating beside the head." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>The Glowcap Circlet, the Emberlit Lamellar and the Wisp Rune, worn in the Ashen Wilds (v0.30.0 game capture, HUD cropped).</figcaption></figure><figure><a href="/images/underhearth-threads-v030.webp" aria-label="Open full-size image: Glow-threads under the glowcaps, the Wisp Rune over the shoulder (v0.30.0 game capture, HUD cropped)."><img src="/images/underhearth-threads-v030.webp" alt="Seen from behind, a hero with glowing ember seams on the armour walks through a carpet of glow-threads whose tips shine cyan, teal and violet under giant glowcaps; a pale rune floats over the right shoulder." width="1280" height="720" loading="lazy" decoding="async" /></a><figcaption>Glow-threads under the glowcaps, the Wisp Rune over the shoulder (v0.30.0 game capture, HUD cropped).</figcaption></figure></div>
+
+*New in v0.30.0.* Three pieces of gear give light without a hand, made from the Underhearth's finds. Whatever of them
+you wear, they share **one soft light high over your head** (about 4 m off the ground, or over the Wisp Rune when it is
+worn): it lights the ground round you two to three times brighter than without, and never shines into
+the camera or blinds you. The more of them you wear, the brighter and wider it gets. The light only comes on in the dark:
+anywhere in the Underhearth, in a crypt, and at night on the surface.
+
+| Piece | Slot | Made at | Cost | Light |
+| --- | --- | --- | --- | --- |
+| [Glowcap Circlet](/equipment/gear/circlet-glowcap/) | Head (armour 4) | Workbench | 2 leather, 4 glowcaps, 1 obsidian | Cold blue, a band of glowcap stones on the brow |
+| [Emberlit Lamellar](/equipment/gear/lamellar-ember/) | Chest (armour 18) | Forge, level 2 | 6 iron bars, 4 ember ore, 3 leather | Warm ember seams and a rune plate on ash-dark plates |
+| [Wisp Rune](/equipment/gear/charm-wisp/) | Charm (skills +5%) | Workbench | 2 Echo crystals, 3 glowcaps, 2 ember ore | The brightest: a Kaunan rune floating over your right shoulder |
+
+A lit hero is a seen hero: creatures see you farther in your own light. **Sneaking shades the glow** to under a third,
+and it dims while you sleep. In co-op everyone sees the others' glowing gear and its light.
 
 ## Heat
 
@@ -198,7 +224,8 @@ Dominion.
 | **Fire Opal Charm** | Workbench | 1 fire opal, 2 iron bars, 1 ash pelt | Heat a step lower, burning half as long, breath 5% quicker |
 | **Slag Charm** | Workbench | 1 Slagback trophy, 1 iron bar, 2 obsidian | +35% stagger, +6% damage |
 
-Ember ore cannot be smelted (no forge of the Vale burns hot enough), but it feeds the Keeper wards and the Last Forge.
+Ember ore cannot be smelted (no forge of the Vale burns hot enough), but it feeds the Keeper wards and the Last Forge,
+and since v0.30.0 it lights the [Emberlit Lamellar and the Wisp Rune](#light-below).
 
 ## The map below
 

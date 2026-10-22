@@ -18,7 +18,7 @@ Base damage and ordinary upgrade multipliers remain as listed below. See [Archer
 Intact world arrows have a recovery prompt and a 2.4 m automatic pickup reach. Non-fire arrows retain their 60%
 survival chance; broken shafts disappear quickly.
 
-Axes chop wood; pickaxes mine stone and ore. Since v0.19 tools hit creatures for about half the damage of a weapon of their tier (chopping and mining are unchanged). Clubs, spears, blades and bows offer different combat styles. Armour occupies head, chest, shoulders and arms; charms occupy their own slot. The lute is an instrument. A torch is carried gear and uses club attacks, with burning unchanged and just **25 base durability** since v0.20.
+Axes chop wood; pickaxes mine stone and ore. Since v0.19 tools hit creatures for about half the damage of a weapon of their tier (chopping and mining are unchanged). Clubs, spears, blades and bows offer different combat styles. Armour occupies head, chest, shoulders and arms; charms occupy their own slot. The lute is an instrument. A torch is carried gear and uses club attacks, with burning unchanged and just **25 base durability** since v0.20. Since v0.30.0 three pieces made from the Underhearth's finds give light without a hand: the [Glowcap Circlet](/equipment/gear/circlet-glowcap/) (head), the [Emberlit Lamellar](/equipment/gear/lamellar-ember/) (chest) and the [Wisp Rune](/equipment/gear/charm-wisp/) (charm); see [light below](/world/underhearth/#light-below).
 
 Clubs, spears and blades can also **block** (see [Survival and combat](/mechanics/)).
 

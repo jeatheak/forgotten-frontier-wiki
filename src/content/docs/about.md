@@ -11,7 +11,10 @@ Item, equipment and recipe references and the update archive are generated from 
 
 ## Pictures
 
-New **v0.29.0** captures show the Fallen Dominion: its shore, the Echo span over the Broken Causeway and Sentinels
+New **v0.30.0** game captures show the light gear worn in the Ashen Wilds, the glow-threads under the glowcaps and the
+cinder reeds of the Cinder Wastes, with icons for the Glowcap Circlet, the Emberlit Lamellar and the Wisp Rune.
+
+**v0.29.0** captures show the Fallen Dominion: its shore, the Echo span over the Broken Causeway and Sentinels
 waking in the Black City, with portraits of the Sentinel and the Acolyte and icons for ashsteel, relics and trophies.
 
 New **v0.28.0** captures show the Underhearth: the tunnel, the Overlook, the glowcap woods, a lava river, the Fallen

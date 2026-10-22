@@ -27,7 +27,7 @@ Build extensions within **4.5 m** of their station. The second extension needs t
 | Station | Level 2 | Level 3 |
 | --- | --- | --- |
 | Workbench | Shaving Horse: horn bow, antler pick and lute | Grindstone: fire arrows and ground whetstones |
-| Forge | Smith's Rack: mace and lamellar | Quench Trough: Echo Attunement |
+| Forge | Smith's Rack: mace and lamellar (and since v0.30.0 the Emberlit Lamellar) | Quench Trough: Echo Attunement |
 
 Arrow recipes show what the arrows do with your bow (the one in hand, else the best you own): base damage at full draw
 and for a quick shot, and stagger. These figures exclude critical damage. In **v0.22.0**, a successful full-draw

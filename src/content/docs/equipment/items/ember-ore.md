@@ -15,6 +15,6 @@ Gather, loot or obtain this item in the world. It has no direct crafting recipe.
 
 ## What you can make
 
-This item is not an ingredient in the crafting recipe list.
+<div class="entry-grid"><a class="entry-card" href="/crafting/recipes/lamellar-ember-forge/"><img class="" src="/images/icons/gear-lamellar-ember.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Emberlit Lamellar</strong><small>Forge · Level 2</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a><a class="entry-card" href="/crafting/recipes/charm-wisp-workbench/"><img class="" src="/images/icons/gear-charm-wisp.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Wisp Rune</strong><small>Workbench</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a></div>
 
 [Browse all items](/equipment/items/)

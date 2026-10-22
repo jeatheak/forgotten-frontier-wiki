@@ -1489,5 +1489,47 @@
     "version": "0.29.0",
     "alt": "Dominion Acolyte thumbnail cropped from its in-game portrait.",
     "caption": "Dominion Acolyte thumbnail, v0.29.0."
+  },
+  {
+    "path": "/images/icons/gear-circlet-glowcap.png",
+    "source": "Screens/wiki/icons/gear_circlet_glowcap.png",
+    "version": "0.30.0",
+    "alt": "Glowcap Circlet equipment icon rendered from the game model.",
+    "caption": "Glowcap Circlet — in-game equipment icon, v0.30.0."
+  },
+  {
+    "path": "/images/icons/gear-lamellar-ember.png",
+    "source": "Screens/wiki/icons/gear_lamellar_ember.png",
+    "version": "0.30.0",
+    "alt": "Emberlit Lamellar equipment icon rendered from the game model.",
+    "caption": "Emberlit Lamellar — in-game equipment icon, v0.30.0."
+  },
+  {
+    "path": "/images/icons/gear-charm-wisp.png",
+    "source": "Screens/wiki/icons/gear_charm_wisp.png",
+    "version": "0.30.0",
+    "alt": "Wisp Rune equipment icon rendered from the game model.",
+    "caption": "Wisp Rune — in-game equipment icon, v0.30.0."
+  },
+  {
+    "path": "/images/underhearth-light-v030.webp",
+    "source": "Screens/wiki/v030/underhearth-light-v030.webp",
+    "version": "0.30.0",
+    "alt": "A hero faces the camera in a field of glowing blue and violet threads under giant glowcaps, wearing a circlet with blue stones, dark lamellar with two glowing ember seams and a diamond rune plate, and a pale rune ring floating beside the head.",
+    "caption": "The Glowcap Circlet, the Emberlit Lamellar and the Wisp Rune, worn in the Ashen Wilds (v0.30.0 game capture, HUD cropped)."
+  },
+  {
+    "path": "/images/underhearth-threads-v030.webp",
+    "source": "Screens/wiki/v030/underhearth-threads-v030.webp",
+    "version": "0.30.0",
+    "alt": "Seen from behind, a hero with glowing ember seams on the armour walks through a carpet of glow-threads whose tips shine cyan, teal and violet under giant glowcaps; a pale rune floats over the right shoulder.",
+    "caption": "Glow-threads under the glowcaps, the Wisp Rune over the shoulder (v0.30.0 game capture, HUD cropped)."
+  },
+  {
+    "path": "/images/underhearth-reeds-v030.webp",
+    "source": "Screens/wiki/v030/underhearth-reeds-v030.webp",
+    "version": "0.30.0",
+    "alt": "A hero on dark cinder ground among sparse clumps of grey reeds with glowing orange tips; embers drift in the air and burnt trees with glowing seams stand behind.",
+    "caption": "Cinder reeds and rising embers on the Cinder Wastes (v0.30.0 game capture, HUD cropped)."
   }
 ]

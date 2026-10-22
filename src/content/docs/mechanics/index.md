@@ -55,7 +55,8 @@ Press **Left Ctrl** (**L3** on a controller) to **sneak**. You crouch, move at a
 How far creatures see a sneaking hero depends on the **light** on them: about three quarters of their range in open
 sunlight, under half in shade (behind a rock, a wall or under a roof), at night or underground; with the Sneak skill at
 100, two fifths in sunlight down to a fifth in the dark. Fires, lanterns and torches near you light you up, your own
-torch too. An eye under the compass shows **HIDDEN** or **SEEN** (something is hunting you), and over each creature near
+torch too, and so does glowing gear (since v0.30.0: the Glowcap Circlet, the Emberlit Lamellar and the Wisp Rune), though
+sneaking shades their light to under a third. An eye under the compass shows **HIDDEN** or **SEEN** (something is hunting you), and over each creature near
 you a pale eye means it has not noticed you (gold: your next blow would be a sneak attack) and a red **!** means it is
 hunting you. Sprinting, jumping, climbing, sitting or opening the build menu stands you up. Greyhorns let a sneaking
 hunter come about half as close as a walking one.
