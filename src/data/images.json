@@ -1092,6 +1092,20 @@
     "caption": "Sneaking, with the stealth eye under the compass (autotest capture from the v0.24.0 development source; a bull it had just wounded was hunting the hero)."
   },
   {
+    "path": "/images/sneak-v031.webp",
+    "source": "Screens/wiki/v031/sneak.webp",
+    "version": "0.31.0",
+    "alt": "The hero crouched in long grass on a forest track with a mace held low and forward, hips back and head up, under a pale stealth eye beneath the compass.",
+    "caption": "Sneaking in the v0.31.0 crouch (autotest capture from the v0.31.0 development source)."
+  },
+  {
+    "path": "/images/torch-v031.webp",
+    "source": "Screens/wiki/v031/torch.webp",
+    "version": "0.31.0",
+    "alt": "The hero seen from behind on a Highland slope at dusk, carrying a lit torch raised beside the head with the flame above the shoulder.",
+    "caption": "A lit torch carried raised (autotest capture from the v0.31.0 development source)."
+  },
+  {
     "path": "/images/coracle-v025.webp",
     "source": "Screens/wiki/v025/coracle.webp",
     "version": "0.25.0",

@@ -21,6 +21,12 @@ take about a fifth of a second to reach a jog and a little longer to stop, and a
 you go. Turning right round at a sprint brakes first. A **jump** rises about 1.45 m; out of breath you only hop. A
 drop of up to 4 m is free.
 
+From v0.31.0 the walk, run, sprint and sneak are new: each foot stays planted while the body passes over it and the
+steps match your speed, so the feet no longer skate. The axe goes up over your right shoulder and comes down on the right,
+and the pick hangs behind the shoulder before the blow, with the other hand balancing on its own side. Every move now
+plays at its intended pace; before v0.31.0 the hero's and the creatures' moves ran a quarter slow, so a blow showed a
+moment after it had landed.
+
 A swing goes for the creature most in front of you: the way you push the stick or keys, or with no direction held,
 where the camera looks. It keeps turning after that creature through the wind-up and the blow, and it strikes through
 the whole of the swing, so a creature that steps in a moment late is still hit. A blow reaches a creature's body, not
@@ -61,9 +67,9 @@ you a pale eye means it has not noticed you (gold: your next blow would be a sne
 hunting you. Sprinting, jumping, climbing, sitting or opening the build menu stands you up. Greyhorns let a sneaking
 hunter come about half as close as a walking one.
 
-![The hero crouched low in a forest clearing with a mace, an eye marked SEEN under the compass, and the status line reading Rested 5:43, Comfort 1.](/images/sneak-v024.webp)
+![The hero crouched in long grass on a forest track with a mace held low and forward, hips back and head up, under a pale stealth eye beneath the compass.](/images/sneak-v031.webp)
 
-*Sneaking, with the stealth eye under the compass (v0.24.0 development source).*
+*Sneaking, with the stealth eye under the compass (v0.31.0 development source; the crouch is new in v0.31.0).*
 
 A blow on a creature that has not noticed anyone is a **sneak attack**: **×3 damage**, arrows included. The same
 creature can be taken unawares only once every **5 minutes**; the Guardian never. The **Sneak** skill rises while you
