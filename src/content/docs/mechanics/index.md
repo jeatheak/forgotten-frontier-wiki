@@ -56,7 +56,7 @@ being hit, a creature looks all round.
 **Losing them** (since v0.27.0). A creature hunting you keeps looking and listening for you all round. Once it can
 neither see nor hear you it goes to where it last knew you were, and after **5 seconds** in the Vale (up to 11 in the
 Highlands) it gives up: a **?** over it, a search of that spot, and back to its den. Before, it followed anywhere
-within its leash. Break its sight (rock, trunks, walls) and go quietly to get away.
+within its leash. Since v0.33.0 a Stalker or spider that has lost you no longer lunges or spits at the empty spot. Break its sight (rock, trunks, walls) and go quietly to get away.
 
 Press **Left Ctrl** (**L3** on a controller) to **sneak**. You crouch, move at about 1.8 m/s and make almost no noise.
 How far creatures see a sneaking hero depends on the **light** on them: about three quarters of their range in open
