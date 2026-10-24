@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "gameVersion": "0.33.0",
-  "sourceCommit": "07f970a0cd94567d84cd879a30905687dc16b0d0",
+  "sourceCommit": "7a7eb45e95cec7cc7c99bdb38681f14362b07c15",
   "basis": "Implemented local game source; working tree may contain unreleased changes.",
   "sourceHashes": {
     "Assets/Scripts/Core/Art.cs": "57e4ae9e0af0f973d12d1c77cb0b3064bc8af77822f23e5554b641061c8c638e",
-    "Assets/Scripts/Core/AutoTest.cs": "002d780829bcea69706ece6ba470324d5b9b36b4d094e03df85484e1e598c630",
+    "Assets/Scripts/Core/AutoTest.cs": "1dc5cc597de37d215152aff8903869b9ba20012cb9338eb90b98edf82f3754e4",
     "Assets/Scripts/Core/CharAnimator.cs": "ab8829a509c0621e5839cb657df20e4d5c6c4e2f63c968cdd55272f2b9b7d6bf",
     "Assets/Scripts/Core/CharModel.cs": "9f9bd8ae2e20cb586391dea31a3872496cf7400d7759c7008caf89c96e8bc12a",
     "Assets/Scripts/Core/DevTools.cs": "8b8dcc5bd10ef117083ede75e8d9251d4332be8eb6913874c8091c22d53518e8",

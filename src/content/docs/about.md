@@ -11,7 +11,7 @@ Item, equipment and recipe references and the update archive are generated from 
 
 ## Pictures
 
-New **v0.33.0** game captures (ahead of its release) show the Ashsteel and ember-steel sets worn at the Last Forge, with
+New **v0.33.0** game captures show the Ashsteel and ember-steel sets worn at the Last Forge, with
 icons for every new weapon, armour piece and rune material.
 
 New **v0.30.0** game captures show the light gear worn in the Ashen Wilds, the glow-threads under the glowcaps and the

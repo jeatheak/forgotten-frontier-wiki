@@ -1,6 +1,6 @@
 {
   "about.md": {
-    "contentHash": "29a04a253df37f2cffb542114d35bbe7be7f4e39dfe273f7cb00997ea7810f6d",
+    "contentHash": "cc11ddb18b83649cd19292d172a2e0f7b5808142321d11fad0af9182d55cf1a4",
     "sources": {
       "CHANGELOG.md": "656d960c85f602b14d015c39253ecd780fee13a96d73de6e4f49f727fe729543"
     }
@@ -85,7 +85,7 @@
     }
   },
   "index.mdx": {
-    "contentHash": "7a14822180846de6c9446b5062d3c52bb15b3e9fa0093390268f73f70450dd38",
+    "contentHash": "cf367ea5a001ecd28465e1a6e55b33fab7b137bded62682191e979110a8283b7",
     "sources": {
       "CHANGELOG.md": "656d960c85f602b14d015c39253ecd780fee13a96d73de6e4f49f727fe729543",
       "Assets/Scripts/Core/GameManager.cs": "476ff442f03c8c5f2fe1027787a42b07e0f559e130c13b23119389b48eee9aa3"
