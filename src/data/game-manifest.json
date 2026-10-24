@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "gameVersion": "0.32.0",
-  "sourceCommit": "a52d8d7b9a50cce9d2ea1f231c41e6c6d395d6e2",
+  "sourceCommit": "a30f7d3ef13101b603a54447e4e973b063d16a7f",
   "basis": "Implemented local game source; working tree may contain unreleased changes.",
   "sourceHashes": {
     "Assets/Scripts/Core/Art.cs": "57e4ae9e0af0f973d12d1c77cb0b3064bc8af77822f23e5554b641061c8c638e",
-    "Assets/Scripts/Core/AutoTest.cs": "cd046eb969aa67197d0927b92db2c17bf8b8d2a0baad55b4b1f2d7be3a588464",
+    "Assets/Scripts/Core/AutoTest.cs": "e603277bcfc5acb98b709d34c3e217dd8abfe020b176766a3324c70836d78bbe",
     "Assets/Scripts/Core/CharAnimator.cs": "ab8829a509c0621e5839cb657df20e4d5c6c4e2f63c968cdd55272f2b9b7d6bf",
     "Assets/Scripts/Core/CharModel.cs": "c9b4f9855982602abf254feaf0792aca6f82de891fbdfd6a11fa655b7bd4e030",
     "Assets/Scripts/Core/DevTools.cs": "41cfa876a16d740bec36eb1180d6ba2fd64d95dbd0b8fea34434ff8ed9ec5d21",
@@ -127,7 +127,7 @@
     "Assets/Scripts/World/WorldStreamer.cs": "30474bb05e6aabb9755c1ae115d033590e194f27f47c15f0fd5a442c8a496468",
     "Assets/Scripts/World/WorldUpgrades.cs": "3d2f2bc5a5bfe3262921767474043e5c71b76fcaa00f5440a5736a0db91c272d",
     "Assets/Scripts/World/WorldWater.cs": "4bcc17eba22c53a0a98a99b390dbc9e80da360c56dac23f68896f8a045914ad9",
-    "CHANGELOG.md": "4f44a64e47875040740d77289baf6fa002f738be81c6b4cebe9ccce919003833",
+    "CHANGELOG.md": "18c0eee12baf7db929b060d7183c228ec376c16d4701a80b87493b35355361be",
     "Server/FFServer/GameServer.cs": "3b55466a7c4fc982e84e435b28c9f210c85ae8bbb0b2821c13ebd65e22bf0b6b",
     "Server/FFServer/Program.cs": "14d8134959ba2bdf0fd324c301fe9c02e792999e6f9eba5ffd4159228916b0a5",
     "Server/FFServer/ServerConfig.cs": "e5faf9a7a0230307766cfd31b8da96742f78f0af72f5e50f852332b8ea4610d5",
