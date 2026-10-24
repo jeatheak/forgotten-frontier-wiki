@@ -62,7 +62,12 @@ see-through layer over the piece.
 
 For a hut of a single square, the **Ridge Roof** is a whole steep roof in one piece: two thatched sides meeting at a ridge over the middle (rotate it to turn the ridge). Close its two ends with **Ridge Gables**, pointed plank ends that sit on the walls under the ridge. Wider houses use Roof Slopes back to back, with Gables, Gable Walls and Roof Flats. Build stations, beds, chests and furnishings as your home grows.
 
-The **tanning rack** may stand under a roof since v0.19, and needs one in bad weather: hides on a rack out in the rain do not cure until the rain stops.
+A **bed** is only slept in inside a room (since v0.32.0): a roof over it and walls round it, where a doorway or a window
+still counts as closed. The cheapest is a single square: four Walls (or three and a Door) under a Roof Peak or a Ridge
+Roof with two Ridge Gables. A Door needs leather; until you have some, close half of the fourth side with two Quarter Walls stacked
+(each 2 m wide and half a wall high) and walk in through the 2 m gap beside them.
+
+The **tanning rack** may stand under a roof since v0.19, and needs one in bad weather: hides on a rack out in the rain do not cure until the rain stops. Since v0.32.0 it may also stand on a plank floor, so a floored, roofed workshop can go round it (the bloomery, the forge, the stonecutter and fires still stand on bare earth).
 
 Building draws materials from **your satchel and household chests**. The panel shows the combined amount. Removing a piece refunds its material cost: into your satchel, then into the chests if the satchel is full, and whatever is left is set down beside you. Since v0.27.0 a piece that saved you a material when you placed it (the Building skill's "Saved 1 ...") gives back one less of it, and placing a piece where one was taken down in the last two minutes teaches no Building or Smithing (placing and taking down again made materials and free practice). Pieces from before you loaded the game give back their whole cost.
 

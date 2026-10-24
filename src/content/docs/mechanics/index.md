@@ -25,7 +25,8 @@ From v0.31.0 the walk, run, sprint and sneak are new: each foot stays planted wh
 steps match your speed, so the feet no longer skate. The axe goes up over your right shoulder and comes down on the right,
 and the pick hangs behind the shoulder before the blow, with the other hand balancing on its own side. Every move now
 plays at its intended pace; before v0.31.0 the hero's and the creatures' moves ran a quarter slow, so a blow showed a
-moment after it had landed.
+moment after it had landed. From v0.32.0 the hands have fingers: they close round whatever each hand holds (haft,
+shaft, hilt or bow), hang open when empty, and make a fist for a punch.
 
 A swing goes for the creature most in front of you: the way you push the stick or keys, or with no direction held,
 where the camera looks. It keeps turning after that creature through the wind-up and the blow, and it strikes through
@@ -140,6 +141,9 @@ landing in water softens it. Armour does not help.
 
 Sleeping through the night in your own claimed bed grants Rested, as does
 resting by the fire or listening to the lute. Another hero's bed is unavailable, even at night.
+Since v0.32.0 a bed must stand in a **sheltered room** before you can sleep in it: a roof (or an upper floor) over the
+whole bed and walls on nearly every side. A doorway (open or shut) or a window or two is fine; a whole open side is not.
+The bed's prompt says what is missing. You can still claim a bed in the open, to wake there.
 
 Rested speeds stamina recovery and, from v0.24.0, makes every skill learn **25% faster**. How long it
 lasts depends on **comfort** where you rest: **8 minutes**, plus **1 minute per comfort level** above 1. See

@@ -46,7 +46,7 @@ into the shared chests), and anyone else who takes over gets the rest back once.
 crypt** leaves, its dead and its Warden stay for those still below. **Hunting packs** follow the player they were sent
 after and go with that player's game. Your hero arrives wearing what they wore and with their hotbar as they left it. The hero's thoughts, the lands a hero has walked and the hints they have learned are each hero's own. Only moderators can change the server's clock.
 
-Nothing pauses online, and the Escape menu has no Save: your hero is saved as you play and when you leave, and the server keeps the world. The server's clock advances while someone is connected. Everyone must be in their own claimed bed to skip the night; sleeping through grants Rested. Other heroes cannot sleep in or claim over that bed. Crypt gates wait for a player to open them after the first chamber is cleared, and their open state is shared. Downed heroes can be helped up. Enter opens chat; on a controller hold D-Up for quick chat. Music from a lute rests nearby listeners.
+Nothing pauses online, and the Escape menu has no Save: your hero is saved as you play and when you leave, and the server keeps the world. The server's clock advances while someone is connected. Everyone must be in their own claimed bed (standing in a sheltered room, since v0.32.0) to skip the night; sleeping through grants Rested. Other heroes cannot sleep in or claim over that bed. Crypt gates wait for a player to open them after the first chamber is cleared, and their open state is shared. Downed heroes can be helped up. Enter opens chat; on a controller hold D-Up for quick chat. Music from a lute rests nearby listeners.
 
 ## Connection and rejoining (v0.23.0)
 

@@ -80,7 +80,7 @@ export async function referencePages({read, num, str, slug, page, table, entitie
     ['HerbTable',"Herbalist's Table","Herbalist's Table",'Draughts, salves, tonics and protective preparations.','Under a roof','Workbench', [['Wood',6],['Stone',4],['Flax',2]]],
     ['Forge','Forge','Forge','Iron equipment, repairs and progression rites.','Outdoors, on the ground','Workbench and Bloomery', [['Stone',12],['IronBar',4],['Leather',2]]],
     ['Stonecutter','Stonecutter','Stonecutter','Stone construction, whetstones and bone meal.','Outdoors, on the ground','Workbench and Forge', [['Stone',20],['Wood',10],['IronBar',2]]],
-    ['TanningRack','Tanning Rack','Tanning Rack','Cures hides into leather, including while away or asleep, but not while rain falls on it: give it a roof.','Outdoors or under a roof, on the ground','Workbench', [['Wood',8],['Flax',4]]],
+    ['TanningRack','Tanning Rack','Tanning Rack','Cures hides into leather, including while away or asleep, but not while rain falls on it: give it a roof.','Outdoors or under a roof, on the ground or on a floor (since v0.32.0)','Workbench', [['Wood',8],['Flax',4]]],
     ['Bloomery','Bloomery','Bloomery','Smelts iron ore or grave iron into bars using wood as fuel.','Outdoors, on the ground','Workbench', [['Stone',16],['Wood',8]]],
     ['Hearth','Hearth','Campfire','Cook food at the homestead hearth or a built campfire.','Built campfire: outdoors, on the ground','Campfire can be built independently', [['Wood',5],['Stone',6]]],
   ];

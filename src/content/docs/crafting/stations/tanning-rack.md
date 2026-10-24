@@ -13,7 +13,7 @@ sources: ["Assets/Scripts/World/Stations.cs","Assets/Scripts/World/Upgrades.cs",
 
 | Requirement | Details |
 | --- | --- |
-| Placement | Outdoors or under a roof, on the ground |
+| Placement | Outdoors or under a roof, on the ground or on a floor (since v0.32.0) |
 | Prerequisites | Workbench |
 | Limit | One registered station of this kind |
 
