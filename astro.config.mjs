@@ -20,7 +20,7 @@ export default defineConfig({
       { label: 'Begin', items: ['getting-started', 'gallery', 'about'] },
       { label: 'The World', items: [{ autogenerate: { directory: 'world' } }, { autogenerate: { directory: 'biomes' } }] },
       { label: 'Enemies', items: [{ autogenerate: { directory: 'creatures' } }, { autogenerate: { directory: 'bosses' } }] },
-      { label: 'Equipment & Echoes', items: ['equipment', 'equipment/gear', 'equipment/calculator', 'equipment/items', 'runes'] },
+      { label: 'Equipment & Echoes', items: ['equipment', 'equipment/rune-forge', 'equipment/gear', 'equipment/calculator', 'equipment/items', 'runes'] },
       { label: 'Crafting', items: ['crafting', 'crafting/stations', 'crafting/recipes'] },
       { label: 'Survival', items: [{ autogenerate: { directory: 'mechanics' } }, 'progression'] },
       { label: 'Hosting', items: [{ autogenerate: { directory: 'hosting' } }] },

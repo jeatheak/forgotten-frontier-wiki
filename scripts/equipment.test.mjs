@@ -16,5 +16,7 @@ test('Upgrade materials merge duplicate items before quality rounding',()=>{
   assert.deepEqual(upgradeCosts({...axe,material:'Leather'},'Good',3),[{key:'Leather',count:8},{key:'Resin',count:3}]);
   assert.deepEqual(upgradeCosts({...axe,material:'IronBar'},'Crude',2),[{key:'IronBar',count:3},{key:'Leather',count:2},{key:'OakWood',count:1}]);
   assert.deepEqual(upgradeCosts({...axe,upgradable:false},'Common',1),[]);
+  assert.deepEqual(upgradeCosts({...axe,material:'EmberSteel'},'Common',3),[{key:'EmberSteel',count:4},{key:'AshPelt',count:2},{key:'Brimstone',count:3},{key:'Obsidian',count:2}]);
+  assert.deepEqual(upgradeCosts({...axe,material:'Ashsteel'},'Good',2),[{key:'Ashsteel',count:3},{key:'AshPelt',count:3},{key:'Brimstone',count:3}]);
 });
 test('Invalid calculator inputs are rejected',()=>{assert.throws(()=>gearValues(axe,'Rare',1));assert.throws(()=>gearValues(axe,'Fine',4));});

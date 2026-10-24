@@ -51,6 +51,7 @@ A blow on a creature that has not noticed anyone is a **sneak attack**: ×3 dama
 | <a class="entity-link" href="/equipment/items/brimstone/"><img src="/images/icons/brimstone.png" alt="" width="40" height="40" loading="lazy" />Brimstone</a> | 1 (50%) or 2 (50%) | 100% | Every level |
 | <a class="entity-link" href="/equipment/items/dominion-relic/"><img src="/images/icons/dominionrelic.png" alt="" width="40" height="40" loading="lazy" />Dominion Relic</a> | 1 | 30% | Every level |
 | <a class="entity-link" href="/equipment/items/fire-opal/"><img src="/images/icons/fireopal.png" alt="" width="40" height="40" loading="lazy" />Fire Opal</a> | 1 | 15% | Every level |
+| <a class="entity-link" href="/equipment/items/soul-ember/"><img src="/images/icons/soulember.png" alt="" width="40" height="40" loading="lazy" />Soul Ember</a> | 1 | 40% | Every level (since v0.33.0) |
 
 Quantity percentages are conditional on that item dropping. Rolls for different items are separate; more than one item can drop.
 

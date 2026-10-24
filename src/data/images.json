@@ -1545,5 +1545,180 @@
     "version": "0.30.0",
     "alt": "A hero on dark cinder ground among sparse clumps of grey reeds with glowing orange tips; embers drift in the air and burnt trees with glowing seams stand behind.",
     "caption": "Cinder reeds and rising embers on the Cinder Wastes (v0.30.0 game capture, HUD cropped)."
+  },
+  {
+    "path": "/images/icons/gear-axe-ember.png",
+    "source": "Screens/wiki/icons/gear_axe_ember.png",
+    "version": "0.33.0",
+    "alt": "Ember Axe inventory icon rendered from the game model.",
+    "caption": "Ember Axe — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-pick-ember.png",
+    "source": "Screens/wiki/icons/gear_pick_ember.png",
+    "version": "0.33.0",
+    "alt": "Ember Pickaxe inventory icon rendered from the game model.",
+    "caption": "Ember Pickaxe — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-mace-ember.png",
+    "source": "Screens/wiki/icons/gear_mace_ember.png",
+    "version": "0.33.0",
+    "alt": "Ember Mace inventory icon rendered from the game model.",
+    "caption": "Ember Mace — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-spear-ember.png",
+    "source": "Screens/wiki/icons/gear_spear_ember.png",
+    "version": "0.33.0",
+    "alt": "Ember Spear inventory icon rendered from the game model.",
+    "caption": "Ember Spear — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-blades-ember.png",
+    "source": "Screens/wiki/icons/gear_blades_ember.png",
+    "version": "0.33.0",
+    "alt": "Ember Blades inventory icon rendered from the game model.",
+    "caption": "Ember Blades — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-bow-ember.png",
+    "source": "Screens/wiki/icons/gear_bow_ember.png",
+    "version": "0.33.0",
+    "alt": "Emberwood Bow inventory icon rendered from the game model.",
+    "caption": "Emberwood Bow — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-helm-ember.png",
+    "source": "Screens/wiki/icons/gear_helm_ember.png",
+    "version": "0.33.0",
+    "alt": "Emberforged Helm inventory icon rendered from the game model.",
+    "caption": "Emberforged Helm — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-cuirass-ember.png",
+    "source": "Screens/wiki/icons/gear_cuirass_ember.png",
+    "version": "0.33.0",
+    "alt": "Emberforged Cuirass inventory icon rendered from the game model.",
+    "caption": "Emberforged Cuirass — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-mantle-ash.png",
+    "source": "Screens/wiki/icons/gear_mantle_ash.png",
+    "version": "0.33.0",
+    "alt": "Ashpelt Mantle inventory icon rendered from the game model.",
+    "caption": "Ashpelt Mantle — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-vambraces-ember.png",
+    "source": "Screens/wiki/icons/gear_vambraces_ember.png",
+    "version": "0.33.0",
+    "alt": "Emberforged Vambraces inventory icon rendered from the game model.",
+    "caption": "Emberforged Vambraces — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-mace-ruin.png",
+    "source": "Screens/wiki/icons/gear_mace_ruin.png",
+    "version": "0.33.0",
+    "alt": "Ruin Mace inventory icon rendered from the game model.",
+    "caption": "Ruin Mace — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-spear-infernal.png",
+    "source": "Screens/wiki/icons/gear_spear_infernal.png",
+    "version": "0.33.0",
+    "alt": "Infernal Spear inventory icon rendered from the game model.",
+    "caption": "Infernal Spear — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-blades-soul.png",
+    "source": "Screens/wiki/icons/gear_blades_soul.png",
+    "version": "0.33.0",
+    "alt": "Soul Blades inventory icon rendered from the game model.",
+    "caption": "Soul Blades — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-bow-dominion.png",
+    "source": "Screens/wiki/icons/gear_bow_dominion.png",
+    "version": "0.33.0",
+    "alt": "Dominion Recurve inventory icon rendered from the game model.",
+    "caption": "Dominion Recurve — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-helm-ashsteel.png",
+    "source": "Screens/wiki/icons/gear_helm_ashsteel.png",
+    "version": "0.33.0",
+    "alt": "Ashsteel Helm inventory icon rendered from the game model.",
+    "caption": "Ashsteel Helm — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-plate-ashsteel.png",
+    "source": "Screens/wiki/icons/gear_plate_ashsteel.png",
+    "version": "0.33.0",
+    "alt": "Ashsteel Plate inventory icon rendered from the game model.",
+    "caption": "Ashsteel Plate — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-pauldrons-ashsteel.png",
+    "source": "Screens/wiki/icons/gear_pauldrons_ashsteel.png",
+    "version": "0.33.0",
+    "alt": "Ashsteel Pauldrons inventory icon rendered from the game model.",
+    "caption": "Ashsteel Pauldrons — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-vambraces-ashsteel.png",
+    "source": "Screens/wiki/icons/gear_vambraces_ashsteel.png",
+    "version": "0.33.0",
+    "alt": "Ashsteel Vambraces inventory icon rendered from the game model.",
+    "caption": "Ashsteel Vambraces — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-knives-flint.png",
+    "source": "Screens/wiki/icons/gear_knives_flint.png",
+    "version": "0.33.0",
+    "alt": "Flint Knives inventory icon rendered from the game model.",
+    "caption": "Flint Knives — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/gear-vambraces-iron.png",
+    "source": "Screens/wiki/icons/gear_vambraces_iron.png",
+    "version": "0.33.0",
+    "alt": "Iron Vambraces inventory icon rendered from the game model.",
+    "caption": "Iron Vambraces — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/embersteel.png",
+    "source": "Screens/wiki/icons/EmberSteel.png",
+    "version": "0.33.0",
+    "alt": "Ember Steel inventory icon rendered from the game model.",
+    "caption": "Ember Steel — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/kindledash.png",
+    "source": "Screens/wiki/icons/KindledAsh.png",
+    "version": "0.33.0",
+    "alt": "Kindled Ash inventory icon rendered from the game model.",
+    "caption": "Kindled Ash — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/icons/soulember.png",
+    "source": "Screens/wiki/icons/SoulEmber.png",
+    "version": "0.33.0",
+    "alt": "Soul Ember inventory icon rendered from the game model.",
+    "caption": "Soul Ember — in-game inventory icon, v0.33.0."
+  },
+  {
+    "path": "/images/rune-forge-ashsteel-v033.webp",
+    "source": "Screens/wiki/v033/rune-forge-ashsteel-v033.webp",
+    "version": "0.33.0",
+    "alt": "A hero in black ashsteel plate with glowing pale-blue runes across the breast, gold-rimmed pauldrons and a visored pointed helm, holding the Ruin Mace with ember runes in its head, before the glowing mouth of the Last Forge.",
+    "caption": "The Ashsteel set and the Ruin Mace at the Last Forge (v0.33.0 game capture, HUD cropped)."
+  },
+  {
+    "path": "/images/rune-forge-ember-v033.webp",
+    "source": "Screens/wiki/v033/rune-forge-ember-v033.webp",
+    "version": "0.33.0",
+    "alt": "A hero facing the camera in the Emberforged Helm with cheek plates, an ash-grey pelt mantle over banded dark ember-steel plate, crossing a pair of Ember Blades that shimmer blue (Fine quality), in front of the Last Forge; a burning Acolyte stands in the background.",
+    "caption": "The ember-steel set with Fine Ember Blades (v0.33.0 game capture, HUD cropped)."
   }
 ]

@@ -10,8 +10,10 @@ export function gearValues(gear,quality,level) {
 export function upgradeCosts(gear,quality,level) {
   if(!gear.upgradable||level<1||level>3)return [];
   const costs=new Map(),add=(k,n)=>costs.set(k,(costs.get(k)||0)+n),m=gear.material;
-  add(m,(m==='Wood'?[3,5,8]:m==='Tusk'?[1,2,2]:[2,3,4])[level-1]);
+  add(m,(m==='Wood'?[3,5,8]:m==='Tusk'?[1,2,2]:m==='Ashsteel'?[1,2,3]:[2,3,4])[level-1]);
   if(m==='IronBar'){add('Leather',level===1?1:2);if(level===2)add('OakWood',1);if(level===3)add('Crystal',1);}
+  // v0.33: ember steel and ashsteel take an ash-pelt binding, brimstone, and at +3 obsidian or a soul ember
+  else if(m==='EmberSteel'||m==='Ashsteel'){add('AshPelt',level===1?1:2);if(level>=2)add('Brimstone',level);if(level===3)add(m==='Ashsteel'?'SoulEmber':'Obsidian',m==='Ashsteel'?1:2);}
   else{add(level===1?'Flax':'Leather',level===1?2:level===2?1:2);if(level===3)add('Resin',2);}
   const factor={Crude:.75,Common:1,Good:1.25,Fine:1.5,Masterwork:2}[quality];
   return [...costs].map(([key,n])=>({key,count:Math.max(1,Math.ceil(addFloat(mul(n,factor),-.01)))}));

@@ -319,6 +319,12 @@
         "quantity": "1",
         "chance": "25%",
         "condition": "Level 3"
+      },
+      {
+        "item": "item:KindledAsh",
+        "quantity": "1 (level 3: 1 or 2, 50%)",
+        "chance": "45%",
+        "condition": "Every level (since v0.33.0)"
       }
     ]
   },
@@ -529,9 +535,9 @@
     "drops": [
       {
         "item": "item:Ashsteel",
-        "quantity": "1 (60%) or 2 (40%)",
+        "quantity": "2 (60%) or 3 (40%)",
         "chance": "100%",
-        "condition": "Every level"
+        "condition": "Every level (v0.29–v0.32: 1 or 2)"
       },
       {
         "item": "item:Bone",
@@ -544,6 +550,12 @@
         "quantity": "1",
         "chance": "15%",
         "condition": "Every level"
+      },
+      {
+        "item": "item:SoulEmber",
+        "quantity": "1",
+        "chance": "35%",
+        "condition": "Every level (since v0.33.0)"
       }
     ]
   },
@@ -593,6 +605,12 @@
         "quantity": "1",
         "chance": "15%",
         "condition": "Every level"
+      },
+      {
+        "item": "item:SoulEmber",
+        "quantity": "1",
+        "chance": "40%",
+        "condition": "Every level (since v0.33.0)"
       }
     ]
   },
@@ -734,7 +752,7 @@
     "kind": "station",
     "name": "Forge",
     "aliases": [],
-    "description": "Iron equipment, repairs and progression rites.",
+    "description": "Iron, ember-steel and ashsteel equipment, repairs and progression rites.",
     "source": "Assets/Scripts/World/Stations.cs",
     "page": "crafting/stations/forge",
     "image": "/images/stations/forge.png",

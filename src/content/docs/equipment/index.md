@@ -24,7 +24,19 @@ Clubs, spears and blades can also **block** (see [Survival and combat](/mechanic
 
 Crafted gear can be Crude, Common, Good, Fine or Masterwork; a Good, Fine or Masterwork weapon shimmers in your hand. Catalog statistics are **Common-quality base definitions**. Actual results also depend on quality, upgrade level, skills, perks and combat conditions.
 
-Eligible equipment can be upgraded up to **+3**. Each level multiplies the quality-adjusted damage, armour and gathering stats by an additional 10% of their +0 value. Maximum durability is multiplied by 1 + 0.25 × level after its quality adjustment; attack speed uses a smaller bonus. Each equipment page includes the full quality-by-level tables. Workbench and forge extensions unlock the higher station levels. Iron-bar equipment is worked at the forge; other ordinary gear at the workbench. Charms, unique found gear and instruments cannot be upgraded. Since v0.29.0 the **Last Forge** in the Underhearth's Black City tempers a weapon or tool already at +3 to **+4**, once (2 ashsteel, 3 ember ore and a fire opal); see [the Underhearth](/world/underhearth/#the-last-forge).
+Eligible equipment can be upgraded up to **+3**. Each level multiplies the quality-adjusted damage, armour and gathering stats by an additional 10% of their +0 value. Maximum durability is multiplied by 1 + 0.25 × level after its quality adjustment; attack speed uses a smaller bonus. Each equipment page includes the full quality-by-level tables. Workbench and forge extensions unlock the higher station levels. Iron, ember-steel and ashsteel equipment is worked at the forge; other ordinary gear at the workbench. Charms, unique found gear and instruments cannot be upgraded. Since v0.29.0 the **Last Forge** in the Underhearth's Black City tempers a weapon or tool already at +3 to **+4**, once (2 ashsteel, 3 ember ore and a fire opal); see [the Underhearth](/world/underhearth/#the-last-forge).
+
+Since v0.33.0 two tiers go above iron for the Underhearth: **tier IV, ember steel** (the Ember Crucible, forge level 4;
+open once the Ancient Guardian has fallen and a ward stone of the Ashen Wilds burns) and **tier V, ashsteel and runes**
+(the Rune Anvil, forge level 5; open once the Dominion's rite is learned at the Last Forge). Each tier V weapon carries a
+rune. See [the rune forge](/equipment/rune-forge/). The same version added **Flint Knives** (tier I blades) and **Iron
+Vambraces** (arm armour).
+
+Since v0.33.0 two tiers go above iron for the Underhearth: **tier IV, ember steel** (the Ember Crucible, forge level 4;
+open once the Ancient Guardian has fallen and a ward stone of the Ashen Wilds burns) and **tier V, ashsteel and runes**
+(the Rune Anvil, forge level 5; open once the Dominion's rite is learned at the Last Forge). Each tier V weapon carries a
+rune. See [the rune forge](/equipment/rune-forge/). The same version added **Flint Knives** (tier I blades) and **Iron
+Vambraces** (arm armour).
 
 Spare gear occupies one satchel slot. Equipped gear appears only in its equipment slot, while bound tools and
 weapons appear on the hotbar. Neither counts against satchel capacity. Hover or focus a spare piece to compare

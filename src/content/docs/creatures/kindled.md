@@ -54,6 +54,7 @@ A blow on a creature that has not noticed anyone is a **sneak attack**: ×3 dama
 | <a class="entity-link" href="/equipment/items/brimstone/"><img src="/images/icons/brimstone.png" alt="" width="40" height="40" loading="lazy" />Brimstone</a> | 1 | 60% | Every level |
 | <a class="entity-link" href="/equipment/items/ember-ore/"><img src="/images/icons/emberore.png" alt="" width="40" height="40" loading="lazy" />Ember Ore</a> | 1 | 35% | Every level |
 | <a class="entity-link" href="/equipment/items/crystal/"><img src="/images/icons/crystal.png" alt="" width="40" height="40" loading="lazy" />Echo Crystal</a> | 1 | 25% | Level 3 |
+| <a class="entity-link" href="/equipment/items/kindled-ash/"><img src="/images/icons/kindledash.png" alt="" width="40" height="40" loading="lazy" />Kindled Ash</a> | 1 (level 3: 1 or 2, 50%) | 45% | Every level (since v0.33.0) |
 
 Quantity percentages are conditional on that item dropping. Rolls for different items are separate; more than one item can drop.
 

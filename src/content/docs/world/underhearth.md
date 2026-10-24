@@ -147,9 +147,11 @@ land ("Infernal")**, like the Wastes.
 
 ### The Last Forge
 
-A forge in the Black City that burns from below. Take a weapon or tool **already worked to +3** in hand and it tempers it
-to **+4** (another +10% to its numbers and +25% durability), once, for **2 ashsteel, 3 ember ore and a fire opal**. No
-station goes past +3.
+A forge in the Black City that burns from below. Since v0.33.0 it first teaches **the Dominion's rite**: lay a plate of
+ashsteel on its anvil (the plate is used up) and ashsteel can be worked at a Rune Anvil beside your own forge (gear tier
+V, see [the rune forge](/equipment/rune-forge/)). After that, take a weapon or tool **already worked to +3** in hand and
+it tempers it to **+4** (another +10% to its numbers and +25% durability), once, for **2 ashsteel, 3 ember ore and a fire
+opal**. No station goes past +3.
 
 ## Light below
 
@@ -212,7 +214,9 @@ Dominion.
 | **Glowcaps** | Picked in the woods | By hand |
 | **Brimstone** | Crusts on the lava banks, round the vents and along the fissures | By hand |
 | **Opal seams** (fire opal, obsidian, brimstone) | Beside the vents of the Cinder Wastes | Iron pickaxe |
-| **Ashsteel** | From the Dominion's Sentinels and its coffers | |
+| **Ashsteel** | From the Dominion's Sentinels (2 or 3 plates since v0.33.0) and its coffers | |
+| **Kindled ash** (v0.33.0) | From the Kindled (45%) and the Keeper coffers of the Wastes | |
+| **Soul embers** (v0.33.0) | From Sentinels (35%), Acolytes (40%) and the Dominion's coffers | |
 | **Dominion relics** | From Acolytes, Sentinels and the Dominion's coffers; Orm pays 22 silver each (and 12 for a fire opal) | |
 
 | Recipe | Station | Cost | Makes |
@@ -224,8 +228,10 @@ Dominion.
 | **Fire Opal Charm** | Workbench | 1 fire opal, 2 iron bars, 1 ash pelt | Heat a step lower, burning half as long, breath 5% quicker |
 | **Slag Charm** | Workbench | 1 Slagback trophy, 1 iron bar, 2 obsidian | +35% stagger, +6% damage |
 
-Ember ore cannot be smelted (no forge of the Vale burns hot enough), but it feeds the Keeper wards and the Last Forge,
-and since v0.30.0 it lights the [Emberlit Lamellar and the Wisp Rune](#light-below).
+Ember ore feeds the Keeper wards and the Last Forge, and since v0.30.0 it lights the [Emberlit Lamellar and the Wisp
+Rune](#light-below). No ordinary forge can smelt it, but since v0.33.0 the **Ember Crucible** beside your forge runs it
+with iron and brimstone into **ember steel**, once the Ancient Guardian has fallen and a ward of the Wilds burns: gear
+tier IV. See [the rune forge](/equipment/rune-forge/).
 
 ## The map below
 

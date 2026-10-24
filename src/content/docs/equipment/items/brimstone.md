@@ -15,6 +15,6 @@ Gather, loot or obtain this item in the world. It has no direct crafting recipe.
 
 ## What you can make
 
-<div class="entry-grid"><a class="entry-card" href="/crafting/recipes/brimstone-fire-arrows-workbench/"><img class="" src="/images/icons/arrowfire.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Brimstone Fire Arrows</strong><small>Workbench</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a></div>
+<div class="entry-grid"><a class="entry-card" href="/crafting/recipes/brimstone-fire-arrows-workbench/"><img class="" src="/images/icons/arrowfire.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Brimstone Fire Arrows</strong><small>Workbench</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a><a class="entry-card" href="/crafting/recipes/ember-steel-forge/"><img class="" src="/images/icons/embersteel.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Ember Steel</strong><small>Forge · Level 4</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a></div>
 
 [Browse all items](/equipment/items/)

@@ -20,18 +20,18 @@ keep the base values (the Frontier's creatures are higher levels instead).
 | The Coast | 2 · Dangerous | ×1.35 health, ×1.25 damage | The island's edge: beaches, driftwood and the sea |
 | Elderwood | 3 · Deadly | ×1.65 health, ×1.45 damage | About 17 armour, three meals; hunting packs |
 | The Mire | 3 · Deadly | ×1.65 health, ×1.45 damage | Bogwalker's Balm against venom and webs; hunting packs |
-| Stoneteeth Highlands | 4 · Merciless | ×1.9 health, ×1.65 damage | About 27 armour (iron), warmth against freezing, food; hunting packs |
+| Stoneteeth Highlands | 4 · Merciless | ×1.9 health, ×1.65 damage | About 30 armour (a full iron set; 27 before v0.33.0), warmth against freezing, food; hunting packs |
 | The Skerries | 4 · Merciless | ×1.9 health, ×1.65 damage | A [coracle](/world/skerries/#the-coracle); warmth against the sea wind |
 | The Ashen Wilds | 4 · Merciless | ×1.9 health, ×1.65 damage (its creatures are tougher kinds to begin with) | Since v0.28.0: the first land of [the Underhearth](/world/underhearth/), below the Vale. Something against the heat (Glowcap Broth, Frostlichen Draught), an iron pickaxe and axe for its finds; since v0.30.0 [light to wear](/world/underhearth/#light-below) from its glowcaps and ember ore |
 | The Fallen Dominion | 5 · Infernal | ×2.15 health, ×1.85 damage | Since v0.29.0: the Underhearth's third land, east of the Wastes along the Ash Road. Echo crystals for the broken causeway, armour against Sentinels' blows, something against fire |
-| The Cinder Wastes | 5 · Infernal | ×2.15 health, ×1.85 damage | Since v0.28.0: the Underhearth's second land, behind the Sealed Door (light both wards of the Ashen Wilds). About 30 armour, something against the heat (the whole plain is hot) and shelter from Bloodstorms |
+| The Cinder Wastes | 5 · Infernal | ×2.15 health, ×1.85 damage | Since v0.28.0: the Underhearth's second land, behind the Sealed Door (light both wards of the Ashen Wilds). About 40 armour (better than iron since v0.33.0: ember steel), something against the heat (the whole plain is hot) and shelter from Bloodstorms |
 
 Outer-land creatures also have more poise (×1.15 / ×1.25 / ×1.35 by tier; ×1.45 in tier 5), notice you from further
 (×1.15 / ×1.25 / ×1.3; ×1.35), move a little faster (×1.05 / ×1.08 / ×1.1; ×1.12), are elites more often (×1.6 / ×2.1 /
 ×2.5; ×2.8) and follow you further from their den (×1.35 / ×1.6 / ×1.8, also in tier 5; every creature by the tier
 where it was born). Packs of Stalkers and spiders there hold one more, and in Elderwood, the Mire and the Highlands most
-packs keep one more at night. When your worn armour is below what the land asks for (8 in tier 2, 17 in tier 3, 27 in
-tier 4, 30 in tier 5) the HUD says **your armour is thin here**.
+packs keep one more at night. When your worn armour is below what the land asks for (8 in tier 2, 17 in tier 3, 30 in
+tier 4, 40 in tier 5; 27 and 30 before v0.33.0) the HUD says **your armour is thin here**.
 
 ### Packs, hunts and pursuit
 

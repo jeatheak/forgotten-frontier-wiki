@@ -15,6 +15,6 @@ Gather, loot or obtain this item in the world. It has no direct crafting recipe.
 
 ## What you can make
 
-<div class="entry-grid"><a class="entry-card" href="/crafting/recipes/charm-opal-workbench/"><img class="" src="/images/icons/gear-charm-opal.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Fire Opal Charm</strong><small>Workbench</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a></div>
+<div class="entry-grid"><a class="entry-card" href="/crafting/recipes/charm-opal-workbench/"><img class="" src="/images/icons/gear-charm-opal.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Fire Opal Charm</strong><small>Workbench</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a><a class="entry-card" href="/crafting/recipes/spear-infernal-forge/"><img class="" src="/images/icons/gear-spear-infernal.png" alt="" width="192" height="192" loading="lazy" decoding="async" /><span><strong>Infernal Spear</strong><small>Forge · Level 5</small></span><span class="entry-arrow" aria-hidden="true">↗</span></a></div>
 
 [Browse all items](/equipment/items/)

@@ -2,12 +2,12 @@
 title: "Runes, Echoes and relics"
 description: "Restore fragments of the past and awaken relic powers."
 verification: verified
-sources: ["Assets/Scripts/World/Echo.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/World/KeepersSeal.cs"]
+sources: ["Assets/Scripts/World/Echo.cs", "Assets/Scripts/World/Crafting.cs", "Assets/Scripts/Player/PlayerCombat.cs", "Assets/Scripts/World/KeepersSeal.cs", "Assets/Scripts/World/Forging.cs"]
 ---
 
 <div class="gallery-grid"><figure><a href="/images/ruins-v016.webp" aria-label="Open full-size image: The old ruins hold fragments of the forgotten world."><img src="/images/ruins-v016.webp" alt="The old ruins hold fragments of the forgotten world." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>The old ruins hold fragments of the forgotten world.</figcaption></figure><figure><a href="/images/courtyard-v016.webp" aria-label="Open full-size image: Restored Echo structures can help during the Guardian encounter."><img src="/images/courtyard-v016.webp" alt="Restored Echo structures can help during the Guardian encounter." width="1600" height="900" loading="lazy" decoding="async" /></a><figcaption>Restored Echo structures can help during the Guardian encounter.</figcaption></figure></div>
 
-Runes awaken **Echoes**: temporary restorations of broken structures from the forgotten past. Use their restored forms to cross obstacles and influence encounters. They are world objects rather than socketable equipment runes.
+Runes awaken **Echoes**: temporary restorations of broken structures from the forgotten past. Use their restored forms to cross obstacles and influence encounters. They are world objects. Since v0.33.0 runes are also cut into tier V weapons at the Rune Anvil (ruin, soul and the infernal rune); see [the rune forge](/equipment/rune-forge/#the-runes).
 
 The base Echo duration is **12 seconds** with a **15-second cooldown after fading**; individual Echo objects can have their own settings or remain active while needed for traversal. Permanent restoration removes that temporary cycle. The **Courtyard gate's** Echo stone does not answer until the Keepers' seal on the gate is broken (since v0.19, see [the journey](/progression/)); breaking the seal restores the gate for good.
 

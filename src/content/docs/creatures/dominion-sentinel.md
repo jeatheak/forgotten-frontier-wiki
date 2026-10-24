@@ -49,9 +49,10 @@ A blow on a creature that has not noticed anyone is a **sneak attack**: ×3 dama
 
 | Item | Quantity when dropped | Chance per kill | Condition |
 | --- | --- | --- | --- |
-| <a class="entity-link" href="/equipment/items/ashsteel/"><img src="/images/icons/ashsteel.png" alt="" width="40" height="40" loading="lazy" />Ashsteel</a> | 1 (60%) or 2 (40%) | 100% | Every level |
+| <a class="entity-link" href="/equipment/items/ashsteel/"><img src="/images/icons/ashsteel.png" alt="" width="40" height="40" loading="lazy" />Ashsteel</a> | 2 (60%) or 3 (40%) | 100% | Every level (v0.29–v0.32: 1 or 2) |
 | <a class="entity-link" href="/equipment/items/bone/"><img src="/images/icons/bone.png" alt="" width="40" height="40" loading="lazy" />Bone</a> | 1 | 50% | Every level |
 | <a class="entity-link" href="/equipment/items/dominion-relic/"><img src="/images/icons/dominionrelic.png" alt="" width="40" height="40" loading="lazy" />Dominion Relic</a> | 1 | 15% | Every level |
+| <a class="entity-link" href="/equipment/items/soul-ember/"><img src="/images/icons/soulember.png" alt="" width="40" height="40" loading="lazy" />Soul Ember</a> | 1 | 35% | Every level (since v0.33.0) |
 
 Quantity percentages are conditional on that item dropping. Rolls for different items are separate; more than one item can drop.
 

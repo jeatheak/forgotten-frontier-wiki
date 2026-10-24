@@ -17,17 +17,21 @@ A recipe normally becomes known after you have held every ingredient at least on
 | Workbench | Early tools, weapons, armour, bows, arrows, the lute, charms and (from v0.25.0) the coracle |
 | Herbalist's Table | Draughts, salves, tonics and protective preparations |
 | Hearth | Cooked food, including (from v0.25.0) the sea meals: Egg Bannock and Steamed Mussels |
-| Forge | Iron equipment, iron arrows, progression rites and the Keepers' Key |
+| Forge | Iron equipment, iron arrows, progression rites and the Keepers' Key; since v0.33.0 ember-steel and ashsteel gear (tiers IV and V) |
 | Stonecutter | Stone-related work, including whetstones and bone meal |
 
 ## Extensions
 
-Build extensions within **4.5 m** of their station. The second extension needs the first.
+Build extensions within **4.5 m** of their station. Each extension needs the one before it.
 
 | Station | Level 2 | Level 3 |
 | --- | --- | --- |
-| Workbench | Shaving Horse: horn bow, antler pick and lute | Grindstone: fire arrows and ground whetstones |
+| Workbench | Shaving Horse: horn bow, antler pick and lute (since v0.33.0 the Ashpelt Mantle, tier IV) | Grindstone: fire arrows and ground whetstones (since v0.33.0 the Emberwood Bow, tier IV) |
 | Forge | Smith's Rack: mace and lamellar (and since v0.30.0 the Emberlit Lamellar) | Quench Trough: Echo Attunement |
+
+Since v0.33.0 the forge has two more levels: the **Ember Crucible** (level 4: ember steel and the tier IV gear) and the
+**Rune Anvil** (level 5: the ashsteel gear and its runes). They open with the Underhearth; see
+[the rune forge](/equipment/rune-forge/).
 
 Arrow recipes show what the arrows do with your bow (the one in hand, else the best you own): base damage at full draw
 and for a quick shot, and stagger. These figures exclude critical damage. In **v0.22.0**, a successful full-draw

@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "gameVersion": "0.32.0",
-  "sourceCommit": "f23f6b26a967835ffdf5aeb22d192412bace25ed",
+  "gameVersion": "0.33.0",
+  "sourceCommit": "47c0dacef45ba4eb0a80c6087d4a4f6c8d31c794",
   "basis": "Implemented local game source; working tree may contain unreleased changes.",
   "sourceHashes": {
     "Assets/Scripts/Core/Art.cs": "57e4ae9e0af0f973d12d1c77cb0b3064bc8af77822f23e5554b641061c8c638e",
-    "Assets/Scripts/Core/AutoTest.cs": "e8f504fda11794c5a80573a572bdf285b75733a3d015dd14646862ecd2cc0312",
+    "Assets/Scripts/Core/AutoTest.cs": "002d780829bcea69706ece6ba470324d5b9b36b4d094e03df85484e1e598c630",
     "Assets/Scripts/Core/CharAnimator.cs": "ab8829a509c0621e5839cb657df20e4d5c6c4e2f63c968cdd55272f2b9b7d6bf",
-    "Assets/Scripts/Core/CharModel.cs": "c9b4f9855982602abf254feaf0792aca6f82de891fbdfd6a11fa655b7bd4e030",
-    "Assets/Scripts/Core/DevTools.cs": "41cfa876a16d740bec36eb1180d6ba2fd64d95dbd0b8fea34434ff8ed9ec5d21",
+    "Assets/Scripts/Core/CharModel.cs": "9f9bd8ae2e20cb586391dea31a3872496cf7400d7759c7008caf89c96e8bc12a",
+    "Assets/Scripts/Core/DevTools.cs": "8b8dcc5bd10ef117083ede75e8d9251d4332be8eb6913874c8091c22d53518e8",
     "Assets/Scripts/Core/Difficulty.cs": "4b875dbeb95a6b6633d2c48d184eb20385bbe773650498704cdfeb6886240a6c",
     "Assets/Scripts/Core/FootIK.cs": "29f2d092d48b44bc741057555156bb00cf5207cf9e6fa66150508fc92e69fdfe",
     "Assets/Scripts/Core/Fx.cs": "d3493403ae4cd13a47c7bb9c8dd65f544e14d9813e488b66759b5503d0bdab0d",
     "Assets/Scripts/Core/FxWorld.cs": "847390f3524f010808f88914747443b3108898c1658c111f15636a67a95ac65e",
-    "Assets/Scripts/Core/GameManager.cs": "675d91ca5186bd4bf8a809f22da7bd6c6c3517a1d5dcd09eb83f78f9859ba9d2",
-    "Assets/Scripts/Core/Gear.cs": "579a695bf8fd0b5a703c6c7808324062df3710e54e3afa859a8f025eb1b5ab5a",
-    "Assets/Scripts/Core/Guide.cs": "c8ca50ddc35ebb83c2b93371a78d8fd518448749f36742e102b55b857f49a9d6",
+    "Assets/Scripts/Core/GameManager.cs": "476ff442f03c8c5f2fe1027787a42b07e0f559e130c13b23119389b48eee9aa3",
+    "Assets/Scripts/Core/Gear.cs": "b48c9df913b9dca81f7e46e578864acb7a39e1932134f4a5871e5097bccdcdc7",
+    "Assets/Scripts/Core/Guide.cs": "f63e8c1f3b236fde3a1d2dcc77945eef63f762cea4053af59000531103ca48d8",
     "Assets/Scripts/Core/HeroCamp.cs": "f2f37af7f974614c747998c11866dd2111b940c65487ecbaa1fbdee6b6972453",
     "Assets/Scripts/Core/InputSource.cs": "a7e7d04d9e9baa95e42f1a89e31afbb1f91c5141a929fb9ad3a7f850d36633a4",
     "Assets/Scripts/Core/IntroScene.cs": "08925e0e2076f5db270f04bbbf4d91c0147e3c1f8ede83238a07a8176dcd1739",
-    "Assets/Scripts/Core/Items.cs": "cfb5f04037c708ddc744758fc6a7a696fc77555619aac28876a8fd8f5b540019",
+    "Assets/Scripts/Core/Items.cs": "fdd2c4effaff3c0d29f91a9bf45214cfb78f0c59da3eb3af7a6f1587ffb9d8d7",
     "Assets/Scripts/Core/Music.cs": "a487b6fd0dadfa2a9a83390dfbb3b79d7c80059d4c67e8a5c3c7f09f22f35561",
     "Assets/Scripts/Core/PerfProbe.cs": "c336798cc9761bd1bfee0edec6df3233c880b7896cd0f1f72722e0b3efd7ce02",
     "Assets/Scripts/Core/SaveSystem.cs": "235bea74ec8a209ae2deaffd5b41985835c3fde9a4417b195c1eace04d69f7c8",
@@ -30,7 +30,7 @@
     "Assets/Scripts/Core/StadiaGamepad.cs": "dc624c589e52a9824eae40fcaa6b24434ac183192c507d9f2f04198cadeb30db",
     "Assets/Scripts/Core/Voice.cs": "6c71c12efa8d92adf3a331db91f70e1627ae18f515c642d12d469f08c0252a75",
     "Assets/Scripts/Enemies/Charger.cs": "c15df6c5894ea511ae65823117fb2a25209704fc634ea23f9397ad73fd66f569",
-    "Assets/Scripts/Enemies/DeepCreatures.cs": "fa19db1eb87ef7eba4103592d733f582ea81415f6e7b453ad0369d91b4bae7a4",
+    "Assets/Scripts/Enemies/DeepCreatures.cs": "bf8b4987d58c2686c85b49899d00ccd5fed2006bb6dc297db1889f46b02ee26d",
     "Assets/Scripts/Enemies/Elites.cs": "edb675c84265dab4c1267cd4fab86c269b3f726fadf91aedb2a025a376a851ec",
     "Assets/Scripts/Enemies/Enemy.cs": "26ddf7b53ebe4f532c7b63d18b88af5d396340d088fe10e8f035f1831e83b81b",
     "Assets/Scripts/Enemies/EnemySpawner.cs": "27036e1345135ed07921fb958d17e793a1190e30b587b1c919df68f34c55df9f",
@@ -46,28 +46,28 @@
     "Assets/Scripts/Net/NetProbe.cs": "b35fc513bab1464c820b59e232110d5130ffb02927aeca86ecd20c4e9b617587",
     "Assets/Scripts/Net/NetSession.Enemies.cs": "165e4559c69bbc25c07300374216ab5b52a4deca61fb5956d5ccdc088154c8f8",
     "Assets/Scripts/Net/NetSession.World.cs": "9846732afcd18a47e9081fdba4606e568d308e21e6a02bf8851636625bd279b7",
-    "Assets/Scripts/Net/NetSession.cs": "8c8f368df72362f8bcf7571d8147db7d79fd284ced78cf5aef80a0e0939554ab",
+    "Assets/Scripts/Net/NetSession.cs": "463d02f8bf74dd1e5169b405bc60dbd6df4aa9b6391bbd67ecb51a879e08b3b1",
     "Assets/Scripts/Net/NetTest.cs": "779b9bb75df43d8363d3a7dc5786749955ac0490019de998b50700b390b8d274",
-    "Assets/Scripts/Net/RemoteVisual.cs": "8caaa82e45b89ee7d67e7ccda3067a0d29220e18d44a4aac1788ce09efcf0fde",
+    "Assets/Scripts/Net/RemoteVisual.cs": "321c1ea4c6dc66182c0d01930a271ca9d051b1faa7ae51c7bc0f5b0e9b2e69d9",
     "Assets/Scripts/Net/Shared/NetProto.cs": "8f0697c097de3d16f69fa8b947c2f544c33d651e787141d8990e3ed36877be41",
-    "Assets/Scripts/Net/Shared/SaveTypes.cs": "3accc8d4c67db0d61f45fa0d3f3f6947289bad1e0e6711063c49af31f7c8231d",
+    "Assets/Scripts/Net/Shared/SaveTypes.cs": "cdbe6f7f0e01d168151fab54308b0cfc0600a587d78f43e782a4bd14a1ceeb6b",
     "Assets/Scripts/Net/Shared/WorldMerge.cs": "439c3af751165a2bdbbfb1b52aab6ec6cf9e2970e6e2c99639c8f99f2984efdd",
     "Assets/Scripts/Player/ArrowShot.cs": "c3f7d114e3e0c717ad5cd0f51d46d73823319d796532618f6f1d260a4b52ea9f",
-    "Assets/Scripts/Player/BowRig.cs": "1188b4f1654bd2865d1d8b98126f05bd98c3830151f0678b6f36cfd580d2c917",
-    "Assets/Scripts/Player/BuildSystem.cs": "ed868b7b01cf3047faa4192731e86161cd7a9b9882b67a825b09c046c2f410ed",
+    "Assets/Scripts/Player/BowRig.cs": "9efd4aba162f94b7de153d740fe18428cb37f5f76b2e6a2220684c6c9d3e1c25",
+    "Assets/Scripts/Player/BuildSystem.cs": "cf0c27bd36c2bc8a1e094280c5c14e41066f2cc312355a4f4dfc00ae58880a58",
     "Assets/Scripts/Player/CharmWear.cs": "68df55588161ea72b5ca6f99a03b49717d6a4a58dfe5bcce920f135e3d7efff4",
     "Assets/Scripts/Player/Coracle.cs": "c27857f8844a0f435ab48795a0e6c72108ad238137f86d638eaec2674329f14e",
     "Assets/Scripts/Player/HeroLight.cs": "5534894377a433f95dc5124c02d5a32e575c9bffcfac1c1e8f12e0cacfce567e",
     "Assets/Scripts/Player/Lute.cs": "6fa998c7fad6ebca59f239c1426979bba2440b520a61e11fb6b7c1ea6235a092",
     "Assets/Scripts/Player/PlayerCamera.cs": "53b3fe73231d43059ed60cc041cadf6f4d001f252ae2477204a9af4bd21f785e",
-    "Assets/Scripts/Player/PlayerCombat.cs": "7d43d4823211f6a21a66044ebe9dcc4b47bfd12d7dddb81f23e569d2495fceb6",
-    "Assets/Scripts/Player/PlayerController.cs": "ad6401bb1f450ff47161d24ecaf2f90cb8af468443785dae7ad434a878c5c8fe",
-    "Assets/Scripts/Player/PlayerVisual.cs": "6a46e7fb60540fc3c62fab269df1e25e34653362951cf96d7f6b6a704e90765c",
+    "Assets/Scripts/Player/PlayerCombat.cs": "000414ef08fa11a11da4a07d36de4d03d25f2792e8cd1baa584f366cfe961c79",
+    "Assets/Scripts/Player/PlayerController.cs": "5a1a7c19996f9b93d1bde7020a2bef3ee84e0623692cfc030358c94bd2a9ca76",
+    "Assets/Scripts/Player/PlayerVisual.cs": "f4e7a99d01566264accb818e204ad5c52f8a90558ba792bbc901fd691de5112b",
     "Assets/Scripts/Player/StealthLight.cs": "96d419ebc6659265591bcd1bc465223db106b3559b198440d579d0d1dd13317f",
     "Assets/Scripts/Player/TorchProp.cs": "8093bdd6e3d359e91f5bea66b5111e1893b707d9eb0151bf0e295c08eaf508fe",
     "Assets/Scripts/UI/ChangelogScreen.cs": "1f33b9fc86308d06d72ef4efa5ae9c58e24e38a53c913b96c1c73aaff595b3d8",
-    "Assets/Scripts/UI/GameMenu.cs": "fc4a0c50a6f18f6484309e2140e9f3a4644b65f0ec5cefaec5849ca38aa3bb79",
-    "Assets/Scripts/UI/GameMenuTabs.cs": "6953e666ef5b7131b613c709e063e55f12c4006faf8b2e8a7bc855763eb9b51e",
+    "Assets/Scripts/UI/GameMenu.cs": "74e1e497f37711c25e8280d9d8539a779ebde196c0873a94e839445f62836e7e",
+    "Assets/Scripts/UI/GameMenuTabs.cs": "e3040bb370b1a61f8fde1fe884190d79e7f5e8eeb4278b62a7b7fde051341a0d",
     "Assets/Scripts/UI/HudView.cs": "a268a4c1f50bf051b099f7ae29c91f7e5696b21960d410c62ad30495f2d9620c",
     "Assets/Scripts/UI/ItemSort.cs": "2e0c7d9e85ea842d85e2d5bc134aecc384f0504412d7894cc96fe31d05256570",
     "Assets/Scripts/UI/JoinScreen.cs": "057b05a8c675cb804c75a2fbc1a6e08cdd9dfba3b6f84e32dea257aaa707b52a",
@@ -75,8 +75,8 @@
     "Assets/Scripts/UI/Menu.cs": "0b2b28537f0eb86e0c683a5446fe0253c583fcb3053e7a68040aac78694c4a20",
     "Assets/Scripts/UI/SagaScreens.cs": "ea3a07d8094deb7488fc0e6c8c5d436ae2198af0b9369f1316a1fb5af74a35f6",
     "Assets/Scripts/UI/Screens.cs": "3e2a2f69ef3a5d0e92db8b6e39087e6637f07ce06d7bbbeaa81144b5f8bf2215",
-    "Assets/Scripts/UI/SettingsScreen.cs": "a2bcc4c33c0a3efa20ff98e14746feec15bef1bd98abaa9f8f047c66f8977288",
-    "Assets/Scripts/UI/Stage3D.cs": "5e8c78761cc416696337205a3761bf06ffeb1d4c2014c678ed13b449864386e2",
+    "Assets/Scripts/UI/SettingsScreen.cs": "a9d9aff81e7fd62c866e0a7d5a8af0d5e3bb2eb2a49553f378b06df1e6e87442",
+    "Assets/Scripts/UI/Stage3D.cs": "6544b8f4c8ab105fe30fb11370d816fbc6e4fbf2942e5b9f5967156012542250",
     "Assets/Scripts/UI/StorageScreen.cs": "2602caa004f658bc572ec9dc5f089a01892e81556efaaab4cdedf886e4b551bc",
     "Assets/Scripts/UI/TitleScreens.cs": "4e0ec14bab64fcb3352e5dc52a1aa48cd8cc224dc8bdd8c00bbf7fa6b898ec87",
     "Assets/Scripts/UI/UIKit.cs": "bd0a77fb3d400dc71d88fe9cd38ad962b0888e6e9c64e570bc361d6f6e210ef8",
@@ -87,36 +87,37 @@
     "Assets/Scripts/World/BuildExtras.cs": "550acc39fe4fe16330ad48464b45b7db7d734bbff754f86355f69ecff9d1eea0",
     "Assets/Scripts/World/CinderVents.cs": "b5257bbde7475c4af05f2b98b401918b4bef035d441e7b8e91073f9232d75341",
     "Assets/Scripts/World/Colossus.cs": "3b19ad4951a168503c3f794f230b6932cb2add642fbef98354dce843eed5f11e",
-    "Assets/Scripts/World/Crafting.cs": "81f1c466ce18be32e8d2dd541a9a1359915ba4d2015c547a19a2726d518aee3b",
+    "Assets/Scripts/World/Crafting.cs": "103b36ef6b87653fde86c59e1e961943749111bf7194f0110a042f4ccd034b5a",
     "Assets/Scripts/World/Crypt.cs": "fdf1c85a0ecb33867544d48784774a1eb390e168ec74eeb54b3520f3bad4b550",
     "Assets/Scripts/World/DayNight.cs": "67e588fd0bd9565d040bae388b9bf5c6247c724bfc5fd4c36bb7100c3178c114",
     "Assets/Scripts/World/DeepCover.cs": "9d4725b8856e3ae4f2fbdccd76f2653f151247ac86e5c447c99342bfe5e2007b",
     "Assets/Scripts/World/DeepPassage.cs": "b59e7a8c6b865d8fd0c7b8f04bb3f973d6f5368260890876c27810c8d585ddc9",
-    "Assets/Scripts/World/Dominion.cs": "8810a04b88242ea0001633b7e21bccaca01a0bcac4bc71d7322a8d374c8b134a",
-    "Assets/Scripts/World/Dropped.cs": "0286e1b66738130a120301e34d887bd7d09544974e36ebd1be68dfc7910b26bf",
+    "Assets/Scripts/World/Dominion.cs": "b620b6733954086c87653e48c779d4298229053c8853880f2992a6a3a063427c",
+    "Assets/Scripts/World/Dropped.cs": "5b565829dfbb3b90f0b8ad345eae1747c628ccc258e08caad999b8056f739347",
     "Assets/Scripts/World/Echo.cs": "a0327cdbe0fe6520c610190c4e09fe32ccfa34fde3d7b48bf61ad8a1d8426fcd",
     "Assets/Scripts/World/Exploration.cs": "833bb868571ebf43fa33f40a50b4b82e2c49f3eff9c16e66ffc3d230251863a3",
     "Assets/Scripts/World/Farming.cs": "cb4a648b7bf0a57668cf6e604a9cc2855fde483120fadd371ab90e25257fe798",
     "Assets/Scripts/World/Fire.cs": "6e6230050f9d2e308966feeeac9d907f7ea88f6fb020979d5532e762116f8bd2",
+    "Assets/Scripts/World/Forging.cs": "3d97c417fd9a81a6c401c140bfaeefd0836186c24eca11cc459909acfc92d94f",
     "Assets/Scripts/World/GaleLock.cs": "70556392885d1b54a601aab031e63d35e7edd44f40fbf5c3850e5f648cdd0618",
     "Assets/Scripts/World/Gathering.cs": "8c1e73d72816bb366af6dae76a94a91fc400b0b03f60cd1015e06ce49a720051",
     "Assets/Scripts/World/GrassField.cs": "1a05bd0b26afb488eaf526f60dbd7ce9f5e3ac4870b6e6c69e2c838252ba205e",
     "Assets/Scripts/World/HallvardTrail.cs": "0fa142038cf448e3a4700f2be4eec04fc9c8687d090fcc6bae1dd84df8d9192b",
-    "Assets/Scripts/World/Interactables.cs": "5b5c0aa418e67616a10a14258c95843460487975749a7301ea234b7d0fdedd8d",
+    "Assets/Scripts/World/Interactables.cs": "3d0276e727a1c4594a3123bcd1ddcc31a4a6143ae6baa3aef70b0e0a1ea38343",
     "Assets/Scripts/World/Isles.cs": "53b689f0d1669ff518343c8153c838919c60f14d5e598b94fa0ddc0f49673674",
     "Assets/Scripts/World/KeeperLift.cs": "868195f2ac93975ab8ec669a4fbc63a1b4ac0b8fc6e59d5def20b20d08cb9710",
     "Assets/Scripts/World/KeepersSeal.cs": "cb25eacb46f826adc1b45760be8997392dbab09cde536f0ef002d00dfa1fa829",
     "Assets/Scripts/World/Ladder.cs": "41d74525bc3c625dd6e8da16eab1c4d5a3ecfc0508525848ee6b31835ddb9817",
-    "Assets/Scripts/World/Lands.cs": "bf0bdd4a31b47cfff10b654ea168521551a3e08de7e9be89ff679d6e129821d6",
+    "Assets/Scripts/World/Lands.cs": "0cfc69600674c066dd2a5a471f714ab8cec3ab254076ed4b31c748ed8de1568b",
     "Assets/Scripts/World/LightLod.cs": "04a0fb99e92020326e7dec2c3a070227ea2bb79f224f69d5a53513d6783c4187",
-    "Assets/Scripts/World/LootChest.cs": "416520f4d4114103a3de1befe35aa9b91ee932eb040df956425a835719061875",
+    "Assets/Scripts/World/LootChest.cs": "7ae88f96e0dcce33f232f0a8c1e7028f0e498622cf50f33309435a5841041c4e",
     "Assets/Scripts/World/NpcPath.cs": "83c76d2be9919480ebc51188eb758aec514a37fc41f8cf54a417c9f2784e3bd9",
     "Assets/Scripts/World/Omens.cs": "23015bdff1430223878c0586be13d44214678d88f68dd532d9cb86305a231d3a",
     "Assets/Scripts/World/Puzzles.cs": "e7caab288dabcbe22dc343df9d61b763d74089f65064aa6659265c9e468495e8",
     "Assets/Scripts/World/Stations.cs": "d5de6324c8bd0e8e8e0693f7ed30a050f1b913913261bed5297c82c78625cbc0",
-    "Assets/Scripts/World/Trader.cs": "738cd2e0cab4007442fb1affd5156b175f5c185025f239ce7327bf15c05597d3",
+    "Assets/Scripts/World/Trader.cs": "986c031f157a6768a33ae726229593f9619733d4841110f0f2712fd8a1a99276",
     "Assets/Scripts/World/Underhearth.cs": "f1e757a4be46bfbb97da9591ff781edea298b6b4f0cba83e698907394dbda1a4",
-    "Assets/Scripts/World/Upgrades.cs": "660027b9dadbfead6198beef46ffe333418b944684c4aa2e1f6599987cef0e87",
+    "Assets/Scripts/World/Upgrades.cs": "20ae3a6a9b16175b6003b7d0248ff5809c9e810bd0a78c51748711ba024f1757",
     "Assets/Scripts/World/Weather.cs": "24736e753fa640d965961555ab4b8d463b8b659b57fa915836a47de5f9e0350b",
     "Assets/Scripts/World/WorldBuilder.cs": "941660a6f917e60897b37325b02acf513a8f769e5bee29b9dc8a90c4189435e4",
     "Assets/Scripts/World/WorldFrontier.cs": "9bbea65460e9e802e3b9f12e55ddc61b2bb5bbb28b1b089d65c3677dc95df297",
@@ -125,9 +126,9 @@
     "Assets/Scripts/World/WorldMire.cs": "d0fe48631bf2dc392f1e5ae75e0bc9a96bc73596f46104bd05b5b979738af27a",
     "Assets/Scripts/World/WorldPOI.cs": "71e4ec24b792f8b11e65c1877b403ffe2284399ebb6ed65a7306485e380948da",
     "Assets/Scripts/World/WorldStreamer.cs": "30474bb05e6aabb9755c1ae115d033590e194f27f47c15f0fd5a442c8a496468",
-    "Assets/Scripts/World/WorldUpgrades.cs": "3d2f2bc5a5bfe3262921767474043e5c71b76fcaa00f5440a5736a0db91c272d",
+    "Assets/Scripts/World/WorldUpgrades.cs": "05463705d4862df357aeb9cafc61445d28864a75a915fe6282565ad2d098bd95",
     "Assets/Scripts/World/WorldWater.cs": "4bcc17eba22c53a0a98a99b390dbc9e80da360c56dac23f68896f8a045914ad9",
-    "CHANGELOG.md": "18c0eee12baf7db929b060d7183c228ec376c16d4701a80b87493b35355361be",
+    "CHANGELOG.md": "a1270f6c48133506ec29f4a2ceb6c9a7b71da54271cf72c78c039fac9c59d26b",
     "Server/FFServer/GameServer.cs": "3b55466a7c4fc982e84e435b28c9f210c85ae8bbb0b2821c13ebd65e22bf0b6b",
     "Server/FFServer/Program.cs": "14d8134959ba2bdf0fd324c301fe9c02e792999e6f9eba5ffd4159228916b0a5",
     "Server/FFServer/ServerConfig.cs": "e5faf9a7a0230307766cfd31b8da96742f78f0af72f5e50f852332b8ea4610d5",
@@ -345,7 +346,32 @@
     "Screens/wiki/icons/gear_charm_wisp.png": "a12230fcadc711a21cb627dd03eaa69c885ed94d08c17c2b29bf1b430b8dfcf4",
     "Screens/wiki/v030/underhearth-light-v030.webp": "7c75cb6ace32d8426a181f7df49eda02ae78955d0a81c4aa492ee1cf16c998ee",
     "Screens/wiki/v030/underhearth-threads-v030.webp": "89e656efcd10b076f6e2f16415a7e43595029aa82c1543dbe0d683b5419c1ee3",
-    "Screens/wiki/v030/underhearth-reeds-v030.webp": "8e49c0d55f485b2f230948b4d0827b2e10e951d34ecf9a226689d2466588eda5"
+    "Screens/wiki/v030/underhearth-reeds-v030.webp": "8e49c0d55f485b2f230948b4d0827b2e10e951d34ecf9a226689d2466588eda5",
+    "Screens/wiki/icons/gear_axe_ember.png": "e5da67150fc913d7c528d38cf7dbddab8d56dd2a70d52180b8cc24831165cf6d",
+    "Screens/wiki/icons/gear_pick_ember.png": "c9b8254a66aa21e36963b31c399b9b7dbcbdef0d1f8906d37c7d9d51d79b24d7",
+    "Screens/wiki/icons/gear_mace_ember.png": "0a1438abe00eeb49da41c3c91c9dcb2905d5437ebd993b635516211d10d6d3a3",
+    "Screens/wiki/icons/gear_spear_ember.png": "503ab0b3bd9dfaf969c08acd17a1d40d880be1fa9893bda64298dea3ebad1ae3",
+    "Screens/wiki/icons/gear_blades_ember.png": "7d34f11e6fca0946347eadb4ac359664bed33a78c653f18419209134b52e505e",
+    "Screens/wiki/icons/gear_bow_ember.png": "27aa08aa5cc4853f8e53c954921991b895a974b749aa455333b6800b27747cbd",
+    "Screens/wiki/icons/gear_helm_ember.png": "496cdb8a7d6c46aa4849f79fc4505062212d5d05fa65adcbb6f2154f2f59457d",
+    "Screens/wiki/icons/gear_cuirass_ember.png": "2f243d7e0e12badbae86cc2c8b1497d4a94aeebc01621dcc369f245133d4257d",
+    "Screens/wiki/icons/gear_mantle_ash.png": "35a1089f7c69e7e06a598674976934747b5959d0ca49890a54bbc426892b521b",
+    "Screens/wiki/icons/gear_vambraces_ember.png": "0867d42a55497d24b24cd9c3f742e0c79ccbb0b762eafd74c000073d3c7d45f7",
+    "Screens/wiki/icons/gear_mace_ruin.png": "a614f423e502ccc4ac9b990ffd6a7717652770240aeb40c829feb707b1450eb0",
+    "Screens/wiki/icons/gear_spear_infernal.png": "4b43b5bd3aac31415f426b7a5944ac338ab43b515ba69b61444d5d880ec37af0",
+    "Screens/wiki/icons/gear_blades_soul.png": "dcd442cc8201f68ede868113e3d44b576e3c33c63e78475d1701170df702af2f",
+    "Screens/wiki/icons/gear_bow_dominion.png": "470c6c5c5e0429049175b7bd039659ccca3f24c4520e8bb8e70c9f52dfe7592c",
+    "Screens/wiki/icons/gear_helm_ashsteel.png": "efda616ae1c6063004bce006c9ac971ccd926bd2ba9fa154d6be82bcc11149ed",
+    "Screens/wiki/icons/gear_plate_ashsteel.png": "333962d28f1e324a952c30b07432125e65cb8dd230fe2341d9dd2ec03332fb4f",
+    "Screens/wiki/icons/gear_pauldrons_ashsteel.png": "7063f814b9b144605e75d696a5639c3ec10dfdf0318d62120300b7b18184b856",
+    "Screens/wiki/icons/gear_vambraces_ashsteel.png": "0666e2c58ca9d99c9f088ce12a797971e6fa71bfe7ca154b55a4265502f1b185",
+    "Screens/wiki/icons/gear_knives_flint.png": "494ed90324c9fb00b65ac4f693f812243996bee7661673ec42ee6962a2ffb5a8",
+    "Screens/wiki/icons/gear_vambraces_iron.png": "2e7c74bee891b557fed15213e2a7123889cf72f3a0822861be44d5877263e653",
+    "Screens/wiki/icons/EmberSteel.png": "7f831ed6fc5af767f0ad0d8cd5ba813d89bc0f2f72c819e255a191144e006e25",
+    "Screens/wiki/icons/KindledAsh.png": "02a3ce088d21428ef95fbf1da8e9371326de09c487542d9d89ab3e2bb0e4e665",
+    "Screens/wiki/icons/SoulEmber.png": "50d76d9f2dc279466e49627b4e3980ab11d4cc87470f5cabefb925c56858b5cf",
+    "Screens/wiki/v033/rune-forge-ashsteel-v033.webp": "414545da20af9e4f9dda5122299cbd975e1b036e4ee5731380522df8a8e839a3",
+    "Screens/wiki/v033/rune-forge-ember-v033.webp": "8a49d118bd2cc73b653d06641242c6f0042d24b20b6dbfd98cdba90b32a4752c"
   },
   "entities": [
     {
@@ -1123,7 +1149,7 @@
       "kind": "item",
       "key": "Ashsteel",
       "name": "Ashsteel",
-      "description": "Plates of the Dominion's black steel, broken off its Sentinels. No forge of the Vale can work it; the Last Forge in the Black City tempers with it.",
+      "description": "Plates of the Dominion's black steel, broken off its Sentinels. No common forge can work it: it takes the Dominion's rite, learned at the Last Forge in the Black City, and a Rune Anvil. The Last Forge also tempers with it.",
       "source": "Assets/Scripts/Core/Items.cs",
       "page": "equipment/items/ashsteel",
       "image": "/images/icons/ashsteel.png"
@@ -1157,6 +1183,36 @@
       "source": "Assets/Scripts/Core/Items.cs",
       "page": "equipment/items/acolyte-trophy",
       "image": "/images/icons/acolytetrophy.png"
+    },
+    {
+      "id": "item:EmberSteel",
+      "kind": "item",
+      "key": "EmberSteel",
+      "name": "Ember Steel",
+      "description": "Iron and ember ore run together in the Ember Crucible, with brimstone to draw the slag. Dark, with a warm sheen in its grain; it holds an edge the Vale's iron cannot.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/ember-steel",
+      "image": "/images/icons/embersteel.png"
+    },
+    {
+      "id": "item:KindledAsh",
+      "kind": "item",
+      "key": "KindledAsh",
+      "name": "Kindled Ash",
+      "description": "The grey ash a Kindled leaves when it bursts. It holds any shape pressed into it, and a rune cut in it stays cut: the ash rune of the Dominion's smiths.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/kindled-ash",
+      "image": "/images/icons/kindledash.png"
+    },
+    {
+      "id": "item:SoulEmber",
+      "kind": "item",
+      "key": "SoulEmber",
+      "name": "Soul Ember",
+      "description": "The cold fire that drove a Sentinel or an Acolyte, caught as it gutters out. It pulls at the warmth of the hand that holds it. Set in steel as a rune, it gives back what it takes.",
+      "source": "Assets/Scripts/Core/Items.cs",
+      "page": "equipment/items/soul-ember",
+      "image": "/images/icons/soulember.png"
     },
     {
       "id": "gear:axe_flint",
@@ -2095,6 +2151,526 @@
       "image": "/images/icons/gear-charm-wisp.png"
     },
     {
+      "id": "gear:knives_flint",
+      "kind": "gear",
+      "key": "knives_flint",
+      "name": "Flint Knives",
+      "description": "Two leaf-shaped flint blades hafted in split antler. Light and quick; they cut hide well enough, and best from behind.",
+      "gearKind": "Blades",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Flint",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 1,
+        "damage": 6.5,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1.22,
+        "armor": 0,
+        "poise": 0.75,
+        "durability": 140
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/knives-flint",
+      "image": "/images/icons/gear-knives-flint.png"
+    },
+    {
+      "id": "gear:vambraces_iron",
+      "kind": "gear",
+      "key": "vambraces_iron",
+      "name": "Iron Vambraces",
+      "description": "Riveted iron splints over leather sleeves, from wrist to elbow. A blade meant for the arm turns on them.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Arms",
+      "material": "IronBar",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 2,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 5,
+        "poise": 1,
+        "durability": 220
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/vambraces-iron",
+      "image": "/images/icons/gear-vambraces-iron.png"
+    },
+    {
+      "id": "gear:axe_ember",
+      "kind": "gear",
+      "key": "axe_ember",
+      "name": "Ember Axe",
+      "description": "A broad bearded head of ember steel on an emberwood haft. The edge stays warm; it goes through oak and emberbark like through pine.",
+      "gearKind": "Axe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "EmberSteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 4,
+        "damage": 15,
+        "chop": 36,
+        "mine": 0,
+        "speed": 0.92,
+        "armor": 0,
+        "poise": 1,
+        "durability": 440
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/axe-ember",
+      "image": "/images/icons/gear-axe-ember.png"
+    },
+    {
+      "id": "gear:pick_ember",
+      "kind": "gear",
+      "key": "pick_ember",
+      "name": "Ember Pickaxe",
+      "description": "A long ember-steel pick, its point drawn out thin and hard. Obsidian and ember seams break under it in half the blows.",
+      "gearKind": "Pickaxe",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "EmberSteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 4,
+        "damage": 12,
+        "chop": 0,
+        "mine": 36,
+        "speed": 0.88,
+        "armor": 0,
+        "poise": 1,
+        "durability": 480
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/pick-ember",
+      "image": "/images/icons/gear-pick-ember.png"
+    },
+    {
+      "id": "gear:mace_ember",
+      "kind": "gear",
+      "key": "mace_ember",
+      "name": "Ember Mace",
+      "description": "Eight ember-steel flanges round a spiked crown on an emberwood haft. Heavier than the iron mace and no slower: plate and slag hide crack under it.",
+      "gearKind": "Club",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "EmberSteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 4,
+        "damage": 34,
+        "chop": 0,
+        "mine": 0,
+        "speed": 0.8,
+        "armor": 0,
+        "poise": 2,
+        "durability": 460
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/mace-ember",
+      "image": "/images/icons/gear-mace-ember.png"
+    },
+    {
+      "id": "gear:spear_ember",
+      "kind": "gear",
+      "key": "spear_ember",
+      "name": "Ember Spear",
+      "description": "A long, barbed ember-steel head with an obsidian collar on an emberwood shaft. It reaches past an Ashhound's teeth.",
+      "gearKind": "Spear",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "EmberSteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 4,
+        "damage": 24,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 0,
+        "poise": 1,
+        "durability": 440
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/spear-ember",
+      "image": "/images/icons/gear-spear-ember.png"
+    },
+    {
+      "id": "gear:blades_ember",
+      "kind": "gear",
+      "key": "blades_ember",
+      "name": "Ember Blades",
+      "description": "A pair of ember-steel seaxes with obsidian pommels. Quick, keen, and cruel from behind.",
+      "gearKind": "Blades",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "EmberSteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 4,
+        "damage": 13.5,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1.25,
+        "armor": 0,
+        "poise": 0.8,
+        "durability": 420
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/blades-ember",
+      "image": "/images/icons/gear-blades-ember.png"
+    },
+    {
+      "id": "gear:bow_ember",
+      "kind": "gear",
+      "key": "bow_ember",
+      "name": "Emberwood Bow",
+      "description": "A recurve of emberwood backed with antler and strung with Mire silk. It casts harder and steadier than the horn bow. Left attack draws, release looses; right attack or exhaustion cancels.",
+      "gearKind": "Bow",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Emberwood",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 4,
+        "damage": 29,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1.15,
+        "armor": 0,
+        "poise": 1,
+        "durability": 400
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/bow-ember",
+      "image": "/images/icons/gear-bow-ember.png"
+    },
+    {
+      "id": "gear:helm_ember",
+      "kind": "gear",
+      "key": "helm_ember",
+      "name": "Emberforged Helm",
+      "description": "A ridged ember-steel helm with cheek plates and a low crest, lined with ash pelt.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Head",
+      "material": "EmberSteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 4,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 10,
+        "poise": 1,
+        "durability": 300
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/helm-ember",
+      "image": "/images/icons/gear-helm-ember.png"
+    },
+    {
+      "id": "gear:cuirass_ember",
+      "kind": "gear",
+      "key": "cuirass_ember",
+      "name": "Emberforged Cuirass",
+      "description": "Overlapping ember-steel plates over an ash-pelt coat, with a skirt of lames. The best armour the crucible makes.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Chest",
+      "material": "EmberSteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 4,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 22,
+        "poise": 1,
+        "durability": 360
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/cuirass-ember",
+      "image": "/images/icons/gear-cuirass-ember.png"
+    },
+    {
+      "id": "gear:mantle_ash",
+      "kind": "gear",
+      "key": "mantle_ash",
+      "name": "Ashpelt Mantle",
+      "description": "Ashhound pelts sewn into a shoulder mantle, the grey hair outward, with an ember-steel clasp. The Underhearth's heat sits a step further off.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Shoulders",
+      "material": "AshPelt",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 4,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 9,
+        "poise": 1,
+        "durability": 260
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/mantle-ash",
+      "image": "/images/icons/gear-mantle-ash.png"
+    },
+    {
+      "id": "gear:vambraces_ember",
+      "kind": "gear",
+      "key": "vambraces_ember",
+      "name": "Emberforged Vambraces",
+      "description": "Ember-steel splints laced over ash-pelt sleeves.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Arms",
+      "material": "EmberSteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 4,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 7,
+        "poise": 1,
+        "durability": 280
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/vambraces-ember",
+      "image": "/images/icons/gear-vambraces-ember.png"
+    },
+    {
+      "id": "gear:mace_ruin",
+      "kind": "gear",
+      "key": "mace_ruin",
+      "name": "Ruin Mace",
+      "description": "A head of black ashsteel cut with the rune of ruin, its grooves packed with Kindled ash. Its blows break a guard: +50% stagger, and a foe already exposed takes a quarter more.",
+      "gearKind": "Club",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Ashsteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 5,
+        "damage": 46,
+        "chop": 0,
+        "mine": 0,
+        "speed": 0.78,
+        "armor": 0,
+        "poise": 2.3,
+        "durability": 560
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/mace-ruin",
+      "image": "/images/icons/gear-mace-ruin.png"
+    },
+    {
+      "id": "gear:spear_infernal",
+      "kind": "gear",
+      "key": "spear_infernal",
+      "name": "Infernal Spear",
+      "description": "A long ashsteel blade with two fire opals set in the infernal rune. Its blows set creatures alight; what the Underhearth's own fire cannot burn takes a quarter more instead.",
+      "gearKind": "Spear",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Ashsteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 5,
+        "damage": 32,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1.02,
+        "armor": 0,
+        "poise": 1,
+        "durability": 520
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/spear-infernal",
+      "image": "/images/icons/gear-spear-infernal.png"
+    },
+    {
+      "id": "gear:blades_soul",
+      "kind": "gear",
+      "key": "blades_soul",
+      "name": "Soul Blades",
+      "description": "Two curved ashsteel blades with the soul rune burning pale in each. Every blow draws something back: 8% of the damage returns to you as health.",
+      "gearKind": "Blades",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Ashsteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 5,
+        "damage": 18,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1.28,
+        "armor": 0,
+        "poise": 0.85,
+        "durability": 500
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/blades-soul",
+      "image": "/images/icons/gear-blades-soul.png"
+    },
+    {
+      "id": "gear:bow_dominion",
+      "kind": "gear",
+      "key": "bow_dominion",
+      "name": "Dominion Recurve",
+      "description": "A Dominion war bow: emberwood and antler between ashsteel limb plates, a soul ember in the riser. The hardest-casting bow there is. Left attack draws, release looses.",
+      "gearKind": "Bow",
+      "upgradable": true,
+      "slot": "MainHand",
+      "material": "Ashsteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 5,
+        "damage": 37,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1.18,
+        "armor": 0,
+        "poise": 1.1,
+        "durability": 480
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/bow-dominion",
+      "image": "/images/icons/gear-bow-dominion.png"
+    },
+    {
+      "id": "gear:helm_ashsteel",
+      "kind": "gear",
+      "key": "helm_ashsteel",
+      "name": "Ashsteel Helm",
+      "description": "A Sentinel's visored helm reforged to fit a living head: black ashsteel, a narrow eye-slit, a ridge of gold.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Head",
+      "material": "Ashsteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 5,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 13,
+        "poise": 1,
+        "durability": 380
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/helm-ashsteel",
+      "image": "/images/icons/gear-helm-ashsteel.png"
+    },
+    {
+      "id": "gear:plate_ashsteel",
+      "kind": "gear",
+      "key": "plate_ashsteel",
+      "name": "Ashsteel Plate",
+      "description": "Black ashsteel plate over an ash-pelt coat, with ward runes cut across the breast and filled with a soul ember. The Underhearth's heat sits a step further off.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Chest",
+      "material": "Ashsteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 5,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 28,
+        "poise": 1,
+        "durability": 460
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/plate-ashsteel",
+      "image": "/images/icons/gear-plate-ashsteel.png"
+    },
+    {
+      "id": "gear:pauldrons_ashsteel",
+      "kind": "gear",
+      "key": "pauldrons_ashsteel",
+      "name": "Ashsteel Pauldrons",
+      "description": "Heavy layered pauldrons of ashsteel with a raised ridge, as the Sentinels wore them.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Shoulders",
+      "material": "Ashsteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 5,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 12,
+        "poise": 1,
+        "durability": 380
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/pauldrons-ashsteel",
+      "image": "/images/icons/gear-pauldrons-ashsteel.png"
+    },
+    {
+      "id": "gear:vambraces_ashsteel",
+      "kind": "gear",
+      "key": "vambraces_ashsteel",
+      "name": "Ashsteel Vambraces",
+      "description": "Closed ashsteel vambraces with gilded rims.",
+      "gearKind": "Armor",
+      "upgradable": true,
+      "slot": "Arms",
+      "material": "Ashsteel",
+      "unique": false,
+      "foundQuality": null,
+      "stats": {
+        "tier": 5,
+        "damage": 0,
+        "chop": 0,
+        "mine": 0,
+        "speed": 1,
+        "armor": 9,
+        "poise": 1,
+        "durability": 360
+      },
+      "source": "Assets/Scripts/Core/Gear.cs",
+      "page": "equipment/gear/vambraces-ashsteel",
+      "image": "/images/icons/gear-vambraces-ashsteel.png"
+    },
+    {
       "id": "recipe:axe_flint-Hand",
       "kind": "recipe",
       "name": "Flint Axe",
@@ -2113,6 +2689,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/axe-flint-hand",
@@ -2133,6 +2710,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/club-hand",
@@ -2157,6 +2735,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/torch-hand",
@@ -2185,6 +2764,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/pick-stone-workbench",
@@ -2213,6 +2793,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/spear-flint-workbench",
@@ -2241,6 +2822,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/pick-tusk-workbench",
@@ -2265,6 +2847,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/bracers-workbench",
@@ -2289,6 +2872,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/hide-vest-workbench",
@@ -2313,6 +2897,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/fur-mantle-workbench",
@@ -2333,6 +2918,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Flax fibre beaten, spun and woven into clean strips.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/bandage-workbench",
@@ -2361,6 +2947,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Staves of split pine bound with a leather band and sealed with resin. Carry water to the garden: wade into a stream or a pond to fill it, or draw from a well.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/bucket-workbench",
@@ -2389,6 +2976,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/charm-fang-workbench",
@@ -2417,6 +3005,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/charm-tusk-workbench",
@@ -2445,6 +3034,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/bow-hunting-workbench",
@@ -2477,6 +3067,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/bow-horn-workbench",
@@ -2509,6 +3100,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/lute-workbench",
@@ -2533,6 +3125,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Ten ash shafts, knapped flint points, fletched with grey goose feathers from the marsh.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/arrow-flint-workbench",
@@ -2557,6 +3150,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Ten barbed bone points from the barrow dead: deeper wounds, harder stagger.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/arrow-bone-workbench",
@@ -2589,6 +3183,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Eight arrows with resin-soaked flax bound behind the point. They set whatever they strike alight.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/arrow-fire-workbench",
@@ -2613,6 +3208,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Three hones ground true on the grindstone's wheel. Cheaper than the stonecutter's, and as keen.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/whetstone-workbench",
@@ -2641,6 +3237,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/pick-antler-workbench",
@@ -2665,6 +3262,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/cap-leather-workbench",
@@ -2693,6 +3291,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/charm-grave-workbench",
@@ -2721,6 +3320,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/charm-stag-workbench",
@@ -2749,6 +3349,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/charm-amber-workbench",
@@ -2773,6 +3374,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Moonpetal steeped with redcap. Drink to restore 40 health.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/potion-herb-table",
@@ -2797,6 +3399,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Moonpetal ground into warm pine resin. It cleans a wound and keeps the rot out.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/salve-herb-table",
@@ -2825,6 +3428,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Sour barley water with moonpetal and redcap steeped in it. Stamina comes back 50% faster for three minutes.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/vigor-tonic-herb-table",
@@ -2853,6 +3457,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Oak shavings boiled black with resin and redcap. Take a quarter less damage for two and a half minutes.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/ironbark-brew-herb-table",
@@ -2881,6 +3486,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/charm-hearth-herb-table",
@@ -2909,6 +3515,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Moonpetal and resin worked into flax oil. For six minutes the Mire's webs slide off you and spider venom cannot take hold.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/bog-balm-herb-table",
@@ -2937,6 +3544,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Redcaps boiled down with resin until it burns going down. For six minutes the cold of the Highlands and of the sea wind cannot reach you.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/warming-draught-herb-table",
@@ -2965,6 +3573,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Bone ash, moonpetal and resin. For four minutes grave rot cannot take hold, and the dead hit a quarter less hard.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/grave-ward-herb-table",
@@ -2989,6 +3598,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Mire silk woven tight round crushed moonpetal. Two bandages: each heals 60 at once and draws out grave rot.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/silk-bandage-herb-table",
@@ -3013,6 +3623,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Frost lichen steeped hot with moonpetal: the Highlands' own cure for their cold. Two Warming Draughts.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/lichen-tea-herb-table",
@@ -3033,6 +3644,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Seared on a stick over the coals. Eat it for more stamina, faster recovery and slow healing (6 min).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/cooked-meat-hearth",
@@ -3061,6 +3673,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "A thick stew of meat, redcaps and moonpetal. Much more stamina and steady healing (10 min).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/stew-hearth",
@@ -3085,6 +3698,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Redcaps charred on a green stick. A quick bite: a little more stamina (4 min).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/skewer-hearth",
@@ -3105,6 +3719,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Barley ground on a flat stone, mixed with water and baked on the hearthstones. Two loaves: more stamina and slow healing (8 min).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/flatbread-hearth",
@@ -3129,6 +3744,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "A Greyhorn haunch roasted slowly with moonpetal. The best meal in the Vale: much more stamina and good healing (12 min).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/venison-roast-hearth",
@@ -3157,6 +3773,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Bones simmered with redcap and moonpetal. Two bowls: the fastest healing of any meal (9 min).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/bone-broth-hearth",
@@ -3181,6 +3798,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Barley boiled thick with redcaps. Two bowls: more stamina and slow healing (10 min).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/porridge-hearth",
@@ -3205,6 +3823,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Birchwood cloudberries baked into barley dough. Two tarts: more stamina and the fastest breath of any meal (8 min).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/cloudberry-tart-hearth",
@@ -3233,6 +3852,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/axe-iron-forge",
@@ -3261,6 +3881,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/pick-iron-forge",
@@ -3289,6 +3910,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/spear-iron-forge",
@@ -3317,6 +3939,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/blades-iron-forge",
@@ -3345,6 +3968,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/mace-iron-forge",
@@ -3369,6 +3993,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Ten forged bodkin points on ash shafts. They punch through hide and old iron alike.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/arrow-iron-forge",
@@ -3393,6 +4018,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/iron-helm-forge",
@@ -3417,6 +4043,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/lamellar-forge",
@@ -3441,6 +4068,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/spaulders-forge",
@@ -3469,6 +4097,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "A cage of forged iron around two echo crystals. A vessel for whatever an old shrine keeps.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/echo-focus-forge",
@@ -3493,6 +4122,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Two fine-grained stones, sawn and dressed. Hone the weapon in your hand: +15% damage for five minutes.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/whetstone-stonecutter",
@@ -3513,6 +4143,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Bones ground at the quern. Worked into a garden bed, it brings the crop up in half the time.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/bone-meal-stonecutter",
@@ -3553,6 +4184,7 @@
         }
       ],
       "conditional": true,
+      "forgeTier": 0,
       "description": "Iron forged with a piece of each outer land, the way the Keepers made theirs. It breaks the seal on the Courtyard gate.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/keepers-key-forge",
@@ -3577,6 +4209,7 @@
         }
       ],
       "conditional": true,
+      "forgeTier": 0,
       "description": "Relic: hitting Staggered or Exposed enemies sets them ablaze, and fire spreads between creatures.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/ember-relic-forge",
@@ -3597,6 +4230,7 @@
         }
       ],
       "conditional": true,
+      "forgeTier": 0,
       "description": "Crystal resonance: all Echoes last 50% longer and recover faster.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/echo-attunement-forge",
@@ -3629,6 +4263,7 @@
         }
       ],
       "conditional": true,
+      "forgeTier": 0,
       "description": "Hide stretched over a wicker frame and sealed with resin: a round boat light enough to carry. Wade out past your depth and you climb in; paddle to any shore to step out. The way to the islands.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/coracle-workbench",
@@ -3653,6 +4288,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Mussels steamed open with moonpetal. Two bowls: a light meal that heals well (8 min).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/steamed-mussels-hearth",
@@ -3677,6 +4313,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Gull eggs and barley baked on the hearthstone. Two bannocks: much more stamina for a long while (11 min).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/egg-bannock-hearth",
@@ -3705,6 +4342,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/charm-pearl-workbench",
@@ -3729,6 +4367,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Glowcaps simmered with a bone. Two bowls: more stamina and good healing (9 min), and the Underhearth's heat a step further off.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/glowcap-broth-hearth",
@@ -3757,6 +4396,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Highland lichen steeped cold with glowcap. For six minutes the heat of the Underhearth cannot reach you (lava still burns).",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/frost-draught-herb-table",
@@ -3785,6 +4425,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Knapped obsidian heads on ash shafts. The sharpest arrows there are: they cut deeper than iron.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/arrow-obsidian-workbench",
@@ -3813,6 +4454,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/charm-opal-workbench",
@@ -3841,6 +4483,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/charm-slag-workbench",
@@ -3869,6 +4512,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "Brimstone packed behind a small point: it catches at a touch. Ten fire arrows.",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/brimstone-fire-arrows-workbench",
@@ -3897,6 +4541,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/circlet-glowcap-workbench",
@@ -3925,6 +4570,7 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/lamellar-ember-forge",
@@ -3953,10 +4599,648 @@
         }
       ],
       "conditional": false,
+      "forgeTier": 0,
       "description": "",
       "source": "Assets/Scripts/World/Crafting.cs",
       "page": "crafting/recipes/charm-wisp-workbench",
       "image": "/images/icons/gear-charm-wisp.png"
+    },
+    {
+      "id": "recipe:knives_flint-Workbench",
+      "kind": "recipe",
+      "name": "Flint Knives",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:knives_flint",
+      "cost": [
+        {
+          "item": "item:Wood",
+          "count": 2
+        },
+        {
+          "item": "item:Flint",
+          "count": 4
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": false,
+      "forgeTier": 0,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/knives-flint-workbench",
+      "image": "/images/icons/gear-knives-flint.png"
+    },
+    {
+      "id": "recipe:vambraces_iron-Forge",
+      "kind": "recipe",
+      "name": "Iron Vambraces",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 1,
+      "result": "gear:vambraces_iron",
+      "cost": [
+        {
+          "item": "item:IronBar",
+          "count": 2
+        },
+        {
+          "item": "item:Leather",
+          "count": 2
+        }
+      ],
+      "conditional": false,
+      "forgeTier": 0,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/vambraces-iron-forge",
+      "image": "/images/icons/gear-vambraces-iron.png"
+    },
+    {
+      "id": "recipe:EmberSteel-Forge",
+      "kind": "recipe",
+      "name": "Ember Steel",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 4,
+      "result": "item:EmberSteel",
+      "cost": [
+        {
+          "item": "item:EmberOre",
+          "count": 2
+        },
+        {
+          "item": "item:IronBar",
+          "count": 1
+        },
+        {
+          "item": "item:Brimstone",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "Iron and ember ore run together in the crucible, brimstone drawing off the slag. One bar of ember steel, for the tier IV gear.",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/ember-steel-forge",
+      "image": "/images/icons/embersteel.png"
+    },
+    {
+      "id": "recipe:axe_ember-Forge",
+      "kind": "recipe",
+      "name": "Ember Axe",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 4,
+      "result": "gear:axe_ember",
+      "cost": [
+        {
+          "item": "item:Emberwood",
+          "count": 2
+        },
+        {
+          "item": "item:EmberSteel",
+          "count": 3
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/axe-ember-forge",
+      "image": "/images/icons/gear-axe-ember.png"
+    },
+    {
+      "id": "recipe:pick_ember-Forge",
+      "kind": "recipe",
+      "name": "Ember Pickaxe",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 4,
+      "result": "gear:pick_ember",
+      "cost": [
+        {
+          "item": "item:Emberwood",
+          "count": 2
+        },
+        {
+          "item": "item:EmberSteel",
+          "count": 4
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/pick-ember-forge",
+      "image": "/images/icons/gear-pick-ember.png"
+    },
+    {
+      "id": "recipe:mace_ember-Forge",
+      "kind": "recipe",
+      "name": "Ember Mace",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 4,
+      "result": "gear:mace_ember",
+      "cost": [
+        {
+          "item": "item:Emberwood",
+          "count": 2
+        },
+        {
+          "item": "item:EmberSteel",
+          "count": 5
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/mace-ember-forge",
+      "image": "/images/icons/gear-mace-ember.png"
+    },
+    {
+      "id": "recipe:spear_ember-Forge",
+      "kind": "recipe",
+      "name": "Ember Spear",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 4,
+      "result": "gear:spear_ember",
+      "cost": [
+        {
+          "item": "item:Emberwood",
+          "count": 2
+        },
+        {
+          "item": "item:EmberSteel",
+          "count": 3
+        },
+        {
+          "item": "item:Obsidian",
+          "count": 1
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/spear-ember-forge",
+      "image": "/images/icons/gear-spear-ember.png"
+    },
+    {
+      "id": "recipe:blades_ember-Forge",
+      "kind": "recipe",
+      "name": "Ember Blades",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 4,
+      "result": "gear:blades_ember",
+      "cost": [
+        {
+          "item": "item:Emberwood",
+          "count": 1
+        },
+        {
+          "item": "item:EmberSteel",
+          "count": 4
+        },
+        {
+          "item": "item:Obsidian",
+          "count": 2
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/blades-ember-forge",
+      "image": "/images/icons/gear-blades-ember.png"
+    },
+    {
+      "id": "recipe:helm_ember-Forge",
+      "kind": "recipe",
+      "name": "Emberforged Helm",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 4,
+      "result": "gear:helm_ember",
+      "cost": [
+        {
+          "item": "item:EmberSteel",
+          "count": 3
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 1
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/helm-ember-forge",
+      "image": "/images/icons/gear-helm-ember.png"
+    },
+    {
+      "id": "recipe:cuirass_ember-Forge",
+      "kind": "recipe",
+      "name": "Emberforged Cuirass",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 4,
+      "result": "gear:cuirass_ember",
+      "cost": [
+        {
+          "item": "item:EmberSteel",
+          "count": 6
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 2
+        },
+        {
+          "item": "item:Leather",
+          "count": 2
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/cuirass-ember-forge",
+      "image": "/images/icons/gear-cuirass-ember.png"
+    },
+    {
+      "id": "recipe:vambraces_ember-Forge",
+      "kind": "recipe",
+      "name": "Emberforged Vambraces",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 4,
+      "result": "gear:vambraces_ember",
+      "cost": [
+        {
+          "item": "item:EmberSteel",
+          "count": 2
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 1
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/vambraces-ember-forge",
+      "image": "/images/icons/gear-vambraces-ember.png"
+    },
+    {
+      "id": "recipe:bow_ember-Workbench",
+      "kind": "recipe",
+      "name": "Emberwood Bow",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 3,
+      "result": "gear:bow_ember",
+      "cost": [
+        {
+          "item": "item:Emberwood",
+          "count": 4
+        },
+        {
+          "item": "item:Antler",
+          "count": 2
+        },
+        {
+          "item": "item:SpiderSilk",
+          "count": 3
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/bow-ember-workbench",
+      "image": "/images/icons/gear-bow-ember.png"
+    },
+    {
+      "id": "recipe:mantle_ash-Workbench",
+      "kind": "recipe",
+      "name": "Ashpelt Mantle",
+      "station": "Workbench",
+      "count": 1,
+      "minLevel": 2,
+      "result": "gear:mantle_ash",
+      "cost": [
+        {
+          "item": "item:AshPelt",
+          "count": 4
+        },
+        {
+          "item": "item:Leather",
+          "count": 2
+        },
+        {
+          "item": "item:EmberSteel",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 4,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/mantle-ash-workbench",
+      "image": "/images/icons/gear-mantle-ash.png"
+    },
+    {
+      "id": "recipe:mace_ruin-Forge",
+      "kind": "recipe",
+      "name": "Ruin Mace",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 5,
+      "result": "gear:mace_ruin",
+      "cost": [
+        {
+          "item": "item:Ashsteel",
+          "count": 5
+        },
+        {
+          "item": "item:EmberSteel",
+          "count": 2
+        },
+        {
+          "item": "item:KindledAsh",
+          "count": 3
+        },
+        {
+          "item": "item:Emberwood",
+          "count": 2
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 5,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/mace-ruin-forge",
+      "image": "/images/icons/gear-mace-ruin.png"
+    },
+    {
+      "id": "recipe:spear_infernal-Forge",
+      "kind": "recipe",
+      "name": "Infernal Spear",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 5,
+      "result": "gear:spear_infernal",
+      "cost": [
+        {
+          "item": "item:Ashsteel",
+          "count": 4
+        },
+        {
+          "item": "item:EmberSteel",
+          "count": 2
+        },
+        {
+          "item": "item:FireOpal",
+          "count": 2
+        },
+        {
+          "item": "item:Emberwood",
+          "count": 2
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 5,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/spear-infernal-forge",
+      "image": "/images/icons/gear-spear-infernal.png"
+    },
+    {
+      "id": "recipe:blades_soul-Forge",
+      "kind": "recipe",
+      "name": "Soul Blades",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 5,
+      "result": "gear:blades_soul",
+      "cost": [
+        {
+          "item": "item:Ashsteel",
+          "count": 5
+        },
+        {
+          "item": "item:EmberSteel",
+          "count": 1
+        },
+        {
+          "item": "item:SoulEmber",
+          "count": 3
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 5,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/blades-soul-forge",
+      "image": "/images/icons/gear-blades-soul.png"
+    },
+    {
+      "id": "recipe:bow_dominion-Forge",
+      "kind": "recipe",
+      "name": "Dominion Recurve",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 5,
+      "result": "gear:bow_dominion",
+      "cost": [
+        {
+          "item": "item:Ashsteel",
+          "count": 3
+        },
+        {
+          "item": "item:Emberwood",
+          "count": 3
+        },
+        {
+          "item": "item:Antler",
+          "count": 2
+        },
+        {
+          "item": "item:SpiderSilk",
+          "count": 3
+        },
+        {
+          "item": "item:SoulEmber",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 5,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/bow-dominion-forge",
+      "image": "/images/icons/gear-bow-dominion.png"
+    },
+    {
+      "id": "recipe:helm_ashsteel-Forge",
+      "kind": "recipe",
+      "name": "Ashsteel Helm",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 5,
+      "result": "gear:helm_ashsteel",
+      "cost": [
+        {
+          "item": "item:Ashsteel",
+          "count": 3
+        },
+        {
+          "item": "item:SoulEmber",
+          "count": 1
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 5,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/helm-ashsteel-forge",
+      "image": "/images/icons/gear-helm-ashsteel.png"
+    },
+    {
+      "id": "recipe:plate_ashsteel-Forge",
+      "kind": "recipe",
+      "name": "Ashsteel Plate",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 5,
+      "result": "gear:plate_ashsteel",
+      "cost": [
+        {
+          "item": "item:Ashsteel",
+          "count": 7
+        },
+        {
+          "item": "item:SoulEmber",
+          "count": 2
+        },
+        {
+          "item": "item:AshPelt",
+          "count": 2
+        },
+        {
+          "item": "item:Leather",
+          "count": 2
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 5,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/plate-ashsteel-forge",
+      "image": "/images/icons/gear-plate-ashsteel.png"
+    },
+    {
+      "id": "recipe:pauldrons_ashsteel-Forge",
+      "kind": "recipe",
+      "name": "Ashsteel Pauldrons",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 5,
+      "result": "gear:pauldrons_ashsteel",
+      "cost": [
+        {
+          "item": "item:Ashsteel",
+          "count": 4
+        },
+        {
+          "item": "item:EmberSteel",
+          "count": 1
+        },
+        {
+          "item": "item:Leather",
+          "count": 2
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 5,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/pauldrons-ashsteel-forge",
+      "image": "/images/icons/gear-pauldrons-ashsteel.png"
+    },
+    {
+      "id": "recipe:vambraces_ashsteel-Forge",
+      "kind": "recipe",
+      "name": "Ashsteel Vambraces",
+      "station": "Forge",
+      "count": 1,
+      "minLevel": 5,
+      "result": "gear:vambraces_ashsteel",
+      "cost": [
+        {
+          "item": "item:Ashsteel",
+          "count": 3
+        },
+        {
+          "item": "item:Leather",
+          "count": 1
+        }
+      ],
+      "conditional": true,
+      "forgeTier": 5,
+      "description": "",
+      "source": "Assets/Scripts/World/Crafting.cs",
+      "page": "crafting/recipes/vambraces-ashsteel-forge",
+      "image": "/images/icons/gear-vambraces-ashsteel.png"
     },
     {
       "id": "creature:Stalker",
@@ -4278,6 +5562,12 @@
           "quantity": "1",
           "chance": "25%",
           "condition": "Level 3"
+        },
+        {
+          "item": "item:KindledAsh",
+          "quantity": "1 (level 3: 1 or 2, 50%)",
+          "chance": "45%",
+          "condition": "Every level (since v0.33.0)"
         }
       ]
     },
@@ -4488,9 +5778,9 @@
       "drops": [
         {
           "item": "item:Ashsteel",
-          "quantity": "1 (60%) or 2 (40%)",
+          "quantity": "2 (60%) or 3 (40%)",
           "chance": "100%",
-          "condition": "Every level"
+          "condition": "Every level (v0.29–v0.32: 1 or 2)"
         },
         {
           "item": "item:Bone",
@@ -4503,6 +5793,12 @@
           "quantity": "1",
           "chance": "15%",
           "condition": "Every level"
+        },
+        {
+          "item": "item:SoulEmber",
+          "quantity": "1",
+          "chance": "35%",
+          "condition": "Every level (since v0.33.0)"
         }
       ]
     },
@@ -4552,6 +5848,12 @@
           "quantity": "1",
           "chance": "15%",
           "condition": "Every level"
+        },
+        {
+          "item": "item:SoulEmber",
+          "quantity": "1",
+          "chance": "40%",
+          "condition": "Every level (since v0.33.0)"
         }
       ]
     },
@@ -4693,7 +5995,7 @@
       "kind": "station",
       "name": "Forge",
       "aliases": [],
-      "description": "Iron equipment, repairs and progression rites.",
+      "description": "Iron, ember-steel and ashsteel equipment, repairs and progression rites.",
       "source": "Assets/Scripts/World/Stations.cs",
       "page": "crafting/stations/forge",
       "image": "/images/stations/forge.png",
@@ -4834,6 +6136,7 @@
     "public/images/icons/echofocus.png",
     "public/images/icons/eggbannock.png",
     "public/images/icons/emberore.png",
+    "public/images/icons/embersteel.png",
     "public/images/icons/emberwood.png",
     "public/images/icons/fireopal.png",
     "public/images/icons/flatbread.png",
@@ -4841,10 +6144,15 @@
     "public/images/icons/flint.png",
     "public/images/icons/frostdraught.png",
     "public/images/icons/frostlichen.png",
+    "public/images/icons/gear-axe-ember.png",
     "public/images/icons/gear-axe-flint.png",
     "public/images/icons/gear-axe-hallvard.png",
     "public/images/icons/gear-axe-iron.png",
+    "public/images/icons/gear-blades-ember.png",
     "public/images/icons/gear-blades-iron.png",
+    "public/images/icons/gear-blades-soul.png",
+    "public/images/icons/gear-bow-dominion.png",
+    "public/images/icons/gear-bow-ember.png",
     "public/images/icons/gear-bow-horn.png",
     "public/images/icons/gear-bow-hunting.png",
     "public/images/icons/gear-bracers.png",
@@ -4862,21 +6170,36 @@
     "public/images/icons/gear-charm-wisp.png",
     "public/images/icons/gear-circlet-glowcap.png",
     "public/images/icons/gear-club.png",
+    "public/images/icons/gear-cuirass-ember.png",
     "public/images/icons/gear-fur-mantle.png",
+    "public/images/icons/gear-helm-ashsteel.png",
+    "public/images/icons/gear-helm-ember.png",
     "public/images/icons/gear-hide-vest.png",
     "public/images/icons/gear-iron-helm.png",
+    "public/images/icons/gear-knives-flint.png",
     "public/images/icons/gear-lamellar-ember.png",
     "public/images/icons/gear-lamellar.png",
     "public/images/icons/gear-lute.png",
+    "public/images/icons/gear-mace-ember.png",
     "public/images/icons/gear-mace-iron.png",
+    "public/images/icons/gear-mace-ruin.png",
+    "public/images/icons/gear-mantle-ash.png",
+    "public/images/icons/gear-pauldrons-ashsteel.png",
     "public/images/icons/gear-pick-antler.png",
+    "public/images/icons/gear-pick-ember.png",
     "public/images/icons/gear-pick-iron.png",
     "public/images/icons/gear-pick-stone.png",
     "public/images/icons/gear-pick-tusk.png",
+    "public/images/icons/gear-plate-ashsteel.png",
     "public/images/icons/gear-spaulders.png",
+    "public/images/icons/gear-spear-ember.png",
     "public/images/icons/gear-spear-flint.png",
+    "public/images/icons/gear-spear-infernal.png",
     "public/images/icons/gear-spear-iron.png",
     "public/images/icons/gear-torch.png",
+    "public/images/icons/gear-vambraces-ashsteel.png",
+    "public/images/icons/gear-vambraces-ember.png",
+    "public/images/icons/gear-vambraces-iron.png",
     "public/images/icons/glowcap.png",
     "public/images/icons/glowcapbroth.png",
     "public/images/icons/graveiron.png",
@@ -4891,6 +6214,7 @@
     "public/images/icons/ironbar.png",
     "public/images/icons/ironbarkbrew.png",
     "public/images/icons/keeperskey.png",
+    "public/images/icons/kindledash.png",
     "public/images/icons/kindledtrophy.png",
     "public/images/icons/leather.png",
     "public/images/icons/mushroom.png",
@@ -4910,6 +6234,7 @@
     "public/images/icons/site-emblem.png",
     "public/images/icons/skewer.png",
     "public/images/icons/slagbacktrophy.png",
+    "public/images/icons/soulember.png",
     "public/images/icons/spidersilk.png",
     "public/images/icons/stalkertrophy.png",
     "public/images/icons/steamedmussels.png",
@@ -4940,6 +6265,8 @@
     "public/images/ridge-hut-v018.webp",
     "public/images/roof-chain-v021.webp",
     "public/images/ruins-v016.webp",
+    "public/images/rune-forge-ashsteel-v033.webp",
+    "public/images/rune-forge-ember-v033.webp",
     "public/images/sentinel-v029.webp",
     "public/images/shimmer-v017.webp",
     "public/images/skerries-strand-v025.webp",
@@ -4978,13 +6305,18 @@
     "src/content/docs/crafting/recipes/arrow-flint-workbench.md",
     "src/content/docs/crafting/recipes/arrow-iron-forge.md",
     "src/content/docs/crafting/recipes/arrow-obsidian-workbench.md",
+    "src/content/docs/crafting/recipes/axe-ember-forge.md",
     "src/content/docs/crafting/recipes/axe-flint-hand.md",
     "src/content/docs/crafting/recipes/axe-iron-forge.md",
     "src/content/docs/crafting/recipes/bandage-workbench.md",
+    "src/content/docs/crafting/recipes/blades-ember-forge.md",
     "src/content/docs/crafting/recipes/blades-iron-forge.md",
+    "src/content/docs/crafting/recipes/blades-soul-forge.md",
     "src/content/docs/crafting/recipes/bog-balm-herb-table.md",
     "src/content/docs/crafting/recipes/bone-broth-hearth.md",
     "src/content/docs/crafting/recipes/bone-meal-stonecutter.md",
+    "src/content/docs/crafting/recipes/bow-dominion-forge.md",
+    "src/content/docs/crafting/recipes/bow-ember-workbench.md",
     "src/content/docs/crafting/recipes/bow-horn-workbench.md",
     "src/content/docs/crafting/recipes/bow-hunting-workbench.md",
     "src/content/docs/crafting/recipes/bracers-workbench.md",
@@ -5006,40 +6338,56 @@
     "src/content/docs/crafting/recipes/club-hand.md",
     "src/content/docs/crafting/recipes/cooked-meat-hearth.md",
     "src/content/docs/crafting/recipes/coracle-workbench.md",
+    "src/content/docs/crafting/recipes/cuirass-ember-forge.md",
     "src/content/docs/crafting/recipes/echo-attunement-forge.md",
     "src/content/docs/crafting/recipes/echo-focus-forge.md",
     "src/content/docs/crafting/recipes/egg-bannock-hearth.md",
     "src/content/docs/crafting/recipes/ember-relic-forge.md",
+    "src/content/docs/crafting/recipes/ember-steel-forge.md",
     "src/content/docs/crafting/recipes/flatbread-hearth.md",
     "src/content/docs/crafting/recipes/frost-draught-herb-table.md",
     "src/content/docs/crafting/recipes/fur-mantle-workbench.md",
     "src/content/docs/crafting/recipes/glowcap-broth-hearth.md",
     "src/content/docs/crafting/recipes/grave-ward-herb-table.md",
+    "src/content/docs/crafting/recipes/helm-ashsteel-forge.md",
+    "src/content/docs/crafting/recipes/helm-ember-forge.md",
     "src/content/docs/crafting/recipes/hide-vest-workbench.md",
     "src/content/docs/crafting/recipes/index.md",
     "src/content/docs/crafting/recipes/iron-helm-forge.md",
     "src/content/docs/crafting/recipes/ironbark-brew-herb-table.md",
     "src/content/docs/crafting/recipes/keepers-key-forge.md",
+    "src/content/docs/crafting/recipes/knives-flint-workbench.md",
     "src/content/docs/crafting/recipes/lamellar-ember-forge.md",
     "src/content/docs/crafting/recipes/lamellar-forge.md",
     "src/content/docs/crafting/recipes/lichen-tea-herb-table.md",
     "src/content/docs/crafting/recipes/lute-workbench.md",
+    "src/content/docs/crafting/recipes/mace-ember-forge.md",
     "src/content/docs/crafting/recipes/mace-iron-forge.md",
+    "src/content/docs/crafting/recipes/mace-ruin-forge.md",
+    "src/content/docs/crafting/recipes/mantle-ash-workbench.md",
+    "src/content/docs/crafting/recipes/pauldrons-ashsteel-forge.md",
     "src/content/docs/crafting/recipes/pick-antler-workbench.md",
+    "src/content/docs/crafting/recipes/pick-ember-forge.md",
     "src/content/docs/crafting/recipes/pick-iron-forge.md",
     "src/content/docs/crafting/recipes/pick-stone-workbench.md",
     "src/content/docs/crafting/recipes/pick-tusk-workbench.md",
+    "src/content/docs/crafting/recipes/plate-ashsteel-forge.md",
     "src/content/docs/crafting/recipes/porridge-hearth.md",
     "src/content/docs/crafting/recipes/potion-herb-table.md",
     "src/content/docs/crafting/recipes/salve-herb-table.md",
     "src/content/docs/crafting/recipes/silk-bandage-herb-table.md",
     "src/content/docs/crafting/recipes/skewer-hearth.md",
     "src/content/docs/crafting/recipes/spaulders-forge.md",
+    "src/content/docs/crafting/recipes/spear-ember-forge.md",
     "src/content/docs/crafting/recipes/spear-flint-workbench.md",
+    "src/content/docs/crafting/recipes/spear-infernal-forge.md",
     "src/content/docs/crafting/recipes/spear-iron-forge.md",
     "src/content/docs/crafting/recipes/steamed-mussels-hearth.md",
     "src/content/docs/crafting/recipes/stew-hearth.md",
     "src/content/docs/crafting/recipes/torch-hand.md",
+    "src/content/docs/crafting/recipes/vambraces-ashsteel-forge.md",
+    "src/content/docs/crafting/recipes/vambraces-ember-forge.md",
+    "src/content/docs/crafting/recipes/vambraces-iron-forge.md",
     "src/content/docs/crafting/recipes/venison-roast-hearth.md",
     "src/content/docs/crafting/recipes/vigor-tonic-herb-table.md",
     "src/content/docs/crafting/recipes/warming-draught-herb-table.md",
@@ -5065,10 +6413,15 @@
     "src/content/docs/creatures/mire-spider.md",
     "src/content/docs/creatures/slagback.md",
     "src/content/docs/creatures/stalker.md",
+    "src/content/docs/equipment/gear/axe-ember.md",
     "src/content/docs/equipment/gear/axe-flint.md",
     "src/content/docs/equipment/gear/axe-hallvard.md",
     "src/content/docs/equipment/gear/axe-iron.md",
+    "src/content/docs/equipment/gear/blades-ember.md",
     "src/content/docs/equipment/gear/blades-iron.md",
+    "src/content/docs/equipment/gear/blades-soul.md",
+    "src/content/docs/equipment/gear/bow-dominion.md",
+    "src/content/docs/equipment/gear/bow-ember.md",
     "src/content/docs/equipment/gear/bow-horn.md",
     "src/content/docs/equipment/gear/bow-hunting.md",
     "src/content/docs/equipment/gear/bracers.md",
@@ -5086,22 +6439,37 @@
     "src/content/docs/equipment/gear/charm-wisp.md",
     "src/content/docs/equipment/gear/circlet-glowcap.md",
     "src/content/docs/equipment/gear/club.md",
+    "src/content/docs/equipment/gear/cuirass-ember.md",
     "src/content/docs/equipment/gear/fur-mantle.md",
+    "src/content/docs/equipment/gear/helm-ashsteel.md",
+    "src/content/docs/equipment/gear/helm-ember.md",
     "src/content/docs/equipment/gear/hide-vest.md",
     "src/content/docs/equipment/gear/index.md",
     "src/content/docs/equipment/gear/iron-helm.md",
+    "src/content/docs/equipment/gear/knives-flint.md",
     "src/content/docs/equipment/gear/lamellar-ember.md",
     "src/content/docs/equipment/gear/lamellar.md",
     "src/content/docs/equipment/gear/lute.md",
+    "src/content/docs/equipment/gear/mace-ember.md",
     "src/content/docs/equipment/gear/mace-iron.md",
+    "src/content/docs/equipment/gear/mace-ruin.md",
+    "src/content/docs/equipment/gear/mantle-ash.md",
+    "src/content/docs/equipment/gear/pauldrons-ashsteel.md",
     "src/content/docs/equipment/gear/pick-antler.md",
+    "src/content/docs/equipment/gear/pick-ember.md",
     "src/content/docs/equipment/gear/pick-iron.md",
     "src/content/docs/equipment/gear/pick-stone.md",
     "src/content/docs/equipment/gear/pick-tusk.md",
+    "src/content/docs/equipment/gear/plate-ashsteel.md",
     "src/content/docs/equipment/gear/spaulders.md",
+    "src/content/docs/equipment/gear/spear-ember.md",
     "src/content/docs/equipment/gear/spear-flint.md",
+    "src/content/docs/equipment/gear/spear-infernal.md",
     "src/content/docs/equipment/gear/spear-iron.md",
     "src/content/docs/equipment/gear/torch.md",
+    "src/content/docs/equipment/gear/vambraces-ashsteel.md",
+    "src/content/docs/equipment/gear/vambraces-ember.md",
+    "src/content/docs/equipment/gear/vambraces-iron.md",
     "src/content/docs/equipment/items/acolyte-trophy.md",
     "src/content/docs/equipment/items/amber.md",
     "src/content/docs/equipment/items/antler.md",
@@ -5132,6 +6500,7 @@
     "src/content/docs/equipment/items/echo-focus.md",
     "src/content/docs/equipment/items/egg-bannock.md",
     "src/content/docs/equipment/items/ember-ore.md",
+    "src/content/docs/equipment/items/ember-steel.md",
     "src/content/docs/equipment/items/emberwood.md",
     "src/content/docs/equipment/items/fire-opal.md",
     "src/content/docs/equipment/items/flatbread.md",
@@ -5154,6 +6523,7 @@
     "src/content/docs/equipment/items/iron.md",
     "src/content/docs/equipment/items/ironbark-brew.md",
     "src/content/docs/equipment/items/keepers-key.md",
+    "src/content/docs/equipment/items/kindled-ash.md",
     "src/content/docs/equipment/items/kindled-trophy.md",
     "src/content/docs/equipment/items/leather.md",
     "src/content/docs/equipment/items/mushroom.md",
@@ -5171,6 +6541,7 @@
     "src/content/docs/equipment/items/silver.md",
     "src/content/docs/equipment/items/skewer.md",
     "src/content/docs/equipment/items/slagback-trophy.md",
+    "src/content/docs/equipment/items/soul-ember.md",
     "src/content/docs/equipment/items/spider-silk.md",
     "src/content/docs/equipment/items/stalker-trophy.md",
     "src/content/docs/equipment/items/steamed-mussels.md",
